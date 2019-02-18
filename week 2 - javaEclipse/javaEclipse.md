@@ -1,0 +1,170 @@
+# Department of Computing, Macquarie University
+## Workshop - Java and Eclipse basics
+
+# Assumptions
+
+You have downloaded and installed Java SE (previously known as Java SDK) on your computer if you are using it. The software is installed in all Computing laboratories.
+
+# Outline 
+
+1. Structure of a Java program - 20 minutes
+2. Compiling and executing a Java program - 20 minutes
+4. Importing a Java project from an ***archive file*** in Eclipse.
+5. Exporting a Java project to an ***archive file*** from Eclipse.
+
+# Structure of a Java program
+
+The following is true for basic java programs (the kind we'll see in the beginning). More advanced program structures shall be discussed as needed.
+
+- A basic java program resides in a `.java` file. 
+- **By convention**, the file name begins with an uppercase letter and is camel-cased. For example `HelloWorld.java`.
+- The first statement in a file named `XYZ.java` is the class header and must be:
+		
+		`public class XYZ {`
+
+### Question 1.
+
+Which of the following should be the first statement in a file named `Hello.java`?
+	
+1. `public class Hello {` 
+2. `public class hello {`
+3. `class Hello {`
+4. `class hello {`
+
+
+A class is like a container for java programs. A *runnable* java program contains a `main` method with the following header **header** inside the class.
+
+The header of the `main` method is:
+
+	`public static void main(String[] args)`
+
+- `public` means it can be seen by any other code in the program.
+- `static` will be covered later.
+- `void` because the method doesn't return any value.
+- `main` is a special reserved name for this method (like `draw` in Processing).
+- `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
+- `args` is the formal parameter name. We can use any valid value for a literal instead of this.
+
+### Question 2.
+
+Which of the following are valid headers for the `main` method?
+	
+1. `public static void main()`
+2. `public void main(String[] args)`
+3. `public static void main(String[] tom)`
+4. `public static void Main(String[] jerry)`
+5. `public static void main(int[] args)`
+6. `public static void main(String args)`
+7. `public void main(String args)`
+
+## The complete picture
+
+So, with the class header outside and the method header inside, a java program looks like this:
+
+```
+public class MyFirstProgram {
+	public static void main(String[] args) {
+		//your code goes here
+	}
+}
+```
+
+### Example (1)
+
+```java
+public class MyFirstProgram {
+	public static void main(String[] args) {
+		System.out.println("My first Java program - woot!");
+	}
+}
+```
+
+### Example (2) - (*Chunkier*)
+
+```java
+public class ChangeCalculator {
+	public static void main(String[] args) {
+		int total = 127;
+		int remaining = total;
+		
+		int hundredDollarBills = remaining / 100;
+		remaining = remaining % 100;
+		
+		int fiftyDollarBills = remaining / 50;
+		remaining = remaining % 50;
+		
+		int twentyDollarBills = remaining / 20;
+		remaining = remaining % 20;
+		
+		int tenDollarBills = remaining / 10;
+		remaining = remaining % 10;
+		
+		int fiveDollarBills = remaining / 5;
+		remaining = remaining % 5;
+		
+		int twoDollarCoins = remaining / 2;
+		remaining = remaining % 2;
+		
+		int oneDollarCoin = remaining; //remaining is either 0 or 1 at this stage
+		
+		if(hundredDollarBills != 0) {
+			System.out.println(hundredDollarBills + " x $100");
+		}
+		if(fiftyDollarBills != 0) {
+			System.out.println(fiftyDollarBills + " x $50");
+		}
+		if(twentyDollarBills != 0) {
+			System.out.println(twentyDollarBills + " x $20");
+		}
+		if(tenDollarBills != 0) {
+			System.out.println(tenDollarBills + " x $10");
+		}
+		if(fiveDollarBills != 0) {
+			System.out.println(fiveDollarBills + " x $5");
+		}
+		if(twoDollarCoins != 0) {
+			System.out.println(twoDollarCoins + " x $2");
+		}
+		if(oneDollarCoin != 0) {
+			System.out.println(oneDollarCoin + " x $1");
+		}
+	}
+}
+```
+
+### Question 3.
+
+Write a Java program that initializes two integers to values of your choice and display their product. Save it in a file `Product.java`.
+
+
+# Compiling and executing a Java program
+
+Running a java program is a two-stage process:
+
+1. Compilation - converts high level (or user level) java source code (.java) to assembly level java bytecode (.class - also known as *classfile*). The command for compilation a java file named `XYZ.java` is:
+
+		`javac XYZ.java`
+	
+This generates a classfile `XYZ.class` in the same directory as the source file.
+
+2. Execution - executes the bytecode or classfile. The command for executing a classfile `XYZ.class` is:
+
+		`java XYZ` 
+	
+(Notice the absence of `.class`).
+
+Every time you change the source file, you need to re-compile it to a fresh classfile before executing it (the classfile).
+	
+### Question 4.
+
+Compile and execute the program written in Question 3.
+
+# Importing a Java project from an ***archive file*** in Eclipse
+
+Luckily, we have sophisticated softwares known as *Integrated Development Environments* (IDE) that offer extensive GUI and functionalities that we don't have to compile and execute programs through command prompt.
+
+The IDE we use in the labs is Eclipse, although you are free to use others such as IntelliJ and NetBeans. However, we use Eclipse in all our tutorials and videos and only provide support for Eclipse.
+
+One of the good things about using an IDE is that you can *package* or export a program (that may contain many many files) into an archive file (.zip). You can then *unpackage* or import the program from an archive file into an IDE on a different machine.
+
+
