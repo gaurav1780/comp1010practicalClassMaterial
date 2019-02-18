@@ -1,5 +1,4 @@
-# comp125practicalClassMaterial
-COMP125 practical class material
+# COMP125 practical class material
 
 Material is sorted by weeks.
 
