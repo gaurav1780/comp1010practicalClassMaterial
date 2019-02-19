@@ -167,4 +167,35 @@ The IDE we use in the labs is Eclipse, although you are free to use others such 
 
 One of the good things about using an IDE is that you can *package* or export a program (that may contain many many files) into an archive file (.zip). You can then *unpackage* or import the program from an archive file into an IDE on a different machine.
 
+The steps required to import one or more java projects contained in an archive file named `archive.zip` are as follows:
 
+1. Open Eclipse
+2. Choose `File`
+3. Choose `Import`
+4. Double-click (or expand) `General`
+5. Double-click `Existing projects into Workspace`
+6. Choose the option `Select archive file`
+7. Click on `Browse`
+8. Locate and select archive file `archive.zip`
+9. Click `Finish`
+
+### Question 5.
+
+Import project contained in `myFirstEclipseArchiveFile.zip`. There should be a project `myFirstEclipseProject` when imported containing the following structure:
+
+- `myFirstEclipseProject`
+	- `src`
+		- `(default package)`
+			- `AverageSpeedCalculator.java`
+			- `SpeedCalculator.java`
+			- `Welcome.java`
+
+### Question 6.
+
+Double click on `Welcome.java and run `Welcome.java` using the *Play* button. You should see the output in the console.
+
+Repeat the same with `SpeedCalculator.java`
+
+### Question 7.
+
+Complete the steps described in the program `AverageSpeedCalculator.java` so that the average speed of a return trip is calculated. The output should be 15.384....
