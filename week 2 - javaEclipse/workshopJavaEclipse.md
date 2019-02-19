@@ -20,7 +20,9 @@ The following is true for basic java programs (the kind we'll see in the beginni
 - **By convention**, the file name begins with an uppercase letter and is camel-cased. For example `HelloWorld.java`.
 - The first statement in a file named `XYZ.java` is the class header and must be:
 		
-		`public class XYZ {`
+```java
+public class XYZ {
+```
 
 ### Question 1.
 
@@ -36,7 +38,9 @@ A class is like a container for java programs. A *runnable* java program contain
 
 The header of the `main` method is:
 
-	`public static void main(String[] args)`
+```java
+public static void main(String[] args)
+```
 
 - `public` means it can be seen by any other code in the program.
 - `static` will be covered later.
