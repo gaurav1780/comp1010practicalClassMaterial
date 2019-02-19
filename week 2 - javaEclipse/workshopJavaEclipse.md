@@ -196,7 +196,11 @@ Import project contained in `myFirstEclipseArchiveFile.zip`. There should be a p
 
 ### Question 6.
 
-Double click on `Welcome.java and run `Welcome.java` using the *Play* button. You should see the output in the console.
+Double click on `Welcome.java and run `Welcome.java` using the Play Button.
+
+![Play](./figs/playButton.png)
+
+You should see the output in the console.
 
 Repeat the same with `SpeedCalculator.java`
 
