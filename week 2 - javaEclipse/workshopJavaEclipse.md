@@ -147,13 +147,17 @@ Running a java program is a two-stage process:
 
 1. Compilation - converts high level (or user level) java source code (.java) to assembly level java bytecode (.class - also known as *classfile*). The command for compilation a java file named `XYZ.java` is:
 
-		`javac XYZ.java`
+```bash
+javac XYZ.java
+```
 	
 This generates a classfile `XYZ.class` in the same directory as the source file.
 
 2. Execution - executes the bytecode or classfile. The command for executing a classfile `XYZ.class` is:
 
-		`java XYZ` 
+```bash
+java XYZ
+```
 	
 (Notice the absence of `.class`).
 
