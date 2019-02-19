@@ -196,7 +196,7 @@ Import project contained in `myFirstEclipseArchiveFile.zip`. There should be a p
 
 ### Question 6.
 
-Double click on `Welcome.java and run `Welcome.java` using the Play Button.
+Double click on `Welcome.java` and run it using the Play Button.
 
 ![Play](./figs/playButton.png)
 
@@ -207,3 +207,21 @@ Repeat the same with `SpeedCalculator.java`
 ### Question 7.
 
 Complete the steps described in the program `AverageSpeedCalculator.java` so that the average speed of a return trip is calculated. The output should be 15.384....
+
+# Exporting a Java project to an ***archive file*** from Eclipse
+
+After you have completed question 7, export the completed project to an archive file using the following steps:
+
+1. Select the project `myFirstEclipseProject` in the left panel so that it is highlighted in blue.
+2. Choose `File`
+3. Choose `Export`
+4. Double-click (or expand) `General`
+5. Double-click `Archive file`.
+6. Make sure `myFirstEclipseProject` has a tick against it.
+7. Click on `Browse`.
+8. Choose location of your choice and choose the name `myFirstExportedArchive`.
+9. Click `Finish`
+
+### Question 8.
+
+Upload the file `myFirstExportedArchive.zip` on iLearn under `Week 2 submission`. 
