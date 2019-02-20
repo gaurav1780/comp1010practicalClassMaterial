@@ -75,66 +75,11 @@ public class MyFirstProgram {
 
 ### Example (1)
 
-```java
-public class MyFirstProgram {
-	public static void main(String[] args) {
-		System.out.println("My first Java program - woot!");
-	}
-}
-```
+[MyFirstProgram.java](./codes/MyFirstProgram.java)
 
 ### Example (2) - (*Chunkier*)
 
-```java
-public class ChangeCalculator {
-	public static void main(String[] args) {
-		int total = 127;
-		int remaining = total;
-		
-		int hundredDollarBills = remaining / 100;
-		remaining = remaining % 100;
-		
-		int fiftyDollarBills = remaining / 50;
-		remaining = remaining % 50;
-		
-		int twentyDollarBills = remaining / 20;
-		remaining = remaining % 20;
-		
-		int tenDollarBills = remaining / 10;
-		remaining = remaining % 10;
-		
-		int fiveDollarBills = remaining / 5;
-		remaining = remaining % 5;
-		
-		int twoDollarCoins = remaining / 2;
-		remaining = remaining % 2;
-		
-		int oneDollarCoin = remaining; //remaining is either 0 or 1 at this stage
-		
-		if(hundredDollarBills != 0) {
-			System.out.println(hundredDollarBills + " x $100");
-		}
-		if(fiftyDollarBills != 0) {
-			System.out.println(fiftyDollarBills + " x $50");
-		}
-		if(twentyDollarBills != 0) {
-			System.out.println(twentyDollarBills + " x $20");
-		}
-		if(tenDollarBills != 0) {
-			System.out.println(tenDollarBills + " x $10");
-		}
-		if(fiveDollarBills != 0) {
-			System.out.println(fiveDollarBills + " x $5");
-		}
-		if(twoDollarCoins != 0) {
-			System.out.println(twoDollarCoins + " x $2");
-		}
-		if(oneDollarCoin != 0) {
-			System.out.println(oneDollarCoin + " x $1");
-		}
-	}
-}
-```
+[ChangeCalculator.java](./codes/ChangeCalculator.java)
 
 ### Question 3.
 
@@ -189,7 +134,7 @@ The steps required to import one or more java projects contained in an archive f
 
 ### Question 5.
 
-Import project contained in `myFirstEclipseArchiveFile.zip`. There should be a project `myFirstEclipseProject` when imported containing the following structure:
+Import project contained in [myFirstEclipseArchiveFile.zip](./codes/myFirstEclipseArchiveFile.zip). There should be a project `myFirstEclipseProject` when imported containing the following structure:
 
 - `myFirstEclipseProject`
 	- `src`
