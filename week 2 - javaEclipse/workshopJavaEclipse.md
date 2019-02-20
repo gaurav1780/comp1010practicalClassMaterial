@@ -77,7 +77,7 @@ public class MyFirstProgram {
 
 [MyFirstProgram.java](./codes/MyFirstProgram.java)
 
-### Example 2 - (*Chunkier*)
+### Example 2 - *Chunkier*
 
 [ChangeCalculator.java](./codes/ChangeCalculator.java)
 
