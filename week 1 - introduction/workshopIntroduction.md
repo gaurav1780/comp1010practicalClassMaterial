@@ -155,3 +155,45 @@ int[] c = b;
     - the second item is 15, 
     - the third item is 20,
     - and so on ...
+
+## FUNCTIONS HANDLING ARRAYS
+
+Complete the following functions (we are using Processing syntax here):
+
+```java 
+/**
+ * return total of all items in the array
+ */
+int total(int[] data) {
+   return 0; //to be completed
+}
+```
+
+```java
+/**
+ * return total of all even numbers in the array
+ */
+int totalEven(int[] data) {
+   return 0; //to be completed
+}
+```
+
+```java
+/**
+ * return true if all items in data are positive, 
+ * false otherwise
+ */
+boolean allPositives(int[] data) {
+   return false; //to be completed
+}
+```
+
+```java
+/**
+ * return true if there is at least 
+ * one item in both a and b, false otherwise
+ */
+boolean somethingInCommon(int[] a, int[] b) {
+	return false; //to be completed
+}
+```
