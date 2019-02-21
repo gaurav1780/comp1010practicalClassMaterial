@@ -191,7 +191,7 @@ boolean allPositives(int[] data) {
 ```java
 /**
  * return true if there is at least 
- * one item in both a and b, false otherwise
+ * one item that exists in both a and b, false otherwise
  */
 boolean somethingInCommon(int[] a, int[] b) {
 	return false; //to be completed
