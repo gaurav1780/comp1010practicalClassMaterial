@@ -26,7 +26,7 @@ Consider a method that is supposed to return the number of even digits in an int
 
 ## Question 2
 
-Consider a method that returns the number of odd numbers in an array. If one sample input is `{15, 7, 103}`, does a second sample input `{15, 103, 91}` offer any additional value? What about `{81, -25, 63}`?
+Consider a method that returns the number of odd numbers in an array. If one sample input is `{15, 7, 103}`, does a second sample input `{15, 103, 91}` offer any additional value to the test (as in improving the "test quality")? What about `{81, -25, 63}`?
 
 ## Question 3
 

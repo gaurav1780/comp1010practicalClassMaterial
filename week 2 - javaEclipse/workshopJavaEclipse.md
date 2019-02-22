@@ -34,7 +34,7 @@ Which of the following should be the first statement in a file named `Hello.java
 4. `class hello {`
 
 
-A class is like a container for java programs. A *runnable* java program contains a `main` method with the following header **header** inside the class.
+A class is like a container for java programs. A *runnable* java program contains a `main` method with the following **header** inside the class.
 
 The header of the `main` method is:
 
