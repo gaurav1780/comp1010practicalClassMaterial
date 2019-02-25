@@ -6,11 +6,10 @@
 Most of you have done COMP115 at Macquarie with Processing as the programming language and environment. We will revise some of the basics of programming learnt in COMP115. Also, in COMP125, Java is the programming language and Eclipse is the environment. Following are this week's learning outcomes,
 
 - 10 minutes: introductions
-- 30 minutes: cognition survey
+- 40 minutes: cognition survey
 - 5 minutes: be ready to use the lab computers (setup accounts and iLearn)
-- 30 minutes: revise COMP115/WCOM115 topics
-- 20 minutes: create a simple java program in Eclipse and under
-- 15 minutes: import a java project in Eclipse
+- 55 minutes: revise COMP115/WCOM115 topics
+
 
 # Survey
 
