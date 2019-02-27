@@ -86,7 +86,7 @@ What shapes are drawn for each of the following co-ordinates?
 1. (90, 120)
 2. (180, 160)
 3. (40, 80)
-4. (140, 150)
+4. (160, 90)
 
 ## LOOPS
 
