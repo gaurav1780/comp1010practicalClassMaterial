@@ -12,6 +12,7 @@ You have downloaded and installed Java SE (previously known as Java SDK) on your
 3. Importing a Java project from an ***archive file*** in Eclipse - 10 minutes
 4. Exporting a Java project to an ***archive file*** from Eclipse - 10 minutes
 5. Completing a simple Java program - 20 minutes
+6. Problem solving (**extremely useful for practical exam 1) - 20 minutes
 
 # Structure of a Java program
 
@@ -175,6 +176,60 @@ After you have completed question 7, export the completed project to an archive 
 ### Question 8.
 
 Upload the file `myFirstExportedArchive.zip` on iLearn under `Week 2 submission`. 
+
+### Question 9 (Problem solving)
+
+This question must be answered **on a piece of paper** that must be returned to the tutor once you've finished.
+
+#### Sub-task 1
+
+Complete the body of the method `sumIndexRange` that returns the sum of all items in the index range in the array passed. Some examples,
+
+- `data = {10, 70, 20, 90, 30}`, `idx1 = 1`, `idx2 = 3` 
+	
+	--> return `70+20+90` = `180`
+
+- `data = {10, 70, 20, 90, 30}`, `idx1 = 2`, `idx2 = 2` 
+	
+	--> return `20`
+	
+```java
+public static int sumIndexRange(int[] data, int idx1, int idx2) {
+	return 0;
+	//so that there is no compilation error. 
+	//remove this statement before writing your code.
+}
+```
+
+The pseudo-code is provided in white font below. *Only if you struggle*, select to reveal.
+
+BEGIN HIDDEN CODE
+
+<span style="color:white">initial a variable (result) to 0</span>
+
+<span style="color:white">begin loop - counter (i) goes from idx1 to idx2</span>
+
+<span style="color:white">&nbsp; &nbsp; &nbsp; &nbsp; add item at index i to result</span>
+
+<span style="color:white">end loop</span>
+
+<span style="color:white">return result</span>
+
+END HIDDEN CODE
+
+#### Sub-task 2
+
+Complete the body of the method `isBalanced` that assumes that the array passed has an even number of items, and returns `true` if the sum of items in the first half of the array equals the sum of items in the second half of the array, `false` otherwise. 
+
+You **SHOULD** (meaningfully) call the method *sumIndexRange*, even if you didn't finish it or get it right.
+
+```java
+public static boolean isBalanced(int[] data) {
+	return false; 
+	//so that there is no compilation error. 
+	//remove this statement before writing your code.
+}
+```
 
 # Extra questions for students who want/ need to be challenged 
 
