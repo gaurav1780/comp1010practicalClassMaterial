@@ -9,8 +9,9 @@ You have downloaded and installed Java SE (previously known as Java SDK) on your
 
 1. Structure of a Java program - 20 minutes
 2. Compiling and executing a Java program - 20 minutes
-4. Importing a Java project from an ***archive file*** in Eclipse.
-5. Exporting a Java project to an ***archive file*** from Eclipse.
+3. Importing a Java project from an ***archive file*** in Eclipse - 10 minutes
+4. Exporting a Java project to an ***archive file*** from Eclipse - 10 minutes
+5. Completing a simple Java program - 20 minutes
 
 # Structure of a Java program
 
