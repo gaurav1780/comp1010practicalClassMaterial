@@ -206,27 +206,19 @@ public static int sumIndexRange(int[] data, int idx1, int idx2) {
 }
 ```
 
-The pseudo-code is provided in white font below. *Only if you struggle*, select to reveal.
-
-BEGIN HIDDEN CODE
-
-<span style="color:white">initial a variable (result) to 0</span>
-
-<span style="color:white">begin loop - counter (i) goes from idx1 to idx2</span>
-
-<span style="color:white">&nbsp; &nbsp; &nbsp; &nbsp; add item at index i to result</span>
-
-<span style="color:white">end loop</span>
-
-<span style="color:white">return result</span>
-
-END HIDDEN CODE
+ *Only if you struggle*, access the pseudo-code is provided [here](./sumIndexRangePseudoCode.md).
 
 #### Sub-task 2
 
 Complete the body of the method `isBalanced` that assumes that the array passed has an even number of items, and returns `true` if the sum of items in the first half of the array equals the sum of items in the second half of the array, `false` otherwise. 
 
 You **SHOULD** (meaningfully) call the method *sumIndexRange*, even if you didn't finish it or get it right.
+
+For example,
+
+- `data = {10, 70, 20, 80, 0, 20}` --> return `true`
+- `data = {10, 70, 20, 10, 10, 80, -50, 70}` --> return `true`
+- `data = {10, 70, 80, 20}` --> return `false`
 
 ```java
 public static boolean isBalanced(int[] data) {
