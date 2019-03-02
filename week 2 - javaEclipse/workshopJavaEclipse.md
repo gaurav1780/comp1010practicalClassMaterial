@@ -206,7 +206,7 @@ public static int sumIndexRange(int[] data, int idx1, int idx2) {
 }
 ```
 
- **Only if you struggle**, access the pseudo-code is provided [here](./sumIndexRangePseudoCode.md).
+ ***Only if you struggle***, access the pseudo-code provided [here](./sumIndexRangePseudoCode.md).
 
 #### Sub-task 2
 
