@@ -1,4 +1,4 @@
-initial a variable (result) to 0
+initialize a variable (result) to 0
 
 begin loop - counter (i) goes from idx1 to idx2
 
