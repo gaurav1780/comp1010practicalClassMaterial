@@ -72,7 +72,7 @@ Which of the following are valid headers for the `main` method?
 
 So, with the class header outside and the method header inside, a java program looks like this:
 
-```
+```java
 public class MyFirstProgram {
 	public static void main(String[] args) {
 		//your code goes here
