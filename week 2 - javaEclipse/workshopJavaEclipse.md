@@ -7,13 +7,15 @@ You have downloaded and installed Java SE (previously known as Java SDK) on your
 
 # Outline 
 
-1. Why you should solve HackerRank contests, demo - 15 minutes
-2. Structure of a Java program - 15 minutes
-3. Compiling and executing a Java program - 15 minutes
-4. Importing a Java project from an **archive file** in Eclipse - 10 minutes
-5. Exporting a Java project to an **archive file** from Eclipse - 10 minutes
-6. Completing a simple Java program - 15 minutes
-7. Problem solving (**extremely useful for practical exam 1) - 20 minutes
+1. Why you should solve HackerRank contests, demo - **15** minutes
+2. Structure of a Java program - **15** minutes
+3. Compiling and executing a Java program - **15** minutes
+4. Importing a Java project from an **archive file** in Eclipse - **10** minutes
+5. Exporting a Java project to an **archive file** from Eclipse - **10** minutes
+6. Completing a simple Java program - **15** minutes
+7. Problem solving (**extremely useful for practical exam 1**) - **20** minutes
+
+
 
 # HackerRank
 
