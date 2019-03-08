@@ -84,6 +84,8 @@ int[] arr = {10, 70, 20, 90};
 assertEquals(190, Question4.sum(arr));
 ```
 
+Here, 190 is the expected value, while `Question4.sum(arr)` is the actual value returned by our implementation.
+
 ## Question 4b
 
 Consider the following implementation of a method:
