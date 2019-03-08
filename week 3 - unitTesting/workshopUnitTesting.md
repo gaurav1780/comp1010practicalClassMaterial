@@ -57,7 +57,38 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            |                       |
 |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            |                       |
 
-## Question 4
+## Question 4a
+
+Consider the following implementation of a method:
+
+```java
+public class Question 4 {
+	/** 
+	 * return the sum of all items of the array passed
+	 */
+	public static int sum(int[] data) {
+		int r = 0;
+		for(int i=1; i < data.length; i++) {
+			r++;
+		}
+		return r;
+	}
+}
+```
+
+1. What value is the above method **expected** to return for the array \{10, 70, 20, 90\}?
+2. What value does the above method **actually** return for the array \{10, 70, 20, 90\}?
+
+This check on expectations is managed by the assertion:
+
+```java
+int[] arr = {10, 70, 20, 90};
+assertEquals(190, Question4.sum(arr));
+```
+
+Here, 190 is the expected value, while `Question4.sum(arr)` is the actual value returned by our implementation.
+
+## Question 4b
 
 Consider the following implementation of a method:
 
