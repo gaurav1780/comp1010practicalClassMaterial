@@ -12,6 +12,8 @@
 
 # HackerRank
 
+By now, you should have attempted the first contest at [https://www.hackerrank.com/comp115-concepts](https://www.hackerrank.com/comp115-concepts).
+
 This week's HackerRank contest is at [https://www.hackerrank.com/problem-solving-with-arrays](https://www.hackerrank.com/problem-solving-with-arrays)
 
 # Test quality
