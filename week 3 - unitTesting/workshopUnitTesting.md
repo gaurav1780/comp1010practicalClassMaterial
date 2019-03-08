@@ -62,7 +62,7 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 Consider the following implementation of a method:
 
 ```java
-public class Question 4 {
+public class Question 4a {
 	/** 
 	 * return the sum of all items of the array passed
 	 */
@@ -83,7 +83,7 @@ This check on expectations is managed by the assertion:
 
 ```java
 int[] arr = {10, 70, 20, 90};
-assertEquals(190, Question4.sum(arr));
+assertEquals(190, Question4a.sum(arr));
 ```
 
 Here, 190 is the expected value, while `Question4.sum(arr)` is the actual value returned by our implementation.
@@ -93,7 +93,7 @@ Here, 190 is the expected value, while `Question4.sum(arr)` is the actual value 
 Consider the following implementation of a method:
 
 ```java
-public class Question 4 {
+public class Question 4b {
 	/** 
 	 * return number of items in the array that belong 
 	 * to the range [min...max]
@@ -116,11 +116,11 @@ Will the above implementation pass the following test cases and if not, which ca
 @Test
 public void testCountInRange() {
 	int[] a = {10, 70, 20, 90, 30, 80};
-	assertEquals(2, Question4.countInRange(a, 25, 75));
-	assertEquals(3, Question4.countInRange(a, 15, 75));
-	assertEquals(0, Question4.countInRange(a, -100, -60));
-	assertEquals(6, Question4.countInRange(a, 0, 100));
-	assertEquals(1, Question4.countInRange(a, 85, 95));
+	assertEquals(2, Question4b.countInRange(a, 25, 75));
+	assertEquals(3, Question4b.countInRange(a, 15, 75));
+	assertEquals(0, Question4b.countInRange(a, -100, -60));
+	assertEquals(6, Question4b.countInRange(a, 0, 100));
+	assertEquals(1, Question4b.countInRange(a, 85, 95));
 }
 ```
 
