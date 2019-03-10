@@ -43,7 +43,7 @@ Consider a method with the following header:
  * return true if there exists any value that occurs 
  * more than once in the array, false otherwise
  */
-public static int hasDuplicates(int[] data)
+public static boolean hasDuplicates(int[] data)
 ```
 
 Write a set of sample inputs and expected outputs to test the correctness of its implementation.
