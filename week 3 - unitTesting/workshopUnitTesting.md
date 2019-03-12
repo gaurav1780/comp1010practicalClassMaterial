@@ -171,7 +171,7 @@ public void testIsAscending() {
 Consider the following method header:
 
 ```java
-public class Question 7 {
+public class Question7 {
 	/**
 	 * return the first index at which target exists in the array.
 	 * return -1 if target does not exist in the array
@@ -185,6 +185,7 @@ public class Question 7 {
 Complete the test to test implementation of `indexOf`.
 
 ```java
+@Test
 public void testIndexOf() {
 	//add test cases
 
