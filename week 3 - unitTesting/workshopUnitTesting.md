@@ -69,7 +69,7 @@ public class Question4a {
 	public static int sum(int[] data) {
 		int r = 0;
 		for(int i=1; i < data.length; i++) {
-			r++;
+			r+=data[i];
 		}
 		return r;
 	}
