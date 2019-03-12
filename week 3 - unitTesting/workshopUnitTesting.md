@@ -62,7 +62,7 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 Consider the following implementation of a method:
 
 ```java
-public class Question 4a {
+public class Question4a {
 	/** 
 	 * return the sum of all items of the array passed
 	 */
@@ -93,7 +93,7 @@ Here, 190 is the expected value, while `Question4.sum(arr)` is the actual value 
 Consider the following implementation of a method:
 
 ```java
-public class Question 4b {
+public class Question4b {
 	/** 
 	 * return number of items in the array that belong 
 	 * to the range [min...max]
