@@ -133,7 +133,7 @@ Can you identify the bug in the implementation of `countInRange`? What tests mus
 Consider the following method header:
 
 ```java
-public class Question 6 {
+public class Question6 {
 	/**
 	 * return true if the array is in ascending order, false otherwise.
 	 * ascending order is where every item is less than or equal to the 
@@ -177,7 +177,7 @@ public class Question7 {
 	 * return -1 if target does not exist in the array
 	 */
 	public static int indexOf(int[] data, int target) {
-		return false; //to be completed
+		return 0; //to be completed
 	}
 }
 ```
