@@ -43,7 +43,7 @@ Consider a method with the following header:
  * return true if there exists any value that occurs 
  * more than once in the array, false otherwise
  */
-public static int hasDuplicates(int[] data)
+public static boolean hasDuplicates(int[] data)
 ```
 
 Write a set of sample inputs and expected outputs to test the correctness of its implementation.
@@ -62,7 +62,7 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 Consider the following implementation of a method:
 
 ```java
-public class Question 4a {
+public class Question4a {
 	/** 
 	 * return the sum of all items of the array passed
 	 */
@@ -93,7 +93,7 @@ Here, 190 is the expected value, while `Question4.sum(arr)` is the actual value 
 Consider the following implementation of a method:
 
 ```java
-public class Question 4b {
+public class Question4b {
 	/** 
 	 * return number of items in the array that belong 
 	 * to the range [min...max]
@@ -133,7 +133,7 @@ Can you identify the bug in the implementation of `countInRange`? What tests mus
 Consider the following method header:
 
 ```java
-public class Question 6 {
+public class Question6 {
 	/**
 	 * return true if the array is in ascending order, false otherwise.
 	 * ascending order is where every item is less than or equal to the 
@@ -171,13 +171,13 @@ public void testIsAscending() {
 Consider the following method header:
 
 ```java
-public class Question 7 {
+public class Question7 {
 	/**
 	 * return the first index at which target exists in the array.
 	 * return -1 if target does not exist in the array
 	 */
 	public static int indexOf(int[] data, int target) {
-		return false; //to be completed
+		return 0; //to be completed
 	}
 }
 ```
@@ -185,6 +185,7 @@ public class Question 7 {
 Complete the test to test implementation of `indexOf`.
 
 ```java
+@Test
 public void testIndexOf() {
 	//add test cases
 
