@@ -201,6 +201,8 @@ public void testIndexOf() {
 }
 ```
 
-## Question 8 (45 minutes)
+## Question 8 (1 hour)
 
-We have created a sample practical exam under "Week 3" on iLearn. Your actual exam will have a similar structure. 
+We have created a sample practical exam under "Week 3" on iLearn. 
+
+Your actual exam will have a similar structure (but 45 minutes to answer)
