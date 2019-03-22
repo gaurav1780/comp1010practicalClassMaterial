@@ -244,18 +244,16 @@ Solution
 
 Refer to project in Eclipse archive file week3solution.zip
 
-## Question 5 - compareTo method
+## Question 5 - `compareTo` method
 
-Consider the class GoalScoringRecord in the project imported. Complete the method compareTo so the corresponding test supplied in class GoalScoringRecordTest passes.
+Consider the class `GoalScoringRecord` in the project contained in `workshopClassesObjectsTemplate.zip`. Complete the method `compareTo` so the corresponding test supplied in class `GoalScoringRecordTest` passes.
 
-Solution
-
-Refer to project in Eclipse archive file week3solution.zip
-view rawworkshopClassesAndObjects1.md hosted with ❤ by GitHub
+<!--### Solution
+-->
 
 ## Question 6
 
-For the [`Rectangle`](./codes/Rectangle.java) class definition, consider the following client code (outside `Rectangle` class):
+For the class `Rectangle` in the project contained in `workshopClassesObjectsTemplate.zip`, consider the following client code (outside `Rectangle` class):
 
 ```java
 Rectangle[] data = new Rectangle[5];
@@ -270,14 +268,14 @@ Rectangle[] data = new Rectangle[5];
 	}
 	```
 
-	### SOLUTION
+	<!--### SOLUTION
 	```bash
 	null
 	null
 	null
 	null
 	null
-	```
+	```-->
 
 3. 	Instantiate each item of the array so that,
 	- the first item represents a square with `width=1, height=1`.
@@ -286,13 +284,13 @@ Rectangle[] data = new Rectangle[5];
 	- the fourth item represents a square with `width=4, height=4`.
 	- the fifth item represents a square with `width=5, height=5`.
 
-	## SOLUTION
+	<!--## SOLUTION
 	
 	```java
 	for(Rectangle temp: data) {
 		temp = new Rectangle(i+1); //square constructor exists
 	}
-	```
+	```-->
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
@@ -334,7 +332,7 @@ public void testCountSquares() {
 }
 ```
 
-## SOLUTION
+<!--## SOLUTION
 	
 #### Without assumption:
 
@@ -366,7 +364,7 @@ public static int countSquares(Rectangle[] data) {
 	}
 	return count;
 }
-```
+```-->
 
 # ADVANCED QUESTIONS (HD level)
 
