@@ -253,7 +253,7 @@ Solution
 Refer to project in Eclipse archive file week3solution.zip
 view rawworkshopClassesAndObjects1.md hosted with ❤ by GitHub
 
-## Question xx
+## Question 6
 
 For the [`Rectangle`](./codes/Rectangle.java) class definition, consider the following client code (outside `Rectangle` class):
 
@@ -296,9 +296,11 @@ Rectangle[] data = new Rectangle[5];
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
-## Question 
+## Question 7
 
-Complete the method `countSquares` that when passed an array of [`Rectangle`](./codes/Rectangle.java) objects, returns the number of squares in the array. You may assume that the array passed and also every `Rectangle` in the array is instantiated. For a more comprehensive design, avoid that assumption, so the array might be uninstantiated or null, or if it is (instantiated), some `Rectangle` objects in the array might be uninstantiated or null.
+Complete the method `countSquares` that when passed an array of [`Rectangle`](./codes/Rectangle.java) objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare` that you can call.
+
+You may assume that the array passed and also every `Rectangle` in the array is instantiated. For a more comprehensive design, avoid that assumption, so the array might be uninstantiated or null, or if it is (instantiated), some `Rectangle` objects in the array might be uninstantiated or null.
 
 
 ```java
@@ -365,3 +367,13 @@ public static int countSquares(Rectangle[] data) {
 	return count;
 }
 ```
+
+# ADVANCED QUESTIONS (HD level)
+
+1. Write a method that when passed an array of `Rectangle` objects, returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that -
+
+	- all objects in the one-dimensional array `buckets[0]` have the same area,
+	- all objects in the one-dimensional array `buckets[1]` have the same area, 
+	- all objects in the one-dimensional array `buckets[2]` have the same area, 
+	- all objects in the one-dimensional array `buckets[3]` have the same area, 
+	- and so on...
