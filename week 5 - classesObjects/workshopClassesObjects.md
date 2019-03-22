@@ -19,7 +19,7 @@ Design classes (no implementation) that encapsulate the following real life enti
 2. Cylinder
 3. Book (Take-home exercise)
 
-## Question 3
+## Question 2
 
 ### Part 1
 
@@ -78,7 +78,7 @@ myCar.price = 21999;
 ```
 -->
 
-## Question 4
+## Question 3
 
 ### Part 1
 
@@ -223,7 +223,7 @@ public Person() {
 }
 ```-->
 
-## Question 5 - JUnit Testing
+## Question 4 - JUnit Testing
 
 We can test the correctness of individual methods through running JUnit tests on them.
 
@@ -244,7 +244,7 @@ Solution
 
 Refer to project in Eclipse archive file week3solution.zip
 
-Question 6 - compareTo method
+## Question 5 - compareTo method
 
 Consider the class GoalScoringRecord in the project imported. Complete the method compareTo so the corresponding test supplied in class GoalScoringRecordTest passes.
 
