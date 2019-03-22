@@ -38,6 +38,12 @@ public class Rectangle {
 		return result;
 	}
 
+  public boolean isSquare() {
+		if(width == height)
+			return true;
+		else
+			return false;
+	}
 	/**
 	 *
 	 * @param other
@@ -55,5 +61,9 @@ public class Rectangle {
 		if(this.area() < other.area())
 			return -1;
 		return 0;
+	}
+
+	public String toString() {
+		return width + " by " + height;
 	}
 }
