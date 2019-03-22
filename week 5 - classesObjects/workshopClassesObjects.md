@@ -255,50 +255,51 @@ view rawworkshopClassesAndObjects1.md hosted with ❤ by GitHub
 
 ## Question xx
 
-For the `Rectangle` class definition, consider the following client code (outside Rectangle class):
+For the [`Rectangle`](./codes/Rectangle.java) class definition, consider the following client code (outside `Rectangle` class):
 
 ```java
 Rectangle[] data = new Rectangle[5];
 ```
 
-1. Draw the memory diagram representing the storage of array `data`.
-2. What is the output of the following client code:
+1.	Draw the memory diagram representing the storage of array `data`.
+2.	What is the output of the following client code:
 
-```java
-for(Rectangle temp: data) {
-	System.out.println(temp);
-}
-```
+	```java
+	for(Rectangle temp: data) {
+		System.out.println(temp);
+	}
+	```
 
-### SOLUTION
-```bash
-null
-null
-null
-null
-null
-```
+	### SOLUTION
+	```bash
+	null
+	null
+	null
+	null
+	null
+	```
 
-3. Instantiate each item of the array so that,
+3. 	Instantiate each item of the array so that,
 	- the first item represents a square with `width=1, height=1`.
 	- the second item represents a square with `width=2, height=2`.
 	- the third item represents a square with `width=3, height=3`.
 	- the fourth item represents a square with `width=4, height=4`.
 	- the fifth item represents a square with `width=5, height=5`.
 
-## SOLUTION
+	## SOLUTION
+	
+	```java
+	for(Rectangle temp: data) {
+		temp = new Rectangle(i+1); //square constructor exists
+	}
+	```
 
-```java
-for(Rectangle temp: data) {
-	temp = new Rectangle(i+1); //square constructor exists
-}
-```
-
-4. Draw the updated memory diagram after the items have been instantiated.
+4. 	Draw the updated memory diagram after the items have been instantiated.
 
 ## Question 
 
-Complete the method `countSquares` that when passed an array of `Rectangle` objects, returns the number of squares in the array.
+Complete the method `countSquares` that when passed an array of [`Rectangle`](./codes/Rectangle.java) objects, returns the number of squares in the array. You may assume that the array passed and also every `Rectangle` in the array is instantiated. For a more comprehensive design, avoid that assumption, so the array might be uninstantiated or null, or if it is (instantiated), some `Rectangle` objects in the array might be uninstantiated or null.
+
 
 ```java
 public static int countSquares(Rectangle[] data) {
@@ -328,5 +329,39 @@ public void testCountSquares() {
 	data[2] = new Rectangle(1, 5); //third no longer a square	
 	data[3] = new Rectangle(1, 5); //fourth no longer a square	
 	assertEquals(0, Questionxx.countSquares(data));
+}
+```
+
+## SOLUTION
+	
+#### Without assumption:
+
+```java
+public static int countSquares(Rectangle[] data) {
+	int count = 0;
+	for(Rectangle r: data) {
+		if(r.isSquare()) {
+			count++;
+		}
+	}
+	return count;
+}
+```
+
+#### Without assumption:
+
+```java
+public static int countSquares(Rectangle[] data) {
+	if(data == null) { //nothing inside
+		return 0;
+	}
+	
+	int count = 0;
+	for(Rectangle r: data) {
+		if(r != null && r.isSquare()) { //first make sure it's not null
+			count++;
+		}
+	}
+	return count;
 }
 ```
