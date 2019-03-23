@@ -9,16 +9,78 @@
 - getters and setters
 - constructors
 - compareTo
-- 
+
+## TEMPLATE
+
+All programs for this workshop are in archive file [workshopClassesObjectsTemplate.zip](./codes/workshopClassesObjectsTemplate.zip)
 
 ## Question 1
 
-Design classes (no implementation) that encapsulate the following real life entities. Add up to three instance variables for each class. Select the three most important attributes if you think a class has more than three attributes.
+Design classes (no implementation) that encapsulate the following real life entities. 
+	- Add up to three instance variables for each class. Select the three most important attributes if you think a class has more than three attributes.
+	- Add up to three instance methods that objects of this class may exhibit.
 
-1. Person
-2. Cylinder
-3. Book (Take-home exercise)
+#### 1. Person
 
+<!--
+### SOLUTION
+	
+#### Instance variables:
+	
+1. name: text
+	
+2. yearOfBirth: integer
+	
+3. gender: integer (0 - male, 1 - female, 2 - transgender, ...)
+	
+#### Instance methods:
+	
+1. initials(): text (initials of "Harry Potter" are "HP")
+	
+2. age(): integer
+	
+3. isMale() or isFemale(): boolean
+-->
+
+	
+#### 2. Cylinder (Take-home exercise)
+
+<!--
+### SOLUTION
+	
+#### Instance variables:
+	
+1. radius: real number
+	
+2. height: real number
+
+#### Instance methods:
+	
+1. volume(): real number
+	
+2. surfaceArea(): real number
+	
+3. diameter(): real number
+-->
+	
+#### 3. Book (Take-home exercise)
+
+<!--
+### SOLUTION
+	
+#### Instance variables:
+	
+1. title: text
+	
+2. authors: text
+	
+3. genre: text
+	
+#### Instance methods:
+	
+none needed
+-->
+	
 ## Question 2
 
 ### Part 1
@@ -62,8 +124,8 @@ Date anniversary = null;
 ```java
 
 public class Car {
-        public String model;
-        public int price;
+	public String model;
+	public int price;
 }
 ```
 
@@ -86,8 +148,8 @@ Consider the following class definition:
 
 ```java
 public class Person {
-        public String name;
-        public int age;
+	public String name;
+	public int age;
 }
 ```
 
@@ -223,35 +285,14 @@ public Person() {
 }
 ```-->
 
-## Question 4 - JUnit Testing
-
-We can test the correctness of individual methods through running JUnit tests on them.
-
-In the project that you imported, open file RectangleTest.java and run it. You will see a green bar and a message that 5 out of 5 tests have passed (0 errors and 0 failures).
-
-Now open the file AllInOneTest.java and run the tests. You will see that two tests pass while one fails. The tests that pass are:
-
-`testIsSquare: This tests the method isSquare from class AllInOne.
-testAllSquares: This tests the method allSquares from class AllInOne.
-The test that fails is:
-
-testCountPositiveEvens: This tests the method countPositiveEvens from class AllInOne.
-Your job is to complete the method countPositiveEvens so the test testCountPositiveEvens passes.
-
-IMPORTANT: Note that the method should return 0 if the array passed is null. This is the first thing you should check in the method.
-
-Solution
-
-Refer to project in Eclipse archive file week3solution.zip
-
-## Question 5 - `compareTo` method
+## Question 4 - `compareTo` method
 
 Consider the class `GoalScoringRecord` in the project contained in `workshopClassesObjectsTemplate.zip`. Complete the method `compareTo` so the corresponding test supplied in class `GoalScoringRecordTest` passes.
 
 <!--### Solution
 -->
 
-## Question 6
+## Question 5
 
 For the class `Rectangle` in the project contained in `workshopClassesObjectsTemplate.zip`, consider the following client code (outside `Rectangle` class):
 
@@ -294,45 +335,16 @@ Rectangle[] data = new Rectangle[5];
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
-## Question 7
+## Question 6
 
-Complete the method `countSquares` that when passed an array of [`Rectangle`](./codes/Rectangle.java) objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare` that you can call.
+Complete the method `countSquares` (in class `RectangleClient.java`) that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
 You may assume that the array passed and also every `Rectangle` in the array is instantiated. For a more comprehensive design, avoid that assumption, so the array might be uninstantiated or null, or if it is (instantiated), some `Rectangle` objects in the array might be uninstantiated or null.
 
+Test provided in `testCountSquares` in class `RectangleClientTest.java`.
 
-```java
-public static int countSquares(Rectangle[] data) {
-	return 0; //to be completed
-}
-```
-
-Test your implementation using the following test case:
-
-```java
-@Test
-public void testCountSquares() {
-	Rectangle[] data = new Rectangle[5];
-	for(Rectangle temp: data) {
-		temp = new Rectangle(i+1); //square constructor exists
-	}
-	//all are squares
-	assertEquals(5, Questionxx.countSquares(data));
-	
-	data[0] = new Rectangle(1, 5); //first no longer a square
-	assertEquals(4, Questionxx.countSquares(data));
-
-	data[4] = new Rectangle(1, 5); //last no longer a square	
-	assertEquals(3, Questionxx.countSquares(data));
-
-	data[1] = new Rectangle(1, 5); //second no longer a square	
-	data[2] = new Rectangle(1, 5); //third no longer a square	
-	data[3] = new Rectangle(1, 5); //fourth no longer a square	
-	assertEquals(0, Questionxx.countSquares(data));
-}
-```
-
-<!--## SOLUTION
+<!--
+## SOLUTION
 	
 #### Without assumption:
 
@@ -364,14 +376,17 @@ public static int countSquares(Rectangle[] data) {
 	}
 	return count;
 }
-```-->
+```
+-->
 
 # ADVANCED QUESTIONS (HD level)
 
-1. Write a method that when passed an array of `Rectangle` objects, returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that -
+1. Write a method `groupSameAreas` in class `Advanced` that when passed an array of `Rectangle` objects (say `data`), returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that all objects from `data` with the same area are in the same one-dimensional array in `buckets`. That is,
 
 	- all objects in the one-dimensional array `buckets[0]` have the same area,
 	- all objects in the one-dimensional array `buckets[1]` have the same area, 
 	- all objects in the one-dimensional array `buckets[2]` have the same area, 
 	- all objects in the one-dimensional array `buckets[3]` have the same area, 
 	- and so on...
+
+2. (Not related to classes and objects but aimed at students who might want something a little ... extra). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs firstw in case of a tie.
