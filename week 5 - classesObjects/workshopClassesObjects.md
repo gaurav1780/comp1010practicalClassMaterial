@@ -83,7 +83,7 @@ none needed
 	
 ## Question 2
 
-### Part 1
+#### Part 1
 
 Consider the following class definition:
 
@@ -104,7 +104,7 @@ graduation.month = 4;
 graduation.year = 2011;
 ```-->
 
-### Part 2
+#### Part 2
 
 For the same class definition (`Date`), draw the memory diagram that represents the following objects. Please refer to the lecture notes to see the representation scheme we have established.
 
@@ -117,7 +117,7 @@ bday.year = 1980;
 Date anniversary = null;
 ```
 
-### Part 3
+#### Part 3
 
 **(Take-home exercise)** Consider the following class definition,
 
@@ -142,7 +142,7 @@ myCar.price = 21999;
 
 ## Question 3
 
-### Part 1
+#### Part 1
 
 Consider the following class definition:
 
@@ -164,7 +164,7 @@ p.age = -6; //OOPS!
 ```
 -->
 
-### Part 2
+#### Part 2
 
 Solve the problem of public instance variables in the previous part by first changing visibility of the instance variables of class `Person` to `private` and then adding **getters** and **setters**. **Age of person cannot be negative**. If the user tries to assign a negative value to a person's age, the person's age should be set to 0.
 
@@ -198,7 +198,7 @@ public class Person {
 ```
 -->
 
-### Part 3
+#### Part 3
 
 Declare and instantiate an object `baddy` of class `Person` written in the previous part, representing a person named *Tom Marvolo Riddle* aged *71*.
 
@@ -210,7 +210,7 @@ baddy.setAge(71);
 ```
 -->
 
-### Part 4
+#### Part 4
 
 Declare and instantiate an object `goody` of class `Person` written in the previous part, representing a person named *Luna Lovegood*. **Try** and assign the value -6 to her age. Display the values of the instance variables on the console. Luna's age should be displayed as zero (0).
 
@@ -225,7 +225,7 @@ System.out.println(goody.getAge()); //0
 ```
 -->
 
-### Part 5
+#### Part 5
 
 List the mistakes (syntactical and logical) in the following constructor for class `Person`:
 
@@ -252,7 +252,7 @@ public Person(String s, int a) {
 ```
 -->
 
-### Part 6
+#### Part 6
 
 Add a constructor to class Person with a single parameter for the instance variable name. The instance variable age should be set to 21.
 
@@ -266,7 +266,7 @@ public Person(String s) {
 ```
 -->
 
-### Part 7 (take-home question)
+#### Part 7 (take-home question)
 
 Assuming the constructor has been added to class `Person` according to the previous part, will the following statement run successfully or result in a compilation error? Explain your answer. If there is a compilation error, what should be done to fix it?
 
@@ -285,7 +285,7 @@ public Person() {
 }
 ```-->
 
-## Question 4 - `compareTo` method
+## Question 4 (`compareTo` method)
 
 Consider the class `GoalScoringRecord` in the project contained in `workshopClassesObjectsTemplate.zip`. Complete the method `compareTo` so the corresponding test supplied in class `GoalScoringRecordTest` passes.
 
