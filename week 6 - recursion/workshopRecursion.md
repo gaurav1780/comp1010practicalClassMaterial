@@ -76,7 +76,7 @@ Students should pair-up for the rest of this workshop. For all programs, you sho
 
 In the first task, your tutor will design and implement a recursive solution for,
 
-1. [Number-based problem](https://codingbat.com/prob/p192383) 
+1. [Number-based problem](https://codingbat.com/prob/p163932) 
 2. [String-based problem](https://codingbat.com/prob/p104029)
 
 ## PRACTICE - IN PAIRS
