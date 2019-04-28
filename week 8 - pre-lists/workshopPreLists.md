@@ -70,7 +70,7 @@ You can similarly create a `LinkedList` object as,
 LinkedList<Double> grades = new LinkedList<Double>();
 ```
 
-## <span style="color:blue">**Student activity 1**: 
+## <span style="color:blue">**Student activity 1**</span> 
 
 Create a list (as an `ArrayList`) to hold outcomes of a dice roll. The dice can be rolled an arbitrary number of times. Give it the name `outcomes`.
 
