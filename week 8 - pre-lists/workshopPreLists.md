@@ -70,7 +70,7 @@ You can similarly create a `LinkedList` object as,
 LinkedList<Double> grades = new LinkedList<Double>();
 ```
 
-#### **Student activity 1**: 
+## <span style="color:blue">**Student activity 1**: 
 
 Create a list (as an `ArrayList`) to hold outcomes of a dice roll. The dice can be rolled an arbitrary number of times. Give it the name `outcomes`.
 
@@ -85,7 +85,7 @@ System.out.println(list);     //toString() called, displays [30, 10, 70, 30]
 String rep = list.toString(); //rep = "[30, 10, 70, 30]"
 ```
 
-#### **Student activity 2**: 
+## <span style="color:blue">**Student activity 2**: 
 
 Display the list `outcomes`. You should see the output `[]`.
 
@@ -103,7 +103,7 @@ Inside object `list`, the values are held in an instance variable array named `e
 
 NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk more about that later.
 
-#### **Student activity 3**: 
+## <span style="color:blue">**Student activity 3**: 
 
 Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
 
@@ -116,7 +116,7 @@ The method `size()` returns the number of items in a list. Returns `null` if emp
 int n = list.size(); //size = 4
 ```
 
-#### **Student activity 4**: 
+## <span style="color:blue">**Student activity 4**: 
 
 Store the number of items in list `outcomes` in a variable `nRolls`. Display `nRolls`. You should see the output 3.
 
@@ -134,7 +134,7 @@ ArrayList<Integer> nullList = null;
 int d = nullList.get(0); //throws NullPointerException
 ```
 
-#### **Student activity 5**: 
+## <span style="color:blue">**Student activity 5**: 
 
 Store the first item of list `outcomes` in variable `first`. Display `first`. You should see the output 5.
 
@@ -155,7 +155,7 @@ list.add(list.size(), 30); //after the last item
 list.add(20, -60); //throws IndexOutOfBoundsException
 ```
 
-#### **Student activity 6**: 
+## <span style="color:blue">**Student activity 6**: 
 
 Add the item 4 between the first two items (5 and 6) of list `outcomes`. Display the list. You should see the output `[5, 4, 6, 2]`.
 
@@ -171,7 +171,7 @@ list.remove(-3); //throws IndexOutOfBoundsException
 list.remove(6); //throws IndexOutOfBoundsException
 ```
 
-#### **Student activity 7**: 
+## <span style="color:blue">**Student activity 7**: 
 
 Remove the first item from list `outcomes`. Display the list. You should see the output `[4, 6, 2]`.
 
@@ -192,7 +192,7 @@ list.remove((Integer)4);
 //removes item 4. list = [30, 10, 70, 30]
 ```
 
-#### **Student activity 8**: 
+## <span style="color:blue">**Student activity 8**: 
 
 Remove the item 4 from list `outcomes`. Display the list. You should see the output `[6]`.
 
@@ -210,7 +210,7 @@ for(int i=0; i < list.size(); i++) {
 //total = 30+10+70+30 = 140
 ```
 
-#### **Student activity 9**: 
+## <span style="color:blue">**Student activity 9**: 
 
 Count the number of items in `outcomes` that are greater than 2. Store in variable `moreThanTwo`. Display `moreThanTwo`. You should see the output 3.
 
@@ -228,7 +228,7 @@ int idx3 = list.indexOf(30);        //idx3 = 0
 int idx4 = list.lastIndexOf(30);    //idx4 = 3
 ```
 
-#### **Student activity 10**: 
+## <span style="color:blue">**Student activity 10**: 
 
 Add item 6 to the list. The list should now become `[6, 3, 5, 2, 6]`.
 Display the first index at which the item 6 exists in list `outcomes`. You should see the output 0.
