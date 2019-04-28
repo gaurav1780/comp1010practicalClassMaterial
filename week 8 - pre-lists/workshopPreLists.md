@@ -108,24 +108,6 @@ NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk m
 
 Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
 
-#### 3. Adding items at the end
-
-```java
-list.add(10);
-list.add(70);
-list.add(20);
-list.add(90);
-//list = [10, 70, 20, 90]
-```
-
-Inside object `list`, the values are held in an instance variable array named `elementData`. Thus, in this case, `list.elementData = {10, 70, 20, 90}`
-
-NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk more about that later.
-
-#### **Student activity 3**: 
-
-Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
-
 #### 4. Getting number of items in a list
 
 The method `size()` returns the number of items in a list. Returns `null` if empty. Throws `NullPointerException` if list is `null`.
