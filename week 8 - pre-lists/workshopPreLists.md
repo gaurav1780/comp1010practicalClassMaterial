@@ -46,7 +46,10 @@ The two classes that implement the methods from `List` interface are: (**Details
 
 ## Creating and operating on List objects
 
-**IMPORTANT: Students should pair up for this activity**. First person does odd-numbered activities, second person does even-numbered activities. 
+- Students should pair up for this activity. First person does odd-numbered activities, second person does even-numbered activities. 
+
+- Activities should be completed in file `StudentActivityClient.java` in the project contained in archive file [workshopPreLists.zip](./codes/workshopPreLists.zip).
+
 
 ### Creating a list
 
