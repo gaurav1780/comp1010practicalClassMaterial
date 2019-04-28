@@ -62,10 +62,9 @@ For those interested in learning about this, check out [Java Generics](https://d
 ArrayList<Integer> list = new ArrayList<Integer>();
 ```
 
-This creates a list that can hold integer values (as Integer objects).
+This creates a list that can hold integer values (as `Integer` objects).
 
 You can similarly create a `LinkedList` object as,
-
 
 ```java
 LinkedList<Double> grades = new LinkedList<Double>();
