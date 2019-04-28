@@ -108,7 +108,58 @@ NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk m
 
 Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
 
-#### 4. Adding items at arbitrary index
+#### 3. Adding items at the end
+
+```java
+list.add(10);
+list.add(70);
+list.add(20);
+list.add(90);
+//list = [10, 70, 20, 90]
+```
+
+Inside object `list`, the values are held in an instance variable array named `elementData`. Thus, in this case, `list.elementData = {10, 70, 20, 90}`
+
+NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk more about that later.
+
+#### **Student activity 3**: 
+
+Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
+
+#### 4. Getting number of items in a list
+
+The method `size()` returns the number of items in a list. Returns `null` if empty. Throws `NullPointerException` if list is `null`.
+
+```java
+//assuming list = [10, 70, 20, 90]
+int n = list.size(); //size = 4
+```
+
+#### **Student activity 4**: 
+
+Store the number of items in list `outcomes` in a variable `nRolls`. Display `nRolls`. You should see the output 3.
+
+
+#### 5. Getting item at a specific index
+
+The method `get(int)` returns the item at passed index. Throws `NullPointerException` if list is `null`. Throws `IndexOutOfBoundsException` if index is invalid. 
+
+```java
+//assuming list = [10, 70, 20, 90]
+int a = list.get(0); //a = 10
+int b = list.get(list.size()-1); //b = 90 (last item)
+int c = list.get(-3); //throws IndexOutOfBoundsException
+ArrayList<Integer> nullList = null;
+int d = nullList.get(0); //throws NullPointerException
+```
+
+#### **Student activity 5**: 
+
+Store the first item of list `outcomes` in variable `first`. Display `first`. You should see the output 5.
+
+Store the last item of list `outcomes` in variable `last`. **Do not hard-code the index as 2.** Assume you don't know the number of items in the list. Display `last`. You should see the output 2.
+
+#### 6. Adding items at arbitrary index
 
 ```java
 list.add(0, 30);
@@ -123,11 +174,12 @@ list.add(list.size(), 30); //after the last item
 list.add(20, -60); //throws IndexOutOfBoundsException
 ```
 
-#### **Student activity 4**: 
+#### **Student activity 6**: 
 
 Add the item 4 between the first two items (5 and 6) of list `outcomes`. Display the list. You should see the output `[5, 4, 6, 2]`.
 
-#### 5. Removing an item at a specific index
+
+#### 7. Removing an item at a specific index
 
 ```java
 list.remove(5);
@@ -138,14 +190,14 @@ list.remove(-3); //throws IndexOutOfBoundsException
 list.remove(6); //throws IndexOutOfBoundsException
 ```
 
-#### **Student activity 5**: 
+#### **Student activity 7**: 
 
 Remove the first item from list `outcomes`. Display the list. You should see the output `[4, 6, 2]`.
 
 Remove the last item from list `outcomes`. **Do not hard-code the index as 3**.
 Assume that you do not know how many items are in the list. Display the list. You should see the output `[4, 6]`.
 
-#### 6. Removing a specific object
+#### 8. Removing a specific object
 
 The only scenario in which this is tricky is a list containing Integers, because the type of the object and the type of the index is the same (int or Integer).
 
@@ -159,13 +211,13 @@ list.remove((Integer)4);
 //removes item 4. list = [30, 10, 70, 30]
 ```
 
-#### **Student activity 6**: 
+#### **Student activity 8**: 
 
 Remove the item 4 from list `outcomes`. Display the list. You should see the output `[6]`.
 
 Re-populate the list by adding the items 3, 5, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[6, 3, 5, 2]`.
 
-#### 7. Iterating over the list
+#### 9. Iterating over the list
 
 Following example adds the items in the list
 
@@ -177,12 +229,12 @@ for(int i=0; i < list.size(); i++) {
 //total = 30+10+70+30 = 140
 ```
 
-#### **Student activity 7**: 
+#### **Student activity 9**: 
 
 Count the number of items in `outcomes` that are greater than 2. Store in variable `moreThanTwo`. Display `moreThanTwo`. You should see the output 3.
 
 
-#### 8. Checking existence and location of items in list
+#### 10. Checking existence and location of items in list
 	
 ```java
 //note: list = [30, 10, 70, 30]
@@ -195,7 +247,7 @@ int idx3 = list.indexOf(30);        //idx3 = 0
 int idx4 = list.lastIndexOf(30);    //idx4 = 3
 ```
 
-#### **Student activity 8**: 
+#### **Student activity 10**: 
 
 Add item 6 to the list. The list should now become `[6, 3, 5, 2, 6]`.
 Display the first index at which the item 6 exists in list `outcomes`. You should see the output 0.
