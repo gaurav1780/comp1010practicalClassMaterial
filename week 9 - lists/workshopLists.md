@@ -2,7 +2,16 @@
 
 ## Workshop - Lists
 
-### All tasks must be completed in the file [Client.java](./codes/Client.java). You need to create a new Java project and add this file.
+### All tasks must be completed in the file [Client.java](./codes/Client.java). 
+
+You need to create a new Java project and add this file. To do this, choose 
+
+- File
+- New
+- Java Project
+- Name it `week9workshop`
+- Copy [Client.java](./codes/Client.java) (or its contents) 
+- Right-click on `src` folder of project `week9workshop` and choose `Paste`.
 
 ## Question 1 through 10 are based on a list of String objects
 
