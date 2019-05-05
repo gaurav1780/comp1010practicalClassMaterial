@@ -28,7 +28,7 @@ The **most frequently used** methods from `List` are:
 |---------------------------|-----------------------------------------------------------------------------------------------------|
 | `get(int): Object`          | returns Object at passed index (IndexOutOfBoundsException if the index is out of range)             |
 | `size(): int`               | returns number of items in the list (0 if empty)                                                    |
-| `add(Object)`               |  adds passed object at the end of the list (IndexOutOfBoundsException if the index is out of range) |
+| `add(Object)`               |  adds passed object at the end of the list |
 | `add(int, Object)`          | adds (at the given index) the object passed (IndexOutOfBoundsException if the index is out of range)                                              |
 | `remove(int): Object` | removes and returns Object at given index. (IndexOutOfBoundsException if the index is out of range)                                  |
 | `remove(Object): boolean` | removes first occurrence of given Object and returns `true`. Returns `false` if item not found |
