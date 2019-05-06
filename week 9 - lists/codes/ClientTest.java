@@ -72,9 +72,9 @@ class ClientTest {
 	void testSquared() {
 		Client.squared(null); //should not raise NullPointerException
 		
-		ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(1,0,-2,9));
+		ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(1,0,7,-2,9));
 		Client.squared(list);
-		assertEquals("[1, 49, 4, 81]", list.toString());
+		assertEquals("[1, 0, 49, 4, 81]", list.toString());
 	}
 	
 	@Test
