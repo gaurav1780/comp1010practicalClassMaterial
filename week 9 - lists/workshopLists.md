@@ -49,6 +49,7 @@ Display the fifth item in the list.
 ### Question 5
 
 Display the last item in the list. 
+
 **DO NOT** hard-code the index as `list.get(8)`.
 
 ### Question 6
