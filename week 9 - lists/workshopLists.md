@@ -137,7 +137,7 @@ Hint: the methods on ArrayList that you’ll need are,
 
 - size()
 - get(int index)
-- set(int index, int value)
+- remove(int index)
 
 ## Question 21 (HD level) 
 
