@@ -38,35 +38,35 @@ class ClientTest {
 		assertFalse(Client.allEven(list));
 	}
 
-//UNCOMMENT testCountInRange after defining CountInRange in Client
+/*UNCOMMENT testCountInRange after defining CountInRange in Client
 	
-//	@Test
-//	void testCountInRange() {
-//		int nullVal = Client.countInRange(null, 10, 20);
-//		assertEquals(0, nullVal); //null check
-//		
-//		ArrayList<Integer> list = new ArrayList<Integer>();
-//		assertEquals(0, Client.countInRange(list, 10, 20));
-//		
-//		list.add(10);
-//		list.add(70);
-//		list.add(20);
-//		list.add(90);
-//		
-//		assertEquals(4, Client.countInRange(list, 10, 90));
-//		assertEquals(2, Client.countInRange(list, 15, 75));
-//		assertEquals(0, Client.countInRange(list, -60, 0));
-//		
-//		list.add(30);
-//		list.add(80);
-//		list.add(120);
-//		list.add(-60);
-//		assertEquals(8, Client.countInRange(list, -60, 120));
-//		assertEquals(8, Client.countInRange(list, -600, 1200));
-//		assertEquals(1, Client.countInRange(list, 100, 140));
-//		assertEquals(0, Client.countInRange(list, 130, 140));
-//		assertEquals(5, Client.countInRange(list, -100, 70));
-//	}
+	@Test
+	void testCountInRange() {
+		int nullVal = Client.countInRange(null, 10, 20);
+		assertEquals(0, nullVal); //null check
+		
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		assertEquals(0, Client.countInRange(list, 10, 20));
+		
+		list.add(10);
+		list.add(70);
+		list.add(20);
+		list.add(90);
+		
+		assertEquals(4, Client.countInRange(list, 10, 90));
+		assertEquals(2, Client.countInRange(list, 15, 75));
+		assertEquals(0, Client.countInRange(list, -60, 0));
+		
+		list.add(30);
+		list.add(80);
+		list.add(120);
+		list.add(-60);
+		assertEquals(8, Client.countInRange(list, -60, 120));
+		assertEquals(8, Client.countInRange(list, -600, 1200));
+		assertEquals(1, Client.countInRange(list, 100, 140));
+		assertEquals(0, Client.countInRange(list, 130, 140));
+		assertEquals(5, Client.countInRange(list, -100, 70));
+	}*/
 	
 	@Test
 	void testSquared() {
