@@ -97,6 +97,7 @@ Store, in a variable `hasOverTen`, the value `true`, if there are one or more it
 The method `allPositives` is defined (after the `main` method). Call this method by passing the list `outcomes` and store the value returned by the method in a variable `allPos`. Display the value held by the variable `allPos`.
 
 ## Questions 16 to 21 are based on ArrayList objects being passed to methods
+### Questions 16 to 21 have tests available in [ClientTest.java](./codes/ClientTest.java). 
 
 ### Question 16
 
