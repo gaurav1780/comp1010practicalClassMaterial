@@ -62,7 +62,7 @@ Remove the second item. Display the removed item (as `Removed item: <value>`). D
 
 ### Question 8
 
-Replace the fifth item by the String `you`. Display the list.
+Replace the fifth item by the String `are`. Display the list.
 
 ### Question 9
 
