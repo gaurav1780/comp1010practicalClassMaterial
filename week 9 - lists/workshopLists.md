@@ -70,7 +70,7 @@ Add the String `real` before the last item. Display the list.
 
 ### Question 10
 
-Store the number of items that have more than 4 characters in a variable `lengthyWordCount`. Display the value of `lengthyWordCount`.
+Store the number of items that have more than 4 characters in a variable `lengthyWordCount`. Display the value of `lengthyWordCount`. If you use an enhanced for-loop, you will not have to chain method calls. If you use a regular loop, you will have to chain, i.e. words.get(i).length().
 
 ## Question 11 through 15 are based on a list of Integer objects
 
@@ -86,7 +86,7 @@ Store the number of negative items in the list in a variable `countNegatives`.
 
 ### Question 13
 
-Store, in a variable `hasNeg`, the value `true`, if there are one or more negative items in the list, and `false` otherwise.
+Store, in a variable `hasNeg`, the value `true`, if there are one or more negative items in the list, and `false` otherwise. Hint: you've already counted the number of negatives, no need to re-loop.
 
 ### Question 14
 
