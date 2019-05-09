@@ -113,7 +113,7 @@ Define a method `countInRange` from scratch (no header provided) that when passe
 
 1. An ArrayList of Integer objects (call it `list`),
 2. An integer (call it `min`),
-3. An integer (call it `max`). Assume `max` $\geq$ `min`.
+3. An integer (call it `max`). Assume `max` \>= `min`.
 
 returns the number of items in `list` that are in the range `[min...max]`. Return 0 if the list is `null` or empty.
 
