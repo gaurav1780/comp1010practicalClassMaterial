@@ -62,10 +62,38 @@ class MyArrayListTest {
 	@Test
 	void testAddRectangle() {
 		//adding 5th rectangle doesn't need to grow the list
-		list.add(new Rectangle(10, 5));
+		list.add(new Rectangle(30, 5));
+		assertEquals(5, list.currentSize());
+		assertEquals(5, list.currentCapacity());
+		assertNotNull(list.get(0));
+		assertEquals("10 by 5", list.get(0).toString());
+		assertNotNull(list.get(1));
+		assertEquals("70 by 10", list.get(1).toString());
+		assertNotNull(list.get(2));
+		assertEquals("20 by 20", list.get(2).toString());
+		assertNotNull(list.get(3));
+		assertEquals("90 by 50", list.get(3).toString());
+		assertNotNull(list.get(4));
+		assertEquals("30 by 5", list.get(4).toString());
 		
 		//adding 6th item should have "grown" the list
-		list.add(new Rectangle(20));
+		list.add(new Rectangle(100));
+		assertEquals(6, list.currentSize());
+		assertEquals(15, list.currentCapacity());
+		assertNotNull(list.get(0));
+		assertEquals("10 by 5", list.get(0).toString());
+		assertNotNull(list.get(1));
+		assertEquals("70 by 10", list.get(1).toString());
+		assertNotNull(list.get(2));
+		assertEquals("20 by 20", list.get(2).toString());
+		assertNotNull(list.get(3));
+		assertEquals("90 by 50", list.get(3).toString());
+		assertNotNull(list.get(4));
+		assertEquals("30 by 5", list.get(4).toString());
+		assertNotNull(list.get(5));
+		assertEquals("100 by 100", list.get(5).toString());
+		
+		
 	}
 
 	@Test
