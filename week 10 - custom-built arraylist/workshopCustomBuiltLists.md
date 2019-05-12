@@ -13,4 +13,8 @@ You need to create a new Java project and add this file. To do this, choose
 - Copy [Client.java](./codes/Client.java) (or its contents) 
 - Right-click on `src` folder of project `week10workshop` and choose `Paste`.
 
-## Complete all methods in class `MyArrayList.java`.
+## Complete all methods in class `MyArrayList.java`. 
+
+Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
+
+Completing these tests will be very helpful for practical exam 3.
