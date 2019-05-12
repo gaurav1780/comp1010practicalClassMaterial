@@ -18,3 +18,61 @@ You need to create a new Java project and add this file. To do this, choose
 Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
 
 Completing these tests will be very helpful for practical exam 3.
+
+## Advanced
+
+### Advanced 1
+
+Define a method `getUniqueValues`, that when passed an `ArrayList` of `ArrayList` of `Integer` objects (So, like a two-dimensional array), returns the items that appear exactly once in the two-dimensional list. The items should appear in the order of appearance from first sub-list to last sub-list, and items from within a sub-list should appear in that order.
+
+Some input-output mappings:
+
+- `null` --> `null`
+- `[null, null, null]` --> `null`
+- `[[10,70,20,90], [90,20,30], [80, 20], null, [60, 60]]` --> `[10,30,80]` 
+- `[[10,10], [20,20], [30,30]` --> `[]`
+- `[[10,20], [20,30], [30,10]` --> `[]`
+
+```java
+public static ArrayList<Integer> getUniqueValues(ArrayList<ArrayList<Integer>> list) {
+	return null; //to be completed
+}
+```
+
+### Advanced 2
+
+Modify the method `getUniqueValues` so that it returns an `ArrayList` of items that appear only in a single sub-list.
+
+Items from within a sub-list should appear in that order.
+
+Some input-output mappings:
+
+- `null` --> `null`
+- `[null, null, null]` --> `null`
+- `[[10,70,20,90,20], [90,30], [80,80,80], null, [30,60,60]]` --> `[10,70,80]` 
+- `[[10,10], [20,20], [30,30]` --> `[10,20,30]`
+- `[[10,20], [20,30], [30,10]` --> `[]`
+
+```java
+public static ArrayList<Integer> getItemsUniqueToSubLists(ArrayList<ArrayList<Integer>> list) {
+	return null; //to be completed
+}
+```
+
+### Advanced 3
+
+Define a method that when passed an `ArrayList` of `Integer` objects, returns the longest sequence that occurs more than once in the list. Return first such sequence in case of a tie.
+
+Some input-output mappings:
+
+- `[10,70,20,90]` --> `[]`
+- `[10,70,70,10]` --> `[10]`
+- `[80,80,80]` --> `[80,80]`
+- `[10,70,20,90,60,10,70,20,90]` --> `[10,70,20,90]`
+- `[1,2,1,2,1,2,1,2]` --> `[1,2,1,2,1,2]`
+
+```java
+public static ArrayList<Integer> longestRepeatingSequence(ArrayList<Integer> list) {
+	return null; //to be completed
+}
+```
