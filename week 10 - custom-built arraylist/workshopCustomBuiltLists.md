@@ -71,7 +71,7 @@ Define a method `getUniqueValues`, that when passed an `ArrayList` of `ArrayList
 Some input-output mappings:
 
 - `null` --> `null`
-- `[null, null, null]` --> `null`
+- `[null, null, null]` --> `[]`
 - `[[10,70,20,90,70], [90,20,30], [80, 20], null, [60, 60]]` --> `[10,30,80]` 
 - `[[10,10], [20,20], [30,30]` --> `[]`
 - `[[10,20], [20,30], [30,10]` --> `[]`
