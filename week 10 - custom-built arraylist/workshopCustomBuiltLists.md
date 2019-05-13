@@ -10,7 +10,7 @@ You need to create a new Java project and add this file. To do this, choose
 - New
 - Java Project
 - Name it `week10workshop`
-- Copy [MyArrayList.java](./codes/MyArrayList.java) and [MyArrayListTest.java](./codes/MyArrayListTest.java) 
+- Copy [MyArrayList.java](./codes/MyArrayList.java), [MyArrayListTest.java](./codes/MyArrayListTest.java) and [Rectangle.java](./codes/Rectangle.java)
 - Right-click on `src` folder of project `week10workshop` and choose `Paste`.
 
 ## Complete all methods in class `MyArrayList.java`. 
