@@ -23,6 +23,10 @@ Completing these tests will be very helpful for practical exam 3.
 
 ### Advanced 1
 
+In the class `MyArrayList`, define a method that when passed another `MyArrayList` object, returns a `MyArrayList` object containing all items of the calling object followed by all items of the parameter object.
+
+### Advanced 2
+
 Define a method `getUniqueValues`, that when passed an `ArrayList` of `ArrayList` of `Integer` objects (So, like a two-dimensional array), returns the items that appear exactly once in the two-dimensional list. The items should appear in the order of appearance from first sub-list to last sub-list, and items from within a sub-list should appear in that order.
 
 Some input-output mappings:
@@ -39,7 +43,7 @@ public static ArrayList<Integer> getUniqueValues(ArrayList<ArrayList<Integer>> l
 }
 ```
 
-### Advanced 2
+### Advanced 3
 
 Modify the method `getUniqueValues` so that it returns an `ArrayList` of items that appear only in a single sub-list.
 
@@ -59,7 +63,7 @@ public static ArrayList<Integer> getItemsUniqueToSubLists(ArrayList<ArrayList<In
 }
 ```
 
-### Advanced 3
+### Advanced 4
 
 Define a method that when passed an `ArrayList` of `Integer` objects, returns the longest sequence that occurs more than once in the list. Return first such sequence in case of a tie.
 

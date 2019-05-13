@@ -1,7 +1,7 @@
 /**
  * Do not modify this class.
  */
- public class Rectangle {
+public class Rectangle {
 	private int width, height;
 
 	public void setWidth(int w) {
@@ -36,6 +36,12 @@
 		setHeight(side);
 	}
 
+	//assume r is not null
+	public Rectangle(Rectangle r) {
+		setWidth(r.width);
+		setHeight(r.height);
+	}
+
 	public int area() {
 		int result = width * height;
 		return result;
@@ -50,6 +56,10 @@
 		if(a1 < a2)
 			return -1;
 		return 0;
+	}
+
+	public boolean equals(Rectangle other) {
+		return width==other.width && height==other.height;
 	}
 
 	public String toString() {
