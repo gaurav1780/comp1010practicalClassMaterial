@@ -91,7 +91,7 @@ Items from within a sub-list should appear in that order.
 Some input-output mappings:
 
 - `null` --> `null`
-- `[null, null, null]` --> `null`
+- `[null, null, null]` --> `[]`
 - `[[10,70,20,90,20], [90,30], [80,80,80], null, [30,60,60]]` --> `[10,70,80]` 
 - `[[10,10], [20,20], [30,30]` --> `[10,20,30]`
 - `[[10,20], [20,30], [30,10]` --> `[]`
