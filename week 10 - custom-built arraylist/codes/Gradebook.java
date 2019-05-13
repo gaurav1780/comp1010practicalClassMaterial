@@ -3,7 +3,7 @@ import java.util.*;
 public class Gradebook {
 	private ArrayList<GradebookEntry> studentGrades;
 
-	public GradebookEntry() {
+	public Gradebook() {
 		studentGrades = new ArrayList<GradebookEntry>();
 	}
 
