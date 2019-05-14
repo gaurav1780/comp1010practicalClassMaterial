@@ -58,7 +58,10 @@ data[i] = new Rectangle(r);
 ```
 
 
+
 ## Advanced
+## Only complete these tasks after completing MyArrayList.java
+- Copy [Advanced.java](./codes/Advanced.java) and [AdvancedTest.java](./codes/AdvancedTest.java)
 
 ### Advanced 1
 
