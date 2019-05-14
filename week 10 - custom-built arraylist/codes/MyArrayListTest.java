@@ -59,6 +59,8 @@ class MyArrayListTest {
 		assertEquals(5, list.currentCapacity());
 		list.grow();
 		assertEquals(15, list.currentCapacity());
+		assertEquals("10 by 5", list.get(0).toString());
+		assertEquals("70 by 10", list.get(1).toString());
 		list.grow();
 		assertEquals(25, list.currentCapacity());	
 	}
