@@ -6,14 +6,6 @@ We wil focus on preparing for practical exam this week. You can (I advise this) 
 
 Following are the core exercises that you should try and complete by the end of the class. Of course, if you can do more, it's great. Remember, some of these will take a very short amount of time and some longer. If you are lost, it means you need to go back and study from the [lecture notes](http://rebrand.ly/comp125lectureNotes).
 
-- recursionPracticeProject
-	- Stage1.java
-		- sum
-		- sumSquares
-	- Stage2.java
-		- sumEvenDigits
-	- Stage3.java
-		- reverse
 - listPractice
 	- javaLists
 		- Stage1.java
@@ -27,6 +19,15 @@ Following are the core exercises that you should try and complete by the end of 
 			- allPrimes
 		- Stage3.java
 			- removeNegatives
+- recursionPracticeProject
+	- Stage1.java
+		- sum
+		- sumSquares
+	- Stage2.java
+		- sumEvenDigits
+	- Stage3.java
+		- reverse
+- listPractice
 	- customBuiltArrayList
 		- grow
 		- add(int, int)
