@@ -20,6 +20,7 @@ Following are the exercises that we recommend you try and complete by the end of
 		- sumEvenDigits
 	- Stage3.java
 		- reverse
+		
 - listPracticeProject
 	- javaLists
 		- Stage1.java
