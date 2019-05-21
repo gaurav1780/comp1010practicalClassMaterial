@@ -44,3 +44,7 @@ Following are the exercises that we recommend you try and complete by the end of
 		- MyLinkedList
 			- allEven
 			- highest
+
+## Cognition of Coding Survey
+
+Please use the last 40 minutes of the practical class to complete the survey at: [https://mqedu.qualtrics.com/jfe/form/SV_czOMgjqabiQ6Evj](https://mqedu.qualtrics.com/jfe/form/SV_czOMgjqabiQ6Evj)
