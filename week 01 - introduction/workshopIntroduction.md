@@ -10,14 +10,6 @@ Most of you have done COMP115 at Macquarie with Processing as the programming la
 - 5 minutes: be ready to use the lab computers (setup accounts and iLearn)
 - 55 minutes: revise COMP115/WCOM115 topics
 
-
-# Survey
-
-At the start and end of this course, we ask you to complete a skills assessment survey (that will take up to 30 minutes to completed).  This survey is primarily a learning and teaching tool in that it makes you aware of the skills related to programming and helps you judge your own approach to programming.  However, the survey may also be used in a research study if you give consent for your data to be used.
-
-The aim of this project is to study how different cognitive skills (such as language, memory and logic) are involved in learning computer programming. For this study you will be given a series of tests to complete in your first and your last tutorial. These tests will not be graded and will not influence your marks for the course, but will give you some insight into your own thinking and the kind of skills that you will be learning this semester. Everyone will be asked to complete the tests during the tutorial and we would like to invite you to share your test results from this tutorial as part of a study in the department of Cognitive Science to help us with the research project.
-
-Survey link: [https://mqedu.qualtrics.com/jfe/form/SV_0dEjSZq5DklHALr](https://mqedu.qualtrics.com/jfe/form/SV_0dEjSZq5DklHALr)
 # Revision
 
 We will go through some questions that will help you revise COMP115. We have created material for students with the transition from COMP115 to COMP125 which is available [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops). Each topic contains a `.md` file containing the material.
