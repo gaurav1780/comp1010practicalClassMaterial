@@ -9,6 +9,24 @@ Most of you have done COMP115 at Macquarie with Processing as the programming la
 - 10 minutes: be ready to use the lab computers (setup accounts and iLearn)
 - 90 minutes: revise COMP115/WCOM115 topics
 
+## COMP125 Support Structure
+
+In COMP125, we understand that programming doesn't come naturally to everyone. Some learn faster than others. There are two kinds of support sessions provided in COMP125:
+
+1. Faculty-funded PAL sessions conducted by Cooper Timewell (current 2nd year student) starting **week 1**
+	1. Thursday 12pm - 1pm (23 Wallys Walk - 103 Tutorial Rm)
+	2. Thursday 1pm - 2pm (4 Western Rd - 312 Tutorial Rm)
+	3. Thursday 2pm - 3pm (4 Western Rd - 312 Tutorial Rm)
+2. Unit-funded support sessions conducted by Cooper Timewell (2nd year), John Kim, Mark Smith (both 3rd year) starting **week 2**
+	1. Monday 3pm - 4pm (9 Wallys Walk - 112)
+	2. Tuesday 11am - 12pm (9 Wallys Walk - 110)
+	3. Tuesday 3pm - 4pm **TO BE CONFIRMED**
+	4. Wednesday 4pm - 5pm **TO BE CONFIRMED**
+	5. Friday 1pm - 2pm **TO BE CONFIRMED**
+	6. Friday 6pm - 7pm (9 Wallys Walk - 114) **Specially scheduled for full-time working students**
+	
+* The times for sessions marked as **to be confirmed** are subject to change.
+
 # Revision
 
 We will go through some questions that will help you revise COMP115. We have created material for students with the transition from COMP115 to COMP125 which is available [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops). Each topic contains a `.md` file containing the material.
