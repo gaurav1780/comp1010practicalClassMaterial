@@ -7,7 +7,8 @@ Most of you have done COMP115 at Macquarie with Processing as the programming la
 
 - 10 minutes: introductions
 - 10 minutes: be ready to use the lab computers (setup accounts and iLearn)
-- 90 minutes: revise COMP115/WCOM115 topics
+- 10 minutes: installing Java SE and Eclipse IDE
+- 80 minutes: revise COMP115/WCOM115 topics
 
 ## COMP125 Support Structure
 
@@ -20,12 +21,31 @@ In COMP125, we understand that programming doesn't come naturally to everyone. S
 2. Unit-funded support sessions conducted by Cooper Timewell (2nd year), John Kim, Mark Smith (both 3rd year) starting **week 2**
 	1. Monday 3pm - 4pm (9 Wallys Walk - 112)
 	2. Tuesday 11am - 12pm (9 Wallys Walk - 110)
-	3. Tuesday 3pm - 4pm **TO BE CONFIRMED**
-	4. Wednesday 4pm - 5pm **TO BE CONFIRMED**
-	5. Friday 1pm - 2pm **TO BE CONFIRMED**
+	3. Tuesday 3pm - 4pm **(TO BE CONFIRMED)**
+	4. Wednesday 4pm - 5pm **(TO BE CONFIRMED)**
+	5. Friday 1pm - 2pm **(TO BE CONFIRMED)**
 	6. Friday 6pm - 7pm (9 Wallys Walk - 114) **Specially scheduled for full-time working students**
 	
-* The times for sessions marked as **to be confirmed** are subject to change.
+* The times for sessions marked as **(TO BE CONFIRMED)** are subject to change.
+
+## Installing Java SE and Eclipse IDE
+
+Java is the programming language while Eclipse is one of the editors in which you write Java programs.
+
+Current version of Java SE is `12.0.2` and Eclipse IDE is `2019-06`.
+
+You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE).
+
+A Google search for "Download Java SE" should take you to the right link, which is [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+
+If you are using Windows, most likely yours is a 64-bit OS. 
+
+After installing Java SE, you can Google for "Download Eclipse" which should take you to [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/). Download the installer and run it.
+
+Choose `Eclipse IDE for Java Developers` from the list of options.
+
+If you have any problem installing Java and/or Eclipse, try troubleshooting with your friends. If the problem persists, bring your laptop to one of the above listed **support sessions** and we'll help you out. Please do not ask your lecturer or tutor to sort it during classes as these sessions are not designed for troubleshooting such issues.
+
 
 # Revision
 
