@@ -238,3 +238,45 @@ boolean somethingInCommon(int[] a, int[] b) {
 	return false; //to be completed
 }
 ```
+
+## Advanced questions
+
+We understand that some students are quite advanced so here's a section to keep them *entertained*.
+
+#### AQ1 (Advanced question 1)
+
+Define a function that when passed two arrays, returns `true` if they have any item in common, `false` otherwise.
+
+#### AQ2 
+
+Define a function that when passed an array, returns an array containing only the positive items from the array passed.
+
+#### AQ3
+
+A *set* is defined as a collection of unique values. That is, each item in a set occurs exactly once. 
+
+Define a function that when passed an array, returns a *set* version of the array. The order of occurrence of items in the array returned should be the same as the order of the **first** occurrences of the items in the array passed.
+
+For example, if the array passed is `{10, 70, 20, 30, 30, 30, 10, 70, 20}`, return the array `{10, 70, 20, 30}`.
+
+#### AQ4
+
+Define a function that when passed an array, returns a *frequency table* of the array in the form of a two-dimensional array. Each subarray of the array should have two items - 
+
+- the first item holding the value of the item in the passed array
+- the second item holding number of times that item exists in the passed array.
+
+The order of occurrence of the first item of each subarray in the array returned should be the same as the order of the **first** occurrences of the items in the array passed.
+
+For example, if the array passed is 
+
+```java
+{10, -4, 8, 0, -4, -4, -4, 8, 2, -4, 6, 6, 10, 10, 6}, 
+```
+
+return the array 
+
+```java
+{{10, 3}, {-4, 5}, {8, 2}, {0, 1}, {2, 1}, {6, 3}}
+```
+as the item 10 exists 3 times, the item -4 exists 5 times and so on.
