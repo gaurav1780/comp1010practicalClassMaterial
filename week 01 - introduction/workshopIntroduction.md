@@ -174,13 +174,18 @@ int result = foo(p - 2, q + 2);
 
 ## STORAGE OF ARRAYS
 
-Draw the memory diagram that illustrates the arrays stored in the memory for the following code:
+Discuss this question as a group.
 
 ```java
-int[] a = {10, 70, 20, 90, 30};
-int[] b = {a[2], a[1], a[0]};
-int[] c = b;
+int[] a = {10, 70, 20, 90, 30}; //a refers to an array instance containing 5 items
+int[] b = {a[2], a[1], a[0]}; 
+//new array instance creating three items from a created, b refers to this instance 
+int[] c = b; //c is a reference copy. c and b both refer to the same instance of the array
 ```
+
+The notation scheme for the memory diagram we will be using is as follows:
+
+![](./figs/arrayStorage.png)
 
 ## CREATING AN ARRAY
 
