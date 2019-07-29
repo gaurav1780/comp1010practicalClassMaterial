@@ -171,7 +171,7 @@ int result = foo(p - 2, q + 2);
     - if the boolean value is `true`, return the square of the integer 
     - if the boolean value is `false`,
 		- if the integer is positive, return the integer itself
-		- if the integer is positive, return negative of the integer
+		- if the integer is not positive, return negative of the integer
 
 ## STORAGE OF ARRAYS
 
