@@ -166,11 +166,12 @@ int result = foo(p - 2, q + 2);
 ## DEFINING A FUNCTION
 
 1. Write a function that when passed an integer, return `true` if it is even (divisible by 2), and `false` otherwise.
-2. Write a function that when passed an integer and a boolean, returns:
+2. Write a function that when passed an integer and a boolean,
 
-    - the square of the integer if the boolean value is `true`
-		- the integer itself, if the boolean value is `false` and the integer is positive
-		- negative of the integer, if the boolean value is `false` and the integer is not positive
+    	- if the boolean value is `true`, return the square of the integer 
+	- if the boolean value is `false`,
+		- if the integer is positive, return the integer itself
+		- if the integer is positive, return negative of the integer
 
 ## STORAGE OF ARRAYS
 
