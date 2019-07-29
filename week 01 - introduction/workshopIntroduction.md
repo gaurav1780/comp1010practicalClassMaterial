@@ -178,7 +178,7 @@ Discuss this question as a group.
 
 ```java
 int[] a = {10, 70, 20, 90, 30}; //a refers to an array instance containing 5 items
-int[] b = {a[2], a[1], a[0]}; 
+int[] b = {a[4], a[2], a[0]}; 
 //new array instance creating three items from a created, b refers to this instance 
 int[] c = b; //c is a reference copy. c and b both refer to the same instance of the array
 ```
