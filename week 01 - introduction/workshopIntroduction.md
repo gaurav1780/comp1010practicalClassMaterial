@@ -188,15 +188,55 @@ The notation scheme for the memory diagram we will be using is as follows:
 
 ![](./figs/arrayStorage.png)
 
-## CREATING AN ARRAY
+## OPERATING ON AN ARRAY
 
-1. Declare an array `arr` to store integers. 
-2. Instantiate it to hold 400 integers. 
-3. Using a loop, initialize the items such that,
-    - the first item is 10, 
-    - the second item is 15, 
-    - the third item is 20,
-    - and so on ...
+In this unit, we'll be doing a fair amount of problem solving with arrays.
+
+Some key points (assuming an integer array `data`) - 
+
+1. The number of items is given by `data.length`
+2. The first item is at index 0 and is given by data[0]
+3. The last item is at index `data.length - 1` and is given by data[data.length - 1]
+4. You go through each item using the loop header `for(int i=0; i < data.length; i++)` and the current item is given by `data[i]`.
+
+#### EXAMPLE 1
+
+The following code stores, in variable `countPos`, the number of positive values in an array `data`.
+
+```java
+int countPos = 0;
+for(int i=0; i < data.length; i++) {
+	if(data[i] > 0) { //NOT >= since 0 is NOT a positive item
+		countPos++;
+	}
+}
+```
+
+#### EXAMPLE 2
+
+The following code stores, in variable `isAsc`, `true` if array `data` is in ascending order, `false` otherwise.
+
+```java
+boolean isAsc = true; //assume ascending order
+for(int i=0; i < data.length - 1; i++) { //notice the -1 since we are accessing data[i+1] as well
+	if(data[i] > data[i+1]) { //an item is more than the next item, violating ascending order rule
+		isAsc = false;	
+	}
+}
+```
+
+#### IMPROVEMENT ON EXAMPLE 2
+
+Once `isAsc` changes from `true` to `false`, we don't need to execute the loop further. So we can add `isAsc` to the loop expression.
+
+```java
+boolean isAsc = true;
+for(int i=0; i < data.length - 1 && isAsc; i++) { //loop terminates if isAsc is false
+	if(data[i] > data[i+1]) { 
+		isAsc = false;	
+	}
+}
+```
 
 ## FUNCTIONS HANDLING ARRAYS
 
