@@ -34,7 +34,7 @@ Java is the programming language while Eclipse is one of the editors in which yo
 
 Current version of Java SE is `12.0.2` and Eclipse IDE is `2019-06`.
 
-You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE).
+You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE), **before you install Eclipse**.
 
 A Google search for "Download Java SE" should take you to the right link, which is [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
