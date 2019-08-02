@@ -5,23 +5,21 @@
 
 You have downloaded and installed Java SE (previously known as Java SDK) on your computer if you are using it. The software is installed in all Computing laboratories.
 
-# Outline 
+## IMPORTANT: Pair up for this lab. If you want to work individually, get permission from your tutor.
+Create your group at [https://ilearn.mq.edu.au/mod/groupselect/view.php?id=5312993](https://ilearn.mq.edu.au/mod/groupselect/view.php?id=5312993)
 
-1. Why you should solve HackerRank contests, demo - **15** minutes
-2. Structure of a Java program - **15** minutes
-3. Compiling and executing a Java program - **15** minutes
-4. Importing a Java project from an **archive file** in Eclipse - **10** minutes
-5. Exporting a Java project to an **archive file** from Eclipse - **10** minutes
-6. Completing a simple Java program - **15** minutes
-7. Problem solving (**extremely useful for practical exam 1**) - **20** minutes
+## Suggested Timeline 
+
+- 5 minutes past start: Structure of a Java program
+- 15 minutes past start: Compiling and executing a Java program
+- 25 minutes past start: Importing a Java project from an **archive file** in Eclipse
+- 35 minutes past start: JUnit test example
+- 60 minutes past start: Exporting a Java project to an **archive file** from Eclipse
+- 75 minutes past start: Completing a simple Java program
+- 90 minutes past start: Problem solving (**extremely useful for practical exam 1**)
 
 
-
-# HackerRank
-
-We have created several HackerRank contests we will release over the semester. These will help you do well in your practical exams. Your demo will give you a short demonstration of the first HackerRank contest at [https://www.hackerrank.com/comp115-concepts](https://www.hackerrank.com/comp115-concepts)
-
-# Structure of a Java program
+## Structure of a Java program
 
 The following is true for basic java programs (the kind we'll see in the beginning). More advanced program structures shall be discussed as needed.
 
@@ -95,7 +93,7 @@ public class MyFirstProgram {
 Write a Java program that initializes two integers to values of your choice and display their product. Save it in a file `Product.java`.
 
 
-# Compiling and executing a Java program
+## Compiling and executing a Java program
 
 Running a java program is a two-stage process:
 
@@ -121,7 +119,7 @@ Every time you change the source file, you need to re-compile it to a fresh clas
 
 Compile and execute the program written in Question 3.
 
-# Importing a Java project from an ***archive file*** in Eclipse
+## Importing a Java project from an ***archive file*** in Eclipse
 
 Luckily, we have sophisticated softwares known as *Integrated Development Environments* (IDE) that offer extensive GUI and functionalities that we don't have to compile and execute programs through command prompt.
 
@@ -166,7 +164,21 @@ Repeat the same with `SpeedCalculator.java`
 
 Complete the steps described in the program `AverageSpeedCalculator.java` so that the average speed of a return trip is calculated. The output should be 15.384....
 
-# Exporting a Java project to an ***archive file*** from Eclipse
+### Question 8.
+
+Import the project from [[practicePacakgeWeek1.zip](./codes/myFirstEclipseArchiveFile.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
+
+- `myFirstEclipseProject`
+	- `src`
+		- `(default package)`
+			- `Question01.java`
+			- `Question02.java`
+			- ...
+			- `Question22.java`
+
+Each file contains a method you need to complete followed by the corresponding test (indicated by `@Test`). Your tutor will demonstrate test-driven programming using `Question02.java`. Based on that, complete whichever methods you can in the next 15-20 minutes.
+
+## Exporting a Java project to an ***archive file*** from Eclipse
 
 After you have completed question 7, export the completed project to an archive file using the following steps:
 
@@ -180,11 +192,11 @@ After you have completed question 7, export the completed project to an archive 
 8. Choose location of your choice and choose the name `myFirstExportedArchive`.
 9. Click `Finish`
 
-### Question 8.
+### Question 9.
 
-Upload the file `myFirstExportedArchive.zip` on iLearn under `Week 2 submission`. 
+Upload the file `myFirstExportedArchive.zip` on iLearn under `Week 2 submission` as a group.
 
-### Question 9 (Problem solving)
+### Question 10 (Problem solving)
 
 This question must be answered **on a piece of paper** that must be returned to the tutor once you've finished.
 
@@ -230,7 +242,7 @@ public static boolean isBalanced(int[] data) {
 }
 ```
 
-# Extra questions for students who want/ need to be challenged 
+## Extra questions for students who want/ need to be challenged 
 
 Solve the following problems (in order of my perception of difficulty) from `codingbat`. Solutions to these will not be released. But you are free to search them online.
 
