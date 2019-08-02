@@ -16,17 +16,17 @@ In COMP125, we understand that programming doesn't come naturally to everyone. S
 
 1. Faculty-funded PAL sessions conducted by Cooper Timewell (current 2nd year student) starting **week 1**
 	1. Thursday 12pm - 1pm (23 Wallys Walk - 103 Tutorial Rm)
-	2. Thursday 1pm - 2pm (4 Western Rd - 312 Tutorial Rm)
-	3. Thursday 2pm - 3pm (4 Western Rd - 312 Tutorial Rm)
+	2. Thursday 1pm - 2pm (4 Western Road - 312 Tutorial Rm)
+	3. Thursday 2pm - 3pm (4 Western Road - 312 Tutorial Rm)
 2. Unit-funded support sessions conducted by Cooper Timewell (2nd year), John Kim, Mark Smith (both 3rd year) starting **week 2**
-	1. Monday 3pm - 4pm (9 Wallys Walk - 112)
-	2. Tuesday 11am - 12pm (9 Wallys Walk - 110)
-	3. Tuesday 3pm - 4pm ([4, Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
-	4. Wednesday 4pm - 5pm ([4, Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
-	5. Friday 1pm - 2pm ([3, Innovation Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) G210)
-	6. Friday 6pm - 7pm (9 Wallys Walk - 114)
+	1. Monday 3pm - 4pm (9 Wallys Walk - Lab 112)
+	2. Tuesday 11am - 12pm (9 Wallys Walk - Lab 110)
+	3. Tuesday 3pm - 4pm ([4 Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
+	4. Wednesday 4pm - 5pm ([4 Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
+	5. Friday 1pm - 2pm ([3 Innovation Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) G210)
+	6. Friday 6pm - 7pm (9 Wallys Walk - Lab 114)
 	
-* The times for sessions marked as **(TO BE CONFIRMED)** are subject to change.
+Times and rooms are subject to change. Please refer to latesst schedule on iLearn (right panel).
 
 ## Installing Java SE and Eclipse IDE
 
