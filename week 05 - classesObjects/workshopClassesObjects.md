@@ -389,4 +389,4 @@ public static int countSquares(Rectangle[] data) {
 	- all objects in the one-dimensional array `buckets[3]` have the same area, 
 	- and so on...
 
-2. (Not related to classes and objects but aimed at students who might want something a little ... extra). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs firstw in case of a tie.
+2. (Not related to classes and objects but aimed at students who might want something a little ... extra). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs first in case of a tie.
