@@ -21,9 +21,9 @@ In COMP125, we understand that programming doesn't come naturally to everyone. S
 2. Unit-funded support sessions conducted by Cooper Timewell (2nd year), John Kim, Mark Smith (both 3rd year) starting **week 2**
 	1. Monday 3pm - 4pm (9 Wallys Walk - 112)
 	2. Tuesday 11am - 12pm (9 Wallys Walk - 110)
-	3. Tuesday 3pm - 4pm ([BD Building](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
-	4. Wednesday 4pm - 5pm ([BD Building](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
-	5. Friday 1pm - 2pm ([EMC Lab](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) G210)
+	3. Tuesday 3pm - 4pm ([4, Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
+	4. Wednesday 4pm - 5pm ([4, Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
+	5. Friday 1pm - 2pm ([3, Innovation Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) G210)
 	6. Friday 6pm - 7pm (9 Wallys Walk - 114)
 	
 * The times for sessions marked as **(TO BE CONFIRMED)** are subject to change.
