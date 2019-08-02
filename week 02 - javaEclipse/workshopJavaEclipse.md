@@ -168,7 +168,7 @@ Complete the steps described in the program `AverageSpeedCalculator.java` so tha
 
 Import the project from [[practicePacakgeWeek1.zip](./codes/myFirstEclipseArchiveFile.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
 
-- `myFirstEclipseProject`
+- `practicePackageWeek1`
 	- `src`
 		- `(default package)`
 			- `Question01.java`
