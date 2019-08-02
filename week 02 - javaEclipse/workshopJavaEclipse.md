@@ -176,7 +176,12 @@ Import the project from [[practicePacakgeWeek1.zip](./codes/myFirstEclipseArchiv
 			- ...
 			- `Question22.java`
 
-Each file contains a method you need to complete followed by the corresponding test (indicated by `@Test`). Your tutor will demonstrate test-driven programming using `Question02.java`. Based on that, complete whichever methods you can in the next 15-20 minutes.
+Each file contains a method you need to complete followed by the corresponding test (indicated by `@Test`). Your tutor will demonstrate test-driven programming using:
+
+- `Question01.java` (test for method returning `boolean`), and, 
+- `Question02.java`(test for method returning `int`).
+
+Based on that, complete whichever methods you can in the next 15-20 minutes.
 
 ## Exporting a Java project to an ***archive file*** from Eclipse
 
