@@ -6,7 +6,6 @@
 You have downloaded and installed Java SE (previously known as Java SDK) on your computer if you are using it. The software is installed in all Computing laboratories.
 
 ## IMPORTANT: Pair up for this lab. If you want to work individually, get permission from your tutor.
-Create your group at [https://ilearn.mq.edu.au/mod/groupselect/view.php?id=5312993](https://ilearn.mq.edu.au/mod/groupselect/view.php?id=5312993)
 
 ## Suggested Timeline 
 
@@ -164,7 +163,25 @@ Repeat the same with `SpeedCalculator.java`
 
 Complete the steps described in the program `AverageSpeedCalculator.java` so that the average speed of a return trip is calculated. The output should be 15.384....
 
+**TIP** `int/int = int` while `int/double = double`
+
 ### Question 8.
+
+#### Exporting a Java project to an ***archive file*** from Eclipse
+
+After you have completed question 7, export the completed project to an archive file using the following steps:
+
+1. Select the project `myFirstEclipseProject` in the left panel so that it is highlighted in blue.
+2. Choose `File`
+3. Choose `Export`
+4. Double-click (or expand) `General`
+5. Double-click `Archive file`.
+6. Make sure `myFirstEclipseProject` has a tick against it.
+7. Click on `Browse`.
+8. Choose location of your choice and choose the name `myFirstExportedArchive`.
+9. Click `Finish`
+
+### Question 9.
 
 Import the project from [[practicePacakgeWeek1.zip](./codes/myFirstEclipseArchiveFile.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
 
@@ -183,23 +200,10 @@ Each file contains a method you need to complete followed by the corresponding t
 
 Based on that, complete whichever methods you can in the next 15-20 minutes.
 
-## Exporting a Java project to an ***archive file*** from Eclipse
+### Submission activity for this week
 
-After you have completed question 7, export the completed project to an archive file using the following steps:
-
-1. Select the project `myFirstEclipseProject` in the left panel so that it is highlighted in blue.
-2. Choose `File`
-3. Choose `Export`
-4. Double-click (or expand) `General`
-5. Double-click `Archive file`.
-6. Make sure `myFirstEclipseProject` has a tick against it.
-7. Click on `Browse`.
-8. Choose location of your choice and choose the name `myFirstExportedArchive`.
-9. Click `Finish`
-
-### Question 9.
-
-Upload the file `myFirstExportedArchive.zip` on iLearn under `Week 2 submission` as a group.
+For week 2, the submission required is the exported project for Question 9. You can make the submission by **Saturday 11th August 21:00**.
+There are a total of 22 methods. You pass this activity if tests for 10 or more methods pass. The more methods you can solve, the better are your prospects in the practical exams. After completing the methods, follow the steps from Question 8 to export to archive file. Name the archive file `studentID.zip` where `studentID` is your 8-digit Student ID and upload this file.
 
 ### Question 10 (Problem solving)
 
