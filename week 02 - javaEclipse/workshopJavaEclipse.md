@@ -145,7 +145,7 @@ Complete the steps described in the program `AverageSpeedCalculator.java` so tha
 
 ### Exporting a Java project to an ***archive file*** from Eclipse
 
-After you have completed question 7, export the completed project to an archive file using the following steps:
+Export the completed project to an archive file using the following steps:
 
 1. Select the project `myFirstEclipseProject` in the left panel so that it is highlighted in blue.
 2. Choose `File`
