@@ -159,7 +159,7 @@ After you have completed question 7, export the completed project to an archive 
 
 ### Question 7.
 
-Import the project from [practicePacakgeWeek1.zip](./codes/myFirstEclipseArchiveFile.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
+Import the project from [practicePacakgeWeek1.zip](./codes/practicePackageWeek1.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
 
 - `practicePackageWeek1`
 	- `src`
