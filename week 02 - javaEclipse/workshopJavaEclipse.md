@@ -159,7 +159,7 @@ Export the completed project to an archive file using the following steps:
 
 ### Question 7.
 
-Import the project from [practicePacakgeWeek1.zip](./codes/practicePackageWeek1.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
+Import the project from [practicePackageWeek1.zip](./codes/practicePackageWeek1.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
 
 - `practicePackageWeek1`
 	- `src`
