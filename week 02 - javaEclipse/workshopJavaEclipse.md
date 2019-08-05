@@ -178,8 +178,8 @@ Based on that, complete `Question04.java` and `Question13.java` and run correspo
 
 # Submission activity for this week
 
-For week 2, the submission required is the exported project for Question 9. You can make the submission by **Saturday 11th August 21:00**.
-There are a total of 22 methods. You pass this activity if tests for 10 or more methods pass. The more methods you can solve, the better are your prospects in the practical exams. After completing the methods, follow the steps from Question 8 to export to archive file. Name the archive file `studentID.zip` where `studentID` is your 8-digit Student ID and upload this file.
+For week 2, the submission required is the exported project for Question 7. You can make the submission by **Saturday 11th August 21:00**.
+There are a total of 22 methods. You pass this activity if tests for 10 or more methods pass. The more methods you can solve, the better are your prospects in the practical exams. After completing the methods, follow the steps from Question 6 to export to archive file. Name the archive file `studentID.zip` where `studentID` is your 8-digit Student ID and upload this file.
 
 ### Question 8 (Problem solving)
 
