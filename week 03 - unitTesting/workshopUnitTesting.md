@@ -206,10 +206,22 @@ public void testIndexOf() {
 
 Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. There ae 35 mandatory methods to complete (out of a total of 118 methods). Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
 
-There are 35 methods that I have marked mandatory. You must complete -
+Choice of questions (read below for details)
+
+Choice of questions (read my reply below for details)
+
+#### Stage 1: All 13 questions
+
+#### Stage 2 (19 questions):
+`sum, sumPositives, sumMultiples, sumNotInRange, sumEvenIndexedItems, resetNegatives, makeAbsolute, countFactors, countOccurrences, indexOf, lastIndexOf, containsBetweenIndices, sumUpToIndex, productNegativesFromIndex, allNonZeroes, containsPositive, isDescending, isBalanced, getCopy`
+
+#### Stage 3 (3 questions):
+`generatePatternedArray, identical, mutuallyReverse`
+
+### You must complete -
 
 1. at least 24 methods overall, and,
 2. at least 10 methods from stage 2, and,
 3. at least 1 method from stage 3.
 
-(So while normally i'd expect students to do 13 from stage 1, 10 from stage 2 and 1 from stage 3; technically, you can do 23 methods from stage 2 and 1 from stage 3, or 10 from stage 2 and 13 from stage 3...)
+(So while normally i'd expect students to do 13 from stage 1, 10 from stage 2 and 1 from stage 3; technically, you can do 23 methods from stage 2 and 1 from stage 3, or 10 from stage 2 and 13 from stage 3, etc.)
