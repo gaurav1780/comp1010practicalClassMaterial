@@ -202,8 +202,6 @@ public void testIndexOf() {
 }
 ```
 
-## Question 8 (1 hour)
+## Question 8
 
-We have created a sample practical exam on [iLearn](TODO). 
-
-Your actual exam will have a similar structure (but 45 minutes to answer)
+Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. There ae 35 mandatory methods to complete (out of a total of 118 methods). Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
