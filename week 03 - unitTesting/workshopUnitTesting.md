@@ -208,8 +208,6 @@ Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/di
 
 Choice of questions (read below for details)
 
-Choice of questions (read my reply below for details)
-
 #### Stage 1: All 13 questions
 
 #### Stage 2 (19 questions):
