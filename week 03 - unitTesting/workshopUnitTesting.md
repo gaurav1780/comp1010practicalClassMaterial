@@ -9,13 +9,6 @@
 3. Satisfying JUnit tests
 4. Writing JUnit tests
 
-
-# HackerRank
-
-By now, you should have attempted the first contest at [https://www.hackerrank.com/comp115-concepts](https://www.hackerrank.com/comp115-concepts).
-
-This week's HackerRank contest is at [https://www.hackerrank.com/problem-solving-with-arrays](https://www.hackerrank.com/problem-solving-with-arrays)
-
 # Test quality
 
 When writing tests for a particular method, a set of input-output mappings is used to test the correctness of the method. This set should test as many scenarios as possible.
