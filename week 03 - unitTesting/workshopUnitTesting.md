@@ -204,7 +204,7 @@ public void testIndexOf() {
 
 ## Question 8
 
-Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. There ae 35 mandatory methods to complete (out of a total of 118 methods). Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
+Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. There are 35 mandatory methods to complete (out of a total of 118 methods). Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
 
 Choice of questions (read below for details)
 
