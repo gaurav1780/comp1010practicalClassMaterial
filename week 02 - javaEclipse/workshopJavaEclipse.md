@@ -5,23 +5,19 @@
 
 You have downloaded and installed Java SE (previously known as Java SDK) on your computer if you are using it. The software is installed in all Computing laboratories.
 
-# Outline 
+## IMPORTANT: Pair up for this lab. If you want to work individually, get permission from your tutor.
 
-1. Why you should solve HackerRank contests, demo - **15** minutes
-2. Structure of a Java program - **15** minutes
-3. Compiling and executing a Java program - **15** minutes
-4. Importing a Java project from an **archive file** in Eclipse - **10** minutes
-5. Exporting a Java project to an **archive file** from Eclipse - **10** minutes
-6. Completing a simple Java program - **15** minutes
-7. Problem solving (**extremely useful for practical exam 1**) - **20** minutes
+## Suggested Timeline 
+
+- 5 minutes past start: Structure of a Java program
+- 25 minutes past start: Importing a Java project from an **archive file** in Eclipse
+- 35 minutes past start: JUnit test example
+- 60 minutes past start: Exporting a Java project to an **archive file** from Eclipse
+- 75 minutes past start: Completing a simple Java program
+- 90 minutes past start: Problem solving (**extremely useful for practical exam 1**)
 
 
-
-# HackerRank
-
-We have created several HackerRank contests we will release over the semester. These will help you do well in your practical exams. Your demo will give you a short demonstration of the first HackerRank contest at [https://www.hackerrank.com/comp115-concepts](https://www.hackerrank.com/comp115-concepts)
-
-# Structure of a Java program
+## Structure of a Java program
 
 The following is true for basic java programs (the kind we'll see in the beginning). More advanced program structures shall be discussed as needed.
 
@@ -92,36 +88,15 @@ public class MyFirstProgram {
 
 ### Question 3.
 
-Write a Java program that initializes two integers to values of your choice and display their product. Save it in a file `Product.java`.
+1. Create a new Java project named `simpleJavaProject`.
+	1. DO NOT create `module-info.java` when prompted.
+2. Right click on project and choose `New` -> `Class`. 
+3. Choose the name `Product`.
+	1. Make sure you enable the box for including `public static void main(String[] args)`.
+4. In the `main` method of file `Product.java`, initialize two integers with names and values of your choice and display their product. Values are displayed using `System.out.println` method.
+5. Run the program using the *Play* button. For example, if the variables hold the values 4 and 9, you should see the value 36 in the console. 
 
-
-# Compiling and executing a Java program
-
-Running a java program is a two-stage process:
-
-1. Compilation - converts high level (or user level) java source code (.java) to assembly level java bytecode (.class - also known as *classfile*). The command for compilation a java file named `XYZ.java` is:
-
-```bash
-javac XYZ.java
-```
-	
-This generates a classfile `XYZ.class` in the same directory as the source file.
-
-2. Execution - executes the bytecode or classfile. The command for executing a classfile `XYZ.class` is:
-
-```bash
-java XYZ
-```
-	
-(Notice the absence of `.class`).
-
-Every time you change the source file, you need to re-compile it to a fresh classfile before executing it (the classfile).
-	
-### Question 4.
-
-Compile and execute the program written in Question 3.
-
-# Importing a Java project from an ***archive file*** in Eclipse
+### Importing a Java project from an ***archive file*** in Eclipse
 
 Luckily, we have sophisticated softwares known as *Integrated Development Environments* (IDE) that offer extensive GUI and functionalities that we don't have to compile and execute programs through command prompt.
 
@@ -141,7 +116,7 @@ The steps required to import one or more java projects contained in an archive f
 8. Locate and select archive file `archive.zip`
 9. Click `Finish`
 
-### Question 5.
+### Question 4.
 
 Import project contained in [myFirstEclipseArchiveFile.zip](./codes/myFirstEclipseArchiveFile.zip). There should be a project `myFirstEclipseProject` when imported containing the following structure:
 
@@ -152,7 +127,7 @@ Import project contained in [myFirstEclipseArchiveFile.zip](./codes/myFirstEclip
 			- `SpeedCalculator.java`
 			- `Welcome.java`
 
-### Question 6.
+### Question 5.
 
 Double click on `Welcome.java` and run it using the Play Button.
 
@@ -162,13 +137,15 @@ You should see the output in the console.
 
 Repeat the same with `SpeedCalculator.java`
 
-### Question 7.
+### Question 6.
 
 Complete the steps described in the program `AverageSpeedCalculator.java` so that the average speed of a return trip is calculated. The output should be 15.384....
 
-# Exporting a Java project to an ***archive file*** from Eclipse
+**TIP** `int/int = int` while `int/double = double`
 
-After you have completed question 7, export the completed project to an archive file using the following steps:
+### Exporting a Java project to an ***archive file*** from Eclipse
+
+Export the completed project to an archive file using the following steps:
 
 1. Select the project `myFirstEclipseProject` in the left panel so that it is highlighted in blue.
 2. Choose `File`
@@ -180,11 +157,31 @@ After you have completed question 7, export the completed project to an archive 
 8. Choose location of your choice and choose the name `myFirstExportedArchive`.
 9. Click `Finish`
 
-### Question 8.
+### Question 7.
 
-Upload the file `myFirstExportedArchive.zip` on iLearn under `Week 2 submission`. 
+Import the project from [practicePackageWeek1.zip](./codes/practicePackageWeek1.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
 
-### Question 9 (Problem solving)
+- `practicePackageWeek1`
+	- `src`
+		- `(default package)`
+			- `Question01.java`
+			- `Question02.java`
+			- ...
+			- `Question22.java`
+
+Each file contains a method you need to complete followed by the corresponding test (indicated by `@Test`). Your tutor will demonstrate test-driven programming using:
+
+- `Question01.java` (test for method returning `boolean`), and, 
+- `Question02.java`(test for method returning `int`).
+
+Based on that, complete `Question04.java` and `Question13.java` and run corresponding tests.
+
+# Submission activity for this week
+
+For week 2, the submission required is the exported project for Question 7. You can make the submission by **Sunday 11th August 21:00**.
+There are a total of 22 methods. You pass this activity if tests for 10 or more methods pass. The more methods you can solve, the better are your prospects in the practical exams. After completing the methods, follow the steps from Question 6 to export to archive file. Name the archive file `studentID.zip` where `studentID` is your 8-digit Student ID and upload this file.
+
+### Question 8 (Problem solving)
 
 This question must be answered **on a piece of paper** that must be returned to the tutor once you've finished.
 
@@ -230,7 +227,7 @@ public static boolean isBalanced(int[] data) {
 }
 ```
 
-# Extra questions for students who want/ need to be challenged 
+## Extra questions for students who want/ need to be challenged 
 
 Solve the following problems (in order of my perception of difficulty) from `codingbat`. Solutions to these will not be released. But you are free to search them online.
 

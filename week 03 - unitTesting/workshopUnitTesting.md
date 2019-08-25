@@ -9,13 +9,6 @@
 3. Satisfying JUnit tests
 4. Writing JUnit tests
 
-
-# HackerRank
-
-By now, you should have attempted the first contest at [https://www.hackerrank.com/comp115-concepts](https://www.hackerrank.com/comp115-concepts).
-
-This week's HackerRank contest is at [https://www.hackerrank.com/problem-solving-with-arrays](https://www.hackerrank.com/problem-solving-with-arrays)
-
 # Test quality
 
 When writing tests for a particular method, a set of input-output mappings is used to test the correctness of the method. This set should test as many scenarios as possible.
@@ -202,8 +195,24 @@ public void testIndexOf() {
 }
 ```
 
-## Question 8 (1 hour)
+## Question 8
 
-We have created a sample practical exam on [iLearn](TODO). 
+Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. There are 35 mandatory methods to complete (out of a total of 118 methods). Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
 
-Your actual exam will have a similar structure (but 45 minutes to answer)
+Choice of questions (read below for details)
+
+#### Stage 1: All 13 questions
+
+#### Stage 2 (19 questions):
+`sum, sumPositives, sumMultiples, sumNotInRange, sumEvenIndexedItems, resetNegatives, makeAbsolute, countFactors, countOccurrences, indexOf, lastIndexOf, containsBetweenIndices, sumUpToIndex, productNegativesFromIndex, allNonZeroes, containsPositive, isDescending, isBalanced, getCopy`
+
+#### Stage 3 (3 questions):
+`generatePatternedArray, identical, mutuallyReverse`
+
+### You must complete -
+
+1. at least 24 methods overall, and,
+2. at least 10 methods from stage 2, and,
+3. at least 1 method from stage 3.
+
+(So while normally i'd expect students to do 13 from stage 1, 10 from stage 2 and 1 from stage 3; technically, you can do 23 methods from stage 2 and 1 from stage 3, or 10 from stage 2 and 13 from stage 3, etc.)

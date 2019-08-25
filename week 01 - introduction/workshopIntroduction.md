@@ -16,17 +16,17 @@ In COMP125, we understand that programming doesn't come naturally to everyone. S
 
 1. Faculty-funded PAL sessions conducted by Cooper Timewell (current 2nd year student) starting **week 1**
 	1. Thursday 12pm - 1pm (23 Wallys Walk - 103 Tutorial Rm)
-	2. Thursday 1pm - 2pm (4 Western Rd - 312 Tutorial Rm)
-	3. Thursday 2pm - 3pm (4 Western Rd - 312 Tutorial Rm)
+	2. Thursday 1pm - 2pm (4 Western Road - 312 Tutorial Rm)
+	3. Thursday 2pm - 3pm (4 Western Road - 312 Tutorial Rm)
 2. Unit-funded support sessions conducted by Cooper Timewell (2nd year), John Kim, Mark Smith (both 3rd year) starting **week 2**
-	1. Monday 3pm - 4pm (9 Wallys Walk - 112)
-	2. Tuesday 11am - 12pm (9 Wallys Walk - 110)
-	3. Tuesday 3pm - 4pm **(TO BE CONFIRMED)**
-	4. Wednesday 4pm - 5pm **(TO BE CONFIRMED)**
-	5. Friday 1pm - 2pm **(TO BE CONFIRMED)**
-	6. Friday 6pm - 7pm (9 Wallys Walk - 114) **Specially scheduled for full-time working students**
+	1. Monday 3pm - 4pm (9 Wallys Walk - Lab 112)
+	2. Tuesday 11am - 12pm (9 Wallys Walk - Lab 110)
+	3. Tuesday 3pm - 4pm ([4 Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
+	4. Wednesday 4pm - 5pm ([4 Research Park Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) Meeting Room 221)
+	5. Friday 1pm - 2pm ([3 Innovation Drive](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2001%20-%20introduction/figs/computingLocations.png) G210)
+	6. Friday 6pm - 7pm (9 Wallys Walk - Lab 114)
 	
-* The times for sessions marked as **(TO BE CONFIRMED)** are subject to change.
+Times and rooms are subject to change. Please refer to latesst schedule on iLearn (right panel).
 
 ## Installing Java SE and Eclipse IDE
 
@@ -34,7 +34,7 @@ Java is the programming language while Eclipse is one of the editors in which yo
 
 Current version of Java SE is `12.0.2` and Eclipse IDE is `2019-06`.
 
-You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE).
+You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE), **before you install Eclipse**.
 
 A Google search for "Download Java SE" should take you to the right link, which is [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
@@ -166,11 +166,12 @@ int result = foo(p - 2, q + 2);
 ## DEFINING A FUNCTION
 
 1. Write a function that when passed an integer, return `true` if it is even (divisible by 2), and `false` otherwise.
-2. Write a function that when passed an integer and a boolean, returns:
+2. Write a function that when passed an integer and a boolean,
 
-    - the square of the integer if the boolean value is `true`
-		- the integer itself, if the boolean value is `false` and the integer is positive
-		- negative of the integer, if the boolean value is `false` and the integer is not positive
+    - if the boolean value is `true`, return the square of the integer 
+    - if the boolean value is `false`,
+		- if the integer is positive, return the integer itself
+		- if the integer is not positive, return negative of the integer
 
 ## STORAGE OF ARRAYS
 
@@ -178,7 +179,7 @@ Discuss this question as a group.
 
 ```java
 int[] a = {10, 70, 20, 90, 30}; //a refers to an array instance containing 5 items
-int[] b = {a[2], a[1], a[0]}; 
+int[] b = {a[4], a[2], a[0]}; 
 //new array instance creating three items from a created, b refers to this instance 
 int[] c = b; //c is a reference copy. c and b both refer to the same instance of the array
 ```
@@ -187,15 +188,55 @@ The notation scheme for the memory diagram we will be using is as follows:
 
 ![](./figs/arrayStorage.png)
 
-## CREATING AN ARRAY
+## OPERATING ON AN ARRAY
 
-1. Declare an array `arr` to store integers. 
-2. Instantiate it to hold 400 integers. 
-3. Using a loop, initialize the items such that,
-    - the first item is 10, 
-    - the second item is 15, 
-    - the third item is 20,
-    - and so on ...
+In this unit, we'll be doing a fair amount of problem solving with arrays.
+
+Some key points (assuming an integer array `data`) - 
+
+1. The number of items is given by `data.length`
+2. The first item is at index 0 and is given by data[0]
+3. The last item is at index `data.length - 1` and is given by data[data.length - 1]
+4. You go through each item using the loop header `for(int i=0; i < data.length; i++)` and the current item is given by `data[i]`.
+
+#### EXAMPLE 1
+
+The following code stores, in variable `countPos`, the number of positive values in an array `data`.
+
+```java
+int countPos = 0;
+for(int i=0; i < data.length; i++) {
+	if(data[i] > 0) { //NOT >= since 0 is NOT a positive item
+		countPos++;
+	}
+}
+```
+
+#### EXAMPLE 2
+
+The following code stores, in variable `isAsc`, `true` if array `data` is in ascending order, `false` otherwise.
+
+```java
+boolean isAsc = true; //assume ascending order
+for(int i=0; i < data.length - 1; i++) { //notice the -1 since we are accessing data[i+1] as well
+	if(data[i] > data[i+1]) { //an item is more than the next item, violating ascending order rule
+		isAsc = false;	
+	}
+}
+```
+
+#### IMPROVEMENT ON EXAMPLE 2
+
+Once `isAsc` changes from `true` to `false`, we don't need to execute the loop further. So we can add `isAsc` to the loop expression.
+
+```java
+boolean isAsc = true;
+for(int i=0; i < data.length - 1 && isAsc; i++) { //loop terminates if isAsc is false
+	if(data[i] > data[i+1]) { 
+		isAsc = false;	
+	}
+}
+```
 
 ## FUNCTIONS HANDLING ARRAYS
 
