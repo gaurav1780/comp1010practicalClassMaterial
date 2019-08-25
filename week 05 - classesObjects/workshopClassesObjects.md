@@ -92,7 +92,7 @@ public class Date {
 }
 ```
 
-In a client code (outside the class `Date`), create an object to represent the date *13th April, 2011*.
+In a client code (outside the class `Date`), create an object to represent the date *13th April, 2011*. 
 
 <!--### Solution
 
@@ -102,19 +102,6 @@ graduation.day = 13;
 graduation.month = 4;
 graduation.year = 2011;
 ```-->
-
-#### Part 2
-
-For the same class definition (`Date`), draw the memory diagram that represents the following objects. Please refer to the lecture notes to see the representation scheme we have established.
-
-```java
-Date bday = new Date();
-bday.day = 31;
-bday.month = 7;
-bday.year = 1980;
-
-Date anniversary = null;
-```
 
 #### Part 3
 
@@ -159,8 +146,8 @@ List the mistakes (syntactical and logical) in the following constructor for cla
 
 ```java
 public void person(String s, int a) {
-        name = s;
-        age = a;
+	name = s;
+	age = a;
 }
 ```
 
@@ -173,7 +160,7 @@ Fixed constructor:
 
 ```java
 public Person(String s, int a) {
-        name = s;
+	name = s;
 	age = a;
 }
 ```
@@ -181,7 +168,7 @@ public Person(String s, int a) {
 
 #### Part 3
 
-Add a constructor to class Person with a single parameter for the instance variable name. The instance variable age should be set to 21.
+Add a constructor to class `Person` with a single parameter for the instance variable `name`. The instance variable `age` should be set to 21.
 
 <!--### Solution
 
@@ -221,7 +208,27 @@ Consider the class `GoalScoringRecord` in the project contained in `workshopClas
 <!--### Solution
 -->
 
-## Question 5
+## Question 5 
+
+This question is based on the class `Rectangle` in the project contained in `workshopClassesObjectsTemplate.zip`.
+
+Draw the memory diagram that represents the objects and instances when `line 8` in the follwing code is reached. Please refer to the lecture notes to see the representation scheme we have established.
+
+```java
+Rectangle r = new Rectangle(10, 20);
+Rectangle s = r;
+Rectangle t = s;
+Rectangle v = new Rectangle(10, 20);
+r.height = 8;
+r = v;
+t = null;
+System.out.println(r);
+System.out.println(s);
+System.out.println(t);
+System.out.println(v);
+```
+
+## Question 6
 
 For the class `Rectangle` in the project contained in `workshopClassesObjectsTemplate.zip`, consider the following client code (outside `Rectangle` class):
 
@@ -229,7 +236,8 @@ For the class `Rectangle` in the project contained in `workshopClassesObjectsTem
 Rectangle[] data = new Rectangle[5];
 ```
 
-1.	Draw the memory diagram representing the storage of array `data`.
+
+1. Draw the memory diagram representing the storage of array `data`.
 2.	What is the output of the following client code:
 
 	```java
