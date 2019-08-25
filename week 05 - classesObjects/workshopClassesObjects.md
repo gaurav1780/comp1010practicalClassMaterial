@@ -272,7 +272,7 @@ Rectangle[] data = new Rectangle[5];
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
-## Question 6
+## Question 7
 
 Complete the method `countSquares` (in class `RectangleClient.java`) that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
