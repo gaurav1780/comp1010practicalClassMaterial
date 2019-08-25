@@ -6,7 +6,6 @@
 
 - designing a class
 - creating objects
-- getters and setters
 - constructors
 - compareTo
 
@@ -144,88 +143,17 @@ myCar.price = 21999;
 
 #### Part 1
 
-Consider the following class definition:
-
-```java
-public class Person {
-	public String name;
-	public int age;
-}
-```
-
-With the help of an example, explain why it's a bad idea for the instance variables to be public.
-
-<!--### Solution
-
-```java
-Person p = new Person();
-p.name = "Hagrid";
-p.age = -6; //OOPS!
-```
--->
-
-#### Part 2
-
-Solve the problem of public instance variables in the previous part by first changing visibility of the instance variables of class `Person` to `private` and then adding **getters** and **setters**. **Age of person cannot be negative**. If the user tries to assign a negative value to a person's age, the person's age should be set to 0.
-
-<!--### Solution
-
-```java
-public class Person {
-        private String name;
-        private int age;
-        
-        //setters
-        public void setName(String str) {
-                name = str;
-        }
-        
-        public void setAge(int a) {
-                if(a <= 0)
-                        age = 0;
-                else
-                        age = a;
-        }
-        
-        public String getName() {
-                return name;
-        }
-        
-        public int getAge() {
-                return age;
-        }
-}
-```
--->
-
-#### Part 3
-
 Declare and instantiate an object `baddy` of class `Person` written in the previous part, representing a person named *Tom Marvolo Riddle* aged *71*.
 
 <!--### Solution
 ```java
 Person baddy = new Person();
-baddy.setName("Tom Marvolo Riddle");
-baddy.setAge(71);
+baddy.name = "Tom Marvolo Riddle";
+baddy.age = 71;
 ```
 -->
 
-#### Part 4
-
-Declare and instantiate an object `goody` of class `Person` written in the previous part, representing a person named *Luna Lovegood*. **Try** and assign the value -6 to her age. Display the values of the instance variables on the console. Luna's age should be displayed as zero (0).
-
-<!--### Solution
-
-```java
-Person goody = new Person();
-goody.setName("Luna Lovegood");
-goody.setAge(-6);
-System.out.println(goody.getName()); //"Luna Lovegood"
-System.out.println(goody.getAge()); //0
-```
--->
-
-#### Part 5
+#### Part 2
 
 List the mistakes (syntactical and logical) in the following constructor for class `Person`:
 
@@ -240,19 +168,18 @@ public void person(String s, int a) {
 
 1. Constructor should have no return type, not even void.
 2. Name of constructor should be exactly the same as the class name. So, Person, not person.
-3. Constructor should call setters to assign values to instance variables.
 
 Fixed constructor:
 
 ```java
 public Person(String s, int a) {
-        setName(s);
-        setAge(a);
+        name = s;
+	age = a;
 }
 ```
 -->
 
-#### Part 6
+#### Part 3
 
 Add a constructor to class Person with a single parameter for the instance variable name. The instance variable age should be set to 21.
 
@@ -260,13 +187,13 @@ Add a constructor to class Person with a single parameter for the instance varia
 
 ```java
 public Person(String s) {
-        setName(s);
-        setAge(18); //setter is used here as a best practice.
-)
+        name = s;
+        age = 18;
+}
 ```
 -->
 
-#### Part 7 (take-home question)
+#### Part 4 (take-home question)
 
 Assuming the constructor has been added to class `Person` according to the previous part, will the following statement run successfully or result in a compilation error? Explain your answer. If there is a compilation error, what should be done to fix it?
 
@@ -274,16 +201,18 @@ Assuming the constructor has been added to class `Person` according to the previ
 Person p = new Person();
 ```
 
-<!--### Solution
+<!--
+### Solution
 
 It will result in a compilation error since once parameterized constructors are defined, Java expects us to define the default constructor as well, and the default constructor that Java provides is no longer valid. The solution, therefore, is to add a default constructor.
 
 ```java
 public Person() {
-        setName("anonymous");
-        setAge(0);
+        name = "anonymous";
+        age = 0;
 }
-```-->
+```
+-->
 
 ## Question 4 (`compareTo` method)
 
@@ -304,8 +233,8 @@ Rectangle[] data = new Rectangle[5];
 2.	What is the output of the following client code:
 
 	```java
-	for(Rectangle temp: data) {
-		System.out.println(temp);
+	for(int i=0; i < data.length; i++) {
+		System.out.println(data[i]);
 	}
 	```
 
@@ -328,8 +257,8 @@ Rectangle[] data = new Rectangle[5];
 	<!--## SOLUTION
 	
 	```java
-	for(Rectangle temp: data) {
-		temp = new Rectangle(i+1); //square constructor exists
+	for(int i=0; i < data.length; i++) {
+		data[i] = new Rectangle(i+1); //square constructor exists
 	}
 	```-->
 
@@ -351,8 +280,8 @@ Test provided in `testCountSquares` in class `RectangleClientTest.java`.
 ```java
 public static int countSquares(Rectangle[] data) {
 	int count = 0;
-	for(Rectangle r: data) {
-		if(r.isSquare()) {
+	for(int i=0; i < data.length; i++) {
+		if(data[i].isSquare()) {
 			count++;
 		}
 	}
@@ -369,8 +298,8 @@ public static int countSquares(Rectangle[] data) {
 	}
 	
 	int count = 0;
-	for(Rectangle r: data) {
-		if(r != null && r.isSquare()) { //first make sure it's not null
+	for(int i=0; i < data.length; i++) {
+		if(data[i] != null && data[i].isSquare()) { //first make sure it's not null
 			count++;
 		}
 	}
@@ -389,4 +318,4 @@ public static int countSquares(Rectangle[] data) {
 	- all objects in the one-dimensional array `buckets[3]` have the same area, 
 	- and so on...
 
-2. (Not related to classes and objects but aimed at students who might want something a little ... extra). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs firstw in case of a tie.
+2. (Not related to classes and objects but aimed at students who might want something a little ... extra). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs first in case of a tie.
