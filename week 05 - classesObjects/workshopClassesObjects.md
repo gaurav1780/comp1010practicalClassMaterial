@@ -88,7 +88,7 @@ Consider the following class definition:
 
 ```java
 public class Date {
-        public int date, month, year;
+        public int day, month, year;
 }
 ```
 
