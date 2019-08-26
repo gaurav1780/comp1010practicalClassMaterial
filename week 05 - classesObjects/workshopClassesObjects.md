@@ -103,7 +103,7 @@ graduation.month = 4;
 graduation.year = 2011;
 ```-->
 
-#### Part 3
+#### Part 2
 
 **(Take-home exercise)** Consider the following class definition,
 
@@ -272,7 +272,7 @@ Rectangle[] data = new Rectangle[5];
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
-## Question 6
+## Question 7
 
 Complete the method `countSquares` (in class `RectangleClient.java`) that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
