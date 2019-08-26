@@ -103,7 +103,7 @@ graduation.month = 4;
 graduation.year = 2011;
 ```-->
 
-#### Part 3
+#### Part 2
 
 **(Take-home exercise)** Consider the following class definition,
 
