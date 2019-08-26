@@ -316,6 +316,10 @@ public static int countSquares(Rectangle[] data) {
 ```
 -->
 
+## Submission for week 5
+
+Import the project from [week5PracticePackage.zip](./codes/week5PracticePackage.zip). The tests are provided in package `testsAttempts`. The file `AllInOneTest.java` contains tests for all the classes. There are a total of 25 tests. Your submission must pass at least 10 tests (any 10) to qualify for week 5 participation marks. Make the submission as an exported archive file named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 5 submission (week 5 practice package)".
+
 # ADVANCED QUESTIONS (HD level)
 
 1. Write a method `groupSameAreas` in class `Advanced` that when passed an array of `Rectangle` objects (say `data`), returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that all objects from `data` with the same area are in the same one-dimensional array in `buckets`. That is,
