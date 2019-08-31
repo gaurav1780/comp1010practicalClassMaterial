@@ -136,7 +136,7 @@ The order is:
 
 ## Week 6 submission
 
-Week 6 practice package has been added at[https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2006%20-%20recursion/codes/week6PracticePackage.zip](https://github.com/gaurav1780/comp125practicalClassMaterial/blob/master/week%2006%20-%20recursion/codes/week6PracticePackage.zip). Submit any 9 out of 36 tasks to get week 6 participation mark. Due date: Sunday 8th September, 21:00.
+Week 6 practice package has been added at [./codes/week6PracticePackage.zip](./codes/week6PracticePackage.zip). Submit any 9 out of 36 tasks to get week 6 participation mark. Due date: Sunday 8th September, 21:00.
 
 ## ADVANCED PRACTICE QUESTIONS
 
