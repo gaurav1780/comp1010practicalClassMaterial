@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Classes and Objects
+## Workshop - Recursion
 
 ### Outline
 
