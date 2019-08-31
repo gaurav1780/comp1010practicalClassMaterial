@@ -121,13 +121,13 @@ Practice questions sequentially from [https://codingbat.com/java/Recursion-1](ht
 
 The order is:
 
-1. factorial (hint available, use only if needed)
-2. bunnyEars (hint available, use only if needed)
-3. fibonacci
-4. bunnyEars2
-5. triangle
-6. sumDigits
-7. count7 
+1. `factorial` (hint available, use only if needed)
+2. `bunnyEars` (hint available, use only if needed)
+3. `fibonacci`
+4. `bunnyEars2`
+5. `triangle`
+6. `sumDigits`
+7. `count7`
 8. and so on...
 
 ## ADVANCED PRACTICE QUESTIONS
