@@ -4,13 +4,14 @@
 
 ### Outline
 
-- 6 - 15 minutes: a note for practical exams about `NullPointerException`
-- 16 - 35 minutes: demos
+- 6 to 15 minutes: a note for practical exams about `NullPointerException`
+- 16 to 35 minutes: demos
 	- numeric-based example
 	- String-based example
-- 36 - end of class: practice,
-- practice, and, 
-- more practice
+- 36 to end of class: 
+	- practice,
+	- practice, and, 
+	- more practice
 
 ## `NullPointerException`
 
@@ -42,6 +43,39 @@ public static int sum(int[] data) {
 	return result;
 }
 ```
+
+**IMPORTANT** Only something that is a *reference* can be assigned a `null` value, not variables of primitive data type.
+
+Consider the following code and state which of the `null` checks (`check1, check2, ...`) are valid and if so, what do they evaluate to?
+
+```java
+class Rectangle {
+   public double width, height;
+}
+```
+
+```java
+public class Client {
+   public static void main(String[] args) {
+      int[] data1 = new int[4];
+      Rectangle r1 = new Rectangle();
+      int[] data2 = null;
+      Rectangle r2 = null;
+      int n = 5;
+      char ch = '$';
+      boolean flag = false;
+      
+      //are the following valid? and if so, what are the values of the boolean variables
+      boolean check1 = (data1 == null); 
+      boolean check2 = (r1 == null);
+      boolean check3 = (n == null);
+      boolean check4 = (ch == null);
+      boolean check5 = (flag == null);
+      boolean check6 = (data2 == null); 
+      boolean check7 = (r2 == null);
+   }
+}
+```   
 
 ### Similar examples with String and Rectangle objects
 
