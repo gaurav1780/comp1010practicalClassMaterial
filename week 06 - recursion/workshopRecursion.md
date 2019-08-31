@@ -73,6 +73,8 @@ public class Client {
       boolean check5 = (flag == null);
       boolean check6 = (data2 == null); 
       boolean check7 = (r2 == null);
+      boolean check8 = (data1.length == null); 
+      boolean check9 = (r2.width == null);
    }
 }
 ```   
