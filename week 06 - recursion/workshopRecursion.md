@@ -57,8 +57,10 @@ class Rectangle {
 ```java
 public class Client {
    public static void main(String[] args) {
+      String str1 = null;
       int[] data1 = new int[4];
       Rectangle r1 = new Rectangle();
+      String str2 = "Messi!";
       int[] data2 = null;
       Rectangle r2 = null;
       int n = 5;
@@ -66,6 +68,7 @@ public class Client {
       boolean flag = false;
       
       //are the following valid? and if so, what are the values of the boolean variables
+      boolean check0 = (str == null);
       boolean check1 = (data1 == null); 
       boolean check2 = (r1 == null);
       boolean check3 = (n == null);
@@ -75,6 +78,7 @@ public class Client {
       boolean check7 = (r2 == null);
       boolean check8 = (data1.length == null); 
       boolean check9 = (r2.width == null);
+      boolean check10 = (str2 == null);
    }
 }
 ```   
