@@ -134,9 +134,9 @@ The order is:
 7. `count7`
 8. and so on...
 
-## Week 6 submission
+## Week 6 practice package (NOT mandatory to submit)
 
-Week 6 practice package has been added at [./codes/week6PracticePackage.zip](./codes/week6PracticePackage.zip). Submit any 9 out of 36 tasks to get week 6 participation mark. Due date: Sunday 8th September, 21:00.
+Week 6 practice package has been added at [./codes/week6PracticePackage.zip](./codes/week6PracticePackage.zip). Submission is NOT mandatory (so you can focus on prac exam 2 preparation). However, given that recursion is included in practical exam 2, we encourage you to do as many tasks as you can, especially Stages 1 and 2. Students aiming for HD should also do Stages 3 and 4.
 
 ## ADVANCED PRACTICE QUESTIONS
 
