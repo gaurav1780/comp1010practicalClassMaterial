@@ -68,7 +68,7 @@ public class Client {
       boolean flag = false;
       
       //are the following valid? and if so, what are the values of the boolean variables
-      boolean check0 = (str == null);
+      boolean check0 = (str1 == null);
       boolean check1 = (data1 == null); 
       boolean check2 = (r1 == null);
       boolean check3 = (n == null);
