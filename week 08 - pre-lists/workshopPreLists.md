@@ -246,4 +246,4 @@ Examples are provided in `ListMethods.java` in the project contained in archive 
 
 ## Practice project 
 
-Solve the tasks in `ListPractical.java` in the project contained in archive [workshopPreLists.zip](./codes/workshopPreLists.zip). Tests are provided in `ListPracticalTest.java`.
+Solve the tasks in `ListPractical.java` in the project contained in archive [workshopPreLists.zip](./codes/workshopPreLists.zip). Tests are provided in `ListPracticalTest.java`. Submit under `week 8 submission` on iLearn. **You must attend the practical class and pass at least 5 out of 9 tests to get participation mark in week 8.**
