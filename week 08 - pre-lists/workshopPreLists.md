@@ -59,7 +59,9 @@ A list is typically parameterized with the type of objects it must hold.
 
 For those interested in learning about this, check out [Java Generics](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
 
-#### 1. Creating a List
+---------
+
+#### Creating a List
 
 ```java
 ArrayList<Integer> list = new ArrayList<Integer>();
@@ -79,7 +81,9 @@ Create a list (as an `ArrayList`) to hold outcomes of a dice roll. The dice can 
 
 **NOTE:** You will need to import `ArrayList` library to do this. To import the library, hover over the keyword `ArrayList` and choose the option `import ArrayList (java.util)`.
 
-#### 2. Storing list contents in a String or displaying it
+---------
+
+#### Storing list contents in a String or displaying it
 
 When you display a `list` object, `toString` is invoked and displays the items inside square brackets. You can also store the outcome in a `String` by explicitly calling `toString`.
 
@@ -92,7 +96,7 @@ String rep = list.toString(); //rep = "[30, 10, 70, 30]"
 
 Display the list `outcomes`. You should see the output `[]`.
 
-#### 3. Adding items at the end
+#### Adding items at the end
 
 ```java
 list.add(10);
@@ -110,7 +114,9 @@ NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk m
 
 Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
 
-#### 4. Getting number of items in a list
+---------
+
+#### Getting number of items in a list
 
 The method `size()` returns the number of items in a list. Returns `null` if empty. Throws `NullPointerException` if list is `null`.
 
@@ -123,8 +129,9 @@ int n = list.size(); //size = 4
 
 Store the number of items in list `outcomes` in a variable `nRolls`. Display `nRolls`. You should see the output 3.
 
+---------
 
-#### 5. Getting item at a specific index
+#### Getting item at a specific index
 
 The method `get(int)` returns the item at passed index. Throws `NullPointerException` if list is `null`. Throws `IndexOutOfBoundsException` if index is invalid. 
 
@@ -143,7 +150,9 @@ Store the first item of list `outcomes` in variable `first`. Display `first`. Yo
 
 Store the last item of list `outcomes` in variable `last`. **Do not hard-code the index as 2.** Assume you don't know the number of items in the list. Display `last`. You should see the output 2.
 
-#### 6. Adding items at arbitrary index
+---------
+
+#### Adding items at arbitrary index
 
 ```java
 list.add(0, 30);
@@ -162,8 +171,9 @@ list.add(20, -60); //throws IndexOutOfBoundsException
 
 Add the item 4 between the first two items (5 and 6) of list `outcomes`. Display the list. You should see the output `[5, 4, 6, 2]`.
 
+---------
 
-#### 7. Removing an item at a specific index
+#### Removing an item at a specific index
 
 ```java
 list.remove(5);
@@ -181,7 +191,9 @@ Remove the first item from list `outcomes`. Display the list. You should see the
 Remove the last item from list `outcomes`. **Do not hard-code the index as 3**.
 Assume that you do not know how many items are in the list. Display the list. You should see the output `[4, 6]`.
 
-#### 8. Removing a specific object
+---------
+
+#### Removing a specific object
 
 The only scenario in which this is tricky is a list containing Integers, because the type of the object and the type of the index is the same (int or Integer).
 
@@ -201,7 +213,7 @@ Remove the item 4 from list `outcomes`. Display the list. You should see the out
 
 Re-populate the list by adding the items 3, 5, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[6, 3, 5, 2]`.
 
-#### 9. Iterating over the list
+#### Iterating over the list
 
 Following example adds the items in the list
 
@@ -217,8 +229,9 @@ for(int i=0; i < list.size(); i++) {
 
 Count the number of items in `outcomes` that are greater than 2. Store in variable `moreThanTwo`. Display `moreThanTwo`. You should see the output 3.
 
+---------
 
-#### 10. Checking existence and location of items in list
+#### Checking existence and location of items in list
 	
 ```java
 //note: list = [30, 10, 70, 30]
@@ -238,7 +251,9 @@ Display the first index at which the item 6 exists in list `outcomes`. You shoul
 Display the last index at which the item 6 exists in list `outcomes`. You should see the output 4.
 Display the first index at which the item 1 exists in list `outcomes`. You should see the output -1.
 
-### Passing lists to objects
+---------
+
+## Passing lists to objects
 
 Lists are passed just like an array or an object. If you modify the contents of a list in a method, contents of the actual list that was passed are also modified.
 
