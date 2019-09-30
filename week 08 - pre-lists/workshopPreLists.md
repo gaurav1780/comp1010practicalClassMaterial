@@ -102,6 +102,11 @@ String rep = list.toString(); //rep = "[30, 10, 70, 30]"
 
 Display the list `outcomes`. You should see the output `[]`.
 
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
+---------
+
 #### Adding items at the end
 
 ```java
@@ -112,13 +117,9 @@ list.add(90);
 //list = [10, 70, 20, 90]
 ```
 
-Inside object `list`, the values are held in an instance variable array named `elementData`. Thus, in this case, `list.elementData = {10, 70, 20, 90}`
-
-NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk more about that later.
-
 #### **Student activity 3** 
 
-Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
+Add the items 5, 6, and -2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, -2]`.
 
 </br>&nbsp;
 </br>&nbsp;
@@ -160,7 +161,7 @@ int d = nullList.get(0); //throws NullPointerException
 
 Store the first item of list `outcomes` in variable `first`. Display `first`. You should see the output 5.
 
-Store the last item of list `outcomes` in variable `last`. **Do not hard-code the index as 2.** Assume you don't know the number of items in the list. Display `last`. You should see the output 2.
+Store the last item of list `outcomes` in variable `last`. **Do not hard-code the index as 2.** Assume you don't know the number of items in the list. Display `last`. You should see the output -2.
 
 </br>&nbsp;
 </br>&nbsp;
@@ -184,7 +185,7 @@ list.add(20, -60); //throws IndexOutOfBoundsException
 
 #### **Student activity 6** 
 
-Add the item 4 between the first two items (5 and 6) of list `outcomes`. Display the list. You should see the output `[5, 4, 6, 2]`.
+Add the item 4 between the first two items (5 and 6) of list `outcomes`. Display the list. You should see the output `[5, 4, 6, -2]`.
 
 </br>&nbsp;
 </br>&nbsp;
@@ -204,7 +205,7 @@ list.remove(6); //throws IndexOutOfBoundsException
 
 #### **Student activity 7** 
 
-Remove the first item from list `outcomes`. Display the list. You should see the output `[4, 6, 2]`.
+Remove the first item from list `outcomes`. Display the list. You should see the output `[4, 6, -2]`.
 
 Remove the last item from list `outcomes`. **Do not hard-code the index as 3**.
 Assume that you do not know how many items are in the list. Display the list. You should see the output `[4, 6]`.
@@ -232,7 +233,7 @@ list.remove((Integer)4);
 
 Remove the item 4 from list `outcomes`. Display the list. You should see the output `[6]`.
 
-Re-populate the list by adding the items 3, 5, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[6, 3, 5, 2]`.
+Re-populate the list by adding the items 3, 5, and -2 (in that order) to `outcomes`. Display the list. You should see the output `[6, 3, 5, -2]`.
 
 #### Iterating over the list
 
@@ -270,7 +271,7 @@ int idx4 = list.lastIndexOf(30);    //idx4 = 3
 
 #### **Student activity 10** 
 
-Add item 6 to the list. The list should now become `[6, 3, 5, 2, 6]`.
+Add item 6 to the list. The list should now become `[6, 3, 5, -2, 6]`.
 Display the first index at which the item 6 exists in list `outcomes`. You should see the output 0.
 Display the last index at which the item 6 exists in list `outcomes`. You should see the output 4.
 Display the first index at which the item 1 exists in list `outcomes`. You should see the output -1.
