@@ -60,7 +60,9 @@ A list is typically parameterized with the type of objects it must hold.
 For those interested in learning about this, check out [Java Generics](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Creating a List
 
 ```java
@@ -82,7 +84,9 @@ Create a list (as an `ArrayList`) to hold outcomes of a dice roll. The dice can 
 **NOTE:** You will need to import `ArrayList` library to do this. To import the library, hover over the keyword `ArrayList` and choose the option `import ArrayList (java.util)`.
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Storing list contents in a String or displaying it
 
 When you display a `list` object, `toString` is invoked and displays the items inside square brackets. You can also store the outcome in a `String` by explicitly calling `toString`.
@@ -115,7 +119,9 @@ NOTE: A `LinkedList` holds objects differently from an `ArrayList`. We'll talk m
 Add the items 5, 6, and 2 (in that order) to `outcomes`. Display the list. You should see the output `[5, 6, 2]`.
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Getting number of items in a list
 
 The method `size()` returns the number of items in a list. Returns `null` if empty. Throws `NullPointerException` if list is `null`.
@@ -130,7 +136,9 @@ int n = list.size(); //size = 4
 Store the number of items in list `outcomes` in a variable `nRolls`. Display `nRolls`. You should see the output 3.
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Getting item at a specific index
 
 The method `get(int)` returns the item at passed index. Throws `NullPointerException` if list is `null`. Throws `IndexOutOfBoundsException` if index is invalid. 
@@ -151,7 +159,9 @@ Store the first item of list `outcomes` in variable `first`. Display `first`. Yo
 Store the last item of list `outcomes` in variable `last`. **Do not hard-code the index as 2.** Assume you don't know the number of items in the list. Display `last`. You should see the output 2.
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Adding items at arbitrary index
 
 ```java
@@ -172,7 +182,9 @@ list.add(20, -60); //throws IndexOutOfBoundsException
 Add the item 4 between the first two items (5 and 6) of list `outcomes`. Display the list. You should see the output `[5, 4, 6, 2]`.
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Removing an item at a specific index
 
 ```java
@@ -192,7 +204,9 @@ Remove the last item from list `outcomes`. **Do not hard-code the index as 3**.
 Assume that you do not know how many items are in the list. Display the list. You should see the output `[4, 6]`.
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Removing a specific object
 
 The only scenario in which this is tricky is a list containing Integers, because the type of the object and the type of the index is the same (int or Integer).
@@ -230,7 +244,9 @@ for(int i=0; i < list.size(); i++) {
 Count the number of items in `outcomes` that are greater than 2. Store in variable `moreThanTwo`. Display `moreThanTwo`. You should see the output 3.
 
 ---------
-
+</br>&nbsp;
+</br>&nbsp;
+</br>&nbsp;
 ### Checking existence and location of items in list
 	
 ```java
