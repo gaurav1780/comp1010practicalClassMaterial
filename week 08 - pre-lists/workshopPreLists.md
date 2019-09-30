@@ -283,6 +283,6 @@ Lists are passed just like an array or an object. If you modify the contents of 
 
 Examples are provided in `ListMethods.java` in the project contained in archive file [workshopPreLists.zip](./codes/workshopPreLists.zip).
 
-## Practice project 
+## Practice project (for submission)
 
-Solve the tasks in `ListPractical.java` in the project contained in archive [workshopPreLists.zip](./codes/workshopPreLists.zip). Tests are provided in `ListPracticalTest.java`. Submit under `week 8 submission` on iLearn. **You must attend the practical class and pass at least 5 out of 9 tests to get participation mark in week 8.**
+Solve the tasks in `ListPractical.java` in the project contained in archive [workshopPreLists.zip](./codes/workshopPreLists.zip). Tests are provided in `ListPracticalTest.java`. Submit the file `ListPractical.java` under `week 8 submission` on iLearn. You can drag it from Eclipse and drop it into the file submission box of your browser (at least in Chrome). **You must attend the practical class and pass at least 5 out of 9 tests to get participation mark in week 8.**
