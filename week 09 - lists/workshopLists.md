@@ -146,8 +146,9 @@ Define a method `getExclusiveItems` that when passed an ArrayList of ArrayList o
 # Weekly submission (required for participation mark)
 
 The template project is in the file [week9practicePackage.zip](./codes/week9practicePackage.zip). 
-Solve a minimum of 20 questions with 
-- **at least** 12 from Stage2, and,
-- **at least** 3 from Stage3.
+
+- Solve a minimum of 20 questions, with,
+  - **at least** 12 from Stage2, and,
+  - **at least** 3 from Stage3.
 
 You can drag and drop Stage1.java through Stage4.java into the submission box [Week 9 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5352439). (I have enabled multiple uploads, as long as all are java files).
