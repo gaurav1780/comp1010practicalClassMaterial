@@ -147,7 +147,7 @@ Define a method `getExclusiveItems` that when passed an ArrayList of ArrayList o
 
 The template project is in the file [week9practicePackage.zip](./codes/week9practicePackage.zip). 
 
-- Solve a minimum of 20 questions, with,
+- Solve **at least** 20 questions, with,
   - **at least** 12 from Stage2, and,
   - **at least** 3 from Stage3.
 
