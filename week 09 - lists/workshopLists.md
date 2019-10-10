@@ -152,3 +152,5 @@ The template project is in the file [week9practicePackage.zip](./codes/week9prac
   - **at least** 3 from Stage3.
 
 You can drag and drop Stage1.java through Stage4.java into the submission box [Week 9 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5352439). (I have enabled multiple uploads, as long as all are java files).
+
+[q1 to q10](https://github.com/emmmarosewalker/week9practical/blob/master/Client.java)
