@@ -62,6 +62,7 @@ data[i] = new Rectangle(r);
 Complete the following methods in the project contained in [week10PracticePackage.zip](./codes/week10PracticePackage.zip). Submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5353346) by Sunday 20th October 21:00.
 
 - `add(int)`
+- `get(int)`
 - `add(int, int)`
 - `grow()`
 - `grow(int)`
