@@ -68,6 +68,12 @@ Complete the following methods in the project contained in [week10PracticePackag
 - `remove(int)`
 - `replaceAll(int, int)`
 
+**IMPORTANT**
+
+`grow(int)` and `add(int)` are inter-dependent. so you need to implement both correctly for them to pass.
+
+Other methods are also dependent on `add(int)` since items are being added using this method in the method `run` annotated with `@BeforeEach` (in order to set up the objects properly).
+
 ## Advanced
 ### Only complete these tasks after completing MyArrayList.java
 - Copy [Advanced.java](./codes/Advanced.java) and [AdvancedTest.java](./codes/AdvancedTest.java)
