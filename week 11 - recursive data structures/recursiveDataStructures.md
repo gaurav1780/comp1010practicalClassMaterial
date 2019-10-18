@@ -14,7 +14,7 @@ Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 class Time {
 	public day, month, year;
 	public hour, minute;
-	public Date(int d, int m, int y, int h, int m) {
+	public Time(int d, int m, int y, int h, int m) {
 		day = d;
 		month = m;
 		year = y;
@@ -47,7 +47,7 @@ Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 class Time {
 	public day, month, year;
 	public hour, minute;
-	public Date(int d, int m, int y, int h, int m) {
+	public Time(int d, int m, int y, int h, int m) {
 		day = d;
 		month = m;
 		year = y;
@@ -55,7 +55,7 @@ class Time {
 		minute = m;
 	}
 	
-	public Date(Date source) {
+	public Time(Time source) {
 		day = source.day;
 		month = source.month;
 		year = source.year;
@@ -67,8 +67,8 @@ class Time {
 class Appointment {
 	public Time start, end;
 	public Appointment(Time s, Time e) {
-		start = new Date(s);
-		end = new Date(e);
+		start = new Time(s);
+		end = new Time(e);
 	}
 }
 
