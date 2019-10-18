@@ -55,7 +55,7 @@ class Time {
 		minute = m;
 	}
 	
-	public Date(Date source) {
+	public Time(Date source) {
 		day = source.day;
 		month = source.month;
 		year = source.year;
