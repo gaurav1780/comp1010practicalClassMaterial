@@ -55,7 +55,7 @@ class Time {
 		minute = m;
 	}
 	
-	public Time(Time source) {
+	public Time(Time source) { //this is called a "copy constructor"
 		day = source.day;
 		month = source.month;
 		year = source.year;
@@ -67,8 +67,8 @@ class Time {
 class Appointment {
 	public Time start, end;
 	public Appointment(Time s, Time e) {
-		start = new Time(s);
-		end = new Time(e);
+		start = new Time(s); //make a copy of s into start
+		end = new Time(e); //make a copy of e into end
 	}
 }
 
