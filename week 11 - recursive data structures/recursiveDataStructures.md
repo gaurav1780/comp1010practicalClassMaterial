@@ -113,7 +113,7 @@ public class Client {
 Update the diagram if the following statement is added at the end.
 
 ```java
-d.next.next.next.next.next = -80;
+d.next.next.next.next.data = -80;
 ```
 
 ## Question 5
@@ -213,7 +213,7 @@ public class Client {
 			temp = temp.next;
 		}
 		
-		int result1 = 0;
+		int result2 = 0;
 		temp = e;
 		while(temp != null) {
 			result2 = result2 + temp.data;
