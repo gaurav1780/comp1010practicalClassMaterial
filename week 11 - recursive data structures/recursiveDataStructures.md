@@ -14,12 +14,12 @@ Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 class Time {
 	public day, month, year;
 	public hour, minute;
-	public Time(int d, int m, int y, int h, int m) {
+	public Time(int d, int m1, int y, int h, int m2) {
 		day = d;
-		month = m;
+		month = m1;
 		year = y;
 		hour = h;
-		minute = m;
+		minute = m2;
 	}
 }
 
@@ -47,12 +47,12 @@ Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 class Time {
 	public day, month, year;
 	public hour, minute;
-	public Time(int d, int m, int y, int h, int m) {
+	public Time(int d, int m1, int y, int h, int m2) {
 		day = d;
-		month = m;
+		month = m1;
 		year = y;
 		hour = h;
-		minute = m;
+		minute = m2;
 	}
 	
 	public Time(Time source) { //this is called a "copy constructor"
