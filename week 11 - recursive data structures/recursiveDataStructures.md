@@ -5,7 +5,7 @@
 
 ## Template
 
-Template provided [here](https://github.com/gaurav1780/comp125practicalClassMaterial/tree/master/week%2011%20-%20recursive%20data%20structures/codes). Import into Eclipse.
+Template provided [here](./codes/week11practicePackage.zip). Import into Eclipse.
 
 ## Question 1
 Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
@@ -124,11 +124,11 @@ For the `Node` class defined in Question 3, what is the value of `result` when t
 public class Client {
 	public static void main(String[] args) {
 		Node a = new Node(60, null);
-		Node g = new Node(60, a);
-		Node d = new Node(60, g);
-		Node b = new Node(60, d);
-		Node c = new Node(60, b);
-		Node e = new Node(60, c);
+		Node g = new Node(10, a);
+		Node d = new Node(-50, g);
+		Node b = new Node(0, d);
+		Node c = new Node(-20, b);
+		Node e = new Node(-90, c);
 
 		int result = 0;
 		while(e != null) {
@@ -147,11 +147,11 @@ For the `Node` class defined in Question 3, what is the value of `result` when t
 public class Client {
 	public static void main(String[] args) {
 		Node a = new Node(60, null);
-		Node g = new Node(60, a);
-		Node d = new Node(60, g);
-		Node b = new Node(60, d);
-		Node c = new Node(60, b);
-		Node e = new Node(60, c);
+		Node g = new Node(10, a);
+		Node d = new Node(-50, g);
+		Node b = new Node(0, d);
+		Node c = new Node(-20, b);
+		Node e = new Node(-90, c);
 
 		int result = 0;
 		while(e != null) {
@@ -200,11 +200,11 @@ For the `Node` class defined in Question 3, what are the values of `result1` and
 public class Client {
 	public static void main(String[] args) {
 		Node a = new Node(60, null);
-		Node g = new Node(60, a);
-		Node d = new Node(60, g);
-		Node b = new Node(60, d);
-		Node c = new Node(60, b);
-		Node e = new Node(60, c);
+		Node g = new Node(10, a);
+		Node d = new Node(-50, g);
+		Node b = new Node(0, d);
+		Node c = new Node(-20, b);
+		Node e = new Node(-90, c);
 
 		int result1 = 0;
 		Node temp = e;
@@ -234,11 +234,11 @@ For the `Node` class defined in Question 3, will the following code compile?
 public class Client {
 	public static void main(String[] args) {
 		Node a = new Node(60, null);
-		Node g = new Node(60, a);
-		Node d = new Node(60, g);
-		Node b = new Node(60, d);
-		Node c = new Node(60, b);
-		Node e = new Node(60, c);
+		Node g = new Node(10, a);
+		Node d = new Node(-50, g);
+		Node b = new Node(0, d);
+		Node c = new Node(-20, b);
+		Node e = new Node(-90, c);
 
 		int result1 = 0;
 		Node temp = e;
