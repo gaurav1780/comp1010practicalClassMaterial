@@ -6,7 +6,7 @@ We will focus on preparing for practical exam this week. You can (I advise this)
 
 ## Template
 
-Template provided [here](./codes/week11template.zip). Import into Eclipse.
+Template provided [here](./codes/week12template.zip). Import into Eclipse.
 
 ## Suggested methods to complete during practical class
 
