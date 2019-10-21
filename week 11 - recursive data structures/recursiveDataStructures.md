@@ -98,11 +98,11 @@ class Node {
 public class Client {
 	public static void main(String[] args) {
 		Node a = new Node(60, null);
-		Node b = new Node(60, null);
-		Node c = new Node(60, a);
-		Node e = new Node(60, b);
-		Node d = new Node(60, e);
-		Node f = new Node(60, c);
+		Node b = new Node(10, null);
+		Node c = new Node(-50, a);
+		Node e = new Node(0, b);
+		Node d = new Node(-20, e);
+		Node f = new Node(-90, c);
 		b.next = d;		
 	}
 }
@@ -247,10 +247,10 @@ public class Client {
 			temp = temp.next;
 		}
 		
-		int result1 = 0;
+		int result2 = 0;
 		temp = e;
 		while(temp != null) {
-			result2 = result2 + temp.data;
+			result2 = result2 + temp;
 			temp = temp.next;
 		}
 	}
@@ -267,7 +267,7 @@ public static int sumPositives(Node start) {
 	int total = 0;
 	while(start != null) { 
 		if(start > 0) {
-			total+=start;
+			total+=start.data;
 		}
 		start = start.next;
 	}
@@ -306,7 +306,7 @@ public static boolean identical(Node head1, Node head2) {
 		head1 = head1.next;
 		head2 = head2.next;	
 	}
-	return false;
+	return true;
 }
 ```
 
