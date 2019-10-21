@@ -100,8 +100,8 @@ public class Client {
 		Node a = new Node(60, null);
 		Node b = new Node(60, null);
 		Node c = new Node(60, a);
-		Node d = new Node(60, e);
 		Node e = new Node(60, b);
+		Node d = new Node(60, e);
 		Node f = new Node(60, c);
 		b.next = d;		
 	}
