@@ -5,7 +5,7 @@
 
 ## Template
 
-Template provided [here](./codes/week11template.zip). Import into Eclipse.
+Template provided [here](https://github.com/gaurav1780/comp125practicalClassMaterial/tree/master/week%2011%20-%20recursive%20data%20structures/codes). Import into Eclipse.
 
 ## Question 1
 Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
