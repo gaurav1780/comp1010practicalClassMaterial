@@ -12,8 +12,8 @@ Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 
 ```java
 class Time {
-	public day, month, year;
-	public hour, minute;
+	public int day, month, year;
+	public int hour, minute;
 	public Time(int d, int m1, int y, int h, int m2) {
 		day = d;
 		month = m1;
@@ -45,8 +45,8 @@ Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 
 ```java
 class Time {
-	public day, month, year;
-	public hour, minute;
+	public int day, month, year;
+	public int hour, minute;
 	public Time(int d, int m1, int y, int h, int m2) {
 		day = d;
 		month = m1;
