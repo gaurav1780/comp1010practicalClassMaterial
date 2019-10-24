@@ -2,7 +2,7 @@
 
 ## Workshop - Preparing for practical exam
 
-We will focus on preparing for practical exam this week. You can (I advise this) work in pairs, or you can choose to work on your own.
+We will focus on preparing for practical exam this week. You can work in pairs (advised), or you can choose to work on your own.
 
 ## Template
 
@@ -44,7 +44,3 @@ Following are the exercises that we recommend you try and complete by the end of
 		- MyLinkedList
 			- allEven
 			- highest
-
-## Cognition of Coding Survey
-
-Please use the last 40 minutes of the practical class to complete the survey at: [https://mqedu.qualtrics.com/jfe/form/SV_czOMgjqabiQ6Evj](https://mqedu.qualtrics.com/jfe/form/SV_czOMgjqabiQ6Evj)
