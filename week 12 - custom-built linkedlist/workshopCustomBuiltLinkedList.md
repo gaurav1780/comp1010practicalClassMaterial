@@ -2,45 +2,107 @@
 
 ## Workshop - Custom-built linked list.
 
-We will focus on preparing for practical exam this week. You can (I advise this) work in pairs, or you can choose to work on your own.
+### Outline:
 
-## Template
+- In-class exercises (Questions 1 to 4): beginning of class to 45 minutes
+- Working on Practice package: 46 minutes to end of class.
 
-Template provided [here](./codes/week12template.zip). Import into Eclipse.
+## In-class exercises
 
-## Suggested methods to complete during practical class
+Consider the following class definition of `Node` and `CustomLinkedList` classes:
 
-Following are the exercises that we recommend you try and complete by the end of the class. Of course, if you can do more, it's great. Remember, some of these will take a very short amount of time and some longer. If you are lost, it means you need to go back and study from the [lecture notes](http://rebrand.ly/comp125lectureNotes).
+```java
+class Node {
+	public int data;
+	public Node next;
+	
+	public Node(int d, Node n) {
+		data = d;
+		next = n;
+	}
+}
+```
 
-- `recursionPracticeProject`
-	- `Stage1.java`
-		- `sum`
-		- `sumSquares`
-	- `Stage2.java`
-		- `sumEvenDigits`
-	- `Stage3.java`
-		- `reverse`
-		
-- `listPracticeProject`
-	- `javaLists`
-		- `Stage1.java`
-			- `getSumFirstLastItems`
-			- `sameSize`
-			- `median`
-		- `Stage2.java`
-			- `sumNegatives`
-			- `countInRange`
-			- `countPrimes`
-			- `allPrimes`
-		- `Stage3.java`
-			- `removeNegatives`
-	- `customBuiltArrayList`
-		- `grow`
-		- `add(int, int)`
-	- `customBuiltLinkedList`
-		- `NodeService.java`
-			- `sumOdd`
-			- `countPositives`
-		- `MyLinkedList`
-			- `allEven`
-			- `highest`
+```java
+class CustomLinkedList {
+	Node head;
+	
+	public void addToFront(int val) {
+		head = new Node(val, head);
+	}
+	
+	public String toString() {
+		return data+"";
+	}
+}
+```
+
+### Question 1
+
+Draw a memory diagram for objects created in the following client:
+
+```java
+public class Client {
+	public static void main(String[] args) {
+		CustomLinkedList list = new CustomLinkedList();
+		list.addToFront(90);
+		list.addToFront(10);
+		list.addToFront(40);
+		list.addToFront(60);
+	}
+}
+```
+
+### Question 2
+
+For the same client, what's the value displayed if the following is added as the last statement in the client?
+
+```java
+System.out.println(list.head.next.data);
+```
+
+### Question 3
+
+For the same client, draw the updated memory diagram if the following statements are added at the end of the client:
+
+```java
+Node temp = list.head.next.next;
+list.head.next.next = new Node(30, temp);
+```
+
+### Question 4
+
+Add an instance method in class `CustomLinkedList` that returns the sum of all items starting at `head` in the calling object. Remember that the method has access to the instance variable `head` and can use it.
+
+```java
+class CustomLinkedList {
+	Node head;
+	
+	public void addToFront(int val) {
+		head = new Node(val, head);
+	}
+	
+	public String toString() {
+		return data+"";
+	}
+	
+	public int sum() {
+		return 0; //to be completed
+	}
+}
+```
+
+## Weekly submission
+
+The final weekly submission is to help you prepare for the practical exam. Template provided [here](./codes/week12practicePackage.zip). Import into Eclipse. The package contains 19 methods. To successfully get a participation mark, you must solve at least 10 correctly. No marks if,
+
+- there is **any** compilation error (red cross) in `Week12.java` or `Week12Test.java`, or,
+- there is an infinite loop in any method (even if other methods are correct).
+- if any file besides `Week12.java` is uploaded to iLearn.
+- name of the file submitted is not `Week12.java` (slightly different from the previous point)
+
+Submit file `Week12.java` under [Week 12 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5363481) on iLearn.
+
+Remember, some of these will take a very short amount of time and some longer. 
+
+If you are lost, it means you need to go back and study from the [lecture notes](http://rebrand.ly/comp125lectureNotes).
