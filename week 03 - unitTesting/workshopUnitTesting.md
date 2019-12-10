@@ -52,7 +52,11 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 
 ## Question 4a
 
-Consider the following implementation of a method:
+Consider a method `sum` that when passed an integer array, returns the sum of all the items in the array.
+
+1. What value is the method **expected** to return for the array \{10, 70, 20, 90\}?
+
+Now, consider the following implementation of this method:
 
 ```java
 public class Question4a {
@@ -69,7 +73,6 @@ public class Question4a {
 }
 ```
 
-1. What value is the above method **expected** to return for the array \{10, 70, 20, 90\}?
 2. What value does the above method **actually** return for the array \{10, 70, 20, 90\}?
 
 This check on expectations is managed by the assertion:
