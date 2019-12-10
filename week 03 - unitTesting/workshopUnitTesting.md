@@ -208,4 +208,8 @@ Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/di
 2. at least 10 methods from stage 2, and,
 3. at least 2 method from stage 3.
 
-(So while normally i'd expect students to do 12 from stage 1, 10 from stage 2 and 2 from stage 3; technically, you can do 22 methods from stage 2 and 2 from stage 3, or 10 from stage 2 and 14 from stage 3, etc.)
+So while students would generally do 12 from stage 1, 10 from stage 2 and 2 from stage 3; technically, you can also do: 
+
+	- 22 methods from stage 2 and 2 from stage 3, or,  
+	- 10 from stage 2 and 14 from stage 3,
+	- etc.
