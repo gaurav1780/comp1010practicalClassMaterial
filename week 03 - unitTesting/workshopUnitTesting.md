@@ -141,7 +141,7 @@ public class Question6 {
 }
 ```
 
-Complete the test to test implementation of `isAscending`. Two test cases are provided to get you started.
+Complete the test to check the correctness of the implementation of `isAscending`. Two test cases are provided to get you started.
 
 ```java
 public void testIsAscending() {
@@ -178,7 +178,7 @@ public class Question7 {
 }
 ```
 
-Complete the test to test implementation of `indexOf`.
+Complete the test to check the correctness of the implementation of `indexOf`.
 
 ```java
 @Test
