@@ -65,6 +65,7 @@ Which of the following are valid headers for the `main` method?
 5. `public static void main(int[] args)`
 6. `public static void main(String args)`
 7. `public void main(String args)`
+8. `public static void main(String[] args)`
 
 ## The complete picture
 

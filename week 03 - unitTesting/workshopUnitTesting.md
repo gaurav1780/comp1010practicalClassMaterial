@@ -25,7 +25,7 @@ Consider a method that is supposed to return the number of even digits in an int
 
 ## Question 2
 
-Consider a method that returns the number of odd numbers in an array. If one sample input is `{15, 7, 103}`, does a second sample input `{15, 103, 91}` offer any additional value to the test (as in improving the "test quality")? What about `{81, -25, 63}`?
+Consider a method that returns the number of odd values in an array. If one sample input is `{15, 7, 103}`, does a second sample input `{15, 103, 91}` offer any additional value to the test (as in improving the "test quality")? What about `{81, -25, 63}`?
 
 ## Question 3
 
@@ -52,7 +52,11 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 
 ## Question 4a
 
-Consider the following implementation of a method:
+Consider a method `sum` that when passed an integer array, returns the sum of all the items in the array.
+
+1. What value is the method **expected** to return for the array \{10, 70, 20, 90\}?
+
+Now, consider the following implementation of this method:
 
 ```java
 public class Question4a {
@@ -69,7 +73,6 @@ public class Question4a {
 }
 ```
 
-1. What value is the above method **expected** to return for the array \{10, 70, 20, 90\}?
 2. What value does the above method **actually** return for the array \{10, 70, 20, 90\}?
 
 This check on expectations is managed by the assertion:
@@ -138,7 +141,7 @@ public class Question6 {
 }
 ```
 
-Complete the test to test implementation of `isAscending`. Two test cases are provided to get you started.
+Complete the test to check the correctness of the implementation of `isAscending`. Two test cases are provided to get you started.
 
 ```java
 public void testIsAscending() {
@@ -175,7 +178,7 @@ public class Question7 {
 }
 ```
 
-Complete the test to test implementation of `indexOf`.
+Complete the test to check the correctness of the implementation of `indexOf`.
 
 ```java
 @Test
@@ -197,22 +200,16 @@ public void testIndexOf() {
 
 ## Question 8
 
-Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. There are 35 mandatory methods to complete (out of a total of 118 methods). Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
-
-Choice of questions (read below for details)
-
-#### Stage 1: All 13 questions
-
-#### Stage 2 (19 questions):
-`sum, sumPositives, sumMultiples, sumNotInRange, sumEvenIndexedItems, resetNegatives, makeAbsolute, countFactors, countOccurrences, indexOf, lastIndexOf, containsBetweenIndices, sumUpToIndex, productNegativesFromIndex, allNonZeroes, containsPositive, isDescending, isBalanced, getCopy`
-
-#### Stage 3 (3 questions):
-`generatePatternedArray, identical, mutuallyReverse`
+Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
 
 ### You must complete -
 
 1. at least 24 methods overall, and,
 2. at least 10 methods from stage 2, and,
-3. at least 1 method from stage 3.
+3. at least 2 method from stage 3.
 
-(So while normally i'd expect students to do 13 from stage 1, 10 from stage 2 and 1 from stage 3; technically, you can do 23 methods from stage 2 and 1 from stage 3, or 10 from stage 2 and 13 from stage 3, etc.)
+So while students would generally do 12 from stage 1, 10 from stage 2 and 2 from stage 3; technically, you can also do: 
+
+	- 22 methods from stage 2 and 2 from stage 3, or,  
+	- 10 from stage 2 and 14 from stage 3,
+	- etc.
