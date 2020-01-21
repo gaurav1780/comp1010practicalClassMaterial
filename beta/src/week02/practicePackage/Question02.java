@@ -17,7 +17,7 @@ public class Question02 {
 	}
 	
 	@Test
-	void testIsPositive() {
+	void testEvenOne() {
 		assertEquals(6, evenOne(6, 11));
 		assertEquals(-12, evenOne(15, -12));
 		assertEquals(-6, evenOne(-6, 11));
