@@ -90,14 +90,14 @@ public class MyFirstProgram {
 ### Question 3.
 
 1. Create a new Java project named `simpleJavaProject`.
-	1. DO NOT create `module-info.java` when prompted.
+	1. **DO NOT create** `module-info.java` when prompted.
 2. Right click on project and choose `New` -> `Class`. 
 3. Choose the name `Product`.
 	1. Make sure you enable the box for including `public static void main(String[] args)`.
 4. In the `main` method of file `Product.java`, initialize two integers with names and values of your choice and display their product. Values are displayed using `System.out.println` method.
 5. Run the program using the *Play* button. For example, if the variables hold the values 4 and 9, you should see the value 36 in the console. 
 
-### Importing a Java project from an ***archive file*** in Eclipse
+### Importing a Java project from directories or archive files in Eclipse
 
 Luckily, we have sophisticated softwares known as *Integrated Development Environments* (IDE) that offer extensive GUI and functionalities that we don't have to compile and execute programs through command prompt.
 
@@ -105,16 +105,18 @@ The IDE we use in the labs is Eclipse, although you are free to use others such 
 
 One of the good things about using an IDE is that you can *package* or export a program (that may contain many many files) into an archive file (.zip). You can then *unpackage* or import the program from an archive file into an IDE on a different machine.
 
-The steps required to import one or more java projects contained in an archive file named `archive.zip` are as follows:
+The steps required to import one or more java projects contained in a directory or an archive file (zip files) are as follows:
 
 1. Open Eclipse
 2. Choose `File`
 3. Choose `Import`
 4. Double-click (or expand) `General`
 5. Double-click `Existing projects into Workspace`
-6. Choose the option `Select archive file`
+6. Choose the options
+	a. `Select archive file` to import from archive files (zip files).
+	b. `Select root directory` to import from directories.
 7. Click on `Browse`
-8. Locate and select archive file `archive.zip`
+8. Locate and select directory or archive file from which you are importing.
 9. Click `Finish`
 
 ### Question 4.
@@ -160,15 +162,7 @@ Export the completed project to an archive file using the following steps:
 
 ### Question 7.
 
-Import the project from [practicePackageWeek1.zip](./codes/practicePackageWeek1.zip). There should be a project `practicePackageWeek1` when imported containing the following structure:
-
-- `practicePackageWeek1`
-	- `src`
-		- `(default package)`
-			- `Question01.java`
-			- `Question02.java`
-			- ...
-			- `Question22.java`
+This relates to the questions under package `week02.practicePackage` of our master practical templates project.
 
 Each file contains a method you need to complete followed by the corresponding test (indicated by `@Test`). Your tutor will demonstrate test-driven programming using:
 
@@ -179,8 +173,7 @@ Based on that, complete `Question04.java` and `Question13.java` and run correspo
 
 # Submission activity for this week
 
-For week 2, the submission required is the exported project for Question 7. You can make the submission by **Sunday 11th August 21:00**.
-There are a total of 22 methods. You pass this activity if tests for 10 or more methods pass. The more methods you can solve, the better are your prospects in the practical exams. After completing the methods, follow the steps from Question 6 to export to archive file. Name the archive file `studentID.zip` where `studentID` is your 8-digit Student ID and upload this file.
+For week 2, the submission required is the exported project for Question 7. You can make the submission by **Sunday 8th March 21:00**. You pass this activity if tests for 12 or more methods pass. The more methods you can solve, the better are your prospects in the practical exams. After completing the methods, follow the steps from Question 6 to export to archive file. Name the archive file `studentID.zip` where `studentID` is your 8-digit Student ID and upload this file.
 
 ### Question 8 (Problem solving)
 
