@@ -162,7 +162,7 @@ Export the completed project to an archive file using the following steps:
 
 ### Question 7.
 
-This relates to the questions under package `week02.practicePackage` of our master practical templates project.
+Download the project from [practical templates archive file](./../practicalTemplates.zip). This relates to the questions under package `week02.practicePackage`.
 
 Each file contains a method you need to complete followed by the corresponding test (indicated by `@Test`). Your tutor will demonstrate test-driven programming using:
 
