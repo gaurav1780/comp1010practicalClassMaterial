@@ -113,8 +113,8 @@ The steps required to import one or more java projects contained in a directory 
 4. Double-click (or expand) `General`
 5. Double-click `Existing projects into Workspace`
 6. Choose the options
-	a. `Select archive file` to import from archive files (zip files).
-	b. `Select root directory` to import from directories.
+	- `Select archive file` to import from archive files (zip files).
+	- `Select root directory` to import from directories.
 7. Click on `Browse`
 8. Locate and select directory or archive file from which you are importing.
 9. Click `Finish`
