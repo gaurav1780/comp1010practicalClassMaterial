@@ -10,7 +10,7 @@ public class Question06 {
 	 * @param n
 	 * @return the last digit of the number
 	 * For example,
-	 * lastDigit(15) = 1
+	 * lastDigit(15) = 5
 	 * lastDigit(-15) = 5
 	 * lastDigit(0) = 0
 	 * lastDigit(8) = 8
