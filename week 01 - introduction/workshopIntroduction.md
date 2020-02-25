@@ -3,12 +3,12 @@
 
 # Outline 
 
-Most of you have done COMP115 at Macquarie with Processing as the programming language and environment. We will revise some of the basics of programming learnt in COMP115. Also, in COMP1010, Java is the programming language and Eclipse is the environment. Following are this week's learning outcomes,
+Most of you have done COMP1000 (COMP115) at Macquarie with Processing as the programming language and environment. We will revise some of the basics of programming learnt in COMP1000. Also, in COMP1010, Java is the programming language and Eclipse is the environment. Following are this week's learning outcomes,
 
 - 10 minutes: introductions
 - 10 minutes: be ready to use the lab computers (setup accounts and iLearn)
 - 10 minutes: installing Java SE and Eclipse IDE
-- 80 minutes: revise COMP115/WCOM115 topics
+- 80 minutes: revise COMP1000/WCOM1000 topics
 
 ## COMP1010 Support Structure
 
@@ -37,7 +37,7 @@ If you have any problem installing Java and/or Eclipse, try troubleshooting with
 
 # Revision
 
-We will go through some questions that will help you revise COMP115. We have created material for students with the transition from COMP1000 (COMP115) to COMP1010 which is available [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops). Each topic contains a `.md` file containing the material.
+We will go through some questions that will help you revise COMP1000 (COMP115). We have created material for students with the transition from COMP1000 to COMP1010 which is available [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops). Each topic contains a `.md` file containing the material.
 
 ## What is the value of `result` when each of the following codes is executed?
 
