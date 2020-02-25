@@ -1,16 +1,16 @@
 # Department of Computing, Macquarie University
-## Workshop - Introduction to COMP125
+## Workshop - Introduction to COMP1010
 
 # Outline 
 
-Most of you have done COMP115 at Macquarie with Processing as the programming language and environment. We will revise some of the basics of programming learnt in COMP115. Also, in COMP125, Java is the programming language and Eclipse is the environment. Following are this week's learning outcomes,
+Most of you have done COMP115 at Macquarie with Processing as the programming language and environment. We will revise some of the basics of programming learnt in COMP115. Also, in COMP1010, Java is the programming language and Eclipse is the environment. Following are this week's learning outcomes,
 
 - 10 minutes: introductions
 - 10 minutes: be ready to use the lab computers (setup accounts and iLearn)
 - 10 minutes: installing Java SE and Eclipse IDE
 - 80 minutes: revise COMP115/WCOM115 topics
 
-## COMP125 Support Structure
+## COMP1010 Support Structure
 
 In COMP1010, we understand that programming doesn't come naturally to everyone. Some learn faster than others. There are two kinds of support sessions provided in COMP1010 (TO BE ADVISED)
 	
