@@ -121,7 +121,7 @@ The steps required to import one or more java projects contained in a directory 
 
 Note that the packages can be nested. A package `inner` inside another package `outer` needs to be named as `outer.inner`. You can change the package presentation to hierarchical (recommended) using the process described in the following video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T0Wg5jd6ddw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href = https://www.youtube.com/embed/T0Wg5jd6ddw>https://www.youtube.com/embed/T0Wg5jd6ddw</a>
 
 ### Question 4.
 
