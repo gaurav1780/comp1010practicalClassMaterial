@@ -119,18 +119,21 @@ The steps required to import one or more java projects contained in a directory 
 8. Locate and select directory or archive file from which you are importing.
 9. Click `Finish`
 
+Note that the packages can be nested. A package `inner` inside another package `outer` needs to be named as `outer.inner`. You can change the package presentation to hierarchical (recommended) using the process described in the following video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T0Wg5jd6ddw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Question 4.
 
-Import project contained in [myFirstEclipseArchiveFile.zip](./codes/myFirstEclipseArchiveFile.zip). There should be a project `myFirstEclipseProject` when imported containing the following structure:
+Import project contained in [COMP1010_source_codes_for_students.zip](./../COMP1010_source_codes_for_students.zip). You will see that the project contains 5 *packages* as shown in the following figure:
 
-- `myFirstEclipseProject`
-	- `src`
-		- `(default package)`
-			- `AverageSpeedCalculator.java`
-			- `SpeedCalculator.java`
-			- `Welcome.java`
+<center>![](./figs/sourceCodes.png)</center>
+
+The names of the packages makes their purpose self-explanatory.
 
 ### Question 5.
+
+Open package `practicalClassCodes` and then `week02`.
 
 Double click on `Welcome.java` and run it using the Play Button.
 
@@ -146,34 +149,35 @@ Complete the steps described in the program `AverageSpeedCalculator.java` so tha
 
 **TIP** `int/int = int` while `int/double = double`
 
-### Exporting a Java project to an ***archive file*** from Eclipse
+### Question 7.
 
-Export the completed project to an archive file using the following steps:
+Another package in the same project is `practicePackage`, further containing `operationsOnPrimitiveTypes` and then `templates`. There are a total of 31 questions. Your tutor will demonstrate what should be done for the following two methods:
 
-1. Select the project `myFirstEclipseProject` in the left panel so that it is highlighted in blue.
+1. `Question01.java` (test for method returning `boolean`), and, 
+2. `Question02.java`(test for method returning `int`).
+
+
+# Submission activity for this week
+
+For week 2, complete **at least** 15 out of 31 methods so that the corresponding tests pass and submit export and submit the project as described below. 
+You can make the submission by **Sunday 8th March 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
+
+Export the relevant part of the project to an archive file using the following steps:
+
+1. Select the project `COMP1010_source_codes_for_students` in the left panel so that it is highlighted in blue.
 2. Choose `File`
 3. Choose `Export`
 4. Double-click (or expand) `General`
 5. Double-click `Archive file`.
-6. Make sure `myFirstEclipseProject` has a tick against it.
-7. Click on `Browse`.
-8. Choose location of your choice and choose the name `myFirstExportedArchive`.
-9. Click `Finish`
+6. Uncheck the box against `COMP1010_source_codes_for_students`.
+7. Choose only the package `practicePackage.operationsOnPrimitiveTypes.template` as shown in the following figure:
 
-### Question 7.
-
-Download the project from [practical templates archive file](./../practicalTemplates.zip). This relates to the questions under package `week02.practicePackage`.
-
-Each file contains a method you need to complete followed by the corresponding test (indicated by `@Test`). Your tutor will demonstrate test-driven programming using:
-
-- `Question01.java` (test for method returning `boolean`), and, 
-- `Question02.java`(test for method returning `int`).
-
-Based on that, complete `Question04.java` and `Question13.java` and run corresponding tests.
-
-# Submission activity for this week
-
-For week 2, the submission required is the exported project for Question 7. You can make the submission by **Sunday 8th March 21:00**. You pass this activity if tests for 12 or more methods pass. The more methods you can solve, the better are your prospects in the practical exams. After completing the methods, follow the steps from Question 6 to export to archive file. Name the archive file `studentID.zip` where `studentID` is your 8-digit Student ID and upload this file under `Week 2 submission`.
+	![](./figs/week02submission.png)
+ 
+8. Click on `Browse`.
+9. Choose location of your choice and choose the name `studentID` (your 8 digit student ID).
+10. Click `Finish`.
+11. Upload file `studentID.zip` under `Week 2 submission`. 
 
 ### Question 8 (Problem solving)
 
