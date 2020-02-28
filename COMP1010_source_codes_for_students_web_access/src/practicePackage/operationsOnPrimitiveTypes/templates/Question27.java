@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-public class Question04Advanced {
+public class Question27 {
 	/**
 	 * DO NOT use Math library
 	 * @param a

@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-public class Question13Advanced {
+public class Question30 {
 	/**
 	 * 
 	 * @param val (val can be positive or zero or negative)
