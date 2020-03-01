@@ -160,8 +160,12 @@ There are a total of 31 questions. Your tutor will demonstrate what should be do
 1. `Question01.java` (test for method returning `boolean`), and, 
 2. `Question02.java`(test for method returning `int`).
 
+&nbsp;<p>
 
-# Submission activity for this week
+##<center>Submission activity for this week</center>
+
+&nbsp;<p>
+
 
 For week 2, complete **at least** 15 out of 31 methods so that the corresponding tests pass and submit export and submit the project as described below. 
 You can make the submission by **Sunday 8th March 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
