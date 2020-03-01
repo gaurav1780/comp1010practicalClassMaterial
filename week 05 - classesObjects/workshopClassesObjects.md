@@ -2,16 +2,16 @@
 
 ## Workshop - Classes and Objects
 
-### Outline
+# NOTE
+
+We will continue working with the `COMP1010_source_codes_for_students` project. This week, we are dealing with package `practicalClassCodes.week05`.
+
+## Outline
 
 - designing a class
 - creating objects
 - constructors
 - compareTo
-
-## TEMPLATE
-
-All programs for this workshop are in archive file [workshopClassesObjectsTemplate.zip](./codes/workshopClassesObjectsTemplate.zip)
 
 ## Question 1
 
@@ -318,7 +318,12 @@ public static int countSquares(Rectangle[] data) {
 
 ## Submission for week 5
 
-Import the project from [week5PracticePackage.zip](./codes/week5PracticePackage.zip). The tests are provided in package `testsAttempts`. The file `AllInOneTest.java` contains tests for all the classes. There are a total of 25 tests. Your submission must pass at least 10 tests (any 10) to qualify for week 5 participation marks. Make the submission as an exported archive file named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 5 submission (week 5 practice package)".
+
+You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. The file `AllInOneTest.java` contains tests for all the classes. There are a total of 25 tests. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
+
+Make the submission as an exported archive file (select ONLY package `practicePackage.classesObjects.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 5 submission" by **Sunday 29th March, 21:00**.
+
+![](./figs/week5submission.png)
 
 **DUE DATE: Sunday 1st September, 21:00 (9:00pm)**
 

@@ -2,12 +2,16 @@
 
 ## Workshop - Recursion
 
-### Outline
+# NOTE
+
+We will continue working with the `COMP1010_source_codes_for_students` project. This week, we are dealing with package `practicalClassCodes.week06`.
+
+## Outline
 
 - 6 to 15 minutes: a note for practical exams about `NullPointerException`
 - 16 to 35 minutes: demos
-	- numeric-based example
-	- String-based example
+	- numeric-based examples
+	- String-based examples
 - 36 to end of class: 
 	- practice,
 	- practice, and, 
@@ -134,9 +138,13 @@ The order is:
 7. `count7`
 8. and so on...
 
-## Week 6 practice package (NOT mandatory to submit)
+## Week 6 submission
 
-Week 6 practice package has been added at [./codes/week6PracticePackage.zip](./codes/week6PracticePackage.zip). Submission is NOT mandatory (so you can focus on prac exam 2 preparation). However, given that recursion is included in practical exam 2, we encourage you to do as many tasks as you can, especially Stages 1 and 2. Students aiming for HD should also do Stages 3 and 4.
+You should be working with package `practicePackage.recursion`. Complete as many methods as you can from Stage1, then move to Stage2, and so on.
+
+Make the submission as an exported archive file (select ONLY package `practicePackage.recursion.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 6 submission" by **Sunday 5th April, 21:00**.
+
+Submission is NOT mandatory (so you can focus on prac exam 2 preparation). However, given that recursion is included in practical exam 2, we encourage you to do as many tasks as you can, especially Stages 1 and 2. Students aiming for HD should also do Stages 3 and 4.
 
 ## ADVANCED PRACTICE QUESTIONS
 

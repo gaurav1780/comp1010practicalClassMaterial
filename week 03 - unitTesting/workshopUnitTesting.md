@@ -1,6 +1,9 @@
 # Department of Computing, Macquarie University
 ## Workshop - Unit testing
 
+# NOTE
+
+We will continue working with the `COMP1010_source_codes_for_students` project. This week, we are dealing with package `practicalClassCodes.week03`.
 
 # Outline 
 
@@ -200,16 +203,14 @@ public void testIndexOf() {
 
 ## Question 8
 
-Work on [Practice Package Week 2 (Arrays)](https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1258107) for the rest of the time. Make the submission by 21:00 Saturday week 3 at [https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821](https://ilearn.mq.edu.au/mod/assign/view.php?id=5316821).
+Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. 
 
 ### You must complete -
 
-1. at least 24 methods overall, and,
+1. at least 30 methods overall, and,
 2. at least 10 methods from stage 2, and,
 3. at least 2 method from stage 3.
 
-So while students would generally do 12 from stage 1, 10 from stage 2 and 2 from stage 3; technically, you can also do: 
+Make the submission as an exported archive file (select ONLY package `practicePackage.arrays.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 3 submission" by **Sunday 15th March, 21:00**.
 
-	- 22 methods from stage 2 and 2 from stage 3, or,  
-	- 10 from stage 2 and 14 from stage 3,
-	- etc.
+![](./figs/week3submission.png)
