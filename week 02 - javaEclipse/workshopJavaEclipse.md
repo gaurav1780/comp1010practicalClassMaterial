@@ -133,15 +133,13 @@ The names of the packages makes their purpose self-explanatory.
 
 ### Question 5.
 
-Open package `practicalClassCodes` and then `week02`.
+1. Open package `practicalClassCodes` and then `week02`.
 
-Double click on `Welcome.java` and run it using the Play Button.
+2. Double click on `Welcome.java` and run it using the `Play` Button.
 
-![Play](./figs/playButton.png)
+3. You should see the output in the console.
 
-You should see the output in the console.
-
-Repeat the same with `SpeedCalculator.java`
+4. Repeat steps 1-3 with `SpeedCalculator.java`
 
 ### Question 6.
 
@@ -151,7 +149,13 @@ Complete the steps described in the program `AverageSpeedCalculator.java` so tha
 
 ### Question 7.
 
-Another package in the same project is `practicePackage`, further containing `operationsOnPrimitiveTypes` and then `templates`. There are a total of 31 questions. Your tutor will demonstrate what should be done for the following two methods:
+Another package in the same project is `practicePackage`, further containing `operationsOnPrimitiveTypes` and then `templates`. Thus, the hierarchy being:
+
+- `practicePackage`
+	- `operationsOnPrimitiveTypes`
+		- `templates`
+
+There are a total of 31 questions. Your tutor will demonstrate what should be done for the following two methods:
 
 1. `Question01.java` (test for method returning `boolean`), and, 
 2. `Question02.java`(test for method returning `int`).
@@ -170,7 +174,7 @@ Export the relevant part of the project to an archive file using the following s
 4. Double-click (or expand) `General`
 5. Double-click `Archive file`.
 6. Uncheck the box against `COMP1010_source_codes_for_students`.
-7. Choose only the package `practicePackage.operationsOnPrimitiveTypes.template` as shown in the following figure:
+7. Choose only the package `practicePackage.operationsOnPrimitiveTypes.templates` as shown in the following figure:
 
 	![](./figs/week02submission.png)
  
