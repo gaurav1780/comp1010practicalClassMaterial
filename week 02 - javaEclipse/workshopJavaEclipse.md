@@ -127,7 +127,7 @@ Note that the packages can be nested. A package `inner` inside another package `
 
 Import project contained in [COMP1010_source_codes_for_students.zip](./../COMP1010_source_codes_for_students.zip). You will see that the project contains 5 *packages* as shown in the following figure:
 
-<center>![](./figs/sourceCodes.png)</center>
+![](./figs/sourceCodes.png)
 
 The names of the packages makes their purpose self-explanatory.
 
