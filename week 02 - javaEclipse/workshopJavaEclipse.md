@@ -76,16 +76,10 @@ public class MyFirstProgram {
 	public static void main(String[] args) {
 		//your code goes here
 	}
+	
+	//other methods (or functions)
 }
 ```
-
-### Example 1
-
-[MyFirstProgram.java](./codes/MyFirstProgram.java)
-
-### Example 2 - *Chunkier*
-
-[ChangeCalculator.java](./codes/ChangeCalculator.java)
 
 ### Question 3.
 
