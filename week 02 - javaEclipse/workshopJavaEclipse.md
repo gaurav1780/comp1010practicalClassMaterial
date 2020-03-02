@@ -162,7 +162,7 @@ There are a total of 31 questions. Your tutor will demonstrate what should be do
 
 &nbsp;<p>
 
-##<center>Submission activity for this week</center>
+### Submission activity for this week
 
 &nbsp;<p>
 
