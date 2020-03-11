@@ -7,7 +7,7 @@
 
 ## Accompanying source codes
 
-Source codes (templates) located at [practicalTemplates.zip](./practicalTemplates.zip).
+Source codes (templates) located at [COMP1010_source_codes_for_students.zip](./COMP1010_source_codes_for_students.zip).
 
 1. Download the file
 2. Open Eclipse
