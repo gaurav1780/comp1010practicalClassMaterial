@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Classes and Objects
+## Practical class - Classes and Objects
 
 # NOTE
 
@@ -210,9 +210,9 @@ Consider the class `GoalScoringRecord` in the project contained in `workshopClas
 
 ## Question 5 
 
-This question is based on the class `Rectangle` in the project contained in `workshopClassesObjectsTemplate.zip`.
+This question is based on the class `Rectangle`.
 
-Draw the memory diagram that represents the objects and instances when `line 8` in the follwing code is reached. Please refer to the lecture notes to see the representation scheme we have established.
+Draw the memory diagram that represents the objects and instances when `line 8` in the following code is reached. Please refer to the lecture notes to see the representation scheme we have established.
 
 ```java
 Rectangle r = new Rectangle(10, 20);
