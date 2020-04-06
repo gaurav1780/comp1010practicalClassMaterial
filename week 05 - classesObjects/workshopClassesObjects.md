@@ -203,7 +203,7 @@ public Person() {
 
 ## Question 4 (`compareTo` method)
 
-Consider the class `GoalScoringRecord` in the project contained in `workshopClassesObjectsTemplate.zip`. Complete the method `compareTo` so the corresponding test supplied in class `GoalScoringRecordTest` passes.
+Consider the class `GoalScoringRecord` contained within the package `practicalClassCodes.week05`. Complete the method `compareTo` so the corresponding test supplied in class `GoalScoringRecordTest` passes.
 
 <!--### Solution
 -->
