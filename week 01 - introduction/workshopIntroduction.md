@@ -1,5 +1,6 @@
 # Department of Computing, Macquarie University
-## Workshop - Introduction to COMP1010
+
+## Workshop - Introduction, COMP1010
 
 # Outline 
 
