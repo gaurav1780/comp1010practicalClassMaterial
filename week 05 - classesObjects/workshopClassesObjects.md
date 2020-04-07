@@ -230,7 +230,7 @@ System.out.println(v);
 
 ## Question 6
 
-For the class `Rectangle` in the project contained in `workshopClassesObjectsTemplate.zip`, consider the following client code (outside `Rectangle` class):
+For the class `Rectangle` in the project contained in `practicalClassCodes.week05`, consider the following client code (outside `Rectangle` class):
 
 ```java
 Rectangle[] data = new Rectangle[5];
