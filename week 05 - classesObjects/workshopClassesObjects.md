@@ -321,11 +321,11 @@ public static int countSquares(Rectangle[] data) {
 
 You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. The file `AllInOneTest.java` contains tests for all the classes. There are a total of 25 tests. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 
-Make the submission as an exported archive file (select ONLY package `practicePackage.classesObjects.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 5 submission" by **Sunday 29th March, 21:00**.
+Make the submission as an exported archive file (select ONLY package `practicePackage.classesObjects.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 5 submission" by **Sunday 12th April, 21:00**.
 
 ![](./figs/week5submission.png)
 
-**DUE DATE: Sunday 1st September, 21:00 (9:00pm)**
+**DUE DATE: Sunday 12th April, 21:00 (9:00pm)**
 
 # ADVANCED QUESTIONS (HD level)
 
