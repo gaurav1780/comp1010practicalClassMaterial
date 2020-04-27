@@ -48,7 +48,7 @@ The two classes that implement the methods from `List` interface are: (**Details
 
 - Students should pair up for this activity. First person does odd-numbered activities, second person does even-numbered activities. 
 
-- Activities should be completed in file `StudentActivityClient.java` in the project contained in archive file [workshopPreLists.zip](./codes/workshopPreLists.zip).
+- Activities should be completed in file `StudentActivityClient.java` in the project contained in package `practicalClassCodes.week08` of our master source code package.
 
 
 ### Creating a list
@@ -282,8 +282,8 @@ Display the first index at which the item 1 exists in list `outcomes`. You shoul
 
 Lists are passed just like an array or an object. If you modify the contents of a list in a method, contents of the actual list that was passed are also modified.
 
-Examples are provided in `ListMethods.java` in the project contained in archive file [workshopPreLists.zip](./codes/workshopPreLists.zip).
+Examples are provided in `ListMethods.java` in the package `practicalClassCodes.week08`.
 
 ## Practice project (for submission)
 
-Solve the tasks in `ListPractical.java` in the project contained in archive [workshopPreLists.zip](./codes/workshopPreLists.zip). Tests are provided in `ListPracticalTest.java`. Submit the file `ListPractical.java` under `week 8 submission` on iLearn. You can drag it from Eclipse and drop it into the file submission box of your browser (at least in Chrome). **You must attend the practical class and pass at least 5 out of 9 tests to get participation mark in week 8.**
+Solve the tasks in `ListPractical.java` in the project contained in the package `practicalClassCodes.week08`. Tests are provided in `ListPracticalTest.java`. Submit the file `ListPractical.java` under `week 8 submission` on iLearn by Sunday 3rd May 21:00. You can drag it from Eclipse and drop it into the file submission box of your browser (at least in Chrome).
