@@ -278,7 +278,7 @@ Display the first index at which the item 1 exists in list `outcomes`. You shoul
 
 ---------
 
-## Passing lists to objects
+## Passing lists to methods
 
 Lists are passed just like an array or an object. If you modify the contents of a list in a method, contents of the actual list that was passed are also modified.
 
