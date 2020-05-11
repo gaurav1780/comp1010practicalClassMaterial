@@ -4,20 +4,11 @@
 
 ### All tasks must be completed in the file [MyArrayList.java](./codes/MyArrayList.java). 
 
-You need to create a new Java project and add this file. To do this, choose 
-
-- File
-- New
-- Java Project
-- Name it `week10workshop`
-- Copy [MyArrayList.java](./codes/MyArrayList.java), [MyArrayListTest.java](./codes/MyArrayListTest.java) and [Rectangle.java](./codes/Rectangle.java)
-- Right-click on `src` folder of project `week10workshop` and choose `Paste`.
+You can find the files you need to work on in the package practicalClassCode.week10. 
 
 ## Complete all methods in class `MyArrayList.java`. 
 
 Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
-
-Completing these tests will be very helpful for practical exam 3.
 
 ### IMPORTANT! 
 
@@ -57,10 +48,9 @@ You should create a deep copy of `r` as:
 data[i] = new Rectangle(r);
 ```
 
-# Weekly submission task (required for participation mark)
+# Weekly submission task 
 
-Complete the following methods in the project contained in [week10PracticePackage.zip](./codes/week10PracticePackage.zip). Submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5353346) by Sunday 20th October 21:00.
-
+The weekly submission task can be found under the package practicePackage.lists.customBuiltLists.customArrayList. Complete and submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5469277).
 - `add(int)`
 - `get(int)`
 - `add(int, int)`
