@@ -67,7 +67,6 @@ Other methods are also dependent on `add(int)` since items are being added using
 
 ## Advanced
 ### Only complete these tasks after completing MyArrayList.java
-- Copy [Advanced.java](./codes/Advanced.java) and [AdvancedTest.java](./codes/AdvancedTest.java)
 
 ### Advanced 1
 
