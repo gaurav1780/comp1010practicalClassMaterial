@@ -2,9 +2,9 @@
 
 ## Workshop - Lists
 
-### All tasks must be completed in the file [MyArrayList.java](./codes/MyArrayList.java). 
+### All tasks must be completed in the file `MyArrayList.java`.
 
-You can find the files you need to work on in the package practicalClassCode.week10. 
+You can find the files you need to work on in the package `practicalClassCode.week10` in the master source code project. 
 
 ## Complete all methods in class `MyArrayList.java`. 
 
