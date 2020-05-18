@@ -101,8 +101,8 @@ The final weekly submission is to help you prepare for the practical exam. Templ
 - if any file besides `Week12.java` is uploaded to iLearn.
 - name of the file submitted is not `Week12.java` (slightly different from the previous point)
 
-Submit file `Week12.java` under [Week 12 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5363481) on iLearn.
+Submit file `Week12.java` under [Week 12 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5469279) on iLearn.
 
 Remember, some of these will take a very short amount of time and some longer. 
 
-If you are lost, it means you need to go back and study from the [lecture notes](http://rebrand.ly/comp125lectureNotes).
+If you are lost, it means you need to go back and study from the [lecture notes](https://software-technology.herokuapp.com/programming/recursive_lists.html).
