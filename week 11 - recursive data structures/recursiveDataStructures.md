@@ -3,10 +3,6 @@
 ## Workshop - Recursive data structures
 
 
-## Template
-
-Template provided [here](./codes/week11practicePackage.zip). Import into Eclipse.
-
 ## Question 1
 Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 
