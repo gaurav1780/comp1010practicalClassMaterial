@@ -94,14 +94,8 @@ class CustomLinkedList {
 
 ## Weekly submission
 
-The final weekly submission is to help you prepare for the practical exam. Template provided [here](./codes/week12practicePackage.zip). Import into Eclipse. The package contains 19 methods. To successfully get a participation mark, you must solve at least 10 correctly. No marks if,
-
-- there is **any** compilation error (red cross) in `Week12.java` or `Week12Test.java`, or,
-- there is an infinite loop in any method (even if other methods are correct).
-- if any file besides `Week12.java` is uploaded to iLearn.
-- name of the file submitted is not `Week12.java` (slightly different from the previous point)
-
-Submit file `Week12.java` under [Week 12 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5469279) on iLearn.
+Template provided [here](./codes/week12practicePackage.zip). Import into Eclipse. The package contains 19 methods.
+You should solve at least 10 correctly. Submit file `Week12.java` under Week 12 submission on iLearn.
 
 Remember, some of these will take a very short amount of time and some longer. 
 
