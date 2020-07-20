@@ -21,7 +21,7 @@ In COMP1010, we understand that programming doesn't come naturally to everyone. 
 
 Java is the programming language while Eclipse is one of the editors in which you write Java programs.
 
-Current version of Java SE is `12.0.2` and Eclipse IDE is `2019-06`.
+Current version of Java SE is `14.0.2` and Eclipse IDE is `2020-06`.
 
 You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE), **before you install Eclipse**.
 
@@ -44,17 +44,17 @@ We will go through some questions that will help you revise COMP1000 (COMP115). 
 
 1. 
 ```java
-int result = 12 / 5;
+int result = 17 / 5;
 ```
 
 2. 
 ```java
-float result = 12 / 5;
+float result = 17 / 5;
 ```
 
 3. 
 ```java
-float result = 12.0 / 5;
+float result = 17.0 / 5;
 ```
 
 4. 
@@ -101,10 +101,10 @@ else {
 
 What shapes are drawn for each of the following co-ordinates?
 
-1. (90, 120)
-2. (180, 160)
-3. (40, 80)
-4. (160, 90)
+1. `(90, 120)`
+2. `(180, 160)`
+3. `(40, 80)`
+4. `(160, 90)`
 
 ## LOOPS
 
