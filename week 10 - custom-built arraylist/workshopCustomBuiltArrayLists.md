@@ -2,26 +2,17 @@
 
 ## Workshop - Lists
 
-### All tasks must be completed in the file [MyArrayList.java](./codes/MyArrayList.java). 
+### All tasks must be completed in the file `MyArrayList.java`.
 
-You need to create a new Java project and add this file. To do this, choose 
-
-- File
-- New
-- Java Project
-- Name it `week10workshop`
-- Copy [MyArrayList.java](./codes/MyArrayList.java), [MyArrayListTest.java](./codes/MyArrayListTest.java) and [Rectangle.java](./codes/Rectangle.java)
-- Right-click on `src` folder of project `week10workshop` and choose `Paste`.
+You can find the files you need to work on in the package `practicalClassCode.week10` in the master source code project. 
 
 ## Complete all methods in class `MyArrayList.java`. 
 
 Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
 
-Completing these tests will be very helpful for practical exam 3.
-
 ### IMPORTANT! 
 
-Whenever you return a `Rectangle` object from a method or add a `Rectangle` object to the `Rectangle[]` data, you should do so in a manner that a *deep copy* is made. The advantage of doing so is that if the client modifies the object returned, the original copy is not modified.
+Whenever you return a `Rectangle` object from a method or add a `Rectangle` object to the `Rectangle[]` data, you should do so in a manner that an *instance copy* is made. The advantage of doing so is that if the client modifies the object returned, the original copy is not modified.
 
 The copy constructor is defined in class `Rectangle` as,
 
@@ -39,7 +30,7 @@ So instead of returning a `Rectangle r` as:
 return r;
 ```
 
-You should return a deep copy of `r` as:
+You should return an instance copy of `r` as:
 
 ```java
 return new Rectangle(r);
@@ -51,16 +42,15 @@ Similarly, when you want to set an array item to a `Rectangle r`, instead of ass
 data[i] = r;
 ```
 
-You should create a deep copy of `r` as:
+You should create an instance copy of `r` as:
 
 ```java
 data[i] = new Rectangle(r);
 ```
 
-# Weekly submission task (required for participation mark)
+# Weekly submission task 
 
-Complete the following methods in the project contained in [week10PracticePackage.zip](./codes/week10PracticePackage.zip). Submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5353346) by Sunday 20th October 21:00.
-
+The weekly submission task can be found under the package practicePackage.lists.customBuiltLists.customArrayList. Complete and submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5469277).
 - `add(int)`
 - `get(int)`
 - `add(int, int)`
@@ -77,7 +67,6 @@ Other methods are also dependent on `add(int)` since items are being added using
 
 ## Advanced
 ### Only complete these tasks after completing MyArrayList.java
-- Copy [Advanced.java](./codes/Advanced.java) and [AdvancedTest.java](./codes/AdvancedTest.java)
 
 ### Advanced 1
 

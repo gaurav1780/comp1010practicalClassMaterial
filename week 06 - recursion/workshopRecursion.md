@@ -142,7 +142,7 @@ The order is:
 
 You should be working with package `practicePackage.recursion`. Complete as many methods as you can from Stage1, then move to Stage2, and so on.
 
-Make the submission as an exported archive file (select ONLY package `practicePackage.recursion.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 6 submission" by **Sunday 5th April, 21:00**.
+Make the submission as an exported archive file (select ONLY package `practicePackage.recursion.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 6 submission" by **Sunday 19th April, 21:00**.
 
 Submission is NOT mandatory (so you can focus on prac exam 2 preparation). However, given that recursion is included in practical exam 2, we encourage you to do as many tasks as you can, especially Stages 1 and 2. Students aiming for HD should also do Stages 3 and 4.
 
@@ -153,4 +153,4 @@ If you are done with Recursion - 1, move on to [https://codingbat.com/java/Recur
 ## ADVANCED QUESTION
 
 **This is for students looking for something fairly challenging.**
-Solve as many questions as you can from [RecursionService.java](./codes/RecursionService.java)
+Solve as many questions as you can from [RecursionService.java] in `practiceClassCodes.week06.RecursionService` 
