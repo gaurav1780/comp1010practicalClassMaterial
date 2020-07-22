@@ -143,16 +143,17 @@ Complete the steps described in the program `AverageSpeedCalculator.java` so tha
 
 ### Question 7.
 
-Another package in the same project is `practicePackage`, further containing `operationsOnPrimitiveTypes` and then `templates`. Thus, the hierarchy being:
+Another package in the same project is `practicePackage`, further containing `introduction` and then two packages - `attempts` and `testsAttempts`. Thus, the hierarchy being:
 
 - `practicePackage`
-	- `operationsOnPrimitiveTypes`
-		- `templates`
+	- `introduction`
+		- `attempts`
+		- `testsAttempts`
 
-There are a total of 31 questions. Your tutor will demonstrate what should be done for the following two methods:
+There are 33 questions over 4 stages. Your tutor will demonstrate what should be done for the following two methods:
 
-1. `Question01.java` (test for method returning `boolean`), and, 
-2. `Question02.java`(test for method returning `int`).
+1. `square(int)` in `Stage1.java` (method returning `int`), and, 
+2. `isPositive(int)` in `Stage1.java`(method returning `boolean`).
 
 &nbsp;<p>
 
@@ -161,8 +162,7 @@ There are a total of 31 questions. Your tutor will demonstrate what should be do
 &nbsp;<p>
 
 
-For week 2, complete **at least** 15 out of 31 methods so that the corresponding tests pass and submit export and submit the project as described below. 
-You can make the submission by **Sunday 8th March 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
+For week 2, complete **at least** 15 methods so that the corresponding tests pass and submit the exported project as described below. You can make the submission by **Sunday 8th July 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
 
 Export the relevant part of the project to an archive file using the following steps:
 
@@ -172,14 +172,14 @@ Export the relevant part of the project to an archive file using the following s
 4. Double-click (or expand) `General`
 5. Double-click `Archive file`.
 6. Uncheck the box against `COMP1010_source_codes_for_students`.
-7. Choose only the package `practicePackage.operationsOnPrimitiveTypes.templates` as shown in the following figure:
+7. Choose only the package `practicePackage.introduction.attempts` as shown in the following figure:
 
 	![](./figs/week02submission.png)
  
 8. Click on `Browse`.
 9. Choose location of your choice and choose the name `studentID` (your 8 digit student ID).
 10. Click `Finish`.
-11. Upload file `studentID.zip` under `Week 2 submission`. 
+11. Upload file `studentID.zip` under `Week 2 submission`. For example, if your student ID is 40404040, the file you submit, must be `40404040.zip`.
 
 ### Question 8 (Problem solving)
 
