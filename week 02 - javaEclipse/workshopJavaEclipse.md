@@ -178,9 +178,9 @@ Export the relevant part of the project to an archive file using steps shown in 
 6. Uncheck the box against `COMP1010_source_codes_for_students`.
 7. Choose only the package `practicePackage.introduction.attempts`.
 8. Click on `Brows
-9. Choose location of your choice and choose the name `studentID_week_2_submission.zip` (studentID being your 8 digit student ID).
+9. Choose location of your choice and choose the name `studentID_week_2_submission.zip` (studentID being your 8-digit student ID).
 10. Click `Finish`.
-11. Upload file `studentID.zip` under `Week 2 submission`. For example, if your student ID is 40404040, the file you submit, must be `40404040_week_2_submission.zip`.
+11. Upload file `studentID_week_2_submission.zip` under `Week 2 submission`. For example, if your student ID is 40404040, the file you submit, must be `40404040_week_2_submission.zip`.
 
 ### Question 8 (Problem solving)
 
