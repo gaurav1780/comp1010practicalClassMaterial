@@ -99,7 +99,7 @@ The IDE we use in the labs is Eclipse, although you are free to use others such 
 
 One of the good things about using an IDE is that you can *package* or export a program (that may contain many many files) into an archive file (.zip). You can then *unpackage* or import the program from an archive file into an IDE on a different machine.
 
-The steps required to import one or more java projects contained in a directory or an archive file (zip files) are as follows (video at https://www.youtube.com/watch?v=enbPj-RvXdE)
+The steps required to import one or more java projects contained in a directory or an archive file (zip files) are shown in the following video:
 
 [![](http://img.youtube.com/vi/enbPj-RvXdE/0.jpg)](http://www.youtube.com/watch?v=enbPj-RvXdE "")
 
@@ -117,7 +117,7 @@ The steps required to import one or more java projects contained in a directory 
 
 Note that the packages can be nested. A package `inner` inside another package `outer` needs to be named as `outer.inner`. You can change the package presentation to hierarchical (recommended) using the process described in the following video:
 
-<a href = https://www.youtube.com/embed/T0Wg5jd6ddw>https://www.youtube.com/embed/T0Wg5jd6ddw</a>
+[![](http://img.youtube.com/vi/T0Wg5jd6ddw/0.jpg)](http://www.youtube.com/watch?v=T0Wg5jd6ddw "")
 
 ### Question 4.
 
@@ -166,7 +166,9 @@ There are 33 questions over 4 stages. Your tutor will demonstrate what should be
 
 For week 2, complete **at least** 15 methods so that the corresponding tests pass and submit the exported project as described below. You can make the submission by **Sunday 8th July 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
 
-Export the relevant part of the project to an archive file using the following steps (video at https://www.youtube.com/watch?v=eeGrh_l5jp0),
+Export the relevant part of the project to an archive file using steps shown in the following video
+
+[![](http://img.youtube.com/vi/eeGrh_l5jp0/0.jpg)](http://www.youtube.com/watch?v=eeGrh_l5jp0 "")
 
 1. Select the project `COMP1010_source_codes_for_students` in the left panel so that it is highlighted in blue.
 2. Choose `File`
