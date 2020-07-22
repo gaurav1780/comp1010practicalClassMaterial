@@ -99,7 +99,9 @@ The IDE we use in the labs is Eclipse, although you are free to use others such 
 
 One of the good things about using an IDE is that you can *package* or export a program (that may contain many many files) into an archive file (.zip). You can then *unpackage* or import the program from an archive file into an IDE on a different machine.
 
-The steps required to import one or more java projects contained in a directory or an archive file (zip files) are as follows:
+The steps required to import one or more java projects contained in a directory or an archive file (zip files) are as follows (video at https://www.youtube.com/watch?v=enbPj-RvXdE)
+
+[![](http://img.youtube.com/vi/enbPj-RvXdE/0.jpg)](http://www.youtube.com/watch?v=enbPj-RvXdE "")
 
 1. Open Eclipse
 2. Choose `File`
@@ -164,7 +166,7 @@ There are 33 questions over 4 stages. Your tutor will demonstrate what should be
 
 For week 2, complete **at least** 15 methods so that the corresponding tests pass and submit the exported project as described below. You can make the submission by **Sunday 8th July 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
 
-Export the relevant part of the project to an archive file using the following steps:
+Export the relevant part of the project to an archive file using the following steps (video at https://www.youtube.com/watch?v=eeGrh_l5jp0),
 
 1. Select the project `COMP1010_source_codes_for_students` in the left panel so that it is highlighted in blue.
 2. Choose `File`
@@ -172,14 +174,11 @@ Export the relevant part of the project to an archive file using the following s
 4. Double-click (or expand) `General`
 5. Double-click `Archive file`.
 6. Uncheck the box against `COMP1010_source_codes_for_students`.
-7. Choose only the package `practicePackage.introduction.attempts` as shown in the following figure:
-
-	![](./figs/week02submission.png)
- 
-8. Click on `Browse`.
-9. Choose location of your choice and choose the name `studentID` (your 8 digit student ID).
+7. Choose only the package `practicePackage.introduction.attempts`.
+8. Click on `Brows
+9. Choose location of your choice and choose the name `studentID_week_2_submission.zip` (studentID being your 8 digit student ID).
 10. Click `Finish`.
-11. Upload file `studentID.zip` under `Week 2 submission`. For example, if your student ID is 40404040, the file you submit, must be `40404040.zip`.
+11. Upload file `studentID.zip` under `Week 2 submission`. For example, if your student ID is 40404040, the file you submit, must be `40404040_week_2_submission.zip`.
 
 ### Question 8 (Problem solving)
 
