@@ -14,7 +14,7 @@ You have downloaded and installed Java SE (previously known as Java SDK) on your
 - 35 minutes past start: JUnit test example
 - 60 minutes past start: Exporting a Java project to an **archive file** from Eclipse
 - 75 minutes past start: Completing a simple Java program
-- 90 minutes past start: Problem solving (**extremely useful for practical exam 1**)
+- 90 minutes past start: Problem solving
 
 
 ## Structure of a Java program
