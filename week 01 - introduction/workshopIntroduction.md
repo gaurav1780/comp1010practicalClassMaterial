@@ -15,7 +15,7 @@ Most of you have done COMP1000 (COMP115) at Macquarie with Processing as the pro
 
 In COMP1010, we understand that programming doesn't come naturally to everyone. Some learn faster than others. There are two kinds of support sessions provided in COMP1010 (TO BE ADVISED)
 	
-* Times and rooms are subject to change. Please refer to latesst schedule on iLearn (right panel).
+* Times and rooms are subject to change. Please refer to latest schedule on iLearn (right panel).
 
 ## Installing Java SE and Eclipse IDE
 
