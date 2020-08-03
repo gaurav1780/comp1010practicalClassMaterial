@@ -164,7 +164,7 @@ There are 33 questions over 4 stages. Your tutor will demonstrate what should be
 &nbsp;<p>
 
 
-For week 2, complete **at least** 15 methods so that the corresponding tests pass and submit the exported project as described below. You can make the submission by **Sunday 8th July 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
+For week 2, complete **at least** 15 methods so that the corresponding tests pass and submit the exported project as described below. You can make the submission by **Sunday 9th August 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
 
 Export the relevant part of the project to an archive file using steps shown in the following video
 
