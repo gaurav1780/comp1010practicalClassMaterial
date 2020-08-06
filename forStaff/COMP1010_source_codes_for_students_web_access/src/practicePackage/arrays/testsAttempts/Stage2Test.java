@@ -1,7 +1,5 @@
 package practicePackage.arrays.testsAttempts;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Arrays;
@@ -9,9 +7,9 @@ import java.util.Arrays;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import practicePackage.arrays.attempts.Stage2;
-
 public class Stage2Test {
+	protected practicePackage.arrays.attempts.Stage2 testObject;
+	
 	private int[] empty;
 	private int[] singleItemArray;
 	private int[] tenMultiples;
@@ -20,7 +18,8 @@ public class Stage2Test {
 	private int[] descNegs;
 
 	@BeforeEach
-	void run() {
+	public void run() {
+		testObject = new practicePackage.arrays.attempts.Stage2();
 		empty = new int[]{};
 		singleItemArray = new int[]{777};
 		tenMultiples = new int[]{10,-70,-20,90};
@@ -30,157 +29,157 @@ public class Stage2Test {
 	}
 
 	@Test
-	void testSum() {
-		assertEquals(0, Stage2.sum(null));
-		assertEquals(0, Stage2.sum(empty));
-		assertEquals(777, Stage2.sum(singleItemArray));
-		assertEquals(10, Stage2.sum(tenMultiples));
-		assertEquals((-77), Stage2.sum(negPos));
-		assertEquals(904, Stage2.sum(ascAllPos));
-		assertEquals((-1151), Stage2.sum(descNegs));
+	public void testSum() {
+		assertEquals(0, testObject.sum(null));
+		assertEquals(0, testObject.sum(empty));
+		assertEquals(777, testObject.sum(singleItemArray));
+		assertEquals(10, testObject.sum(tenMultiples));
+		assertEquals((-77), testObject.sum(negPos));
+		assertEquals(904, testObject.sum(ascAllPos));
+		assertEquals((-1151), testObject.sum(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sum(e));
+		assertEquals(0, testObject.sum(e));
 	}
 
 	@Test
-	void testSumEven() {
-		assertEquals(0, Stage2.sumEven(null));
-		assertEquals(0, Stage2.sumEven(empty));
-		assertEquals(0, Stage2.sumEven(singleItemArray));
-		assertEquals(10, Stage2.sumEven(tenMultiples));
-		assertEquals(26, Stage2.sumEven(negPos));
-		assertEquals(510, Stage2.sumEven(ascAllPos));
-		assertEquals((-202), Stage2.sumEven(descNegs));
+	public void testSumEven() {
+		assertEquals(0, testObject.sumEven(null));
+		assertEquals(0, testObject.sumEven(empty));
+		assertEquals(0, testObject.sumEven(singleItemArray));
+		assertEquals(10, testObject.sumEven(tenMultiples));
+		assertEquals(26, testObject.sumEven(negPos));
+		assertEquals(510, testObject.sumEven(ascAllPos));
+		assertEquals((-202), testObject.sumEven(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumEven(e));
+		assertEquals(0, testObject.sumEven(e));
 	}
 
 	@Test
-	void testSumOdd() {
-		assertEquals(0, Stage2.sumOdd(null));
-		assertEquals(0, Stage2.sumOdd(empty));
-		assertEquals(777, Stage2.sumOdd(singleItemArray));
-		assertEquals(0, Stage2.sumOdd(tenMultiples));
-		assertEquals((-103), Stage2.sumOdd(negPos));
-		assertEquals(394, Stage2.sumOdd(ascAllPos));
-		assertEquals((-949), Stage2.sumOdd(descNegs));
+	public void testSumOdd() {
+		assertEquals(0, testObject.sumOdd(null));
+		assertEquals(0, testObject.sumOdd(empty));
+		assertEquals(777, testObject.sumOdd(singleItemArray));
+		assertEquals(0, testObject.sumOdd(tenMultiples));
+		assertEquals((-103), testObject.sumOdd(negPos));
+		assertEquals(394, testObject.sumOdd(ascAllPos));
+		assertEquals((-949), testObject.sumOdd(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumOdd(e));
+		assertEquals(0, testObject.sumOdd(e));
 	}
 
 	@Test
-	void testSumPositives() {
-		assertEquals(0, Stage2.sumPositives(null));
-		assertEquals(0, Stage2.sumPositives(empty));
-		assertEquals(777, Stage2.sumPositives(singleItemArray));
-		assertEquals(100, Stage2.sumPositives(tenMultiples));
-		assertEquals(41, Stage2.sumPositives(negPos));
-		assertEquals(904, Stage2.sumPositives(ascAllPos));
-		assertEquals(0, Stage2.sumPositives(descNegs));
+	public void testSumPositives() {
+		assertEquals(0, testObject.sumPositives(null));
+		assertEquals(0, testObject.sumPositives(empty));
+		assertEquals(777, testObject.sumPositives(singleItemArray));
+		assertEquals(100, testObject.sumPositives(tenMultiples));
+		assertEquals(41, testObject.sumPositives(negPos));
+		assertEquals(904, testObject.sumPositives(ascAllPos));
+		assertEquals(0, testObject.sumPositives(descNegs));
 		int[] e = {0, 0, 0, 0, 10};
-		assertEquals(10, Stage2.sumPositives(e));
+		assertEquals(10, testObject.sumPositives(e));
 	}
 
 	@Test
-	void testSumNegatives() {
-		assertEquals(0, Stage2.sumNegatives(null));
-		assertEquals(0, Stage2.sumNegatives(empty));
-		assertEquals(0, Stage2.sumNegatives(singleItemArray));
-		assertEquals((-90), Stage2.sumNegatives(tenMultiples));
-		assertEquals((-118), Stage2.sumNegatives(negPos));
-		assertEquals(0, Stage2.sumNegatives(ascAllPos));
-		assertEquals((-1151), Stage2.sumNegatives(descNegs));
+	public void testSumNegatives() {
+		assertEquals(0, testObject.sumNegatives(null));
+		assertEquals(0, testObject.sumNegatives(empty));
+		assertEquals(0, testObject.sumNegatives(singleItemArray));
+		assertEquals((-90), testObject.sumNegatives(tenMultiples));
+		assertEquals((-118), testObject.sumNegatives(negPos));
+		assertEquals(0, testObject.sumNegatives(ascAllPos));
+		assertEquals((-1151), testObject.sumNegatives(descNegs));
 		int[] e = {0, 0, 0, 0, -10};
-		assertEquals((-10), Stage2.sumNegatives(e));
+		assertEquals((-10), testObject.sumNegatives(e));
 	}
 
 	@Test
-	void testSumEvenIndexedItems() {
-		assertEquals(0, Stage2.sumEvenIndexedItems(null));
-		assertEquals(0, Stage2.sumEvenIndexedItems(empty));
-		assertEquals(777, Stage2.sumEvenIndexedItems(singleItemArray));
-		assertEquals(-10, Stage2.sumEvenIndexedItems(tenMultiples));
-		assertEquals(-118, Stage2.sumEvenIndexedItems(negPos));
-		assertEquals(391, Stage2.sumEvenIndexedItems(ascAllPos));
-		assertEquals(-546, Stage2.sumEvenIndexedItems(descNegs));
+	public void testSumEvenIndexedItems() {
+		assertEquals(0, testObject.sumEvenIndexedItems(null));
+		assertEquals(0, testObject.sumEvenIndexedItems(empty));
+		assertEquals(777, testObject.sumEvenIndexedItems(singleItemArray));
+		assertEquals(-10, testObject.sumEvenIndexedItems(tenMultiples));
+		assertEquals(-118, testObject.sumEvenIndexedItems(negPos));
+		assertEquals(391, testObject.sumEvenIndexedItems(ascAllPos));
+		assertEquals(-546, testObject.sumEvenIndexedItems(descNegs));
 	}
 
 	@Test
-	void testSumOddIndexedItems() {
-		assertEquals(0, Stage2.sumOddIndexedItems(null));
-		assertEquals(0, Stage2.sumOddIndexedItems(empty));
-		assertEquals(0, Stage2.sumOddIndexedItems(singleItemArray));
-		assertEquals(20, Stage2.sumOddIndexedItems(tenMultiples));
-		assertEquals(41, Stage2.sumOddIndexedItems(negPos));
-		assertEquals(513, Stage2.sumOddIndexedItems(ascAllPos));
-		assertEquals(-605, Stage2.sumOddIndexedItems(descNegs));
+	public void testSumOddIndexedItems() {
+		assertEquals(0, testObject.sumOddIndexedItems(null));
+		assertEquals(0, testObject.sumOddIndexedItems(empty));
+		assertEquals(0, testObject.sumOddIndexedItems(singleItemArray));
+		assertEquals(20, testObject.sumOddIndexedItems(tenMultiples));
+		assertEquals(41, testObject.sumOddIndexedItems(negPos));
+		assertEquals(513, testObject.sumOddIndexedItems(ascAllPos));
+		assertEquals(-605, testObject.sumOddIndexedItems(descNegs));
 	}
 
 	@Test
-	void testSumMultiples() {
-		assertEquals(0, Stage2.sumMultiples(null, 69));
-		assertEquals(0, Stage2.sumMultiples(empty, 96));
-		assertEquals(777, Stage2.sumMultiples(singleItemArray, 777));
-		assertEquals(10, Stage2.sumMultiples(tenMultiples, 10));
-		assertEquals(0, Stage2.sumMultiples(negPos, 7));
-		assertEquals(256, Stage2.sumMultiples(ascAllPos, 4));
-		assertEquals(-720, Stage2.sumMultiples(descNegs, 5));
+	public void testSumMultiples() {
+		assertEquals(0, testObject.sumMultiples(null, 69));
+		assertEquals(0, testObject.sumMultiples(empty, 96));
+		assertEquals(777, testObject.sumMultiples(singleItemArray, 777));
+		assertEquals(10, testObject.sumMultiples(tenMultiples, 10));
+		assertEquals(0, testObject.sumMultiples(negPos, 7));
+		assertEquals(256, testObject.sumMultiples(ascAllPos, 4));
+		assertEquals(-720, testObject.sumMultiples(descNegs, 5));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumMultiples(e, 235));
+		assertEquals(0, testObject.sumMultiples(e, 235));
 	}
 
 	@Test
-	void testSumFactors() {
-		assertEquals(0, Stage2.sumFactors(null, 69));
-		assertEquals(0, Stage2.sumFactors(empty, 96));
-		assertEquals(777, Stage2.sumFactors(singleItemArray, 777));
-		assertEquals(10, Stage2.sumFactors(tenMultiples, 1260));
-		assertEquals(9, Stage2.sumFactors(negPos, -100));
-		assertEquals(263, Stage2.sumFactors(ascAllPos, 224));
-		assertEquals(0, Stage2.sumFactors(descNegs, -235));
+	public void testSumFactors() {
+		assertEquals(0, testObject.sumFactors(null, 69));
+		assertEquals(0, testObject.sumFactors(empty, 96));
+		assertEquals(777, testObject.sumFactors(singleItemArray, 777));
+		assertEquals(10, testObject.sumFactors(tenMultiples, 1260));
+		assertEquals(9, testObject.sumFactors(negPos, -100));
+		assertEquals(263, testObject.sumFactors(ascAllPos, 224));
+		assertEquals(0, testObject.sumFactors(descNegs, -235));
 	}
 
 	@Test
-	void testSumInRange() {
-		assertEquals(0, Stage2.sumInRange(null, 69, 96));
-		assertEquals(0, Stage2.sumInRange(empty, 23, 35));
-		assertEquals(777, Stage2.sumInRange(singleItemArray, 777, 777));
-		assertEquals(10, Stage2.sumInRange(tenMultiples, -70, 90)); //all items satisfy
-		assertEquals((-90), Stage2.sumInRange(tenMultiples, -80, -10));
-		assertEquals(100, Stage2.sumInRange(tenMultiples, 0, 100));
-		assertEquals(10, Stage2.sumInRange(negPos, 10, 14)); //only 1 item satisfies (= low)
-		assertEquals(4, Stage2.sumInRange(ascAllPos, -115, 4)); //only 1 item satisfies (= high)
-		assertEquals(0, Stage2.sumInRange(descNegs, 0, 125)); //no items satisfy
+	public void testSumInRange() {
+		assertEquals(0, testObject.sumInRange(null, 69, 96));
+		assertEquals(0, testObject.sumInRange(empty, 23, 35));
+		assertEquals(777, testObject.sumInRange(singleItemArray, 777, 777));
+		assertEquals(10, testObject.sumInRange(tenMultiples, -70, 90)); //all items satisfy
+		assertEquals((-90), testObject.sumInRange(tenMultiples, -80, -10));
+		assertEquals(100, testObject.sumInRange(tenMultiples, 0, 100));
+		assertEquals(10, testObject.sumInRange(negPos, 10, 14)); //only 1 item satisfies (= low)
+		assertEquals(4, testObject.sumInRange(ascAllPos, -115, 4)); //only 1 item satisfies (= high)
+		assertEquals(0, testObject.sumInRange(descNegs, 0, 125)); //no items satisfy
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumInRange(e, 0, 0));
+		assertEquals(0, testObject.sumInRange(e, 0, 0));
 	}
 
 	@Test
-	void testSumNotInRange() {
-		assertEquals(0, Stage2.sumNotInRange(null, 69, 96));
-		assertEquals(0, Stage2.sumNotInRange(empty, 23, 35));
-		assertEquals(0, Stage2.sumNotInRange(singleItemArray, 777, 777));
-		assertEquals(10, Stage2.sumNotInRange(tenMultiples, 100, 169)); //all items satisfy
-		assertEquals(100, Stage2.sumNotInRange(tenMultiples, -80, -10));
-		assertEquals((-90), Stage2.sumNotInRange(tenMultiples, 0, 100));
-		assertEquals((-87), Stage2.sumNotInRange(negPos, 10, 14)); //only 1 item dissatisfies (= low)
-		assertEquals(900, Stage2.sumNotInRange(ascAllPos, -115, 4)); //only 1 item dissatisfies (= high)
-		assertEquals(0, Stage2.sumNotInRange(descNegs, -269, 0)); //no items satisfy
+	public void testSumNotInRange() {
+		assertEquals(0, testObject.sumNotInRange(null, 69, 96));
+		assertEquals(0, testObject.sumNotInRange(empty, 23, 35));
+		assertEquals(0, testObject.sumNotInRange(singleItemArray, 777, 777));
+		assertEquals(10, testObject.sumNotInRange(tenMultiples, 100, 169)); //all items satisfy
+		assertEquals(100, testObject.sumNotInRange(tenMultiples, -80, -10));
+		assertEquals((-90), testObject.sumNotInRange(tenMultiples, 0, 100));
+		assertEquals((-87), testObject.sumNotInRange(negPos, 10, 14)); //only 1 item dissatisfies (= low)
+		assertEquals(900, testObject.sumNotInRange(ascAllPos, -115, 4)); //only 1 item dissatisfies (= high)
+		assertEquals(0, testObject.sumNotInRange(descNegs, -269, 0)); //no items satisfy
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumNotInRange(e, 0, 0));
+		assertEquals(0, testObject.sumNotInRange(e, 0, 0));
 	}
 
 	@Test
-	void testResetNegatives() {
-		Stage2.resetNegatives(null); //NullPointerException check
+	public void testResetNegatives() {
+		testObject.resetNegatives(null); //NullPointerException check
 
-		Stage2.resetNegatives(empty);
+		testObject.resetNegatives(empty);
 		assertEquals(0, empty.length);
 
-		Stage2.resetNegatives(singleItemArray);
+		testObject.resetNegatives(singleItemArray);
 		assertEquals(777, singleItemArray[0]);
 
-		Stage2.resetNegatives(tenMultiples);
+		testObject.resetNegatives(tenMultiples);
 		assertEquals(4, tenMultiples.length);
 		assertEquals(10, tenMultiples[0]);
 		assertEquals(0, tenMultiples[1]);
@@ -188,38 +187,38 @@ public class Stage2Test {
 		assertEquals(90, tenMultiples[3]);
 
 		String before1 = Arrays.toString(ascAllPos);
-		Stage2.resetNegatives(ascAllPos);
+		testObject.resetNegatives(ascAllPos);
 		String after1 = Arrays.toString(ascAllPos);
 		assertEquals(before1, after1);
 
-		Stage2.resetNegatives(descNegs);
+		testObject.resetNegatives(descNegs);
 		assertEquals("[0, 0, 0, 0, 0, 0]", Arrays.toString(descNegs));
 
 		int[] e = {0, 0, 0, 0, 0};
 		String before2 = Arrays.toString(e);
-		Stage2.resetNegatives(e);
+		testObject.resetNegatives(e);
 		String after2 = Arrays.toString(e);
 		assertEquals(before2, after2);
 	}
 
 	@Test
-	void testMakeAbsolute() {
-		Stage2.makeAbsolute(null); //NullPointerException check
+	public void testMakeAbsolute() {
+		testObject.makeAbsolute(null); //NullPointerException check
 
-		Stage2.makeAbsolute(empty);
+		testObject.makeAbsolute(empty);
 		assertEquals(0, empty.length);
 
-		Stage2.makeAbsolute(singleItemArray);
+		testObject.makeAbsolute(singleItemArray);
 		assertEquals(777, singleItemArray[0]);
 
-		Stage2.makeAbsolute(negPos);
+		testObject.makeAbsolute(negPos);
 		assertEquals(3, negPos[0]);
 		assertEquals(15, negPos[1]);
 		assertEquals(10, negPos[5]);
 		assertEquals(101, negPos[6]);
 
 		String before1 = Arrays.toString(ascAllPos);
-		Stage2.makeAbsolute(ascAllPos);
+		testObject.makeAbsolute(ascAllPos);
 		String after1 = Arrays.toString(ascAllPos);
 		assertEquals(before1, after1);
 
@@ -227,604 +226,604 @@ public class Stage2Test {
 		for (int i = 0; i < descNegs.length; i++) {
 			e[i] = -descNegs[i];
 		}
-		Stage2.makeAbsolute(descNegs);
+		testObject.makeAbsolute(descNegs);
 		assertEquals(Arrays.toString(descNegs), Arrays.toString(e));
 
 		int[] f = {0, 0, 0, 0, 0};
 		String before2 = Arrays.toString(f);
-		Stage2.makeAbsolute(f);
+		testObject.makeAbsolute(f);
 		String after2 = Arrays.toString(f);
 		assertEquals(before2, after2);
 	}
 
 	@Test
-	void testSquareUp() {
-		Stage2.squareUp(null); //NullPointerException check
+	public void testSquareUp() {
+		testObject.squareUp(null); //NullPointerException check
 
-		Stage2.squareUp(empty);
+		testObject.squareUp(empty);
 		assertEquals(0, empty.length);
 
-		Stage2.squareUp(singleItemArray);
+		testObject.squareUp(singleItemArray);
 		assertEquals(777 * 777, singleItemArray[0]);
 
-		Stage2.squareUp(tenMultiples);
+		testObject.squareUp(tenMultiples);
 		assertEquals("[100, 4900, 400, 8100]", Arrays.toString(tenMultiples));
 
-		Stage2.squareUp(negPos);
+		testObject.squareUp(negPos);
 		for (int item: negPos) {
 			assertTrue(ServiceClasses.MathService.isSquare(item));
 		}
 
 		int[] e = {0, 0, 0, 0, 0};
 		String before = Arrays.toString(e);
-		Stage2.squareUp(e);
+		testObject.squareUp(e);
 		String after = Arrays.toString(e);
 		assertEquals(before, after);
 	}
 
 	@Test
-	void testCountEven() {
-		assertEquals(0, Stage2.countEven(null));
-		assertEquals(0, Stage2.countEven(empty));
-		assertEquals(0, Stage2.countEven(singleItemArray));
-		assertEquals(4, Stage2.countEven(tenMultiples));
-		assertEquals(2, Stage2.countEven(negPos));
-		assertEquals(4, Stage2.countEven(ascAllPos));
-		assertEquals(1, Stage2.countEven(descNegs));
+	public void testCountEven() {
+		assertEquals(0, testObject.countEven(null));
+		assertEquals(0, testObject.countEven(empty));
+		assertEquals(0, testObject.countEven(singleItemArray));
+		assertEquals(4, testObject.countEven(tenMultiples));
+		assertEquals(2, testObject.countEven(negPos));
+		assertEquals(4, testObject.countEven(ascAllPos));
+		assertEquals(1, testObject.countEven(descNegs));
 		int[] e = {0,0,0,0,0};
-		assertEquals(5, Stage2.countEven(e));
+		assertEquals(5, testObject.countEven(e));
 	}
 
 	@Test
-	void testCountOdd() {
-		assertEquals(0, Stage2.countOdd(null));
-		assertEquals(0, Stage2.countOdd(empty));
-		assertEquals(1, Stage2.countOdd(singleItemArray));
-		assertEquals(0, Stage2.countOdd(tenMultiples));
-		assertEquals(5, Stage2.countOdd(negPos));
-		assertEquals(4, Stage2.countOdd(ascAllPos));
-		assertEquals(5, Stage2.countOdd(descNegs));
+	public void testCountOdd() {
+		assertEquals(0, testObject.countOdd(null));
+		assertEquals(0, testObject.countOdd(empty));
+		assertEquals(1, testObject.countOdd(singleItemArray));
+		assertEquals(0, testObject.countOdd(tenMultiples));
+		assertEquals(5, testObject.countOdd(negPos));
+		assertEquals(4, testObject.countOdd(ascAllPos));
+		assertEquals(5, testObject.countOdd(descNegs));
 		int[] e = {0,0,0,0,0};
-		assertEquals(0, Stage2.countOdd(e));
+		assertEquals(0, testObject.countOdd(e));
 	}
 
 	@Test
-	void testCountPositives() {
-		assertEquals(0, Stage2.countPositives(null));
-		assertEquals(0, Stage2.countPositives(empty));
-		assertEquals(1, Stage2.countPositives(singleItemArray));
-		assertEquals(2, Stage2.countPositives(tenMultiples));
-		assertEquals(3, Stage2.countPositives(negPos));
-		assertEquals(8, Stage2.countPositives(ascAllPos));
-		assertEquals(0, Stage2.countPositives(descNegs));
+	public void testCountPositives() {
+		assertEquals(0, testObject.countPositives(null));
+		assertEquals(0, testObject.countPositives(empty));
+		assertEquals(1, testObject.countPositives(singleItemArray));
+		assertEquals(2, testObject.countPositives(tenMultiples));
+		assertEquals(3, testObject.countPositives(negPos));
+		assertEquals(8, testObject.countPositives(ascAllPos));
+		assertEquals(0, testObject.countPositives(descNegs));
 		int[] e = {0,0,0,0,10};
-		assertEquals(1, Stage2.countPositives(e));
+		assertEquals(1, testObject.countPositives(e));
 	}
 
 	@Test
-	void testCountNegatives() {
-		assertEquals(0, Stage2.countNegatives(null));
-		assertEquals(0, Stage2.countNegatives(empty));
-		assertEquals(0, Stage2.countNegatives(singleItemArray));
-		assertEquals(2, Stage2.countNegatives(tenMultiples));
-		assertEquals(4, Stage2.countNegatives(negPos));
-		assertEquals(0, Stage2.countNegatives(ascAllPos));
-		assertEquals(6, Stage2.countNegatives(descNegs));
+	public void testCountNegatives() {
+		assertEquals(0, testObject.countNegatives(null));
+		assertEquals(0, testObject.countNegatives(empty));
+		assertEquals(0, testObject.countNegatives(singleItemArray));
+		assertEquals(2, testObject.countNegatives(tenMultiples));
+		assertEquals(4, testObject.countNegatives(negPos));
+		assertEquals(0, testObject.countNegatives(ascAllPos));
+		assertEquals(6, testObject.countNegatives(descNegs));
 		int[] e = {0,0,0,0,-10};
-		assertEquals(1, Stage2.countNegatives(e));
+		assertEquals(1, testObject.countNegatives(e));
 	}
 
 	@Test
-	void testCountMultiples() {
-		assertEquals(0, Stage2.countMultiples(null, 69));
-		assertEquals(0, Stage2.countMultiples(empty, 96));
-		assertEquals(1, Stage2.countMultiples(singleItemArray, 777));
-		assertEquals(4, Stage2.countMultiples(tenMultiples, 10));
-		assertEquals(0, Stage2.countMultiples(negPos, 7));
-		assertEquals(3, Stage2.countMultiples(ascAllPos, 4));
-		assertEquals(4, Stage2.countMultiples(descNegs, 5));
+	public void testCountMultiples() {
+		assertEquals(0, testObject.countMultiples(null, 69));
+		assertEquals(0, testObject.countMultiples(empty, 96));
+		assertEquals(1, testObject.countMultiples(singleItemArray, 777));
+		assertEquals(4, testObject.countMultiples(tenMultiples, 10));
+		assertEquals(0, testObject.countMultiples(negPos, 7));
+		assertEquals(3, testObject.countMultiples(ascAllPos, 4));
+		assertEquals(4, testObject.countMultiples(descNegs, 5));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(5, Stage2.countMultiples(e, 235));
+		assertEquals(5, testObject.countMultiples(e, 235));
 	}
 
 	@Test
-	void testCountFactors() {
-		assertEquals(0, Stage2.countFactors(null, 69));
-		assertEquals(0, Stage2.countFactors(empty, 96));
-		assertEquals(1, Stage2.countFactors(singleItemArray, 777));
-		assertEquals(4, Stage2.countFactors(tenMultiples, 1260));
-		assertEquals(2, Stage2.countFactors(negPos, -100));
-		assertEquals(4, Stage2.countFactors(ascAllPos, 224));
-		assertEquals(0, Stage2.countFactors(descNegs, -235));
+	public void testCountFactors() {
+		assertEquals(0, testObject.countFactors(null, 69));
+		assertEquals(0, testObject.countFactors(empty, 96));
+		assertEquals(1, testObject.countFactors(singleItemArray, 777));
+		assertEquals(4, testObject.countFactors(tenMultiples, 1260));
+		assertEquals(2, testObject.countFactors(negPos, -100));
+		assertEquals(4, testObject.countFactors(ascAllPos, 224));
+		assertEquals(0, testObject.countFactors(descNegs, -235));
 	}
 
 	@Test
-	void testCountInRange() {
-		assertEquals(0, Stage2.countInRange(null, 69, 96));
-		assertEquals(0, Stage2.countInRange(empty, 23, 35));
-		assertEquals(1, Stage2.countInRange(singleItemArray, 777, 777));
-		assertEquals(4, Stage2.countInRange(tenMultiples, -70, 90)); //all items satisfy
-		assertEquals(2, Stage2.countInRange(tenMultiples, -80, -10));
-		assertEquals(2, Stage2.countInRange(tenMultiples, 0, 100));
-		assertEquals(1, Stage2.countInRange(negPos, 10, 14)); //only 1 item satisfies (= low)
-		assertEquals(1, Stage2.countInRange(ascAllPos, -115, 4)); //only 1 item satisfies (= high)
-		assertEquals(0, Stage2.countInRange(descNegs, 0, 125)); //no items satisfy
+	public void testCountInRange() {
+		assertEquals(0, testObject.countInRange(null, 69, 96));
+		assertEquals(0, testObject.countInRange(empty, 23, 35));
+		assertEquals(1, testObject.countInRange(singleItemArray, 777, 777));
+		assertEquals(4, testObject.countInRange(tenMultiples, -70, 90)); //all items satisfy
+		assertEquals(2, testObject.countInRange(tenMultiples, -80, -10));
+		assertEquals(2, testObject.countInRange(tenMultiples, 0, 100));
+		assertEquals(1, testObject.countInRange(negPos, 10, 14)); //only 1 item satisfies (= low)
+		assertEquals(1, testObject.countInRange(ascAllPos, -115, 4)); //only 1 item satisfies (= high)
+		assertEquals(0, testObject.countInRange(descNegs, 0, 125)); //no items satisfy
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(5, Stage2.countInRange(e, 0, 0));
+		assertEquals(5, testObject.countInRange(e, 0, 0));
 	}
 
 	@Test
-	void testCountNotInRange() {
-		assertEquals(0, Stage2.countNotInRange(null, 69, 96));
-		assertEquals(0, Stage2.countNotInRange(empty, 23, 35));
-		assertEquals(0, Stage2.countNotInRange(singleItemArray, 777, 777));
-		assertEquals(4, Stage2.countNotInRange(tenMultiples, 100, 169)); //all items satisfy
-		assertEquals(2, Stage2.countNotInRange(tenMultiples, -80, -10));
-		assertEquals(2, Stage2.countNotInRange(tenMultiples, 0, 100));
-		assertEquals(6, Stage2.countNotInRange(negPos, 10, 14)); //only 1 item dissatisfies (= low)
-		assertEquals(7, Stage2.countNotInRange(ascAllPos, -115, 4)); //only 1 item dissatisfies (= high)
-		assertEquals(0, Stage2.countNotInRange(descNegs, -269, 0)); //no items satisfy
+	public void testCountNotInRange() {
+		assertEquals(0, testObject.countNotInRange(null, 69, 96));
+		assertEquals(0, testObject.countNotInRange(empty, 23, 35));
+		assertEquals(0, testObject.countNotInRange(singleItemArray, 777, 777));
+		assertEquals(4, testObject.countNotInRange(tenMultiples, 100, 169)); //all items satisfy
+		assertEquals(2, testObject.countNotInRange(tenMultiples, -80, -10));
+		assertEquals(2, testObject.countNotInRange(tenMultiples, 0, 100));
+		assertEquals(6, testObject.countNotInRange(negPos, 10, 14)); //only 1 item dissatisfies (= low)
+		assertEquals(7, testObject.countNotInRange(ascAllPos, -115, 4)); //only 1 item dissatisfies (= high)
+		assertEquals(0, testObject.countNotInRange(descNegs, -269, 0)); //no items satisfy
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.countNotInRange(e, 0, 0));
+		assertEquals(0, testObject.countNotInRange(e, 0, 0));
 	}
 
 	@Test
-	void testCountOccurrences() {
-		assertEquals(0, Stage2.countOccurrences(null, 69));
-		assertEquals(0, Stage2.countOccurrences(empty, 96));
-		assertEquals(1, Stage2.countOccurrences(singleItemArray, 777));
-		assertEquals(0, Stage2.countOccurrences(tenMultiples, 0));
-		assertEquals(1, Stage2.countOccurrences(ascAllPos, 13));
-		assertEquals(7, Stage2.countOccurrences(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
+	public void testCountOccurrences() {
+		assertEquals(0, testObject.countOccurrences(null, 69));
+		assertEquals(0, testObject.countOccurrences(empty, 96));
+		assertEquals(1, testObject.countOccurrences(singleItemArray, 777));
+		assertEquals(0, testObject.countOccurrences(tenMultiples, 0));
+		assertEquals(1, testObject.countOccurrences(ascAllPos, 13));
+		assertEquals(7, testObject.countOccurrences(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
 	}
 
 	@Test
-	void testCountUnique() {
-		assertEquals(0, Stage2.countUnique(null));
-		assertEquals(0, Stage2.countUnique(empty));
-		assertEquals(1, Stage2.countUnique(singleItemArray));
-		assertEquals(6, Stage2.countUnique(descNegs));
-		assertEquals(3, Stage2.countUnique(new int[]{0, 2, 0, 3, 1, 5, 1}));
-		assertEquals(0, Stage2.countUnique(new int[]{7, 7, 7, 7, 7, 7, 7}));
+	public void testCountUnique() {
+		assertEquals(0, testObject.countUnique(null));
+		assertEquals(0, testObject.countUnique(empty));
+		assertEquals(1, testObject.countUnique(singleItemArray));
+		assertEquals(6, testObject.countUnique(descNegs));
+		assertEquals(3, testObject.countUnique(new int[]{0, 2, 0, 3, 1, 5, 1}));
+		assertEquals(0, testObject.countUnique(new int[]{7, 7, 7, 7, 7, 7, 7}));
 	}
 
 	@Test
-	void testContains() {
-		assertFalse(Stage2.contains(null, 69));
-		assertFalse(Stage2.contains(empty, 96));
-		assertTrue(Stage2.contains(singleItemArray, 777));
-		assertFalse(Stage2.contains(descNegs, 0));
-		assertTrue(Stage2.contains(negPos, -13));
-		assertTrue(Stage2.contains(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
+	public void testContains() {
+		assertFalse(testObject.contains(null, 69));
+		assertFalse(testObject.contains(empty, 96));
+		assertTrue(testObject.contains(singleItemArray, 777));
+		assertFalse(testObject.contains(descNegs, 0));
+		assertTrue(testObject.contains(negPos, -13));
+		assertTrue(testObject.contains(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
 	}
 
 	@Test
-	void testIndexOf() {
-		assertEquals(-1, Stage2.indexOf(null, 69));
-		assertEquals(-1, Stage2.indexOf(empty, 96));
-		assertEquals(0, Stage2.indexOf(singleItemArray, 777));
-		assertEquals(0, Stage2.indexOf(tenMultiples, 10));
-		assertEquals(3, Stage2.indexOf(negPos, 16));
-		assertEquals(7, Stage2.indexOf(ascAllPos, 254));
-		assertEquals(-1, Stage2.indexOf(descNegs, 0));
-		assertEquals(0, Stage2.indexOf(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
+	public void testIndexOf() {
+		assertEquals(-1, testObject.indexOf(null, 69));
+		assertEquals(-1, testObject.indexOf(empty, 96));
+		assertEquals(0, testObject.indexOf(singleItemArray, 777));
+		assertEquals(0, testObject.indexOf(tenMultiples, 10));
+		assertEquals(3, testObject.indexOf(negPos, 16));
+		assertEquals(7, testObject.indexOf(ascAllPos, 254));
+		assertEquals(-1, testObject.indexOf(descNegs, 0));
+		assertEquals(0, testObject.indexOf(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
 	}
 
 	@Test
-	void testLastIndexOf() {
-		assertEquals(-1, Stage2.lastIndexOf(null, 69));
-		assertEquals(-1, Stage2.lastIndexOf(empty, 96));
-		assertEquals(0, Stage2.lastIndexOf(singleItemArray, 777));
-		assertEquals(0, Stage2.lastIndexOf(tenMultiples, 10));
-		assertEquals(3, Stage2.lastIndexOf(negPos, 16));
-		assertEquals(7, Stage2.lastIndexOf(ascAllPos, 254));
-		assertEquals(-1, Stage2.lastIndexOf(descNegs, 0));
-		assertEquals(6, Stage2.lastIndexOf(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
+	public void testLastIndexOf() {
+		assertEquals(-1, testObject.lastIndexOf(null, 69));
+		assertEquals(-1, testObject.lastIndexOf(empty, 96));
+		assertEquals(0, testObject.lastIndexOf(singleItemArray, 777));
+		assertEquals(0, testObject.lastIndexOf(tenMultiples, 10));
+		assertEquals(3, testObject.lastIndexOf(negPos, 16));
+		assertEquals(7, testObject.lastIndexOf(ascAllPos, 254));
+		assertEquals(-1, testObject.lastIndexOf(descNegs, 0));
+		assertEquals(6, testObject.lastIndexOf(new int[]{7, 7, 7, 7, 7, 7, 7}, 7));
 	}
 
 	@Test
-	void testContainsFromIndex() {
-		assertFalse(Stage2.containsFromIndex(null, 35, 23));
-		assertFalse(Stage2.containsFromIndex(empty, 96, 69));
-		assertTrue(Stage2.containsFromIndex(singleItemArray, 777, 0));
-		assertFalse(Stage2.containsFromIndex(tenMultiples, 90, 4));
-		assertFalse(Stage2.containsFromIndex(negPos, -13, -1));
-		assertTrue(Stage2.containsFromIndex(ascAllPos, 254, 6));
-		assertFalse(Stage2.containsFromIndex(descNegs, -115, 1));
+	public void testContainsFromIndex() {
+		assertFalse(testObject.containsFromIndex(null, 35, 23));
+		assertFalse(testObject.containsFromIndex(empty, 96, 69));
+		assertTrue(testObject.containsFromIndex(singleItemArray, 777, 0));
+		assertFalse(testObject.containsFromIndex(tenMultiples, 90, 4));
+		assertFalse(testObject.containsFromIndex(negPos, -13, -1));
+		assertTrue(testObject.containsFromIndex(ascAllPos, 254, 6));
+		assertFalse(testObject.containsFromIndex(descNegs, -115, 1));
 		int[] e = {7, 7, 7, 7, 7, 7, 7};
-		assertTrue(Stage2.containsFromIndex(e, 7, 0));
-		assertTrue(Stage2.containsFromIndex(e, 7, 6));
+		assertTrue(testObject.containsFromIndex(e, 7, 0));
+		assertTrue(testObject.containsFromIndex(e, 7, 6));
 	}
 
 	@Test
-	void testContainsUptoIndex() {
-		assertFalse(Stage2.containsUptoIndex(null, 35, 23));
-		assertFalse(Stage2.containsUptoIndex(empty, 96, 69));
-		assertTrue(Stage2.containsUptoIndex(singleItemArray, 777, 0));
-		assertFalse(Stage2.containsUptoIndex(tenMultiples, 90, 4));
-		assertFalse(Stage2.containsUptoIndex(negPos, -13, -1));
-		assertTrue(Stage2.containsUptoIndex(ascAllPos, 254, 7));
-		assertTrue(Stage2.containsUptoIndex(descNegs, -115, 0));
+	public void testContainsUptoIndex() {
+		assertFalse(testObject.containsUptoIndex(null, 35, 23));
+		assertFalse(testObject.containsUptoIndex(empty, 96, 69));
+		assertTrue(testObject.containsUptoIndex(singleItemArray, 777, 0));
+		assertFalse(testObject.containsUptoIndex(tenMultiples, 90, 4));
+		assertFalse(testObject.containsUptoIndex(negPos, -13, -1));
+		assertTrue(testObject.containsUptoIndex(ascAllPos, 254, 7));
+		assertTrue(testObject.containsUptoIndex(descNegs, -115, 0));
 		int[] e = {7, 7, 7, 7, 7, 7, 7};
-		assertTrue(Stage2.containsUptoIndex(e, 7, 0));
-		assertTrue(Stage2.containsUptoIndex(e, 7, 6));
+		assertTrue(testObject.containsUptoIndex(e, 7, 0));
+		assertTrue(testObject.containsUptoIndex(e, 7, 6));
 	}
 
 	@Test
-	void testContainsBetweenIndices() {
-		assertFalse(Stage2.containsBetweenIndices(null, 35, 1, 4));
-		assertFalse(Stage2.containsBetweenIndices(empty, 96, 0, 0));
-		assertTrue(Stage2.containsBetweenIndices(singleItemArray, 777, 0, 0));
-		assertFalse(Stage2.containsBetweenIndices(tenMultiples, 90, 0, 2));
-		assertTrue(Stage2.containsBetweenIndices(tenMultiples, 90, 0, 3));
-		assertFalse(Stage2.containsBetweenIndices(negPos, -3, 1, negPos.length - 1));
-		assertTrue(Stage2.containsBetweenIndices(negPos, -3, 0, negPos.length - 1));
+	public void testContainsBetweenIndices() {
+		assertFalse(testObject.containsBetweenIndices(null, 35, 1, 4));
+		assertFalse(testObject.containsBetweenIndices(empty, 96, 0, 0));
+		assertTrue(testObject.containsBetweenIndices(singleItemArray, 777, 0, 0));
+		assertFalse(testObject.containsBetweenIndices(tenMultiples, 90, 0, 2));
+		assertTrue(testObject.containsBetweenIndices(tenMultiples, 90, 0, 3));
+		assertFalse(testObject.containsBetweenIndices(negPos, -3, 1, negPos.length - 1));
+		assertTrue(testObject.containsBetweenIndices(negPos, -3, 0, negPos.length - 1));
 		int[] e = {7, 7, 7, 7, 7, 7, 7};
-		assertTrue(Stage2.containsBetweenIndices(e, 7, 0, 0));
-		assertTrue(Stage2.containsBetweenIndices(e, 7, 6, 6));
+		assertTrue(testObject.containsBetweenIndices(e, 7, 0, 0));
+		assertTrue(testObject.containsBetweenIndices(e, 7, 6, 6));
 	}
 
 	@Test
-	void testSumFromIndex() {
-		assertEquals(0, Stage2.sumFromIndex(null, 23));
-		assertEquals(0, Stage2.sumFromIndex(empty, 35));
-		assertEquals(777, Stage2.sumFromIndex(singleItemArray, 0));
-		assertEquals(0, Stage2.sumFromIndex(tenMultiples, 1));
-		assertEquals((-101), Stage2.sumFromIndex(negPos, 6));
-		assertEquals(0, Stage2.sumFromIndex(ascAllPos, -1));
-		assertEquals(0, Stage2.sumFromIndex(descNegs, 6));
+	public void testSumFromIndex() {
+		assertEquals(0, testObject.sumFromIndex(null, 23));
+		assertEquals(0, testObject.sumFromIndex(empty, 35));
+		assertEquals(777, testObject.sumFromIndex(singleItemArray, 0));
+		assertEquals(0, testObject.sumFromIndex(tenMultiples, 1));
+		assertEquals((-101), testObject.sumFromIndex(negPos, 6));
+		assertEquals(0, testObject.sumFromIndex(ascAllPos, -1));
+		assertEquals(0, testObject.sumFromIndex(descNegs, 6));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumFromIndex(e, 0));
-		assertEquals(0, Stage2.sumFromIndex(e, 4));
+		assertEquals(0, testObject.sumFromIndex(e, 0));
+		assertEquals(0, testObject.sumFromIndex(e, 4));
 	}
 
 	@Test
-	void testSumUptoIndex() {
-		assertEquals(0, Stage2.sumUptoIndex(null, 23));
-		assertEquals(0, Stage2.sumUptoIndex(empty, 35));
-		assertEquals(777, Stage2.sumUptoIndex(singleItemArray, 0));
-		assertEquals((-80), Stage2.sumUptoIndex(tenMultiples, 2));
-		assertEquals((-3), Stage2.sumUptoIndex(negPos, 0));
-		assertEquals(0, Stage2.sumUptoIndex(ascAllPos, -1));
-		assertEquals(0, Stage2.sumUptoIndex(descNegs, 6));
+	public void testSumUptoIndex() {
+		assertEquals(0, testObject.sumUptoIndex(null, 23));
+		assertEquals(0, testObject.sumUptoIndex(empty, 35));
+		assertEquals(777, testObject.sumUptoIndex(singleItemArray, 0));
+		assertEquals((-80), testObject.sumUptoIndex(tenMultiples, 2));
+		assertEquals((-3), testObject.sumUptoIndex(negPos, 0));
+		assertEquals(0, testObject.sumUptoIndex(ascAllPos, -1));
+		assertEquals(0, testObject.sumUptoIndex(descNegs, 6));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumUptoIndex(e, 0));
-		assertEquals(0, Stage2.sumUptoIndex(e, 4));
+		assertEquals(0, testObject.sumUptoIndex(e, 0));
+		assertEquals(0, testObject.sumUptoIndex(e, 4));
 	}
 
 	@Test
-	void testSumBetweenIndices() {
-		assertEquals(0, Stage2.sumBetweenIndices(null, 23, 35));
-		assertEquals(0, Stage2.sumBetweenIndices(empty, 69, 96));
-		assertEquals(777, Stage2.sumBetweenIndices(singleItemArray, 0, 0));
-		assertEquals((-90), Stage2.sumBetweenIndices(tenMultiples, 1, 2));
-		assertEquals(0, Stage2.sumBetweenIndices(negPos, -1, 7));
-		assertEquals(0, Stage2.sumBetweenIndices(ascAllPos, -1, 7));
-		assertEquals(0, Stage2.sumBetweenIndices(descNegs, 0, 6));
+	public void testSumBetweenIndices() {
+		assertEquals(0, testObject.sumBetweenIndices(null, 23, 35));
+		assertEquals(0, testObject.sumBetweenIndices(empty, 69, 96));
+		assertEquals(777, testObject.sumBetweenIndices(singleItemArray, 0, 0));
+		assertEquals((-90), testObject.sumBetweenIndices(tenMultiples, 1, 2));
+		assertEquals(0, testObject.sumBetweenIndices(negPos, -1, 7));
+		assertEquals(0, testObject.sumBetweenIndices(ascAllPos, -1, 7));
+		assertEquals(0, testObject.sumBetweenIndices(descNegs, 0, 6));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumBetweenIndices(e, 0, 4));
-		assertEquals(0, Stage2.sumBetweenIndices(e, 1, 3));
+		assertEquals(0, testObject.sumBetweenIndices(e, 0, 4));
+		assertEquals(0, testObject.sumBetweenIndices(e, 1, 3));
 	}
 
 	@Test
-	void testSumEvenFromIndex() {
-		assertEquals(0, Stage2.sumEvenFromIndex(null, 23));
-		assertEquals(0, Stage2.sumEvenFromIndex(empty, 35));
-		assertEquals(0, Stage2.sumEvenFromIndex(singleItemArray, 0));
-		assertEquals(70, Stage2.sumEvenFromIndex(tenMultiples, 2));
-		assertEquals(10, Stage2.sumEvenFromIndex(negPos, 5));
-		assertEquals(0, Stage2.sumEvenFromIndex(ascAllPos, -1));
-		assertEquals(0, Stage2.sumEvenFromIndex(descNegs, 6));
+	public void testSumEvenFromIndex() {
+		assertEquals(0, testObject.sumEvenFromIndex(null, 23));
+		assertEquals(0, testObject.sumEvenFromIndex(empty, 35));
+		assertEquals(0, testObject.sumEvenFromIndex(singleItemArray, 0));
+		assertEquals(70, testObject.sumEvenFromIndex(tenMultiples, 2));
+		assertEquals(10, testObject.sumEvenFromIndex(negPos, 5));
+		assertEquals(0, testObject.sumEvenFromIndex(ascAllPos, -1));
+		assertEquals(0, testObject.sumEvenFromIndex(descNegs, 6));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumEvenFromIndex(e, 0));
-		assertEquals(0, Stage2.sumEvenFromIndex(e, 4));
+		assertEquals(0, testObject.sumEvenFromIndex(e, 0));
+		assertEquals(0, testObject.sumEvenFromIndex(e, 4));
 	}
 
 	@Test
-	void testSumOddUptoIndex() {
-		assertEquals(0, Stage2.sumOddUptoIndex(null, 23));
-		assertEquals(0, Stage2.sumOddUptoIndex(empty, 35));
-		assertEquals(777, Stage2.sumOddUptoIndex(singleItemArray, 0));
-		assertEquals(0, Stage2.sumOddUptoIndex(tenMultiples, 3));
-		assertEquals(-2, Stage2.sumOddUptoIndex(negPos, 4));
-		assertEquals(0, Stage2.sumOddUptoIndex(ascAllPos, -1));
-		assertEquals(0, Stage2.sumOddUptoIndex(descNegs, 6));
+	public void testSumOddUptoIndex() {
+		assertEquals(0, testObject.sumOddUptoIndex(null, 23));
+		assertEquals(0, testObject.sumOddUptoIndex(empty, 35));
+		assertEquals(777, testObject.sumOddUptoIndex(singleItemArray, 0));
+		assertEquals(0, testObject.sumOddUptoIndex(tenMultiples, 3));
+		assertEquals(-2, testObject.sumOddUptoIndex(negPos, 4));
+		assertEquals(0, testObject.sumOddUptoIndex(ascAllPos, -1));
+		assertEquals(0, testObject.sumOddUptoIndex(descNegs, 6));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(0, Stage2.sumOddUptoIndex(e, 0));
-		assertEquals(0, Stage2.sumOddUptoIndex(e, 4));
+		assertEquals(0, testObject.sumOddUptoIndex(e, 0));
+		assertEquals(0, testObject.sumOddUptoIndex(e, 4));
 	}
 
 	@Test
-	void testProductPositivesUptoIndex() {
-		assertEquals(1, Stage2.productPositivesUptoIndex(null, 23));
-		assertEquals(1, Stage2.productPositivesUptoIndex(empty, 35));
-		assertEquals(777, Stage2.productPositivesUptoIndex(singleItemArray, 0));
-		assertEquals(900, Stage2.productPositivesUptoIndex(tenMultiples, 3));
-		assertEquals(240, Stage2.productPositivesUptoIndex(negPos, 4));
-		assertEquals(1, Stage2.productPositivesUptoIndex(ascAllPos, -1));
-		assertEquals(1, Stage2.productPositivesUptoIndex(descNegs, 6));
+	public void testProductPositivesUptoIndex() {
+		assertEquals(1, testObject.productPositivesUptoIndex(null, 23));
+		assertEquals(1, testObject.productPositivesUptoIndex(empty, 35));
+		assertEquals(777, testObject.productPositivesUptoIndex(singleItemArray, 0));
+		assertEquals(900, testObject.productPositivesUptoIndex(tenMultiples, 3));
+		assertEquals(240, testObject.productPositivesUptoIndex(negPos, 4));
+		assertEquals(1, testObject.productPositivesUptoIndex(ascAllPos, -1));
+		assertEquals(1, testObject.productPositivesUptoIndex(descNegs, 6));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(1, Stage2.productPositivesUptoIndex(e, 0));
-		assertEquals(1, Stage2.productPositivesUptoIndex(e, 4));
+		assertEquals(1, testObject.productPositivesUptoIndex(e, 0));
+		assertEquals(1, testObject.productPositivesUptoIndex(e, 4));
 	}
 
 	@Test
-	void testProductNegativesFromIndex() {
-		assertEquals(1, Stage2.productNegativesFromIndex(null, 23));
-		assertEquals(1, Stage2.productNegativesFromIndex(empty, 35));
-		assertEquals(1, Stage2.productNegativesFromIndex(singleItemArray, 0));
-		assertEquals(-20, Stage2.productNegativesFromIndex(tenMultiples, 2));
-		assertEquals(-101, Stage2.productNegativesFromIndex(negPos, 5));
-		assertEquals(1, Stage2.productNegativesFromIndex(ascAllPos, -1));
-		assertEquals(1, Stage2.productNegativesFromIndex(descNegs, 6));
+	public void testProductNegativesFromIndex() {
+		assertEquals(1, testObject.productNegativesFromIndex(null, 23));
+		assertEquals(1, testObject.productNegativesFromIndex(empty, 35));
+		assertEquals(1, testObject.productNegativesFromIndex(singleItemArray, 0));
+		assertEquals(-20, testObject.productNegativesFromIndex(tenMultiples, 2));
+		assertEquals(-101, testObject.productNegativesFromIndex(negPos, 5));
+		assertEquals(1, testObject.productNegativesFromIndex(ascAllPos, -1));
+		assertEquals(1, testObject.productNegativesFromIndex(descNegs, 6));
 		int[] e = {0, 0, 0, 0, 0};
-		assertEquals(1, Stage2.productNegativesFromIndex(e, 0));
-		assertEquals(1, Stage2.productNegativesFromIndex(e, 4));
+		assertEquals(1, testObject.productNegativesFromIndex(e, 0));
+		assertEquals(1, testObject.productNegativesFromIndex(e, 4));
 	}
 
 	@Test
-	void testCountOccurrencesBetweenIndices() {
-		assertEquals(0, Stage2.countOccurrencesBetweenIndices(null, 235, 23, 35));
-		assertEquals(0, Stage2.countOccurrencesBetweenIndices(empty, 6996, 69, 96));
-		assertEquals(1, Stage2.countOccurrencesBetweenIndices(singleItemArray, 777, 0, 0));
-		assertEquals(0, Stage2.countOccurrencesBetweenIndices(tenMultiples, 10, 1, 2));
-		assertEquals(0, Stage2.countOccurrencesBetweenIndices(negPos, 2, -1, 7));
-		assertEquals(0, Stage2.countOccurrencesBetweenIndices(ascAllPos, 3, -1, 7));
-		assertEquals(0, Stage2.countOccurrencesBetweenIndices(descNegs, 5, 0, 6));
+	public void testCountOccurrencesBetweenIndices() {
+		assertEquals(0, testObject.countOccurrencesBetweenIndices(null, 235, 23, 35));
+		assertEquals(0, testObject.countOccurrencesBetweenIndices(empty, 6996, 69, 96));
+		assertEquals(1, testObject.countOccurrencesBetweenIndices(singleItemArray, 777, 0, 0));
+		assertEquals(0, testObject.countOccurrencesBetweenIndices(tenMultiples, 10, 1, 2));
+		assertEquals(0, testObject.countOccurrencesBetweenIndices(negPos, 2, -1, 7));
+		assertEquals(0, testObject.countOccurrencesBetweenIndices(ascAllPos, 3, -1, 7));
+		assertEquals(0, testObject.countOccurrencesBetweenIndices(descNegs, 5, 0, 6));
 		int[] e = {7, 7, 7, 7, 7, 7, 7};
-		assertEquals(7, Stage2.countOccurrencesBetweenIndices(e, 7, 0, 6));
-		assertEquals(5, Stage2.countOccurrencesBetweenIndices(e, 7, 1, 5));
-		assertEquals(3, Stage2.countOccurrencesBetweenIndices(e, 7, 2, 4));
+		assertEquals(7, testObject.countOccurrencesBetweenIndices(e, 7, 0, 6));
+		assertEquals(5, testObject.countOccurrencesBetweenIndices(e, 7, 1, 5));
+		assertEquals(3, testObject.countOccurrencesBetweenIndices(e, 7, 2, 4));
 	}
 
 	@Test
-	void testCountUniqueBetweenIndices() {
-		assertEquals(0, Stage2.countUniqueBetweenIndices(null, 23, 35));
-		assertEquals(0, Stage2.countUniqueBetweenIndices(empty, 69, 96));
-		assertEquals(1, Stage2.countUniqueBetweenIndices(singleItemArray, 0, 0));
-		assertEquals(2, Stage2.countUniqueBetweenIndices(tenMultiples, 1, 2));
-		assertEquals(0, Stage2.countUniqueBetweenIndices(negPos, -1, 7));
-		assertEquals(0, Stage2.countUniqueBetweenIndices(ascAllPos, -1, 7));
-		assertEquals(0, Stage2.countUniqueBetweenIndices(descNegs, 0, 6));
+	public void testCountUniqueBetweenIndices() {
+		assertEquals(0, testObject.countUniqueBetweenIndices(null, 23, 35));
+		assertEquals(0, testObject.countUniqueBetweenIndices(empty, 69, 96));
+		assertEquals(1, testObject.countUniqueBetweenIndices(singleItemArray, 0, 0));
+		assertEquals(2, testObject.countUniqueBetweenIndices(tenMultiples, 1, 2));
+		assertEquals(0, testObject.countUniqueBetweenIndices(negPos, -1, 7));
+		assertEquals(0, testObject.countUniqueBetweenIndices(ascAllPos, -1, 7));
+		assertEquals(0, testObject.countUniqueBetweenIndices(descNegs, 0, 6));
 		int[] e = {7, 7, 7, 7, 7, 7, 7};
-		assertEquals(0, Stage2.countUniqueBetweenIndices(e, 0, 6));
-		assertEquals(0, Stage2.countUniqueBetweenIndices(e, 1, 5));
-		assertEquals(0, Stage2.countUniqueBetweenIndices(e, 2, 4));
+		assertEquals(0, testObject.countUniqueBetweenIndices(e, 0, 6));
+		assertEquals(0, testObject.countUniqueBetweenIndices(e, 1, 5));
+		assertEquals(0, testObject.countUniqueBetweenIndices(e, 2, 4));
 	}
 
 	@Test
-	void testAllPositives() {
-		assertFalse(Stage2.allPositives(null));
-		assertTrue(Stage2.allPositives(empty));
-		assertTrue(Stage2.allPositives(singleItemArray));
-		assertFalse(Stage2.allPositives(tenMultiples));
-		assertFalse(Stage2.allPositives(negPos));
-		assertTrue(Stage2.allPositives(ascAllPos));
-		assertFalse(Stage2.allPositives(descNegs));
+	public void testAllPositives() {
+		assertFalse(testObject.allPositives(null));
+		assertTrue(testObject.allPositives(empty));
+		assertTrue(testObject.allPositives(singleItemArray));
+		assertFalse(testObject.allPositives(tenMultiples));
+		assertFalse(testObject.allPositives(negPos));
+		assertTrue(testObject.allPositives(ascAllPos));
+		assertFalse(testObject.allPositives(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.allPositives(e));
+		assertFalse(testObject.allPositives(e));
 	}
 
 	@Test
-	void testAllNegatives() {
-		assertFalse(Stage2.allNegatives(null));
-		assertTrue(Stage2.allNegatives(empty));
-		assertFalse(Stage2.allNegatives(singleItemArray));
-		assertFalse(Stage2.allNegatives(tenMultiples));
-		assertFalse(Stage2.allNegatives(negPos));
-		assertFalse(Stage2.allNegatives(ascAllPos));
-		assertTrue(Stage2.allNegatives(descNegs));
+	public void testAllNegatives() {
+		assertFalse(testObject.allNegatives(null));
+		assertTrue(testObject.allNegatives(empty));
+		assertFalse(testObject.allNegatives(singleItemArray));
+		assertFalse(testObject.allNegatives(tenMultiples));
+		assertFalse(testObject.allNegatives(negPos));
+		assertFalse(testObject.allNegatives(ascAllPos));
+		assertTrue(testObject.allNegatives(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.allNegatives(e));
+		assertFalse(testObject.allNegatives(e));
 	}
 
 	@Test
-	void testAllZeroes() {
-		assertFalse(Stage2.allZeroes(null));
-		assertTrue(Stage2.allZeroes(empty));
-		assertFalse(Stage2.allZeroes(singleItemArray));
-		assertFalse(Stage2.allZeroes(tenMultiples));
-		assertFalse(Stage2.allZeroes(negPos));
-		assertFalse(Stage2.allZeroes(ascAllPos));
-		assertFalse(Stage2.allZeroes(descNegs));
+	public void testAllZeroes() {
+		assertFalse(testObject.allZeroes(null));
+		assertTrue(testObject.allZeroes(empty));
+		assertFalse(testObject.allZeroes(singleItemArray));
+		assertFalse(testObject.allZeroes(tenMultiples));
+		assertFalse(testObject.allZeroes(negPos));
+		assertFalse(testObject.allZeroes(ascAllPos));
+		assertFalse(testObject.allZeroes(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertTrue(Stage2.allZeroes(e));
+		assertTrue(testObject.allZeroes(e));
 	}
 
 	@Test
-	void testAllNonZeroes() {
-		assertFalse(Stage2.allNonZeroes(null));
-		assertTrue(Stage2.allNonZeroes(empty));
-		assertTrue(Stage2.allNonZeroes(singleItemArray));
-		assertTrue(Stage2.allNonZeroes(tenMultiples));
-		assertTrue(Stage2.allNonZeroes(negPos));
-		assertTrue(Stage2.allNonZeroes(ascAllPos));
-		assertTrue(Stage2.allNonZeroes(descNegs));
+	public void testAllNonZeroes() {
+		assertFalse(testObject.allNonZeroes(null));
+		assertTrue(testObject.allNonZeroes(empty));
+		assertTrue(testObject.allNonZeroes(singleItemArray));
+		assertTrue(testObject.allNonZeroes(tenMultiples));
+		assertTrue(testObject.allNonZeroes(negPos));
+		assertTrue(testObject.allNonZeroes(ascAllPos));
+		assertTrue(testObject.allNonZeroes(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.allNonZeroes(e));
+		assertFalse(testObject.allNonZeroes(e));
 	}
 
 	@Test
-	void testAllPrimes() {
-		assertFalse(Stage2.allPrimes(null));
-		assertTrue(Stage2.allPrimes(empty));
-		assertFalse(Stage2.allPrimes(singleItemArray));
-		assertFalse(Stage2.allPrimes(tenMultiples));
-		assertFalse(Stage2.allPrimes(negPos));
-		assertFalse(Stage2.allPrimes(ascAllPos));
-		assertFalse(Stage2.allPrimes(descNegs));
+	public void testAllPrimes() {
+		assertFalse(testObject.allPrimes(null));
+		assertTrue(testObject.allPrimes(empty));
+		assertFalse(testObject.allPrimes(singleItemArray));
+		assertFalse(testObject.allPrimes(tenMultiples));
+		assertFalse(testObject.allPrimes(negPos));
+		assertFalse(testObject.allPrimes(ascAllPos));
+		assertFalse(testObject.allPrimes(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.allPrimes(e));
+		assertFalse(testObject.allPrimes(e));
 		int[] f = {7, 7, 7, 7, 7, 7, 7};
-		assertTrue(Stage2.allPrimes(f));
+		assertTrue(testObject.allPrimes(f));
 	}
 
 	@Test
-	void testContainsPositive() {
-		assertFalse(Stage2.containsPositive(null));
-		assertFalse(Stage2.containsPositive(empty));
-		assertTrue(Stage2.containsPositive(singleItemArray));
-		assertTrue(Stage2.containsPositive(tenMultiples));
-		assertTrue(Stage2.containsPositive(negPos));
-		assertTrue(Stage2.containsPositive(ascAllPos));
-		assertFalse(Stage2.containsPositive(descNegs));
+	public void testContainsPositive() {
+		assertFalse(testObject.containsPositive(null));
+		assertFalse(testObject.containsPositive(empty));
+		assertTrue(testObject.containsPositive(singleItemArray));
+		assertTrue(testObject.containsPositive(tenMultiples));
+		assertTrue(testObject.containsPositive(negPos));
+		assertTrue(testObject.containsPositive(ascAllPos));
+		assertFalse(testObject.containsPositive(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.containsPositive(e));
+		assertFalse(testObject.containsPositive(e));
 	}
 
 	@Test
-	void testContainsNegative() {
-		assertFalse(Stage2.containsNegative(null));
-		assertFalse(Stage2.containsNegative(empty));
-		assertFalse(Stage2.containsNegative(singleItemArray));
-		assertTrue(Stage2.containsNegative(tenMultiples));
-		assertTrue(Stage2.containsNegative(negPos));
-		assertFalse(Stage2.containsNegative(ascAllPos));
-		assertTrue(Stage2.containsNegative(descNegs));
+	public void testContainsNegative() {
+		assertFalse(testObject.containsNegative(null));
+		assertFalse(testObject.containsNegative(empty));
+		assertFalse(testObject.containsNegative(singleItemArray));
+		assertTrue(testObject.containsNegative(tenMultiples));
+		assertTrue(testObject.containsNegative(negPos));
+		assertFalse(testObject.containsNegative(ascAllPos));
+		assertTrue(testObject.containsNegative(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.containsNegative(e));
+		assertFalse(testObject.containsNegative(e));
 	}
 
 	@Test
-	void testContainsZero() {
-		assertFalse(Stage2.containsZero(null));
-		assertFalse(Stage2.containsZero(empty));
-		assertFalse(Stage2.containsZero(singleItemArray));
+	public void testContainsZero() {
+		assertFalse(testObject.containsZero(null));
+		assertFalse(testObject.containsZero(empty));
+		assertFalse(testObject.containsZero(singleItemArray));
 		singleItemArray[0] = 0;
-		assertTrue(Stage2.containsZero(singleItemArray));
-		assertFalse(Stage2.containsZero(tenMultiples));
-		assertFalse(Stage2.containsZero(negPos));
-		assertFalse(Stage2.containsZero(ascAllPos));
-		assertFalse(Stage2.containsZero(descNegs));
+		assertTrue(testObject.containsZero(singleItemArray));
+		assertFalse(testObject.containsZero(tenMultiples));
+		assertFalse(testObject.containsZero(negPos));
+		assertFalse(testObject.containsZero(ascAllPos));
+		assertFalse(testObject.containsZero(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertTrue(Stage2.containsZero(e));
+		assertTrue(testObject.containsZero(e));
 	}
 
 	@Test
-	void testContainsNonZero() {
-		assertFalse(Stage2.containsNonZero(null));
-		assertFalse(Stage2.containsNonZero(empty));
-		assertTrue(Stage2.containsNonZero(singleItemArray));
+	public void testContainsNonZero() {
+		assertFalse(testObject.containsNonZero(null));
+		assertFalse(testObject.containsNonZero(empty));
+		assertTrue(testObject.containsNonZero(singleItemArray));
 		singleItemArray[0] = 0;
-		assertFalse(Stage2.containsNonZero(singleItemArray));
-		assertTrue(Stage2.containsNonZero(tenMultiples));
-		assertTrue(Stage2.containsNonZero(negPos));
-		assertTrue(Stage2.containsNonZero(ascAllPos));
-		assertTrue(Stage2.containsNonZero(descNegs));
+		assertFalse(testObject.containsNonZero(singleItemArray));
+		assertTrue(testObject.containsNonZero(tenMultiples));
+		assertTrue(testObject.containsNonZero(negPos));
+		assertTrue(testObject.containsNonZero(ascAllPos));
+		assertTrue(testObject.containsNonZero(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.containsNonZero(e));
+		assertFalse(testObject.containsNonZero(e));
 	}
 
 	@Test
-	void testContainsPrime() {
-		assertFalse(Stage2.containsPrime(null));
-		assertFalse(Stage2.containsPrime(empty));
-		assertFalse(Stage2.containsPrime(singleItemArray));
-		assertFalse(Stage2.containsPrime(negPos));
-		assertTrue(Stage2.containsPrime(ascAllPos));
+	public void testContainsPrime() {
+		assertFalse(testObject.containsPrime(null));
+		assertFalse(testObject.containsPrime(empty));
+		assertFalse(testObject.containsPrime(singleItemArray));
+		assertFalse(testObject.containsPrime(negPos));
+		assertTrue(testObject.containsPrime(ascAllPos));
 		int[] e = {0, 0, 0, 0, 0};
-		assertFalse(Stage2.containsPrime(e));
+		assertFalse(testObject.containsPrime(e));
 	}
 
 	@Test
-	void testIsAscending() {
-		assertFalse(Stage2.isAscending(null));
-		assertTrue(Stage2.isAscending(empty));
-		assertTrue(Stage2.isAscending(singleItemArray));
-		assertFalse(Stage2.isAscending(tenMultiples));
-		assertFalse(Stage2.isAscending(negPos));
-		assertTrue(Stage2.isAscending(ascAllPos));
-		assertFalse(Stage2.isAscending(descNegs));
+	public void testIsAscending() {
+		assertFalse(testObject.isAscending(null));
+		assertTrue(testObject.isAscending(empty));
+		assertTrue(testObject.isAscending(singleItemArray));
+		assertFalse(testObject.isAscending(tenMultiples));
+		assertFalse(testObject.isAscending(negPos));
+		assertTrue(testObject.isAscending(ascAllPos));
+		assertFalse(testObject.isAscending(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertTrue(Stage2.isAscending(e));
+		assertTrue(testObject.isAscending(e));
 	}
 
 	@Test
-	void testIsDescending() {
-		assertFalse(Stage2.isDescending(null));
-		assertTrue(Stage2.isDescending(empty));
-		assertTrue(Stage2.isDescending(singleItemArray));
-		assertFalse(Stage2.isDescending(tenMultiples));
-		assertFalse(Stage2.isDescending(negPos));
-		assertFalse(Stage2.isDescending(ascAllPos));
-		assertTrue(Stage2.isDescending(descNegs));
+	public void testIsDescending() {
+		assertFalse(testObject.isDescending(null));
+		assertTrue(testObject.isDescending(empty));
+		assertTrue(testObject.isDescending(singleItemArray));
+		assertFalse(testObject.isDescending(tenMultiples));
+		assertFalse(testObject.isDescending(negPos));
+		assertFalse(testObject.isDescending(ascAllPos));
+		assertTrue(testObject.isDescending(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertTrue(Stage2.isDescending(e));
+		assertTrue(testObject.isDescending(e));
 	}
 
 	@Test
-	void testIsUnchanged() {
-		assertFalse(Stage2.isUnchanged(null));
-		assertTrue(Stage2.isUnchanged(empty));
-		assertTrue(Stage2.isUnchanged(singleItemArray));
-		assertFalse(Stage2.isUnchanged(tenMultiples));
-		assertFalse(Stage2.isUnchanged(negPos));
-		assertFalse(Stage2.isUnchanged(ascAllPos));
-		assertFalse(Stage2.isUnchanged(descNegs));
+	public void testIsUnchanged() {
+		assertFalse(testObject.isUnchanged(null));
+		assertTrue(testObject.isUnchanged(empty));
+		assertTrue(testObject.isUnchanged(singleItemArray));
+		assertFalse(testObject.isUnchanged(tenMultiples));
+		assertFalse(testObject.isUnchanged(negPos));
+		assertFalse(testObject.isUnchanged(ascAllPos));
+		assertFalse(testObject.isUnchanged(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertTrue(Stage2.isUnchanged(e));
+		assertTrue(testObject.isUnchanged(e));
 	}
 
 	@Test
-	void testgetSortedOrder() {
-		assertEquals(0, Stage2.getSortedOrder(null));
-		assertEquals(2, Stage2.getSortedOrder(empty));
-		assertEquals(2, Stage2.getSortedOrder(singleItemArray));
-		assertEquals(0, Stage2.getSortedOrder(tenMultiples));
-		assertEquals(0, Stage2.getSortedOrder(negPos));
-		assertEquals(1, Stage2.getSortedOrder(ascAllPos));
-		assertEquals(-1, Stage2.getSortedOrder(descNegs));
+	public void testgetSortedOrder() {
+		assertEquals(0, testObject.getSortedOrder(null));
+		assertEquals(2, testObject.getSortedOrder(empty));
+		assertEquals(2, testObject.getSortedOrder(singleItemArray));
+		assertEquals(0, testObject.getSortedOrder(tenMultiples));
+		assertEquals(0, testObject.getSortedOrder(negPos));
+		assertEquals(1, testObject.getSortedOrder(ascAllPos));
+		assertEquals(-1, testObject.getSortedOrder(descNegs));
 		int[] e = {10, 10, 10, 10, 10};
-		assertEquals(2, Stage2.getSortedOrder(e));
+		assertEquals(2, testObject.getSortedOrder(e));
 	}
 
 	@Test
-	void testIsBalanced() {
-		assertFalse(Stage2.isBalanced(null));
-		assertTrue(Stage2.isBalanced(empty));
-		assertFalse(Stage2.isBalanced(singleItemArray));
-		assertTrue(Stage2.isBalanced(tenMultiples));
-		assertFalse(Stage2.isBalanced(negPos));
-		assertFalse(Stage2.isBalanced(ascAllPos));
-		assertFalse(Stage2.isBalanced(descNegs));
+	public void testIsBalanced() {
+		assertFalse(testObject.isBalanced(null));
+		assertTrue(testObject.isBalanced(empty));
+		assertFalse(testObject.isBalanced(singleItemArray));
+		assertTrue(testObject.isBalanced(tenMultiples));
+		assertFalse(testObject.isBalanced(negPos));
+		assertFalse(testObject.isBalanced(ascAllPos));
+		assertFalse(testObject.isBalanced(descNegs));
 		int[] e = {0, 0, 0, 0, 0};
-		assertTrue(Stage2.isBalanced(e));
+		assertTrue(testObject.isBalanced(e));
 	}
 
 	@Test
-	void testAllDigits() {
-		assertFalse(Stage2.allDigits(null));
-		assertTrue(Stage2.allDigits(new char[]{}));
-		assertTrue(Stage2.allDigits(new char[]{'7'}));
-		assertTrue(Stage2.allDigits(new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}));
-		assertFalse(Stage2.allDigits(new char[]{'C', 'O', 'M', 'P', '1', '2', '5'}));
-		assertFalse(Stage2.allDigits(new char[]{'H', 'D'}));
+	public void testAllDigits() {
+		assertFalse(testObject.allDigits(null));
+		assertTrue(testObject.allDigits(new char[]{}));
+		assertTrue(testObject.allDigits(new char[]{'7'}));
+		assertTrue(testObject.allDigits(new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}));
+		assertFalse(testObject.allDigits(new char[]{'C', 'O', 'M', 'P', '1', '2', '5'}));
+		assertFalse(testObject.allDigits(new char[]{'H', 'D'}));
 	}
 
 	@Test
-	void testContainsDigit() {
-		assertFalse(Stage2.containsDigit(null));
-		assertFalse(Stage2.containsDigit(new char[]{}));
-		assertTrue(Stage2.containsDigit(new char[]{'7'}));
-		assertTrue(Stage2.containsDigit(new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}));
-		assertTrue(Stage2.containsDigit(new char[]{'C', 'O', 'M', 'P', '1', '2', '5'}));
-		assertFalse(Stage2.containsDigit(new char[]{'H', 'D'}));
+	public void testContainsDigit() {
+		assertFalse(testObject.containsDigit(null));
+		assertFalse(testObject.containsDigit(new char[]{}));
+		assertTrue(testObject.containsDigit(new char[]{'7'}));
+		assertTrue(testObject.containsDigit(new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}));
+		assertTrue(testObject.containsDigit(new char[]{'C', 'O', 'M', 'P', '1', '2', '5'}));
+		assertFalse(testObject.containsDigit(new char[]{'H', 'D'}));
 	}
 
 	@Test
-	void testToString() {
-		assertNull(Stage2.toString(null));
-		assertEquals("", Stage2.toString(new char[]{}));
-		assertEquals("COMP125", Stage2.toString(new char[]{'C', 'O', 'M', 'P', '1', '2', '5'}));
-		assertEquals("Hello world!", Stage2.toString(new char[]{'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!'}));
+	public void testToString() {
+		assertNull(testObject.toString(null));
+		assertEquals("", testObject.toString(new char[]{}));
+		assertEquals("COMP125", testObject.toString(new char[]{'C', 'O', 'M', 'P', '1', '2', '5'}));
+		assertEquals("Hello world!", testObject.toString(new char[]{'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!'}));
 	}
 
 	@Test
-	void testGetCopy() {
-		assertNull(Stage2.getCopy(null));
-		assertNotEquals(empty, Stage2.getCopy(empty));
-		assertNotEquals(singleItemArray, Stage2.getCopy(singleItemArray));
-		assertEquals(0, Stage2.getCopy(empty).length);
-		assertEquals("[777]", Arrays.toString(Stage2.getCopy(singleItemArray)));
+	public void testGetCopy() {
+		assertNull(testObject.getCopy(null));
+		assertNotEquals(empty, testObject.getCopy(empty));
+		assertNotEquals(singleItemArray, testObject.getCopy(singleItemArray));
+		assertEquals(0, testObject.getCopy(empty).length);
+		assertEquals("[777]", Arrays.toString(testObject.getCopy(singleItemArray)));
 	}
 }

@@ -17,20 +17,21 @@ public class Stage4 {
 	 * @param data
 	 * @return array based on above specs
 	 */
-	public static int[] productAllButOne(int[] data) {
+	public int[] productAllButOne(int[] data) {
 		return new int[0]; //to be completed
 	}
 
 	/**
-	 * 
 	 * @param data
-	 * @return length of the longest collection of consecutive items (in terms of value, not order)
+	 * @return length of the longest series of consecutive items (in terms of value)
 	 * For example, 
-	 * if data = {0, 10, 3, -2, 5, 2, 1, 12, -1}, the longest 
-	 * collection of consecutive values is -2, -1, 0, 1, 2, 3 (6 items in total).
+	 * if data = {0, 10, 3, -2, 5, 2, 1, 12, -1, -1, -1, -1, -1, 0, 0, 0}, the longest 
+	 * series of consecutive values is -2, -1, 0, 1, 2, 3 (6 items in total).
 	 * so return 6.
+	 * 
+	 * return 0 if the array is empty or null.
 	 */
-	public static int getLongestConsecutiveLength(int[] data) {
+	public int getLongestConsecutiveLength(int[] data) {
 		return 0; //to be completed
 	}
 
@@ -42,11 +43,11 @@ public class Stage4 {
 	 * for example, 
 	 * if data = {10, 70, 20, 50, 50, 80}, return {20, 50, 50, 80}
 	 * if data = {70, 70, 20, 10, 80, 20}, return {70, 70}
-	 * if data = {50, 40, 30, 30}, return {30}
+	 * if data = {50, 40, 30, 30}, return {30, 30}
 	 * if data = null, return null
 	 * if data = {}, return {}
 	 */
-	public static int[] getLongestAscendingSequence(int[] data) {
+	public int[] getLongestAscendingSequence(int[] data) {
 		return new int[0]; //to be completed
 	}
 
@@ -62,7 +63,7 @@ public class Stage4 {
 	 * if data = null, return null
 	 * if data = {}, return {}
 	 */
-	public static int[] getLongestDescendingSequence(int[] data) {
+	public int[] getLongestDescendingSequence(int[] data) {
 		return new int[0]; //to be completed
 	}
 
@@ -79,7 +80,7 @@ public class Stage4 {
 	 * if data = null, return null
 	 * if data = {}, return {}
 	 */
-	public static int[] getLongestUnchangedSequence(int[] data) {
+	public int[] getLongestUnchangedSequence(int[] data) {
 		return new int[0]; //to be completed
 	}
 
@@ -89,7 +90,7 @@ public class Stage4 {
 	 * sort the array in ascending order,
 	 * do nothing if the array is null or has fewer than 2 items
 	 */
-	public static void sortAsc(int[] data) {
+	public void sortAsc(int[] data) {
 		//to be completed
 	}
 
@@ -99,7 +100,7 @@ public class Stage4 {
 	 * sort the array in descending order,
 	 * do nothing if the array is null or has fewer than 2 items
 	 */
-	public static void sortDesc(int[] data) {
+	public void sortDesc(int[] data) {
 		//to be completed
 	}
 
@@ -110,7 +111,7 @@ public class Stage4 {
 	 * sort the array in ascending order if asc is true,
 	 * otherwise sort the array in descending order
 	 */
-	public static void sort(int[] data, boolean asc) {
+	public void sort(int[] data, boolean asc) {
 		//to be completed
 	}
 
@@ -122,7 +123,7 @@ public class Stage4 {
 	 * otherwise sort the array in ascending order if asc is true,
 	 * otherwise sort the array in descending order
 	 */
-	public static void sortIfNeeded(int[] data, boolean asc) {
+	public void sortIfNeeded(int[] data, boolean asc) {
 		//to be completed
 	}
 
@@ -133,7 +134,7 @@ public class Stage4 {
 	 * if the array is in descending order, sort it in ascending order
 	 * do nothing if the array is unsorted
 	 */
-	public static void reverseSort(int[] data) {
+	public void reverseSort(int[] data) {
 		//to be completed
 	}
 
@@ -146,7 +147,7 @@ public class Stage4 {
 	 * If array a contains p occurrences of an item and array b contains q occurrences of the same item, 
 	 * the array returned must have Math.min(p, q) occurrences of that item.
 	 */
-	public static int[] getCommonItemsSorted(int[] a, int[] b) {
+	public int[] getCommonItemsSorted(int[] a, int[] b) {
 		return new int[0]; //to be completed
 	}
 
@@ -161,7 +162,7 @@ public class Stage4 {
 	 * All occurrences of an item in the resulting array should be together, and be in the order of first appearance in array a.
 	 * See the last junit test sample for details 
 	 */
-	public static int[] getCommonItemsUnsorted(int[] a, int[] b) {
+	public int[] getCommonItemsUnsorted(int[] a, int[] b) {
 		return new int[0]; //to be completed
 	}
 
@@ -170,7 +171,7 @@ public class Stage4 {
 	 * @param data
 	 * @return true if there are no common items between any two subarrays of the array passed, false otherwise.
 	 */
-	public static boolean noCommonItems(int[][] data) {
+	public boolean noCommonItems(int[][] data) {
 		return false; //to be completed
 	}
 
@@ -190,7 +191,7 @@ public class Stage4 {
 	 * if data = {5,6,7,5,7,6,8,5,6,9}
 	 * return the array {6,7}
 	 */
-	public static int[] getLongestMirroredSequence(int[] data) {
+	public int[] getLongestMirroredSequence(int[] data) {
 		return new int[0]; //to be completed
 	}
 
@@ -204,7 +205,7 @@ public class Stage4 {
 	 * if data = {1,7,2,1,9,7,9,9}, return {1,7,2,9}
 	 * if data = {7,2,1,1,9,7,9,9}, return {7,2,1,9}
 	 */
-	public static int[] getSet(int[] data) {
+	public int[] getSet(int[] data) {
 		return new int[0]; //to be completed
 	}
 }

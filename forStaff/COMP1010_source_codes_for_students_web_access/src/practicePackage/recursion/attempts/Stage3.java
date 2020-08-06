@@ -7,7 +7,7 @@ public class Stage3 {
 	 * @return the reverse of the string
 	 * return null if string is null
 	 */
-	public static String reverse(String str) {
+	public String reverse(String str) {
 		return null; //to be completed
 	}
 
@@ -19,7 +19,7 @@ public class Stage3 {
 	 * 
 	 * return false if Sting is null
 	 */
-	public static boolean isPalindrome(String str) {
+	public boolean isPalindrome(String str) {
 		return false; //to be completed
 	}
 
@@ -41,7 +41,7 @@ public class Stage3 {
 	 *  HINT 1: x^(-n) is 1/(x^n)
 	 *  HINT 2: you can call power from Stage1
 	 */
-	public static double powerV2(int x, int n) {
+	public double powerV2(int x, int n) {
 		return 0; //to be completed
 	}
 
@@ -55,7 +55,7 @@ public class Stage3 {
 	 * convert(19, 3) returns "201" since 19 in base-3 is 211 (2*9 + 0*3 + 1*1 = 19)
 	 * convert(1905, 8) returns "3561" since 1905 in base-8 is 3561 (3*512 + 5*64 + 6*8 + 1*1 = 1905)
 	 */
-	public static String convert(int n, int destBase) {
+	public String convert(int n, int destBase) {
 		return "0"; //to be completed
 	}
 
@@ -72,7 +72,7 @@ public class Stage3 {
 	 * returns the String "supis is better supan supe osuper suping"
 	 * 
 	 */
-	public static String replaceAll(String str, String pattern, String replacement) {
+	public String replaceAll(String str, String pattern, String replacement) {
 		return null; //to be completed
 	}
 
@@ -97,7 +97,7 @@ public class Stage3 {
 	 * Note that mod (%) by 10 yields the rightmost digit (126 % 10 is 6), 
 	 * while divide (/) by 10 removes the rightmost digit (126 / 10 is 12).
 	 */
-	public static int countWeighted(int n, int d) {
+	public int countWeighted(int n, int d) {
 		return 0; //to be completed
 	}
 
@@ -109,7 +109,7 @@ public class Stage3 {
 	 * Note if tokens contains multiple occurrences of a particular character,
 	 * then str must have at least as many occurrences of that character.
 	 */
-	public static boolean contains(String str, String tokens) {
+	public boolean contains(String str, String tokens) {
 		return false; //to be completed
 	}
 
@@ -119,12 +119,12 @@ public class Stage3 {
 	 * @param s2
 	 * @return true if s1 and s2 are anagrams of each other, false otherwise
 	 */
-	public static boolean areAnagrams(String s1, String s2) {
+	public boolean areAnagrams(String s1, String s2) {
 		return false; //to be completed
 	}
 
 	@SuppressWarnings("unused")
-	private static String[] morseCodes = {"-","-...","-.-.","-..",".",
+	private String[] morseCodes = {"-","-...","-.-.","-..",".",
 			"..-.","--.","....","..",".---",
 			"-.-",".-..","--","-.","---",
 			".--.","--.-",".-.","...","-",
@@ -136,14 +136,14 @@ public class Stage3 {
 	 * @param message
 	 * @return a String containing morse code for message passed.
 	 * return null if string is null. return "" is string is ""
-	 * IMPORTANT lookup array provided as static variable morseCodes
+	 * IMPORTANT lookup array provided as variable morseCodes
 	 * Use / as a space
 	 * Use space to separate morse codes for two letters
 	 * The returned value ends with a space for all non-null, non-empty inputs
 	 * For example, 
 	 * if message = "nice one", return "-. .. -.-. . / --- -. . "
 	 */
-	public static String getMorse(String message) {
+	public String getMorse(String message) {
 		//morseCodes[i] gives the equivalent morse code for letter (char)('a' + i)
 		//'b' -> morseCodes[1]
 		//'k' ('a' + 10) -> morseCodes[10]
@@ -174,7 +174,7 @@ public class Stage3 {
 	 * @param xValue
 	 * @return
 	 */
-	public static double evaluatePolynomial(int[] coefficients, int maxDegree, int xValue) {
+	public double evaluatePolynomial(int[] coefficients, int maxDegree, int xValue) {
 		return 0; //to be completed
 	}
 }

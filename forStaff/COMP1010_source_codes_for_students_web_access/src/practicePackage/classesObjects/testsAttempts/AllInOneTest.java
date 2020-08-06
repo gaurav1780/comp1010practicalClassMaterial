@@ -12,17 +12,17 @@ import practicePackage.classesObjects.attempts.classContainingArray.CoffeeTracke
 import practicePackage.classesObjects.attempts.intermediate.Fraction;
 import practicePackage.classesObjects.attempts.intermediate.Time;
 
-class AllInOneTest {
-	CarTrip trip1, trip2, trip3, trip4;
-	Job job1, job2;
-	Time time1, time2;
-	Fraction fraction1, fraction2;
-	LargeInteger large1, large2;
-	CoffeeTracker tracker;
-	int[] data;
+public class AllInOneTest {
+	public CarTrip trip1, trip2, trip3, trip4;
+	public Job job1, job2;
+	public Time time1, time2;
+	public Fraction fraction1, fraction2;
+	public LargeInteger large1, large2;
+	public CoffeeTracker tracker;
+	public int[] data;
 
 	@BeforeEach
-	void setup() {
+	public void setup() {
 		trip1 = new CarTrip(5, 4);
 		trip2 = new CarTrip(6, 4.8);
 		trip3 = new CarTrip(4.8, 2.1);
@@ -45,7 +45,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testCarTrip() {
+	public void testCarTrip() {
 		assertEquals(5, trip1.distance, 0.01);
 		assertEquals(4, trip1.time, 0.01);
 
@@ -61,28 +61,28 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testAverageSpeed() {
+	public void testAverageSpeed() {
 		assertEquals(1.25, trip1.averageSpeed(), 0.01);
 		assertEquals(1.25, trip2.averageSpeed(), 0.01);
 		assertEquals(2.2857, trip3.averageSpeed(), 0.01);
 	}
 
 	@Test
-	void testToStringCarTrip() {
+	public void testToStringCarTrip() {
 		assertEquals("5.0 kms travelled in 4.0 hours", trip1.toString());
 		assertEquals("6.0 kms travelled in 4.8 hours", trip2.toString());
 		assertEquals("4.8 kms travelled in 2.1 hours", trip3.toString());
 	}
 
 	@Test
-	void testCompareToCarTrip() {
+	public void testCompareToCarTrip() {
 		assertEquals(-1, trip1.compareTo(trip2));
 		assertEquals(1, trip1.compareTo(trip3));
 		assertEquals(0, trip1.compareTo(trip4));
 	}
 
 	@Test
-	void testJobDoubleDouble() {
+	public void testJobDoubleDouble() {
 		job1 = new Job(Job.MIN_HOURLY_RATE - 5, -2.5);
 		assertEquals(Job.MIN_HOURLY_RATE, job1.hourlyRate);
 		assertEquals(1, job1.numberOfHours);
@@ -94,13 +94,13 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testGetSalary() {
+	public void testGetSalary() {
 		job1 = new Job(24.5, 7.5);
 		assertEquals(183.75, job1.getSalary());
 	}
 
 	@Test
-	void testCompareToJob() {
+	public void testCompareToJob() {
 		job1 = new Job(24.5, 7.5); //salary is 183.75
 		job2 = new Job(21.5, 9.5); //salary is 204.25
 		assertEquals(-1, job1.compareTo(job2));
@@ -111,7 +111,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testFractionIntInt() {
+	public void testFractionIntInt() {
 		fraction1 = new Fraction(5, 0);
 		assertEquals(5, fraction1.num);
 		assertEquals(1, fraction1.den);
@@ -121,7 +121,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testIsPositive() {
+	public void testIsPositive() {
 		//fail("Not yet implemented");
 		fraction1 = new Fraction(12, 7);
 		fraction2 = new Fraction(-3, -5);
@@ -135,7 +135,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testMultiply() {
+	public void testMultiply() {
 		fraction1 = new Fraction(12, -7);
 		fraction2 = new Fraction(-3, 5);
 		Fraction c = fraction1.multiply(fraction2);
@@ -145,7 +145,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testGetSimplifiedForm() {
+	public void testGetSimplifiedForm() {
 		fraction1 = new Fraction(-120, -64);
 		fraction2 = fraction1.getSimplifiedForm();
 		assertNotNull(fraction2);
@@ -159,14 +159,14 @@ class AllInOneTest {
 	}
 	
 		@Test
-	void testTime() {
+	public void testTime() {
 		time1 = new Time(-4, 60); //making sure you call the setter
 		assertEquals(0, time1.hour);
 		assertEquals(59, time1.minute);
 	}
 
 	@Test
-	void testToStringTime() {
+	public void testToStringTime() {
 		time1 = new Time(4, 7); 
 		assertEquals("04:07", time1.toString());
 		time1 = new Time(17, 9); 
@@ -176,7 +176,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testCompareTo() {
+	public void testCompareTo() {
 		time1 = new Time(4, 7); 
 		time2 = new Time(4, 10); 
 		assertEquals(1, time2.compareTo(time1));
@@ -196,7 +196,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testShift() {
+	public void testShift() {
 		//fail("Not yet implemented");
 		time1 = new Time(12, 27);
 		time2 = new Time(17, 53);
@@ -205,7 +205,7 @@ class AllInOneTest {
 	}
 
 	@Test
-	void testToStringAMPM() {
+	public void testToStringAMPM() {
 		time1 = new Time(8, 3);
 		assertEquals("08:03 AM", time1.toStringAMPM());
 		
@@ -255,30 +255,47 @@ class AllInOneTest {
 		large2.setValue("37");
 		assertNotNull(large1.add(large2));
 		assertEquals("1766", large1.add(large2).value);
+		
+		large1.setValue("-20");
+        large2.setValue("10");
+        assertEquals("-10", large1.add(large2).value);
 
 		large1.setValue("-4436933645896356356345030546035064079435397193472924925434");
 		large2.setValue("945379723853759365972659347623753");
 		assertEquals("-4436933645896356356345029600655340225676031220813577301681", large1.add(large2).value);
+		assertEquals("-4436933645896356356345029600655340225676031220813577301681", large2.add(large1).value);
+		large1.setValue("-945379723853759365972659347623753");
+		assertEquals("0", large1.add(large2).value);
+		large1.setValue("-945379723853759365972659347622753");
+		assertEquals("1000", large1.add(large2).value);
+
+		large1.setValue("-9999999999");
+        large2.setValue("-999999999999999");
+        assertEquals("-1000009999999998", large1.add(large2).value);
+        assertEquals("-1000009999999998", large2.add(large1).value);
+        large1.setValue("9999848949849874897");
+        large2.setValue("61849898798768846461654698787");
+        assertEquals("61849898808768695411504573684", large1.add(large2).value);
 	}
 
 	@Test
-	void testCoffeeTracker() {
+	public void testCoffeeTracker() {
 		assertArrayEquals(data, tracker.coffeesPerDay);
 		assertNotEquals(data, tracker.coffeesPerDay); //the two object should not refer to the same instance
 	}
 
 	@Test
-	void testCoffeesConsumed() {
+	public void testCoffeesConsumed() {
 		assertEquals(11, tracker.coffeesConsumed());
 	}
 
 	@Test
-	void testAverageCoffeesConsumed() {
+	public void testAverageCoffeesConsumed() {
 		assertEquals(1.1, tracker.averageCoffeesConsumed(), 0.01);
 	}
 
 	@Test
-	void testCoffeeFreeDays() {
+	public void testCoffeeFreeDays() {
 		assertEquals(5, tracker.coffeeFreeDays());
 	}
 }

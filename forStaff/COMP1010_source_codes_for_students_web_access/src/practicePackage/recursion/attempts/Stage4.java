@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Stage4 {
 	@SuppressWarnings("unused")
-	private static int[] fibLookupTable = new int[100];
+	private int[] fibLookupTable = new int[100];
 	
 	/**
 	 * 
@@ -15,7 +15,7 @@ public class Stage4 {
 	 * @param end: ending index (assume start is less than or equal to end)
 	 * @return an index at which target exists in the array data, -1 if target doesn't exist
 	 */
-	public static int binarySearch(int[] data, int target, int start, int end) {
+	public int binarySearch(int[] data, int target, int start, int end) {
 		return 0; //to be completed
 	}
 
@@ -26,7 +26,7 @@ public class Stage4 {
 	 * @return x to the power of n. 
 	 * should have O(log n) complexity, not O(n) complexity
 	 */
-	public static int fastPower(int x, int n) {
+	public int fastPower(int x, int n) {
 		return 0;
 	}
 
@@ -38,7 +38,7 @@ public class Stage4 {
 	 * @return term at index n in fibonacci sequence.
 	 * should have O(n) complexity
 	 * 
-	 * HINT: use lookup tables. fibLookupTable is created as a static variable 
+	 * HINT: use lookup tables. fibLookupTable is created as a variable 
 	 * for you to use
 	 * 
 	 * FOR EXAMPLE,
@@ -48,7 +48,7 @@ public class Stage4 {
 	 * fastFibonacci(6) = 8
 	 * fastFibonacci(8) = 21
 	 */
-	public static int fastFibonacci(int n) {
+	public int fastFibonacci(int n) {
 		return 0; //to be completed
 	}
 
@@ -73,14 +73,14 @@ public class Stage4 {
 	 * 
 	 * return the permutation at index k
 	 */
-	public static String getPermutation(int n, int k) {
+	public String getPermutation(int n, int k) {
 		return null; //to be completed
 	}
 	
 	//helper for getPermutation
 	//n = 5 -> return 120
 	//n = 7 -> return 5040
-	public static int factorial(int n) {
+	public int factorial(int n) {
 		if(n <= 1)
 			return 1;
 		return n*factorial(n-1);
@@ -89,7 +89,7 @@ public class Stage4 {
 	//helper for getPermutation
 	//n = 5 -> return "12345"
 	//n = 3 -> return "123"
-	public static String getString(int n) {
+	public String getString(int n) {
 		if(n==1) {
 			return "1";
 		}
@@ -102,7 +102,7 @@ public class Stage4 {
 	 * Do the same but with O(log n) complexity? 
 	 * "How?". Research.
 	 */
-	public static BigInteger veryFastFibonacci(int n) {
+	public BigInteger veryFastFibonacci(int n) {
 		return null; //to be completed
 	}
 	
@@ -124,7 +124,7 @@ public class Stage4 {
 	 * split53(new int[]{1, 10, 100, 1000}) = false
 	 * easy to see why
 	 */
-	public static boolean split53(int[] data) {
+	public boolean split53(int[] data) {
 		return false; //to be completed
 	}
 }

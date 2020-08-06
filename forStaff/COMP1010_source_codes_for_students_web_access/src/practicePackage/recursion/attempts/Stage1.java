@@ -7,7 +7,7 @@ public class Stage1 {
 	 * @return sum of the first n positive integers (1+2+...+n)
 	 * return 0 if n is less than or equal to 0
 	 */
-	public static int sum(int n) {
+	public int sum(int n) {
 		return 0; //to be completed
 	}
 
@@ -18,7 +18,7 @@ public class Stage1 {
 	 * @return sum of all integers from start to stop (inclusive)
 	 * return 0 if start is more than stop
 	 */
-	public static int sumRange(int start, int stop) {
+	public int sumRange(int start, int stop) {
 		return 0; //to be completed
 	}
 
@@ -28,7 +28,7 @@ public class Stage1 {
 	 * @return product of the first n positive integers (1*2*...*n)
 	 * return 1 if n is less than or equal to 0
 	 */
-	public static int product(int n) {
+	public int product(int n) {
 		return 1; //to be completed
 	}
 
@@ -39,7 +39,7 @@ public class Stage1 {
 	 * (1*1 + 2*2 + ... + n*n)
 	 * return 0 if n is less than or equal to 0
 	 */
-	public static int sumSquares(int n) {
+	public int sumSquares(int n) {
 		return 0; //to be completed
 	}
 
@@ -55,7 +55,7 @@ public class Stage1 {
 	 * 
 	 * HINT: if the number is odd, ignore it and return sumEven(n-1)
 	 */
-	public static int sumEven(int n) {
+	public int sumEven(int n) {
 		return 0; //to be completed
 	}
 
@@ -71,7 +71,7 @@ public class Stage1 {
 	 * 
 	 * HINT: if the number is even, ignore it and return sumOdd(n-1)
 	 */
-	public static int sumOdd(int n) {
+	public int sumOdd(int n) {
 		return 0; //to be completed
 	}
 
@@ -87,7 +87,7 @@ public class Stage1 {
 	 * 
 	 * HINT: If n is odd, ignore it and return sumEvenSquares(n-1)
 	 */
-	public static int sumEvenSquares(int n) {
+	public int sumEvenSquares(int n) {
 		return 0; //to be completed
 	}
 
@@ -103,7 +103,7 @@ public class Stage1 {
 	 * 
 	 * HINT: If n is even, ignore it and return sumOddSquares(n-1)
 	 */
-	public static int sumOddSquares(int n) {
+	public int sumOddSquares(int n) {
 		return 0; //to be completed
 	}
 
@@ -115,7 +115,7 @@ public class Stage1 {
 	 * 
 	 * HINT: you can check that a char ch is a digit using Character.isDigit(ch)
 	 */
-	public static boolean containsDigit(String str) {
+	public boolean containsDigit(String str) {
 		return false; //to be completed
 	}
 
@@ -130,7 +130,7 @@ public class Stage1 {
 	 * 
 	 * HINT: you can check that a char ch is a digit using Character.isDigit(ch)
 	 */
-	public static boolean isNumeric(String str) {
+	public boolean isNumeric(String str) {
 		return false; //to be completed
 	}
 
@@ -142,7 +142,7 @@ public class Stage1 {
 	 * return false if str is null
 	 * IMPORTANT: You may not call the methods indexOf or lastIndexOf or contains from String class
 	 */
-	public static boolean contains(String str, char target) {
+	public boolean contains(String str, char target) {
 		return false; //to be completed
 	}
 
@@ -154,7 +154,7 @@ public class Stage1 {
 	 * return false if str is null or target is null
 	 * IMPORTANT: You may not call the methods indexOf or lastIndexOf or contains from String class
 	 */
-	public static boolean contains(String str, String target) {
+	public boolean contains(String str, String target) {
 		return false; //to be completed
 	}
 
@@ -165,7 +165,7 @@ public class Stage1 {
 	 * @return x to the power of n
 	 * IMPORTANT: for any integer x, x to the power of 0 is 1 
 	 */
-	public static int power(int x, int n) {
+	public int power(int x, int n) {
 		return 0; //to be completed
 	}
 }

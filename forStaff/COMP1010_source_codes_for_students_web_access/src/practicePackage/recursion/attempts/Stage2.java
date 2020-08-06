@@ -14,8 +14,8 @@ public class Stage2 {
 	 * countDigits(8) = 1
 	 * countDigits(-43) = 2
 	 */
-	public static int countDigits(int n) {
-		n = Math.abs(n); //first step is to make it positve
+	public int countDigits(int n) {
+		n = Math.abs(n); //first step is to make it positive
 		return 0; //to be completed
 	}
 
@@ -24,7 +24,7 @@ public class Stage2 {
 	 * @param n
 	 * @return the sum of the even digits in n
 	 */
-	public static int sumEvenDigits(int n) {
+	public int sumEvenDigits(int n) {
 		return 0; //to be completed
 	}
 
@@ -35,7 +35,7 @@ public class Stage2 {
 	 * @param d (a single digit number)
 	 * @return the sum of the digits in n that are more than d
 	 */
-	public static int sumDigitsOver(int n, int d) {
+	public int sumDigitsOver(int n, int d) {
 		return 0; //to be completed
 	}
 
@@ -52,7 +52,7 @@ public class Stage2 {
 	 * countDigit(12345, 6) = 0
 	 * countDigit(0, 0) = 0 (NOT 1)
 	 */
-	public static int countDigit(int n, int d) {
+	public int countDigit(int n, int d) {
 		return 0; //to be completed
 	}
 
@@ -65,7 +65,7 @@ public class Stage2 {
 	 * or the Math library
 	 * HINT: multiplication is repeated addition
 	 */
-	public static int product(int a, int b) {
+	public int product(int a, int b) {
 		return 0; //to be completed
 	}
 
@@ -83,7 +83,7 @@ public class Stage2 {
 	 * fibonacci(6) = 8
 	 * fibonacci(8) = 21
 	 */
-	public static int fibonacci(int n) {
+	public int fibonacci(int n) {
 		return 0; //to be completed
 	}
 
@@ -104,7 +104,7 @@ public class Stage2 {
 	 * tribonacci(6) = 7
 	 * tribonacci(7) = 13
 	 */
-	public static int tribonacci(int n) {
+	public int tribonacci(int n) {
 		return 0; //to be completed
 	}
 }

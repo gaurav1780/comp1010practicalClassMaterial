@@ -62,10 +62,26 @@ public class LargeIntegerTest {
 		large2.setValue("37");
 		assertNotNull(large1.add(large2));
 		assertEquals("1766", large1.add(large2).value);
+		large1.setValue("-20");
+        large2.setValue("10");
+        assertEquals("-10", large1.add(large2).value);
 
 		large1.setValue("-4436933645896356356345030546035064079435397193472924925434");
 		large2.setValue("945379723853759365972659347623753");
 		assertEquals("-4436933645896356356345029600655340225676031220813577301681", large1.add(large2).value);
+		assertEquals("-4436933645896356356345029600655340225676031220813577301681", large2.add(large1).value);
+		large1.setValue("-945379723853759365972659347623753");
+		assertEquals("0", large1.add(large2).value);
+		large1.setValue("-945379723853759365972659347622753");
+		assertEquals("1000", large1.add(large2).value);
+
+		large1.setValue("-9999999999");
+        large2.setValue("-999999999999999");
+        assertEquals("-1000009999999998", large1.add(large2).value);
+        assertEquals("-1000009999999998", large2.add(large1).value);
+        large1.setValue("9999848949849874897");
+        large2.setValue("61849898798768846461654698787");
+        assertEquals("61849898808768695411504573684", large1.add(large2).value);
 	}
 
 }
