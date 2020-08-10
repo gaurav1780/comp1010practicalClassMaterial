@@ -211,6 +211,6 @@ Work on the practice package for **arrays** for the rest of the time. It's in `p
 2. at least 10 methods from stage 2, and,
 3. at least 2 method from stage 3.
 
-Make the submission as an exported archive file (select ONLY package `practicePackage.arrays.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 3 submission" by **Sunday 15th March, 21:00**.
+Make the submission as an exported archive file (select ONLY package `practicePackage.arrays.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 3 submission" by **Sunday 16th August, 21:00**.
 
 ![](./figs/week3submission.png)
