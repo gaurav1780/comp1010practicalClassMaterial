@@ -10,7 +10,7 @@ We will continue working with the `COMP1010_source_codes_for_students` project. 
 
 TODO
 
-## Question 6
+## Question 1
 
 For the class `Rectangle` in the project contained in `practicalClassCodes.week05`, consider the following client code (outside `Rectangle` class):
 
@@ -54,7 +54,7 @@ Rectangle[] data = new Rectangle[5];
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
-## Question 7
+## Question 2
 
 Complete the method `countSquares` (in class `RectangleClient.java`) that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 

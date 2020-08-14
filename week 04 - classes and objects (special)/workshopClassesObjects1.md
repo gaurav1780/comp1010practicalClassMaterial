@@ -4,7 +4,7 @@
 
 # NOTE
 
-Typically we have practical exams in week 4 so the source code is provided separately in TODO.
+Typically we have practical exams in week 4 so the source code is provided separately in [comp1010_week_4_practical_class_code.zip](./comp1010_week_4_practical_class_code.zip).
 
 ## Outline
 
