@@ -171,7 +171,7 @@ Add a constructor to class `Person` with a single parameter for the instance var
 ```java
 public Person(String s) {
 	name = s;
-	age = 18;
+	age = 21;
 }
 ```
 -->
@@ -226,7 +226,7 @@ else {
 }
 ```
 
-Now, to understand why you got the output that you got, draw a memory diagram and point out the references and instances int he diagram.
+Now, to understand why you got the output that you got, draw a memory diagram and point out the references and instances in the diagram.
 
 ### Part 2 (10 minutes)
 
