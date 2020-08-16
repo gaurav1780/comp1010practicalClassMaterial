@@ -202,7 +202,7 @@ public Person() {
 Consider the following class definition,
 
 ```java
-public Rectangle {
+public class Rectangle {
 	public double width, height;
 	public Rectangle(double w, double h) {
 		width = w;
