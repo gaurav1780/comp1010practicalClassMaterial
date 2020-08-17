@@ -171,7 +171,7 @@ Add a constructor to class `Person` with a single parameter for the instance var
 ```java
 public Person(String s) {
 	name = s;
-	age = 18;
+	age = 21;
 }
 ```
 -->
@@ -202,7 +202,7 @@ public Person() {
 Consider the following class definition,
 
 ```java
-public Rectangle {
+public class Rectangle {
 	public double width, height;
 	public Rectangle(double w, double h) {
 		width = w;
@@ -226,7 +226,7 @@ else {
 }
 ```
 
-Now, to understand why you got the output that you got, draw a memory diagram and point out the references and instances int he diagram.
+Now, to understand why you got the output that you got, draw a memory diagram and point out the references and instances in the diagram.
 
 ### Part 2 (10 minutes)
 
@@ -269,12 +269,3 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 |                               | other  |                                           |
 |  totalFrameCount (first time) | this   |                                           |
 | totalFrameCount (second time) | this   |                                           |
-
-## Submission for week 4
-
-
-You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. The file `AllInOneTest.java` contains tests for all the classes. There are a total of 25 tests. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
-
-Make the submission as an exported archive file (select ONLY package `practicePackage.classesObjects.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 5 submission" by **Sunday 23rd August, 21:00**.
-
-![](./figs/week4submission.png)
