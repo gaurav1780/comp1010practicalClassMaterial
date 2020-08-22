@@ -58,7 +58,9 @@ Rectangle[] data = new Rectangle[5];
 
 Complete the method `countSquares` (in class `RectangleClient.java`) that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
-You may assume that the array passed and also every `Rectangle` in the array is instantiated. For a more comprehensive design, avoid that assumption, so the array might be uninstantiated or null, or if it is (instantiated), some `Rectangle` objects in the array might be uninstantiated or null.
+You may assume that the array passed and also every `Rectangle` in the array is instantiated. For a more comprehensive design, avoid that assumption, so,
+- the array might be `null`, or if it is (instantiated), 
+- some `Rectangle` objects in the array might be `null`.
 
 Test provided in `testCountSquares` in class `RectangleClientTest.java`.
 
