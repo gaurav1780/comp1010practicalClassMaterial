@@ -100,6 +100,25 @@ public static int countSquares(Rectangle[] data) {
 ```
 -->
 
+## Question 3
+
+Assignment 2 has been released. Take 15 minutes to read through the specs, import the project into Eclipse and ask your tutor if there are any questions.
+
+## Submission Task
+
+Download the project from [comp1010_week_5_submission_template.zip](./codes/comp1010_week_5_submission_template.zip) and complete, in the given order,
+
+1. Constructor in `TrainingStats.java` based on javadoc.
+2. Create object in `TrainingStatsClient.java` and display the array `decisionMaking` as required in the comments. 
+3. Complete instance method `averageDecisionAccuracy` in `TrainingStats.java`.
+4. Display average decision making score in `TrainingStatsClient.java`.
+5. Complete instance method `bestHeartRateRun` in `TrainingStats.java`.
+6. Display average decision making score in `TrainingStatsClient.java`.
+
+Export the project to an archive file using the following options:
+
+![](./figs/week5export.png)
+
 # ADVANCED QUESTIONS (HD level)
 
 1. Write a method `groupSameAreas` in class `Advanced` that when passed an array of `Rectangle` objects (say `data`), returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that all objects from `data` with the same area are in the same one-dimensional array in `buckets`. That is,
