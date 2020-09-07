@@ -19,7 +19,7 @@ We will utilize *breakout rooms* for pair-programming where you are free to choo
 
 Tutor will stay in the main channel and assist anyone who needs extra help, and will duck in and out of different breakout rooms to see if you need any guidance.
 
-Week 7 submission
+## Week 7 submission
 
 Compile all your codingbat solutions into one file, say, `RecursionCodingBat.java` and upload to [Week 7 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=6013521).
 
