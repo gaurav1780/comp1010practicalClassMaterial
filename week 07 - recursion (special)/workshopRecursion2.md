@@ -15,7 +15,7 @@ For those who have already done all the exercises (which I doubt), you can *tail
 
 This is a chance for you to seek help from your tutors if you have trouble understanding recursion.
 
-We will utilize *breakout rooms* for pair-programming where you are free to choose your partner. If there are an odd number of students, tutor will assign the last student left to a group.
+We will utilise *breakout rooms* for pair-programming where you are free to choose your partner. If there are an odd number of students, tutor will assign the last student left to a group.
 
 Tutor will stay in the main channel and assist anyone who needs extra help, and will duck in and out of different breakout rooms to see if you need any guidance.
 
