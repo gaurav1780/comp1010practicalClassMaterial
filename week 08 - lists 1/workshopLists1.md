@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Lists
+## Workshop - Lists 1
 
 ### All tasks must be completed in the file [Client.java](./codes/Client.java). 
 
@@ -9,9 +9,9 @@ You need to create a new Java project and add this file. To do this, choose
 - File
 - New
 - Java Project
-- Name it `week09practical`
+- Name it `week08practical`
 - Copy [Client.java](./codes/Client.java) (or its contents) 
-- Right-click on `src` folder of project `week09practical` and choose `Paste`.
+- Right-click on `src` folder of project `week08practical` and choose `Paste`.
 
 ## Question 1 through 10 are based on a list of String objects
 
@@ -125,9 +125,9 @@ Define a method `squared` that when passed an ArrayList of Integer objects, squa
 
 Hint: the methods on ArrayList that you’ll need are,
 
-- size()
-- get(int index)
-- set(int index, int value)
+- `size()`
+- `get(inT)`
+- `set(int, Object)`
 
 ## Question 20
 
@@ -135,9 +135,9 @@ Define a method `removeNegatives` that when passed an ArrayList of Integer objec
 
 Hint: the methods on ArrayList that you’ll need are,
 
-- size()
-- get(int index)
-- remove(int index)
+- `size()`
+- `get(int)`
+- `remove(int)`
 
 ## Question 21 (HD level) 
 
@@ -145,9 +145,9 @@ Define a method `getExclusiveItems` that when passed an ArrayList of ArrayList o
 
 # Weekly submission
 
-This week, we are working with practice package for built-in lists. `practicePackage -> lists -> builtInLists` in the master project.
+This week, we are working with practice package for built-in lists. 
 
-You can drag and drop Stage1.java through Stage4.java into the submission box [Week 9 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5469276). 
+Relevant package: `practicePackage` -> `lists` -> `builtInLists` in the master project.
+
+You can drag and drop `Stage1.java` through `Stage4.java` into the submission box [Week 8 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5887653). 
 (I have enabled uploading of multiple files, as long as all are java files).
-
-<!--[q1 to q10](https://github.com/emmmarosewalker/week9practical/blob/master/Client.java)-->
