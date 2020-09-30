@@ -148,8 +148,8 @@ Define a method `getExclusiveItems` that when passed an ArrayList of ArrayList o
 This week, we are working with practice package for built-in lists. 
 
 Relevant package: `practicePackage` -> `lists` -> `builtInLists` in the master project.
-Try to solve: minimum of 20 methods from part 2;
-              and 5 methods from part 3
+
+Try to solve: minimum of 20 methods from part 2 and 5 methods from part 3
 
 You can drag and drop `Stage1.java` through `Stage4.java` into the submission box [Week 8 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5887653). 
 (I have enabled uploading of multiple files, as long as all are java files).
