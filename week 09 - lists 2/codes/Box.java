@@ -1,6 +1,6 @@
 public class Box {
 	public Rectangle base;
-	public int depth, width;
+	public int depth;
 	
 	public Box(int w, int h, int d) {
 		base = new Rectangle(w, h);
@@ -16,6 +16,6 @@ public class Box {
 	}
 	
 	public boolean isCubical() {
-		return base.isSquare() && depth == width;
+		return base.isSquare() && depth == base.width;
 	}
 }
