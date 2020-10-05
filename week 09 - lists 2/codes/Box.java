@@ -1,6 +1,6 @@
 public class Box {
 	public Rectangle base;
-	public int depth;
+	public int depth, width;
 	
 	public Box(int w, int h, int d) {
 		base = new Rectangle(w, h);
