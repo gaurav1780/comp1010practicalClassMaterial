@@ -42,7 +42,7 @@ public class Client {
 	/**
 	 * 
 	 * @param list
-	 * modify the list so that each item beomes the square of its previous value
+	 * modify the list so that each item becomes the square of its previous value
 	 */
 	public static void squared(ArrayList<Integer> list) {
 		//to be completed
