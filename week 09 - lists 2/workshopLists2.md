@@ -48,7 +48,9 @@ Using an iterator, add a unit `Box` object (of dimensions 1 by 1 by 1) **after**
 
 Using an iterator, add a unit `Box` object (of dimensions 1 by 1 by 1) **before** every item that has an even depth.
 
+## Weekly submission
 
+There is no weekly submission this week.
 
 
 
