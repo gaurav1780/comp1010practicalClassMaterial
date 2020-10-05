@@ -72,7 +72,7 @@ Add the String `real` before the last item. Display the list.
 
 Store the number of items that have more than 4 characters in a variable `lengthyWordCount`. Display the value of `lengthyWordCount`. If you use an enhanced for-loop, you will not have to chain method calls. If you use a regular loop, you will have to chain, i.e. words.get(i).length().
 
-## Question 11 through 15 are based on a list of Integer objects
+## Question 11 through 15 are based on a list of `Integer` objects
 
 ### Question 11
 
@@ -96,7 +96,7 @@ Store, in a variable `hasOverTen`, the value `true`, if there are one or more it
 
 The method `allPositives` is defined (after the `main` method). Call this method by passing the list `outcomes` and store the value returned by the method in a variable `allPos`. Display the value held by the variable `allPos`.
 
-## Questions 16 to 21 are based on ArrayList objects being passed to methods
+## Questions 16 to 21 are based on `ArrayList` objects being passed to methods
 ### Questions 16 to 21 have tests available in [ClientTest.java](./codes/ClientTest.java). 
 
 ### Question 16
@@ -111,9 +111,9 @@ Define a method `allEven` on the lines of `allPositives` that returns `true` if 
 
 Define a method `countInRange` from scratch (no header provided) that when passed,
 
-1. An ArrayList of Integer objects (call it `list`),
-2. An integer (call it `min`),
-3. An integer (call it `max`). Assume `max` \>= `min`.
+1. An `ArrayList` of `Integer` objects (call it `list`),
+2. An `Integer` (call it `min`),
+3. An `Integer` (call it `max`). Assume `max` \>= `min`.
 
 returns the number of items in `list` that are in the range `[min...max]`. Return 0 if the list is `null` or empty.
 
@@ -121,9 +121,9 @@ Once you define the method, uncomment the test method `testCountInRange` in clas
 
 ## Question 19
 
-Define a method `squared` that when passed an ArrayList of Integer objects, squares all items of list. So if the list that is passed is `[3, 1, 7]`, after the method executes, it becomes `[9, 1, 49]`. Do nothing if the list is `null`.
+Define a method `squared` that when passed an `ArrayList` of `Integer` objects, squares all items of list. So if the list that is passed is `[3, 1, 7]`, after the method executes, it becomes `[9, 1, 49]`. Do nothing if the list is `null`.
 
-Hint: the methods on ArrayList that you’ll need are,
+Hint: the methods on `ArrayList` that you’ll need are,
 
 - `size()`
 - `get(inT)`
@@ -131,9 +131,9 @@ Hint: the methods on ArrayList that you’ll need are,
 
 ## Question 20
 
-Define a method `removeNegatives` that when passed an ArrayList of Integer objects, removes all negative items. So if the list that is passed is `[-5, -7, 6, 0, -5, -1, -8, 3, 0, 0, 2, -7, -3]`, after the method executes, it becomes `[6, 0, 3, 0, 0, 2]`. Do nothing if the list is `null`.
+Define a method `removeNegatives` that when passed an `ArrayList` of `Integer` objects, removes all negative items. So if the list that is passed is `[-5, -7, 6, 0, -5, -1, -8, 3, 0, 0, 2, -7, -3]`, after the method executes, it becomes `[6, 0, 3, 0, 0, 2]`. Do nothing if the list is `null`.
 
-Hint: the methods on ArrayList that you’ll need are,
+Hint: the methods on `ArrayList` that you’ll need are,
 
 - `size()`
 - `get(int)`
@@ -141,7 +141,7 @@ Hint: the methods on ArrayList that you’ll need are,
 
 ## Question 21 (HD level) 
 
-Define a method `getExclusiveItems` that when passed an ArrayList of ArrayList of Integer objects (ArrayList<ArrayList<Integer>>), returns an ArrayList of Integer objects containing items that are exclusive to each sub-list. For example, if the list passed is [[8, 1, 4, 2, 4, 2, 1], [6, 4, 9, 8, 8, 8], [5, 3, 8, 8, 5, 6]], the method should return an ArrayList containing [1, 2, 2, 1, 9, 5, 3, 5] since 1, 2, 2, 1 occur only in the first sub-list, 9  occurs only in the second sub-list and 5, 3, 5 occur only in the third sub-list.
+Define a method `getExclusiveItems` that when passed an `ArrayList` of `ArrayList` of `Integer` objects (`ArrayList<ArrayList<Integer>>`), returns an `ArrayList` of `Integer` objects containing items that are exclusive to each sub-list. For example, if the list passed is [[8, 1, 4, 2, 4, 2, 1], [6, 4, 9, 8, 8, 8], [5, 3, 8, 8, 5, 6]], the method should return an `ArrayList` containing [1, 2, 2, 1, 9, 5, 3, 5] since 1, 2, 2, 1 occur only in the first sub-list, 9  occurs only in the second sub-list and 5, 3, 5 occur only in the third sub-list.
 
 # Weekly submission
 
