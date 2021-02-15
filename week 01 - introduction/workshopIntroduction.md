@@ -17,11 +17,11 @@ In COMP1010, we understand that programming doesn't come naturally to everyone. 
 	
 * Times and rooms are subject to change. Please refer to latest schedule on iLearn (right panel).
 
-## Installing Java SE and Eclipse IDE
+## Installing Java SE and Eclipse IDE (or Visual Studio Code)
 
-Java is the programming language while Eclipse is one of the editors in which you write Java programs.
+Java is the programming language while Eclipse/VSCode are the editors in which you write Java programs. We use Eclipse in the lectures and videos but you are free to choose either. However, we will troubleshoot only Eclipse.
 
-Current version of Java SE is `14.0.2` and Eclipse IDE is `2020-06`.
+Current version of Java SE is `15.0.2` and Eclipse IDE is `2020-12`.
 
 You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE), **before you install Eclipse**.
 
