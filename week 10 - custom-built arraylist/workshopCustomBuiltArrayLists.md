@@ -50,7 +50,7 @@ data[i] = new Rectangle(r);
 
 # Weekly submission task 
 
-The weekly submission task can be found under the package practicePackage.lists.customBuiltLists.customArrayList. Complete and submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5469277).
+The weekly submission task can be found under the package practicePackage.lists.customBuiltLists.customArrayList. Complete and submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5887655) by Sunday 18th October 9:00pm.
 - `add(int)`
 - `get(int)`
 - `add(int, int)`
