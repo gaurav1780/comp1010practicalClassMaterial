@@ -121,7 +121,7 @@ Note that the packages can be nested. A package `inner` inside another package `
 
 ### Question 4.
 
-Import project contained in [COMP1010_source_codes_for_students.zip](./../COMP1010_source_codes_for_students.zip). You will see that the project contains 5 *packages* as shown in the following figure:
+Import project contained in [COMP1010\_source\_codes\_for\_students\_updated.zip](./../COMP1010_source_codes_for_students_updated.zip). You will see that the project contains the *packages* as shown in the following figure:
 
 ![](./figs/sourceCodes.png)
 
@@ -152,10 +152,12 @@ Another package in the same project is `practicePackage`, further containing `in
 		- `attempts`
 		- `testsAttempts`
 
-There are 33 questions over 4 stages. Your tutor will demonstrate what should be done for the following two methods:
+The questions are split across multiple stages. Your tutor will demonstrate what should be done for the following two methods:
 
 1. `square(int)` in `Stage1.java` (method returning `int`), and, 
 2. `isPositive(int)` in `Stage1.java`(method returning `boolean`).
+
+**IMPORTANT** Please note that we expect, AT MOST, the top 2% students to be able to complete questions from the final Stage. So don't freak out because you can't solve those.
 
 &nbsp;<p>
 
@@ -164,13 +166,15 @@ There are 33 questions over 4 stages. Your tutor will demonstrate what should be
 &nbsp;<p>
 
 
-For week 2, complete **at least** 15 methods so that the corresponding tests pass and submit the exported project as described below. You can make the submission by **Sunday 9th August 21:00**. The more methods you can solve, the better are your prospects in the practical exams. 
+For week 2, complete **at least** 25 functions (out of the 58 or so) such that the corresponding tests pass and submit ALL corresponding files (so up to 6 java files). You can make the submission by **Sunday 7th March 21:00**. The more functions you can solve, the better prepared you are for the unit. 
 
-Export the relevant part of the project to an archive file using steps shown in the following video
+[![](http://img.youtube.com/vi/Q1oGIypsPls/0.jpg)](https://www.youtube.com/watch?v=Q1oGIypsPls "")
+
+<!--Export the relevant part of the project to an archive file using steps shown in the following video
 
 [![](http://img.youtube.com/vi/eeGrh_l5jp0/0.jpg)](http://www.youtube.com/watch?v=eeGrh_l5jp0 "")
 
-1. Select the project `COMP1010_source_codes_for_students` in the left panel so that it is highlighted in blue.
+1. Select the project `COMP1010_source_codes_for_students_updated` in the left panel so that it is highlighted in blue.
 2. Choose `File`
 3. Choose `Export`
 4. Double-click (or expand) `General`
@@ -180,7 +184,7 @@ Export the relevant part of the project to an archive file using steps shown in 
 8. Click on `Browse`
 9. Choose location of your choice and choose the name `studentID_week_2_submission.zip` (studentID being your 8-digit student ID).
 10. Click `Finish`.
-11. Upload file `studentID_week_2_submission.zip` under `Week 2 submission`. For example, if your student ID is 40404040, the file you submit, must be `40404040_week_2_submission.zip`.
+11. Upload file `studentID_week_2_submission.zip` under `Week 2 submission`. For example, if your student ID is 40404040, the file you submit, must be `40404040_week_2_submission.zip`.-->
 
 ### Question 8 (Problem solving)
 
