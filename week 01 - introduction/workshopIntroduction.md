@@ -40,7 +40,7 @@ If you have any problem installing Java and/or Eclipse, try troubleshooting with
 
 We will go through some questions that will help you revise COMP1000 (COMP115). We have created material for students with the transition from COMP1000 to COMP1010 which is available [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops). Each topic contains a `.md` file containing the material.
 
-## What is the value of `result` when each of the following codes is executed?
+## What is the value of `result` when each of the following codes is executed? (10 minutes)
 
 1. 
 ```java
@@ -72,7 +72,7 @@ int result = -13 % 5;
 int result = -13 % -5;
 ```
 
-## CONDITIONS
+## CONDITIONS (10 minutes)
 
 Consider the following code:
 
@@ -106,7 +106,7 @@ What shapes are drawn for each of the following co-ordinates?
 3. `(40, 80)`
 4. `(160, 90)`
 
-## LOOPS
+## LOOPS (10 minutes)
 
 What is the value of `result` when each of the following codes is executed?
 
@@ -129,7 +129,7 @@ for(int i=1; i*i<=n; i++) {
 }
 ```
 
-## CALLING A FUNCTION
+## CALLING A FUNCTION (10 minutes)
 
 What is the value of `result` when the following code is executed? Draw a memory diagram to illustrate the passing of variables. (You can see an example of such a memory diagram [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops/blob/master/3%20-%20functions/functions.md#defining-a-function)).
 
@@ -152,7 +152,7 @@ int q = 3;
 int result = foo(p - 2, q + 2);
 ```
 
-## DEFINING A FUNCTION
+## DEFINING A FUNCTION (10 minutes)
 
 1. Write a function that when passed an integer, return `true` if it is even (divisible by 2), and `false` otherwise.
 2. Write a function that when passed an integer and a boolean,
@@ -162,7 +162,7 @@ int result = foo(p - 2, q + 2);
 		- if the integer is positive, return the integer itself
 		- if the integer is not positive, return negative of the integer
 
-## STORAGE OF ARRAYS
+## STORAGE OF ARRAYS (10 minutes)
 
 Discuss this question as a group.
 
@@ -177,7 +177,7 @@ The notation scheme for the memory diagram we will be using is as follows:
 
 ![](./figs/arrayStorage.png)
 
-## OPERATING ON AN ARRAY
+## OPERATING ON AN ARRAY (10 minutes)
 
 In this unit, we'll be doing a fair amount of problem solving with arrays.
 
@@ -227,7 +227,7 @@ for(int i=0; i < data.length - 1 && isAsc; i++) { //loop terminates if isAsc is 
 }
 ```
 
-## FUNCTIONS HANDLING ARRAYS
+## FUNCTIONS HANDLING ARRAYS (10 minutes)
 
 Complete the following functions (we are using Processing syntax here):
 
