@@ -12,8 +12,7 @@ You have downloaded and installed Java SE (previously known as Java SDK) on your
 - 5 minutes past start: Structure of a Java program
 - 25 minutes past start: Importing a Java project from an **archive file** in Eclipse
 - 35 minutes past start: JUnit test example
-- 60 minutes past start: Exporting a Java project to an **archive file** from Eclipse
-- 75 minutes past start: Completing a simple Java program
+- 70 minutes past start: Completing a simple Java program
 - 90 minutes past start: Problem solving
 
 
