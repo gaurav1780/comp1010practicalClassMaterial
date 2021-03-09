@@ -273,8 +273,8 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 ## Submission for week 4
 
 
-You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. The file `AllInOneTest.java` contains tests for all the classes. There are a total of 25 tests. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
+You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 
-Make the submission as an exported archive file (select ONLY package `practicePackage.classesObjects.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 4 submission" by **Sunday 23rd August, 21:00**.
+Make the submission by dragging all relevant files (as shown in the screenshot) from package explorer into "Week 4 submission" by **Sunday 21st March, 21:00**.
 
 ![](./figs/week4submission.png)

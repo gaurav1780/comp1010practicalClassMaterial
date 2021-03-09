@@ -115,9 +115,7 @@ Download the project from [comp1010_week_5_submission_template.zip](./codes/comp
 5. Complete instance method `bestHeartRateRun` in `TrainingStats.java`.
 6. Display average decision making score in `TrainingStatsClient.java`.
 
-Export the project to an archive file using the following options:
-
-![](./figs/week5export.png)
+Submit `TrainingStats.java` by dragging from package explorer into week 5 submission box by **Sunday 28th March, 2021, 9pm**.
 
 # ADVANCED QUESTIONS (HD level)
 

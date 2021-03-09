@@ -140,11 +140,14 @@ The order is:
 
 ## Week 6 submission
 
-You should be working with package `practicePackage.recursion`. Complete as many methods as you can from Stage1, then move to Stage2, and so on.
+You should be working with package `practicePackage.recursion`. 
 
-Make the submission as an exported archive file (select ONLY package `practicePackage.recursion.attempts` under the `src` folder, NOT the `bin` folder) named `studentID.zip` (where studentID is your Student ID) on iLearn under "Week 6 submission" by **Sunday 6th September, 21:00**.
+### You must complete -
 
-Submission is NOT mandatory (so you can focus on prac exam 2 preparation). However, given that recursion is included in practical exam 2, we encourage you to do as many tasks as you can, especially Stages 1 and 2. Students aiming for HD should also do Stages 3 and 4.
+1. **at least** 10 functions from stage 1, and,
+2. **at least** 5 functions from stage 2.
+
+Drag and Drop **all** relevant java files from the package explorer into "Week 3 submission" submission box by **Sunday 4th April, 21:00**.
 
 ## ADVANCED PRACTICE QUESTIONS
 
