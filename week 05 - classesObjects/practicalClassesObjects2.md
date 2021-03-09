@@ -106,7 +106,7 @@ Assignment 2 has been released. Take 15 minutes to read through the specs, impor
 
 ## Submission Task
 
-Download the project from [comp1010_week_5_submission_template.zip](./codes/comp1010_week_5_submission_template.zip) and complete, in the given order,
+This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete, in the given order,
 
 1. Constructor in `TrainingStats.java` based on javadoc.
 2. Create object in `TrainingStatsClient.java` and display the array `decisionMaking` as required in the comments. 

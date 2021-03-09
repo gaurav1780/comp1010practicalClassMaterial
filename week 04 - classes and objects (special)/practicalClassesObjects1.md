@@ -276,5 +276,3 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 
 Make the submission by dragging all relevant files (as shown in the screenshot) from package explorer into "Week 4 submission" by **Sunday 21st March, 21:00**.
-
-![](./figs/week4submission.png)
