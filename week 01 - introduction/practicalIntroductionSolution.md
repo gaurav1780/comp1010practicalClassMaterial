@@ -44,32 +44,32 @@ We will go through some questions that will help you revise COMP1000 (COMP115). 
 
 1. 
 ```java
-int result = 17 / 5;
+int result = 17 / 5; //ANSWER: 3
 ```
 
 2. 
 ```java
-float result = 17 / 5;
+float result = 17 / 5; //ANSWER: 3.0
 ```
 
 3. 
 ```java
-float result = 17.0 / 5;
+float result = 17.0 / 5; //ANSWER: 3.4
 ```
 
 4. 
 ```java
-int result = 13 % 5;
+int result = 13 % 5; //ANSWER: 3
 ```
 
 5. 
 ```java
-int result = -13 % 5;
+int result = -13 % 5; //ANSWER: -3
 ```
 
 6. 
 ```java
-int result = -13 % -5;
+int result = -13 % -5; //ANSWER: -3
 ```
 
 ## CONDITIONS (10 minutes)
@@ -101,10 +101,10 @@ else {
 
 What shapes are drawn for each of the following co-ordinates?
 
-1. `(90, 120)`
-2. `(180, 160)`
-3. `(40, 80)`
-4. `(160, 90)`
+1. `(90, 120)`: circle
+2. `(180, 160)`: triangle
+3. `(40, 80)`: line
+4. `(160, 90)` square
 
 ## LOOPS (10 minutes)
 
@@ -118,6 +118,7 @@ for(int i=0; i<4; i++) {
 	result*=2;
 }
 ```
+ANSWER: result = 1\*2\*2\*2\*2 = 16
 
 2. 
 
@@ -128,6 +129,7 @@ for(int i=1; i*i<=n; i++) {
 	result++;
 }
 ```
+ANSWER: result = 8
 
 ## CALLING A FUNCTION (10 minutes)
 
@@ -150,6 +152,7 @@ Function call:
 int p = 6;
 int q = 3;
 int result = foo(p - 2, q + 2);
+//result will be 4
 ```
 
 ANSWER: foo(4, 5) = 4
