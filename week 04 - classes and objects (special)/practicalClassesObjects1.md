@@ -9,7 +9,7 @@ Typically we have practical exams in week 4 so the source code is provided separ
 ## Outline
 
 - designing a class
-- creating objects
+- creating objects/Users/gauravgupta/Desktop/Screen Shot 2021-03-16 at 3.13.45 pm.png
 - references and instances
 - constructors
 - compareTo
@@ -274,4 +274,6 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 
 You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 
-Make the submission by dragging all relevant files from package explorer into "Week 4 submission" by **Sunday 21st March, 21:00**.
+Make the submission by dragging all relevant files (as shown below) from package explorer into "Week 4 submission" by **Sunday 21st March, 21:00**.
+
+![](./figs/submission.png)
