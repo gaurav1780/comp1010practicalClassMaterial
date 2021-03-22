@@ -4,7 +4,7 @@
 
 # NOTE
 
-We will continue working with the `COMP1010_source_codes_for_students` project. This week, we are dealing with package `practicalClassCodes.week05`.
+We will continue working with the master project. This week, we are dealing with package `practicalClassCodes.week05`.
 
 ## Outline
 
