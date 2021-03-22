@@ -108,7 +108,7 @@ public static int countSquares(Rectangle[] data) {
 
 Assignment 2 has been released. Take 15 minutes to read through the specs, import the project into Eclipse and ask your tutor if there are any questions.
 
-## Submission Task
+## Question 4 (Submission Task)
 
 This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete, in the given order,
 
