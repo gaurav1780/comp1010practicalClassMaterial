@@ -121,6 +121,8 @@ This week, we will digress from the practice package. Download [comp1010\_week\_
 
 Submit `TrainingStats.java` by dragging from package explorer into week 5 submission box by **Sunday 28th March, 2021, 9pm**.
 
+The constructor `TrainingStats(int[], int[])` and `averageDecisionAccuracy()` **MUST** be completed for a "Pass" in week 5. But submitting just those two will only get you 74% mark. You must also complete `bestHeartRateRun(int)` for an additional 26%.
+
 # ADVANCED QUESTIONS (HD level)
 
 1. Write a method `groupSameAreas` in class `Advanced` that when passed an array of `Rectangle` objects (say `data`), returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that all objects from `data` with the same area are in the same one-dimensional array in `buckets`. That is,
