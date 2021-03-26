@@ -17,101 +17,6 @@ We will continue working with the `COMP1010_source_codes_for_students` project. 
 	- practice, and, 
 	- more practice
 
-## `NullPointerException`
-
-In your second practical exam, we'll ask you to ensure an object (including arrays) is not `null` before operating on it. If you access any instance variable or method of a `null` object, you get a `NullPointerException` - java's way of telling you that the object hasn't been instantiated.
-
-```java
-public static int sum(int[] data) {
-	int result = 0;
-	for(int i=0; i < data.length; i++) { //NullPointerException on data.length
-		result+=data[i];
-	}
-	return result;
-}
-```
-
-Since we are accessing `data.length`, we will get a `NullPointerException` when `data` is `null`.
-
-### Fixed version:
-
-```java
-public static int sum(int[] data) {
-	if(data == null) {
-		return 0;
-	}
-	int result = 0;
-	for(int i=0; i < data.length; i++) { //NullPointerException on data.length
-		result+=data[i];
-	}
-	return result;
-}
-```
-
-**IMPORTANT** Only something that is a *reference* can be assigned a `null` value, not variables of primitive data type.
-
-Consider the following code and state which of the `null` checks (`check1, check2, ...`) are valid and if so, what do they evaluate to?
-
-```java
-class Rectangle {
-   public double width, height;
-}
-```
-
-```java
-public class Client {
-   public static void main(String[] args) {
-      String str1 = null;
-      int[] data1 = new int[4];
-      Rectangle r1 = new Rectangle();
-      String str2 = "Messi!";
-      int[] data2 = null;
-      Rectangle r2 = null;
-      int n = 5;
-      char ch = '$';
-      boolean flag = false;
-      
-      //are the following valid? and if so, what are the values of the boolean variables
-      boolean check0 = (str1 == null);
-      boolean check1 = (data1 == null); 
-      boolean check2 = (r1 == null);
-      boolean check3 = (n == null);
-      boolean check4 = (ch == null);
-      boolean check5 = (flag == null);
-      boolean check6 = (data2 == null); 
-      boolean check7 = (r2 == null);
-      boolean check8 = (data1.length == null); 
-      boolean check9 = (r2.width == null);
-      boolean check10 = (str2 == null);
-   }
-}
-```   
-
-### Similar examples with String and Rectangle objects
-
-```java
-public static boolean isNumeric(String str) {
-	if(str == null)
-		return false;
-	//...rest of your code
-}
-```
-
-```java
-public static int sumAreas(Rectangle[] data) {
-	if(data == null) {
-		return 0;
-	}
-	
-	int result = 0;
-	for(Rectangle r: data) { //enhanced for loop :)
-		if(r != null) { //first check that object is NOT null
-			result+=r.area();
-		}
-	}
-}
-```
-
 ## IMPORTANT
 
 Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, (s)he may interject.
@@ -140,14 +45,14 @@ The order is:
 
 ## Week 6 submission
 
-You should be working with package `practicePackage.recursion`. 
+You should be working with package `practicePackage.recursion`, stages 1 and 2 only. 
+There are a total of 21 functions across Stages 1 and 2. 
+Your code should pass **AT LEAST 10 functions to pass the hurdle**. 
+Each function is worth 5 marks. Solving 20 functions will get you a full mark for week 6. 
+Solving the 21st function will earn you my respect but unfortunately no bonus marks.
 
-### You must complete -
-
-1. **at least** 10 functions from stage 1, and,
-2. **at least** 5 functions from stage 2.
-
-Drag and Drop **all** relevant java files from the package explorer into "Week 3 submission" submission box by **Sunday 4th April, 21:00**.
+Drag and Drop **all** relevant java files from the package explorer into "Week 6 submission" submission box by **Sunday 4th April, 21:00**.
+Any compilation error, StackOverflowError or any infinite loop in ANY of the files will result in an automatic zero.
 
 ## ADVANCED PRACTICE QUESTIONS
 
