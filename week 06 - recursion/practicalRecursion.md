@@ -17,7 +17,7 @@ We will continue working with the `COMP1010_source_codes_for_students` project. 
 	- practice, and, 
 	- more practice
 
-## ACTIVITY 1
+## ACTIVITY 1 - Call stack and stack frames
 
 Trace the function calls and the status of call stack for the following codes:
 
@@ -86,14 +86,14 @@ public class Recursion_6_3 {
 
 Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, they may interject.
 
-## Demo of recursive design and coding
+## ACTIVITY 2 - Demo of recursive design and coding
 
 In the first task, your tutor will design and implement a recursive solution for,
 
 1. [Number-based problem](https://codingbat.com/prob/p163932) 
 2. [String-based problem](https://codingbat.com/prob/p170371)
 
-## PRACTICE - IN PAIRS
+## ACTIVITY 3 - Practising in pairs
 
 Practice questions sequentially from [https://codingbat.com/java/Recursion-1](https://codingbat.com/java/Recursion-1)
 
