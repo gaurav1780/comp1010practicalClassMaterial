@@ -8,18 +8,83 @@ We will continue working with the `COMP1010_source_codes_for_students` project. 
 
 ## Outline
 
-- 6 to 15 minutes: a note for practical exams about `NullPointerException`
-- 16 to 35 minutes: demos
+- 5 to 30 minutes: Call stack and stack frames in a recursive design
+- 31 to 60 minutes: demos
 	- numeric-based examples
 	- String-based examples
-- 36 to end of class: 
+- 61 minutes to end of class: 
 	- practice,
 	- practice, and, 
 	- more practice
 
+## ACTIVITY 1
+
+Trace the function calls and the status of call stack for the following codes:
+
+```java
+public class Recursion_6_1 {
+	public static int mystery(int a, int b) {
+   		if(b == 0) {
+			return a;
+		}
+		return mystery(b, a%b);
+	}
+	
+	public static boolean 
+	public static void main(String[] args) {
+		int x = 16, y = 44;
+		int z = mystery(x, y);
+		System.out.println(z);
+	}
+}
+```
+
+```java
+public class Recursion_6_2 {
+	public static int steep(String a) {
+   		if(a == null || a.isEmpty()) {
+			return 0;
+		}
+		if(a.charAt(0) == ' ') {
+			return 1 + steep(a.substring(1));
+		}
+		return steep(a.substring(1));
+	}
+	
+	public static void main(String[] args) {
+		String s = "is it on?";
+		int b = steep(s);
+		System.out.println(b);
+	}
+}
+```
+
+```java
+//ADVANCED (take-home)
+public class Recursion_6_3 {
+	public static String funky(String a, String b) {
+   		if(a == null || b == null || a.length() < b.length()) {
+			return a;
+		}
+		String first = a.substring(0, b.length());
+		if(first.equals(b)) {
+			return funky(a.substring(b.length()), b);
+		}
+		return a.charAt(0) + funky(a.substring(1), b);
+	}
+	
+	public static void main(String[] args) {
+		String s1 = "inkling";
+		String s2 = "in";
+		String s3 = funky(s1, s2);
+		System.out.println(s3);
+	}
+}
+```
+	
 ## IMPORTANT
 
-Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, (s)he may interject.
+Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, they may interject.
 
 ## Demo of recursive design and coding
 
