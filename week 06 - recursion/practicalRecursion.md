@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Recursion
+## Practical class - Recursion
 
 # NOTE
 
