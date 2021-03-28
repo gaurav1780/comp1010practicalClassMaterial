@@ -123,7 +123,7 @@ Any compilation error, StackOverflowError or any infinite loop in ANY of the fil
 
 If you are done with Recursion - 1, move on to [https://codingbat.com/java/Recursion-2](https://codingbat.com/java/Recursion-2).
 
-## ADVANCED QUESTION
+## ADVANCED QUESTIONS
 
 **This is for students looking for something fairly challenging.**
 Solve as many questions as you can from [RecursionService.java] in `practiceClassCodes.week06.RecursionService` 
