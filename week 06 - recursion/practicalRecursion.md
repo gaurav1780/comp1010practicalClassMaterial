@@ -110,11 +110,13 @@ The order is:
 
 ## Week 6 submission
 
-You should be working with package `practicePackage.recursion`, stages 1 and 2 only. 
-There are a total of 21 functions across the two stages. 
-Your code should pass **AT LEAST 10 functions to pass the hurdle**. 
-Each function is worth 5 marks. Solving 20 functions will get you a full mark for week 6. 
-Solving the 21st function will earn you my respect but unfortunately no bonus marks.
+- You should be working with package `practicePackage.recursion`, stages 1 and 2 only. 
+- There are a total of 21 functions across the two stages. 
+- You should implement all solutions recursively. 
+- IMPORTANT!!! Any use of loop automatically disqualifies your submission.
+- Your code should pass **AT LEAST 10 functions to pass the hurdle**. 
+- Each function is worth 5 marks. Solving 20 functions will get you a full mark for week 6. 
+- Solving the 21st function will earn you my respect but unfortunately no bonus marks.
 
 Drag and Drop the two java files (Stage1.java, Stage2.java) from the package explorer into "Week 6 submission" submission box by **Sunday 4th April, 21:00**.
 Any compilation error, StackOverflowError or any infinite loop in ANY of the files will result in an automatic zero.
