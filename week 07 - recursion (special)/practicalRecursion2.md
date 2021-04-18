@@ -23,9 +23,10 @@ Tutor will stay in the main channel and assist anyone who needs extra help, and 
 
 You should be working with package `practicePackage.recursion`. 
 
-You must complete **at least** 3 functions from stage 3.
+You must complete **at least** 3 functions from stage 3. Completing 3 functions gets you 50% for the weekly task.
+Every subsequent function beyond that gets you another 10%. So, completing 8 functions will get you 100%.
 
-Drag and Drop `Stage3.java` from the package explorer into "Week 3 submission" submission box by **Sunday 11th April, 21:00**.
+Drag and Drop `Stage3.java` from the package explorer into "Week 3 submission" submission box by **Sunday 25th April, 21:00**.
 
 <!--Compile all your codingbat solutions into one file, say, `RecursionCodingBat.java` and upload to [Week 7 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=6013521).
 
