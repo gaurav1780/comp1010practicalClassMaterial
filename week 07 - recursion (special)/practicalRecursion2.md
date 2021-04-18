@@ -21,10 +21,10 @@ Tutor will stay in the main channel and assist anyone who needs extra help, and 
 
 ## Week 7 submission
 
-You should be working with package `practicePackage.recursion`. 
+You should be working with `Stage3.java` of package `practicePackage.recursion.attempts`. 
 
-You must complete **at least** 3 functions from stage 3. Completing 3 functions gets you 50% for the weekly task.
-Every subsequent function beyond that gets you another 10%. So, completing 8 functions will get you 100%.
+Each function is worth 12.5 marks. You must complete **at least** 3 functions from stage 3 to clear the hurdle for week 7.
+Therefore, the passing mark for week 7 is 37.5. Completing 8 or more functions gets you a full 100 marks.
 
 Drag and Drop `Stage3.java` from the package explorer into "Week 3 submission" submission box by **Sunday 25th April, 21:00**.
 
