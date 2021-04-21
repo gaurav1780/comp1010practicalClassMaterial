@@ -26,9 +26,9 @@ You should be working with `Stage3.java` of package `practicePackage.recursion.a
 Each function is worth 12.5 marks. You must complete **at least** 3 functions from stage 3 to clear the hurdle for week 7.
 Therefore, the passing mark for week 7 is 37.5. Completing 8 or more functions gets you a full 100 marks.
 
-Drag and Drop `Stage3.java` from the package explorer into "Week 7 submission" submission box by **Sunday 25th April, 21:00**.
+Drag and Drop `Stage3.java` (and ALSO `Stage1.java` if you call `power` in `powerV2`) from the package explorer into "Week 7 submission" submission box by **Sunday 25th April, 21:00**.
 
-- Submit Stage3.java from the recursion package.
+- Submit Stage3.java (and ALSO `Stage1.java` if you call `power` in `powerV2`) from the recursion package.
 - There are a total of 10 functions in this stage. 
 - You should implement all solutions PURELY recursively (absolutely no iteration). 
 - IMPORTANT!!! Any use of any loop automatically disqualifies your submission.
