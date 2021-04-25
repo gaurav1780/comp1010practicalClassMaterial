@@ -149,7 +149,12 @@ This week, we are working with practice package for built-in lists.
 
 Relevant package: `practicePackage` -> `lists` -> `builtInLists` in the master project.
 
-Try to solve: minimum of 20 methods from part 2 and 5 methods from part 3.
+Hurdle requirement:
 
-You can drag and drop `Stage1.java` through `Stage4.java` into the submission box [Week 8 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5887653). 
+- Each method (across the 4 stages) is worth 2 marks. So, solving 50 or more methods will get you 100% marks.
+- To clear the weekly hurdle, you must solve a at least -
+  - 20 methods from Stage2, **and**, 
+  - 5 methods from Stage3.
+
+You can drag and drop `Stage1.java` through `Stage4.java` into Week 8 submission. 
 (I have enabled uploading of multiple files, as long as all are java files).
