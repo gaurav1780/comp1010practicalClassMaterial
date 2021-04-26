@@ -150,7 +150,7 @@ Relevant package: `practicePackage` -> `lists` -> `builtInLists` in the master p
 
 Hurdle requirement:
 
-- Each method (across the 4 stages) is worth 2 marks. So, solving 50 or more methods will get you 100% marks.
+- Each method (across the 4 stages) is worth 2 marks. So, solving 50 or more methods will get you 100% marks. I knnow this number (50) seems like a lot but once you finish the minimum required number (25), it will take you less than a minute to complete each of the remaining once (especially from Stage2).
 - To clear the weekly hurdle, you must solve a at least -
   - 20 methods from Stage2, **and**, 
   - 5 methods from Stage3.
