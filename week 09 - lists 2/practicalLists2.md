@@ -2,9 +2,14 @@
 
 ## Practical - Lists 2
 
-This week, we'll practise with `ArrayList` of objects of user-defined classes, `ArrayList` of `ArrayLists`, and iterators. 
+This week, we'll practise with,
+
+- `ArrayList` of objects of user-defined classes, 
+- `ArrayList` of `ArrayLists`, and, 
+- iterators
 
 The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) directory.
+
 
 ### Question 1 (List of objects of user-defined classes)
 
@@ -26,26 +31,31 @@ The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) direc
 7. Append list `fields` to `matrix`.
 8. Calculate the total area of all the rectangles in the list `matrix` and display it.
 
+
 ### Question 3 (Iterators)
 
-8. Create an iterator and display each object in list `boxes` from the first item to the last item.
-9. Create an iterator and display each object in list `boxes` from the last item to the first item.
-10. Using an iterator, remove all objects from the list `boxes` that have square bases.
-11. Using an iterator, add a unit `Box` object (of dimensions 1 by 1 by 1) **after** every item that has an even depth.
-12. Using an iterator, add a unit `Box` object (of dimensions 1 by 1 by 1) **before** every item that has an even depth.
+1. Create an iterator and display each object in list `boxes` from the first item to the last item.
+2. Create an iterator and display each object in list `boxes` from the last item to the first item.
+3. Using an iterator, remove all objects from the list `boxes` that have square bases.
+4. Using an iterator, add a unit `Box` object (of dimensions 1 by 1 by 1) **after** every item that has an even depth.
+5. Using an iterator, add a unit `Box` object (of dimensions 1 by 1 by 1) **before** every item that has an even depth.
 
 
 ## Weekly submission
+
+This week's task has been designed to help you with assignment 3.
 
 Download and important the project from [https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/week%2009%20-%20lists%202/codes/week9submissionTemplate.zip](https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/week%2009%20-%20lists%202/codes/week9submissionTemplate.zip).
 
 The class `ListOfListService` contains 15 functions that operate on lists of lists (all except countSquares operate on list of lists of Integer objects,
  whereas countSquares operates on list of lists of Rectangle objects).
  
-Each method except getClean has two tests 
+Each method except getClean has two tests,
 - Basic tests: assume none of the sublists are null, and none of the items within the sublists are null.
 - Advanced tests: make no such assumption
 
 You need to achieve a mark of **40** or more to clear this week's hurdle. Week 8 lecture recording (on Echo360) and lecture source codes (under announcements) will be very useful to complete this.
+
+Submit the file `ListOfListService.java` under `Week 9 Submission` box on iLearn.
 
 
