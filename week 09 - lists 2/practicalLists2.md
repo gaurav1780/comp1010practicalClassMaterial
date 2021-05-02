@@ -45,7 +45,7 @@ The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) direc
 
 This week's task has been designed to help you with assignment 3.
 
-Download and import the project from [https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/week%2009%20-%20lists%202/codes/week9submissionTemplate.zip](https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/week%2009%20-%20lists%202/codes/week9submissionTemplate.zip).
+Download and import the project from [week9submissionTemplate.zip](https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/week%2009%20-%20lists%202/codes/week9submissionTemplate.zip).
 
 The class `ListOfListService` contains 15 functions that operate on lists of lists (all except countSquares operate on list of lists of Integer objects,
  whereas countSquares operates on list of lists of Rectangle objects).
