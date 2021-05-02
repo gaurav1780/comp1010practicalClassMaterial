@@ -51,8 +51,8 @@ The class `ListOfListService` contains 15 functions that operate on lists of lis
  whereas countSquares operates on list of lists of Rectangle objects).
  
 Each method except getClean has two tests,
-- Basic tests: assume none of the sublists are null, and none of the items within the sublists are null.
-- Advanced tests: make no such assumption
+- *Basic* tests: assume none of the sublists are null, and none of the items within the sublists are null.
+- *Comprehensive* tests: make no such assumption
 
 You need to achieve a mark of **40** or more to clear this week's hurdle. Week 8 lecture recording (on Echo360) and lecture source codes (under announcements) will be very useful to complete this.
 
