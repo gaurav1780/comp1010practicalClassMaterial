@@ -2,7 +2,9 @@
 
 ## Practical - Lists 2
 
-This week, we'll practise some more with `ArrayList` of objects and iterators. The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) directory.
+This week, we'll practise with `ArrayList` of objects of user-defined classes, `ArrayList` of `ArrayLists`, and iterators. 
+
+The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) directory.
 
 ### Question 1 (List of objects of user-defined classes)
 
