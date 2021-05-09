@@ -1,12 +1,14 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Lists
+## Practical - Custom-built array-based lists
 
 ### All tasks must be completed in the file `MyArrayList.java`.
 
 You can find the files you need to work on in the package `practicalClassCode.week10` in the master source code project. 
 
-## Complete all methods in class `MyArrayList.java`. 
+## Complete methods in class `MyArrayList.java`. 
+
+Complete only the methods that carry a `//to be completed` comment in them. S ome methods are already completed. They carry a `DO NOT MODIFY` comment line in the Javadoc.
 
 Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
 
@@ -50,14 +52,11 @@ data[i] = new Rectangle(r);
 
 # Weekly submission task 
 
-The weekly submission task can be found under the package practicePackage.lists.customBuiltLists.customArrayList. Complete and submit the file `CustomArrayList.java` on iLearn under [Week 10 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5887655) by Sunday 18th October 9:00pm.
-- `add(int)`
-- `get(int)`
-- `add(int, int)`
-- `grow()`
-- `grow(int)`
-- `remove(int)`
-- `replaceAll(int, int)`
+The weekly submission task can be found under the package `practicePackage.customBuiltLists.customArrayList.attempts`. Complete and submit the file `CustomArrayList.java` on iLearn under Week 10 submission by Sunday 16th May 9:00:00pm. Late submissions will not be marked.
+
+There are 17 methods, each worth 6 marks. Marks will be capped to 100 if you pass all of them. Passing mark is set to 42. So, you need to complete at least 7 methods to pass the weekly hurdle.
+
+As usual, timeouts, use of functions from outside the class, StackOverflowError, incorrect filename during submission will disqualify your submission.
 
 **IMPORTANT**
 

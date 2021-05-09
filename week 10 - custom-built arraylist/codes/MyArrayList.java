@@ -2,13 +2,14 @@ public class MyArrayList {
 	private Rectangle[] data;
 	private int nItems;
 
+	//DO NOT MODIFY
 	public MyArrayList() {
 		data = new Rectangle[5];
 		nItems = 0;
 	}
 	
 	/**
-	 * 
+	 * DO NOT MODIFY
 	 * @return number of items currently in the list
 	 */
 	public int currentSize() {
@@ -16,7 +17,7 @@ public class MyArrayList {
 	}
 	
 	/**
-	 * 
+	 * DO NOT MODIFY
 	 * @return the total number of possible items that can currently be
 	 * held in the list
 	 */
@@ -25,7 +26,7 @@ public class MyArrayList {
 	}
 	
 	/**
-	 * 
+	 * DO NOT MODIFY
 	 * @return true if list is empty, false otherwise
 	 */
 	public boolean isEmpty() {
@@ -33,7 +34,7 @@ public class MyArrayList {
 	}
 	
 	/**
-	 * 
+	 * DO NOT MODIFY
 	 * @return true if list is currently full, false otherwise
 	 */
 	public boolean isFull() {
@@ -50,6 +51,7 @@ public class MyArrayList {
 	}
 	
 	/**
+	 * DO NOT MODIFY
 	 * add item r at the end of the list
 	 * @param r
 	 */
@@ -60,7 +62,7 @@ public class MyArrayList {
 	}
 	
 	/**
-	 * 
+	 * DO NOT MODIFY
 	 * @param idx
 	 * @return true if index idx is valid (items exists at index idx), false otherwise
 	 */
@@ -69,7 +71,7 @@ public class MyArrayList {
 	}
 	
 	/**
-	 * 
+	 * DO NOT MODIFY
 	 * @param idx
 	 * @return a deep copy of item at index idx if any, null otherwise
 	 */
@@ -88,6 +90,7 @@ public class MyArrayList {
 	}
 	
 	/**
+	 * DO NOT MODIFY
 	 * set item at index idx, if any, to r
 	 * @param idx
 	 * @param r
