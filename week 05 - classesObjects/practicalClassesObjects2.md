@@ -4,7 +4,7 @@
 
 # NOTE
 
-We will continue working with the `COMP1010_source_codes_for_students` project. This week, we are dealing with package `practicalClassCodes.week05`.
+We will continue working with the master project. This week, we are dealing with package `practicalClassCodes.week05`.
 
 ## Outline
 
@@ -56,13 +56,17 @@ Rectangle[] data = new Rectangle[5];
 
 ## Question 2
 
-Complete the method `countSquares` (in class `RectangleClient.java`) that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
+Take a look at the implementation of  `countSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
-You may assume that the array passed and also every `Rectangle` in the array is instantiated. For a more comprehensive design, avoid that assumption, so,
+Along the same lines, write a function `allSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns `true` if all objects are *squares*, and `false` otherwise.
+
+You may assume that the array passed and also every `Rectangle` in the array is instantiated. 
+
+For a more comprehensive design, avoid that assumption, so,
 - the array might be `null`, or if it is (instantiated), 
 - some `Rectangle` objects in the array might be `null`.
 
-Test provided in `testCountSquares` in class `RectangleClientTest.java`.
+Also, write your own test case in class `RectangleClientTest.java`.
 
 <!--
 ## SOLUTION
@@ -104,7 +108,7 @@ public static int countSquares(Rectangle[] data) {
 
 Assignment 2 has been released. Take 15 minutes to read through the specs, import the project into Eclipse and ask your tutor if there are any questions.
 
-## Submission Task
+## Question 4 (Submission Task)
 
 This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete, in the given order,
 
@@ -116,6 +120,8 @@ This week, we will digress from the practice package. Download [comp1010\_week\_
 6. Display average decision making score in `TrainingStatsClient.java`.
 
 Submit `TrainingStats.java` by dragging from package explorer into week 5 submission box by **Sunday 28th March, 2021, 9pm**.
+
+The constructor `TrainingStats(int[], int[])` and `averageDecisionAccuracy()` **MUST** be completed for a "Pass" in week 5. But submitting just those two will only get you 74% mark. You must also complete `bestHeartRateRun(int)` for an additional 26%.
 
 # ADVANCED QUESTIONS (HD level)
 

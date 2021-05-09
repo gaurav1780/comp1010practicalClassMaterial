@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Recursion
+## Practical class - Recursion
 
 # NOTE
 
@@ -8,122 +8,92 @@ We will continue working with the `COMP1010_source_codes_for_students` project. 
 
 ## Outline
 
-- 6 to 15 minutes: a note for practical exams about `NullPointerException`
-- 16 to 35 minutes: demos
+- 5 to 30 minutes: Call stack and stack frames in a recursive design
+- 31 to 60 minutes: demos
 	- numeric-based examples
 	- String-based examples
-- 36 to end of class: 
+- 61 minutes to end of class: 
 	- practice,
 	- practice, and, 
 	- more practice
 
-## `NullPointerException`
+## ACTIVITY 1 - Call stack and stack frames
 
-In your second practical exam, we'll ask you to ensure an object (including arrays) is not `null` before operating on it. If you access any instance variable or method of a `null` object, you get a `NullPointerException` - java's way of telling you that the object hasn't been instantiated.
-
-```java
-public static int sum(int[] data) {
-	int result = 0;
-	for(int i=0; i < data.length; i++) { //NullPointerException on data.length
-		result+=data[i];
-	}
-	return result;
-}
-```
-
-Since we are accessing `data.length`, we will get a `NullPointerException` when `data` is `null`.
-
-### Fixed version:
+Trace the function calls and the status of call stack for the following codes:
 
 ```java
-public static int sum(int[] data) {
-	if(data == null) {
-		return 0;
-	}
-	int result = 0;
-	for(int i=0; i < data.length; i++) { //NullPointerException on data.length
-		result+=data[i];
-	}
-	return result;
-}
-```
-
-**IMPORTANT** Only something that is a *reference* can be assigned a `null` value, not variables of primitive data type.
-
-Consider the following code and state which of the `null` checks (`check1, check2, ...`) are valid and if so, what do they evaluate to?
-
-```java
-class Rectangle {
-   public double width, height;
-}
-```
-
-```java
-public class Client {
-   public static void main(String[] args) {
-      String str1 = null;
-      int[] data1 = new int[4];
-      Rectangle r1 = new Rectangle();
-      String str2 = "Messi!";
-      int[] data2 = null;
-      Rectangle r2 = null;
-      int n = 5;
-      char ch = '$';
-      boolean flag = false;
-      
-      //are the following valid? and if so, what are the values of the boolean variables
-      boolean check0 = (str1 == null);
-      boolean check1 = (data1 == null); 
-      boolean check2 = (r1 == null);
-      boolean check3 = (n == null);
-      boolean check4 = (ch == null);
-      boolean check5 = (flag == null);
-      boolean check6 = (data2 == null); 
-      boolean check7 = (r2 == null);
-      boolean check8 = (data1.length == null); 
-      boolean check9 = (r2.width == null);
-      boolean check10 = (str2 == null);
-   }
-}
-```   
-
-### Similar examples with String and Rectangle objects
-
-```java
-public static boolean isNumeric(String str) {
-	if(str == null)
-		return false;
-	//...rest of your code
-}
-```
-
-```java
-public static int sumAreas(Rectangle[] data) {
-	if(data == null) {
-		return 0;
+public class Recursion_6_1 {
+	public static int mystery(int a, int b) {
+   		if(b == 0) {
+			return a;
+		}
+		return mystery(b, a%b);
 	}
 	
-	int result = 0;
-	for(Rectangle r: data) { //enhanced for loop :)
-		if(r != null) { //first check that object is NOT null
-			result+=r.area();
-		}
+	public static boolean 
+	public static void main(String[] args) {
+		int x = 16, y = 44;
+		int z = mystery(x, y);
+		System.out.println(z);
 	}
 }
 ```
 
+```java
+public class Recursion_6_2 {
+	public static int steep(String a) {
+   		if(a == null || a.isEmpty()) {
+			return 0;
+		}
+		if(a.charAt(0) == ' ') {
+			return 1 + steep(a.substring(1));
+		}
+		return steep(a.substring(1));
+	}
+	
+	public static void main(String[] args) {
+		String s = "is it on?";
+		int b = steep(s);
+		System.out.println(b);
+	}
+}
+```
+
+```java
+//ADVANCED (take-home)
+public class Recursion_6_3 {
+	public static String funky(String a, String b) {
+   		if(a == null || b == null || a.length() < b.length()) {
+			return a;
+		}
+		String first = a.substring(0, b.length());
+		if(first.equals(b)) {
+			return funky(a.substring(b.length()), b);
+		}
+		return a.charAt(0) + funky(a.substring(1), b);
+	}
+	
+	public static void main(String[] args) {
+		String s1 = "inkling";
+		String s2 = "in";
+		String s3 = funky(s1, s2);
+		System.out.println(s3);
+	}
+}
+```
+	
 ## IMPORTANT
 
-Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, (s)he may interject.
+Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, they may interject.
 
-## Demo of recursive design and coding
+## ACTIVITY 2 - Demo of recursive design and coding
 
 In the first task, your tutor will design and implement a recursive solution for,
 
 1. [Number-based problem](https://codingbat.com/prob/p163932) 
 2. [String-based problem](https://codingbat.com/prob/p170371)
 
-## PRACTICE - IN PAIRS
+## ACTIVITY 3 - Practising in pairs
 
 Practice questions sequentially from [https://codingbat.com/java/Recursion-1](https://codingbat.com/java/Recursion-1)
 
@@ -140,20 +110,22 @@ The order is:
 
 ## Week 6 submission
 
-You should be working with package `practicePackage.recursion`. 
+- You should be working with package `practicePackage.recursion`, stages 1 and 2 only. 
+- There are a total of 21 functions across the two stages. 
+- You should implement all solutions recursively. 
+- IMPORTANT!!! Any use of loop automatically disqualifies your submission.
+- Your code should pass **AT LEAST 10 functions to pass the hurdle**. 
+- Each function is worth 5 marks. Solving 20 functions will get you a full mark for week 6. 
+- Solving the 21st function will earn you my respect but unfortunately no bonus marks.
 
-### You must complete -
-
-1. **at least** 10 functions from stage 1, and,
-2. **at least** 5 functions from stage 2.
-
-Drag and Drop **all** relevant java files from the package explorer into "Week 3 submission" submission box by **Sunday 4th April, 21:00**.
+Drag and Drop the two java files (Stage1.java, Stage2.java) from the package explorer into "Week 6 submission" submission box by **Sunday 4th April, 21:00**.
+Any compilation error, StackOverflowError or any infinite loop in ANY of the files will result in an automatic zero.
 
 ## ADVANCED PRACTICE QUESTIONS
 
 If you are done with Recursion - 1, move on to [https://codingbat.com/java/Recursion-2](https://codingbat.com/java/Recursion-2).
 
-## ADVANCED QUESTION
+## ADVANCED QUESTIONS
 
 **This is for students looking for something fairly challenging.**
 Solve as many questions as you can from [RecursionService.java] in `practiceClassCodes.week06.RecursionService` 

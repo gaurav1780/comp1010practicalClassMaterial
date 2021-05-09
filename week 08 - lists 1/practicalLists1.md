@@ -17,8 +17,7 @@ You need to create a new Java project and add this file. To do this, choose
 
 ### Outline
 
-This is a workshop that gets to do the kind of practice on dock
-`List` objects that you will need in practical exam 3.
+This is a practical class that gets to do the kind of practice on `ArrayList` objects that you will need in online quiz 3 and assignment 3.
 
 ### Question 1
 
@@ -149,7 +148,12 @@ This week, we are working with practice package for built-in lists.
 
 Relevant package: `practicePackage` -> `lists` -> `builtInLists` in the master project.
 
-Try to solve: minimum of 20 methods from part 2 and 5 methods from part 3.
+Hurdle requirement:
 
-You can drag and drop `Stage1.java` through `Stage4.java` into the submission box [Week 8 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5887653). 
+- Each method (across the 4 stages) is worth 2 marks. So, solving 50 or more methods will get you 100% marks. I knnow this number (50) seems like a lot but once you finish the minimum required number (25), it will take you less than a minute to complete each of the remaining once (especially from Stage2).
+- To clear the weekly hurdle, you must solve a at least -
+  - 20 methods from Stage2, **and**, 
+  - 5 methods from Stage3.
+
+You can drag and drop `Stage1.java` through `Stage4.java` into Week 8 submission. 
 (I have enabled uploading of multiple files, as long as all are java files).

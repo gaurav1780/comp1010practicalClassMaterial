@@ -21,11 +21,20 @@ Tutor will stay in the main channel and assist anyone who needs extra help, and 
 
 ## Week 7 submission
 
-You should be working with package `practicePackage.recursion`. 
+You should be working with `Stage3.java` of package `practicePackage.recursion.attempts`. 
 
-You must complete **at least** 3 functions from stage 3.
+Each function is worth 12.5 marks. You must complete **at least** 3 functions from stage 3 to clear the hurdle for week 7.
+Therefore, the passing mark for week 7 is 37.5. Completing 8 or more functions gets you a full 100 marks.
 
-Drag and Drop `Stage3.java` from the package explorer into "Week 3 submission" submission box by **Sunday 11th April, 21:00**.
+Drag and Drop `Stage3.java` (and ALSO `Stage1.java` if you call `power` in `powerV2`) from the package explorer into "Week 7 submission" submission box by **Sunday 25th April, 21:00**.
+
+- Submit Stage3.java (and ALSO `Stage1.java` if you call `power` in `powerV2`) from the recursion package.
+- There are a total of 10 functions in this stage. 
+- You should implement all solutions PURELY recursively (absolutely no iteration). 
+- IMPORTANT!!! Any use of any loop automatically disqualifies your submission.
+- Any compilation error and/or any StackOverflowError disqualifies your submission.
+- Each function is worth 12.5 marks. Thus, 8 or more functions passing the tests will get you a full mark.
+- Your code should pass **AT LEAST 3 functions to pass the hurdle**. This will get you 37.5 out of 100.
 
 <!--Compile all your codingbat solutions into one file, say, `RecursionCodingBat.java` and upload to [Week 7 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=6013521).
 
