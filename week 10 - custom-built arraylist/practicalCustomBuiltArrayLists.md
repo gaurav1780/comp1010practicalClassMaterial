@@ -8,7 +8,7 @@ You can find the files you need to work on in the package `practicalClassCode.we
 
 ## Complete methods in class `MyArrayList.java`. 
 
-Complete only the methods that carry a `//to be completed` comment in them. S ome methods are already completed. They carry a `DO NOT MODIFY` comment line in the Javadoc.
+Complete only the methods that carry a `//to be completed` comment in them. Some methods are already completed. They carry a `DO NOT MODIFY` comment line in the Javadoc.
 
 Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
 
