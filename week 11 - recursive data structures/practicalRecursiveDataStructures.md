@@ -308,4 +308,17 @@ public static boolean identical(Node head1, Node head2) {
 
 ## Question 13 (Weekly submission)
 
-Complete any 7 of the 10 tasks in the NodeService Class from the practice package located at `practicePackage.lists.customBuiltLists.customBuiltLinkedList.NodeService`. Submit file `NodeService.java` under [Week 11 submission](https://ilearn.mq.edu.au/mod/assign/view.php?id=5469278) on iLearn by Sunday 24th May, 21:00.
+- You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customBuiltLinkedList.attempts.NodeService`. 
+- The function `sum` is already completed as an example of traversal.
+- Each function is worth 10 (out of 100).
+- Passing mark: 50
+- Submit file `NodeService.java` under Week 11 submission on iLearn by Sunday 23rd May, 21:00:00.
+- Late submissions not accepted (unless you have received special considerations approval).
+
+As usual, any of the following will disqualify your submission
+
+- late submission
+- compilation error
+- infinite loop
+- timeout (program must terminate within 5 seconds)
+- use of function from outside `NodeService` class
