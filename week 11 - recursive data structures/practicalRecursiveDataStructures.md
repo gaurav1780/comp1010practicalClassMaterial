@@ -310,6 +310,7 @@ public static boolean identical(Node head1, Node head2) {
 
 - You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customBuiltLinkedList.attempts.NodeService`. 
 - The function `sum` is already completed as an example of traversal.
+- Updated `testJoin` is provided below.
 - Each function is worth 10 (out of 100).
 - Passing mark: 50
 - Submit file `NodeService.java` under Week 11 submission on iLearn by Sunday 23rd May, 21:00:00.
@@ -322,3 +323,31 @@ As usual, any of the following will disqualify your submission
 - infinite loop
 - timeout (program must terminate within 5 seconds)
 - use of function from outside `NodeService` class
+
+IMPORTANT: Please fix `testJoin` as follows:
+
+```java
+	@Test
+	void testJoin() {
+		assertNotEquals(a, NodeService.join(null, a));
+		assertNotEquals(c, NodeService.join(c, null));
+		
+		Node x = NodeService.join(a, c1);
+		assertEquals("[-12, 0, 36, 49, 25, 17, 36, 49, 25, 17]", NodeService.toString(x));
+		
+		x = NodeService.join(a.next, c1.next);
+		assertEquals("[0, 36, 49, 25, 17, 49, 25, 17]", NodeService.toString(x));
+		
+		while(x!=null) {
+			x = x.next;
+			assertEquals("[-12, 0, 36, 49, 25, 17]", NodeService.toString(a));
+			assertEquals("[36, 49, 25, 17]", NodeService.toString(c1));
+		}
+		
+		//do it a second time to ensure a and c1 were unchanged
+		x = NodeService.join(a, c1);
+		assertEquals("[-12, 0, 36, 49, 25, 17, 36, 49, 25, 17]", NodeService.toString(x));
+		
+		ensureNoModify();
+	}
+```
