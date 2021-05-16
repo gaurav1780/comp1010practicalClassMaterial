@@ -310,7 +310,7 @@ public static boolean identical(Node head1, Node head2) {
 
 - You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customBuiltLinkedList.attempts.NodeService`. 
 - The function `sum` is already completed as an example of traversal.
-- Updated `testJoin` is provided below.
+- Updated `testJoin`, `testSame` provided below.
 - Each function is worth 10 (out of 100).
 - Passing mark: 50
 - Submit file `NodeService.java` under Week 11 submission on iLearn by Sunday 23rd May, 21:00:00.
@@ -324,7 +324,7 @@ As usual, any of the following will disqualify your submission
 - timeout (program must terminate within 5 seconds)
 - use of function from outside `NodeService` class
 
-IMPORTANT: Please fix `testJoin` as follows:
+IMPORTANT: Please fix `testJoin` and `testSame` as follows:
 
 ```java
 	@Test
@@ -348,6 +348,61 @@ IMPORTANT: Please fix `testJoin` as follows:
 		x = NodeService.join(a, c1);
 		assertEquals("[-12, 0, 36, 49, 25, 17, 36, 49, 25, 17]", NodeService.toString(x));
 		
+		ensureNoModify();
+	}
+	
+	@Test
+	void testSame() {
+		assertTrue(NodeService.same(a, a1));
+
+		Node f2 = new Node(17, null);
+		Node e2 = new Node(25, f2);
+		Node d2 = new Node(49, e2);
+		Node c2 = new Node(-36, d2);
+		Node b2 = new Node(0, c2);
+		Node a2 = new Node(-12, b2);
+		//a -> -12 -> 0 -> 36 -> 49 -> 25 -> 17 -> null;		
+		//a2 -> -12 -> 0 -> -36 -> 49 -> 25 -> 17 -> null;		
+
+		assertFalse(NodeService.same(a, a2));
+
+		c2.data = 36;
+		e2.next = null;
+		//a  -> -12 -> 0 -> 36 -> 49 -> 25 -> 17 -> null;		
+		//a2 -> -12 -> 0 -> 36 -> 49 -> 25 -> null;
+
+		assertFalse(NodeService.same(a, a2));
+
+		e2.next = f2;
+		f2.next = new Node(20, null);
+		//a -> -12 -> 0 -> 36 -> 49 -> 25 -> 17 -> null;		
+		//a2 -> -12 -> 0 -> 36 -> 49 -> 25 -> 17 -> 20 -> null;
+
+		assertFalse(NodeService.same(a, a2));
+
+		f2.next = null;
+
+		System.out.println(NodeService.toString(a));
+		System.out.println(NodeService.toString(a2));
+		assertTrue(NodeService.same(a, a2));
+
+		//a  -> -12 -> 0 -> 36 -> 49 -> 25 -> 17 -> null;		
+		//a2 -> -12 -> 0 -> 36 -> 49 -> 25 -> 17 -> null;
+
+		Node tempA1 = new Node(10);
+		Node tempA2 = new Node(70, tempA1);
+		Node tempA3 = new Node(20, tempA2);
+		Node tempA4 = new Node(90, tempA3);
+		//tempA4 -> 90 -> 20 -> 70 -> 10
+
+		Node tempB1 = new Node(90);
+		Node tempB2 = new Node(20, tempB1);
+		Node tempB3 = new Node(10, tempB2);
+		Node tempB4 = new Node(70, tempB3);
+		//tempB4 -> 70 -> 10 -> 20 -> 90
+		
+		assertTrue(NodeService.same(tempA4, tempB4));
+
 		ensureNoModify();
 	}
 ```
