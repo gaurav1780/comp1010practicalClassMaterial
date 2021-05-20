@@ -309,10 +309,10 @@ public static boolean identical(Node head1, Node head2) {
 ## Question 13 (Weekly submission)
 
 - You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customBuiltLinkedList.attempts.NodeService`. 
-- The function `sum` is already completed as an example of traversal.
+- The function `sum` is already completed as an example of traversal. The test for that already passes and is not considered towards the total.
 - Updated `testJoin`, `testSame` provided below.
 - Each function is worth 10 (out of 100).
-- Passing mark: 50
+- Passing mark: 50. So, you need to pass at least 5 out of 10 tests that fail in the template.
 - Submit file `NodeService.java` under Week 11 submission on iLearn by Sunday 23rd May, 21:00:00.
 - Late submissions not accepted (unless you have received special considerations approval).
 
