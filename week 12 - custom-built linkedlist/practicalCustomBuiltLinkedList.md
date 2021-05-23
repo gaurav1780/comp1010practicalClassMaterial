@@ -94,9 +94,23 @@ class CustomLinkedList {
 
 ## Weekly submission
 
-Template provided [here](./codes/week12practicePackage.zip). Import into Eclipse. The package contains 19 methods.
-You should solve at least 10 correctly. Submit file `Week12.java` under Week 12 submission on iLearn.
+![](goodnews.jpeg)
 
-Remember, some of these will take a very short amount of time and some longer. 
+In order to reduce the workload on students during the last two weeks, we have decided to ask for the first few methods of assignment 4 to be submitted as Week 12 submission.
+You are required to complete the following methods and submit the three files into `Week 12 submission`:
 
-If you are lost, it means you need to go back and study from the [lecture notes](https://software-technology.herokuapp.com/programming/recursive_lists.html).
+- Deck.java:
+	- add(char ch, int score)
+	- size()
+
+- Hand.java:
+	- add(Letter letter))
+	- size()
+
+- Word.java:
+	- addToStart(Letter letter)
+	- addToEnd(Letter letter)
+	- size()
+
+Each method is worth 4 marks. Completing all methods successfully gets you 100/100 for Week 12.
+Threshold for passing week 12 hurdle is to complete at least 4 out of 7 methods.
