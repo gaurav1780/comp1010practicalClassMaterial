@@ -20,6 +20,15 @@ class Node {
 		data = d;
 		next = n;
 	}
+	
+	public String toString() {
+		if(next == null) {
+			return data+"";
+		}
+		else {
+			return data+" "+next.toString();
+		}
+	}
 }
 ```
 
@@ -32,7 +41,10 @@ class CustomLinkedList {
 	}
 	
 	public String toString() {
-		return data+"";
+		if(head == null) {
+			return "";
+		}
+		return head.toString();
 	}
 }
 ```
