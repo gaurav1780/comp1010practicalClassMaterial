@@ -95,7 +95,7 @@ class CustomLinkedList {
 	}
 	
 	public String toString() {
-		return data+"";
+		return head.data+"";
 	}
 	
 	public int sum() {
