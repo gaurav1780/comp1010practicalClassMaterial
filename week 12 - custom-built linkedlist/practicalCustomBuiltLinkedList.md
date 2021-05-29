@@ -124,8 +124,8 @@ You are required to complete the following methods and submit the three files in
 	- `addToEnd(Letter letter)`
 	- `size()`
 
-Each method is worth 4 marks. Completing all methods successfully gets you 100/100 for Week 12.
-
-**Threshold for passing week 12 hurdle is to complete at least 3 out of 7 methods.**
+- Each method is worth 15 marks. 
+- Total is capped at 100.
+- At least 3 out of 7 methods should pass the tests to clear week 12 hurdle. 
 
 Usual penalties of using functions defined outside project, compilation errors, infinite loops or timeouts, StackOverflowError, wrong submission, change of package declaration, etc. apply.
