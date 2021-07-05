@@ -1,7 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Recursive data structures
-
+## Practical - Recursive data structures
 
 ## Question 1
 Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
