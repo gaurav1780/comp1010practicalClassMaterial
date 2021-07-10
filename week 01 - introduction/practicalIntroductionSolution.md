@@ -378,7 +378,7 @@ boolean somethingInCommon(int[] a, int[] b) {
 
 ## Advanced questions
 
-#SOLUTIONS TO ADVANCD QUESTIONS NOT PROVIDED
+# SOLUTIONS TO ADVANCD QUESTIONS NOT PROVIDED
 
 We understand that some students are quite advanced so here's a section to keep them *entertained*.
 
