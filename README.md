@@ -4,10 +4,10 @@
 
 1. [Java SE (Java SDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 2. IDEs
-  1. [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/), or,
-  2. [Visual Studio Code](https://code.visualstudio.com/) + following extensions:
-    1. Java Extension Pack
-    2. Java Test Runner 
+    1. [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/), or,
+    2. [Visual Studio Code](https://code.visualstudio.com/) + following extensions:
+        1. Java Extension Pack
+        2. Java Test Runner 
 
 ## Accompanying source codes
 
