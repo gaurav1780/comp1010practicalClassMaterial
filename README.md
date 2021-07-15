@@ -3,11 +3,15 @@
 ## Software required
 
 1. [Java SE (Java SDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
-2. [Eclipse IDE](https://www.eclipse.org/downloads/)
+2. IDEs
+  1. [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/), or,
+  2. [Visual Studio Code](https://code.visualstudio.com/) + following extensions:
+    1. Java Extension Pack
+    2. Java Test Runner 
 
 ## Accompanying source codes
 
-Source codes (templates) located at [COMP1010_source_codes_for_students.zip](./COMP1010_source_codes_for_students.zip).
+Source codes (templates) located at ... TBA
 
 1. Download the file
 2. Open Eclipse
