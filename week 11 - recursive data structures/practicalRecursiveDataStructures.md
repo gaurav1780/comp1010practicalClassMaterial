@@ -3,7 +3,7 @@
 ## Practical - Recursive data structures
 
 ## Question 1
-Draw a memory diagram for objects (`t1`, `t2`, `app`) in the following code.
+Draw a memory diagram for the objects (`t1`, `t2`, `app`) in the following code.
 
 ```java
 class Time {
