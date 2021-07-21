@@ -6,15 +6,15 @@
 
 You can find the files you need to work on in the package `practicalClassCode.week10` in the master source code project. 
 
-## Complete methods in class `MyArrayList.java`. 
+## Complete functions in class `MyArrayList.java`. 
 
-Complete only the methods that carry a `//to be completed` comment in them. Some methods are already completed. They carry a `DO NOT MODIFY` comment line in the Javadoc.
+Complete only the functions that carry a `//to be completed` comment in them. Some functions are already completed. They carry a `DO NOT MODIFY` comment line in the Javadoc.
 
-Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
+Specifications are provided as function header javadoc and tests are in `MyArrayListTest.java`.
 
 ### IMPORTANT! 
 
-Whenever you return a `Rectangle` object from a method or add a `Rectangle` object to the `Rectangle[]` data, you should do it so that an *instance copy* is made, so that if the client modifies the object returned, the original copy is not modified.
+Whenever you return a `Rectangle` object from a function or add a `Rectangle` object to the `Rectangle[]` data, you should do it so that an *instance copy* is made, so that if the client modifies the object returned, the original copy is not modified.
 
 The copy constructor is defined in class `Rectangle` as,
 
@@ -54,7 +54,7 @@ data[i] = new Rectangle(r);
 
 The weekly submission task can be found under the package `practicePackage.customBuiltLists.customArrayList.attempts`. Complete and submit the file `CustomArrayList.java` on iLearn under Week 10 submission by Sunday 16th May 9:00:00pm. Late submissions will not be marked.
 
-There are 17 methods, each worth 6 marks. Marks will be capped to 100 if you pass all of them. Passing mark is set to 42. So, you need to complete at least 7 methods to pass the weekly hurdle.
+There are 17 functions, each worth 6 marks. Marks will be capped to 100 if you pass all of them. Passing mark is set to 42. So, you need to complete at least 7 functions to pass the weekly hurdle.
 
 As usual, timeouts, use of functions from outside the class, StackOverflowError, incorrect filename during submission will disqualify your submission.
 
@@ -62,18 +62,18 @@ As usual, timeouts, use of functions from outside the class, StackOverflowError,
 
 `grow(int)` and `add(int)` are inter-dependent. so you need to implement both correctly for them to pass.
 
-Other methods are also dependent on `add(int)` since items are being added using this method in the method `run` annotated with `@BeforeEach` (in order to set up the objects properly).
+Other functions are also dependent on `add(int)` since items are being added using this function in the function `run` annotated with `@BeforeEach` (in order to set up the objects properly).
 
 ## Advanced
 ### Only complete these tasks after completing MyArrayList.java
 
 ### Advanced 1
 
-In the class `MyArrayList`, define a method that when passed another `MyArrayList` object, returns a `MyArrayList` object containing all items of the calling object followed by all items of the parameter object.
+In the class `MyArrayList`, define a function that when passed another `MyArrayList` object, returns a `MyArrayList` object containing all items of the calling object followed by all items of the parameter object.
 
 ### Advanced 2
 
-Define a method `getUniqueValues`, that when passed an `ArrayList` of `ArrayList` of `Integer` objects (So, like a two-dimensional array), returns the items that appear exactly once in the two-dimensional list. The items should appear in the order of appearance from first sub-list to last sub-list, and items from within a sub-list should appear in that order.
+Define a function `getUniqueValues`, that when passed an `ArrayList` of `ArrayList` of `Integer` objects (So, like a two-dimensional array), returns the items that appear exactly once in the two-dimensional list. The items should appear in the order of appearance from first sub-list to last sub-list, and items from within a sub-list should appear in that order.
 
 Some input-output mappings:
 
@@ -91,7 +91,7 @@ public static ArrayList<Integer> getUniqueValues(ArrayList<ArrayList<Integer>> l
 
 ### Advanced 3
 
-Modify the method `getUniqueValues` so that it returns an `ArrayList` of items that appear only in a single sub-list.
+Modify the function `getUniqueValues` so that it returns an `ArrayList` of items that appear only in a single sub-list.
 
 Items from within a sub-list should appear in that order.
 
@@ -111,7 +111,7 @@ public static ArrayList<Integer> getItemsUniqueToSubLists(ArrayList<ArrayList<In
 
 ### Advanced 4
 
-Define a method that when passed an `ArrayList` of `Integer` objects, returns the longest sequence that occurs more than once in the list. Return first such sequence in case of a tie.
+Define a function that when passed an `ArrayList` of `Integer` objects, returns the longest sequence that occurs more than once in the list. Return first such sequence in case of a tie.
 
 Some input-output mappings:
 
