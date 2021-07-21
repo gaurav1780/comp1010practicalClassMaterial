@@ -165,7 +165,15 @@ The questions are split across multiple stages. Your tutor will demonstrate what
 &nbsp;<p>
 
 
-For week 2, complete **at least** 25 functions (out of the 58 or so) such that the corresponding tests pass and submit ALL corresponding files (so up to 6 java files). You can make the submission by **Sunday 7th March 21:00**. The more functions you can solve, the better prepared you are for the unit. 
+For week 2 - 
+
+- Complete functions in the `practicePackage.introduction.attempts` package such that the corresponding tests in `practicePackage.introduction.testsAttempts` pass.
+- each test passed gets you 3 out of 100 marks.
+- total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
+- passing mark is 60 (or at least 20 functions).
+-  submit ALL corresponding files (so up to 6 java files). 
+-  You can make the submission by **Sunday 8th August 21:00**. Late submissions for weekly tasks are NOT accepted.
+-  The more functions you can solve, the better prepared you are for the unit. 
 
 [![](http://img.youtube.com/vi/Q1oGIypsPls/0.jpg)](https://www.youtube.com/watch?v=Q1oGIypsPls "")
 

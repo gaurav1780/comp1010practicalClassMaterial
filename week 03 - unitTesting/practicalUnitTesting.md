@@ -205,10 +205,15 @@ public void testIndexOf() {
 
 Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. 
 
-### You must complete -
-
+In order to pass this week's hurdle, you must pass tests corresponding to,
+	
 1. **at least** 15 functions **overall**, and,
 2. **at least** 10 functions from stage 2, and,
 3. **at least** 5 functions from stage 3.
+
+- Each function is worth  3 marks.
+- Passing mark (if you satisfy above condition) is 45.
+- If you satisfy the criteria for passing this week's hurdle, your total marks will be capped at 100.
+- If you satisfy the criteria for passing this week's hurdle, stage 2 marks will be capped at 30 and stage 3 marks capped at 15. This is to prevent one getting 100/100 by solving 34 functions from stage 2 but none from stage 3. In this example, the student would only get 30/100.
 
 Drag and Drop **all** relevant java files from the package explorer into "Week 3 submission" submission box by **Sunday 14th March, 21:00**.
