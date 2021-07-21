@@ -14,7 +14,7 @@ Specifications are provided as method header javadoc and tests are in `MyArrayLi
 
 ### IMPORTANT! 
 
-Whenever you return a `Rectangle` object from a method or add a `Rectangle` object to the `Rectangle[]` data, you should do so in a manner that an *instance copy* is made. The advantage of doing so is that if the client modifies the object returned, the original copy is not modified.
+Whenever you return a `Rectangle` object from a method or add a `Rectangle` object to the `Rectangle[]` data, you should do it so that an *instance copy* is made. The advantage of doing so is that if the client modifies the object returned, the original copy is not modified.
 
 The copy constructor is defined in class `Rectangle` as,
 
