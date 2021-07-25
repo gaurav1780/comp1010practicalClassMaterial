@@ -8,13 +8,12 @@ Most of you have done COMP1000 (COMP115) at Macquarie with Processing as the pro
 
 - start: introductions
 - 20 minutes past start: installation, importing source codes
-- 50 minutes: revise COMP1000/WCOM1000 topics
+- 45 minutes past start: Kahoot!
+- 60 minutes past start: revise COMP1000/WCOM1000 topics
 
 ## COMP1010 Support Structure
 
-In COMP1010, we understand that programming doesn't come naturally to everyone. Some learn faster than others. There are two kinds of support sessions provided in COMP1010. Details are on iLearn.
-	
-* Times and rooms are subject to change. Please refer to latest schedule on iLearn.
+In COMP1010, we understand that programming doesn't come naturally to everyone. Some learn faster than others. There are two kinds of support sessions provided in COMP1010. Details are on iLearn. Note: Times and rooms are subject to change. 
 
 ## Installing Java SE and Eclipse IDE
 
@@ -59,13 +58,13 @@ The steps required to import one or more java projects contained in a directory 
 
 [![](http://img.youtube.com/vi/enbPj-RvXdE/0.jpg)](http://www.youtube.com/watch?v=enbPj-RvXdE "")
 
+# Kahoot!
+
+Before we go any further, it's Kahoot time!!!
+
 # Revision
 
 We will go through some questions that will help you revise COMP1000 (COMP115). We have created material for students with the transition from COMP1000 to COMP1010 which is available [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops). Each topic contains a `.md` file containing the material.
-
-## Kahoot!
-
-Before we go any further, it's Kahoot time!!!
 
 ## What is the value of `result` when each of the following codes is executed?
 
