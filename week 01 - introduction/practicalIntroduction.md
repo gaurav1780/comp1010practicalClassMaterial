@@ -1,46 +1,73 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Introduction, COMP1010
+## Practical - Introduction, COMP1010
 
 # Outline 
 
 Most of you have done COMP1000 (COMP115) at Macquarie with Processing as the programming language and environment. We will revise some of the basics of programming learnt in COMP1000. Also, in COMP1010, Java is the programming language and Eclipse is the environment. Following are this week's learning outcomes,
 
-- 10 minutes: introductions
-- 10 minutes: be ready to use the lab computers (setup accounts and iLearn)
-- 10 minutes: installing Java SE and Eclipse IDE
-- 80 minutes: revise COMP1000/WCOM1000 topics
+- start: introductions
+- 20 minutes past start: installation, importing source codes
+- 50 minutes: revise COMP1000/WCOM1000 topics
 
 ## COMP1010 Support Structure
 
-In COMP1010, we understand that programming doesn't come naturally to everyone. Some learn faster than others. There are two kinds of support sessions provided in COMP1010 (TO BE ADVISED)
+In COMP1010, we understand that programming doesn't come naturally to everyone. Some learn faster than others. There are two kinds of support sessions provided in COMP1010. Details are on iLearn.
 	
-* Times and rooms are subject to change. Please refer to latest schedule on iLearn (right panel).
+* Times and rooms are subject to change. Please refer to latest schedule on iLearn.
 
-## Installing Java SE and Eclipse IDE (or Visual Studio Code)
+## Installing Java SE and Eclipse IDE
 
 Java is the programming language while Eclipse/VSCode are the editors in which you write Java programs. We use Eclipse in the lectures and videos but you are free to choose either. However, we will troubleshoot only Eclipse.
 
-Current version of Java SE is `15.0.2` and Eclipse IDE is `2020-12`.
+Current version of Java SE is `16.0.2` and Eclipse IDE is `2021-06`.
 
 You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE), **before you install Eclipse**.
 
-A Google search for "Download Java SE" should take you to the right link, which is [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+1. Java SE - [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html). If you are using Windows, most likely yours is a 64-bit OS. 
 
-If you are using Windows, most likely yours is a 64-bit OS. 
+2. Eclipse IDE - [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/). Download the installer and run it. Choose `Eclipse IDE for Java Developers` from the list of options.
 
-After installing Java SE, you can Google for "Download Eclipse" which should take you to [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/). Download the installer and run it.
+If you have any problem installing Java and/or Eclipse, join one of the **support sessions** and we'll help you out. Please do not ask your lecturer or tutor to sort it during classes as these sessions are not designed for troubleshooting such issues.
 
-Choose `Eclipse IDE for Java Developers` from the list of options.
+NOTE: You can also install and use Visual Studio Code (with "Java Extension Pack" extension) instead of Eclipse. But we don't provide technical support for that.
 
-If you have any problem installing Java and/or Eclipse, try troubleshooting with your friends. If the problem persists, bring your laptop to one of the above listed **support sessions** and we'll help you out. Please do not ask your lecturer or tutor to sort it during classes as these sessions are not designed for troubleshooting such issues.
+## Importing project containing all source codes!
 
+Source codes, including lecture and practical class codes, practice packages, and assignment 1 are available under [comp1010\_s2\_2021\_source\_codes\_for\_students\_v1.zip](./comp1010_s2_2021_source_codes_for_students_v1.zip).
+
+1. Open Eclipse
+2. Choose `File`
+3. Choose `Import`
+4. Double-click (or expand) `General`
+5. Double-click `Existing projects into Workspace` (NOT Archive File)
+6. Choose one of the two options:
+	- `Select archive file` to import from archive files (zip files).
+	- `Select root directory` to import from directories (in case your browser unzips zip files upon downloading).
+7. Click on `Browse`
+8. Locate and select zip file/ directory from which to import.
+9. Click `Finish`.
+
+## Change package presentation to hierarchical
+Note that the packages can be nested. A package `outer.inner` represents a package `inner` inside the package `outer`. You can change the package presentation to hierarchical (recommended) using the process described in the following video:
+
+[![](http://img.youtube.com/vi/T0Wg5jd6ddw/0.jpg)](http://www.youtube.com/watch?v=T0Wg5jd6ddw "")
+
+The names of the packages makes their purpose self-explanatory.
+
+The steps required to import one or more java projects contained in a directory or an archive file (zip files) are also shown in the following video:
+
+[![](http://img.youtube.com/vi/enbPj-RvXdE/0.jpg)](http://www.youtube.com/watch?v=enbPj-RvXdE "")
 
 # Revision
 
 We will go through some questions that will help you revise COMP1000 (COMP115). We have created material for students with the transition from COMP1000 to COMP1010 which is available [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops). Each topic contains a `.md` file containing the material.
 
-## What is the value of `result` when each of the following codes is executed? (10 minutes)
+## Kahoot!
+
+Before we go any further, it's Kahoot time!!!
+
+## What is the value of `result` when each of the following codes is executed?
 
 1. 
 ```java
@@ -72,7 +99,7 @@ int result = -13 % 5;
 int result = -13 % -5;
 ```
 
-## CONDITIONS (10 minutes)
+## CONDITIONS
 
 Consider the following code:
 
@@ -106,7 +133,7 @@ What shapes are drawn for each of the following co-ordinates?
 3. `(40, 80)`
 4. `(160, 90)`
 
-## LOOPS (10 minutes)
+## LOOPS
 
 What is the value of `result` when each of the following codes is executed?
 
@@ -129,7 +156,7 @@ for(int i=1; i*i<=n; i++) {
 }
 ```
 
-## CALLING A FUNCTION (10 minutes)
+## CALLING A FUNCTION
 
 What is the value of `result` when the following code is executed? Draw a memory diagram to illustrate the passing of variables. (You can see an example of such a memory diagram [here](https://github.com/comp125mq/comp115_to_comp125_transition_workshops/blob/master/3%20-%20functions/functions.md#defining-a-function)).
 
@@ -152,7 +179,7 @@ int q = 3;
 int result = foo(p - 2, q + 2);
 ```
 
-## DEFINING A FUNCTION (10 minutes)
+## DEFINING A FUNCTION
 
 1. Write a function that when passed an integer, return `true` if it is even (divisible by 2), and `false` otherwise.
 2. Write a function that when passed an integer and a boolean,
@@ -162,7 +189,7 @@ int result = foo(p - 2, q + 2);
 		- if the integer is positive, return the integer itself
 		- if the integer is not positive, return negative of the integer
 
-## STORAGE OF ARRAYS (10 minutes)
+## STORAGE OF ARRAYS
 
 Discuss this question as a group.
 
@@ -177,7 +204,7 @@ The notation scheme for the memory diagram we will be using is as follows:
 
 ![](./figs/arrayStorage.png)
 
-## OPERATING ON AN ARRAY (10 minutes)
+## OPERATING ON AN ARRAY
 
 In this unit, we'll be doing a fair amount of problem solving with arrays.
 
@@ -227,7 +254,7 @@ for(int i=0; i < data.length - 1 && isAsc; i++) { //loop terminates if isAsc is 
 }
 ```
 
-## FUNCTIONS HANDLING ARRAYS (10 minutes)
+## FUNCTIONS HANDLING ARRAYS
 
 Complete the following functions (we are using Processing syntax here):
 

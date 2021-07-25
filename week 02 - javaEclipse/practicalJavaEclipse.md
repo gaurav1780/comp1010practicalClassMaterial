@@ -10,7 +10,6 @@ You have downloaded and installed Java SE (previously known as Java SDK) on your
 ## Suggested Timeline 
 
 - 5 minutes past start: Structure of a Java program
-- 25 minutes past start: Importing a Java project from an **archive file** in Eclipse
 - 35 minutes past start: JUnit test example
 - 70 minutes past start: Completing a simple Java program
 - 90 minutes past start: Problem solving
@@ -89,42 +88,6 @@ public class MyFirstProgram {
 	1. Make sure you enable the box for including `public static void main(String[] args)`.
 4. In the `main` method of file `Product.java`, initialize two integers with names and values of your choice and display their product. Values are displayed using `System.out.println` method.
 5. Run the program using the *Play* button. For example, if the variables hold the values 4 and 9, you should see the value 36 in the console. 
-
-### Importing a Java project from directories or archive files in Eclipse
-
-Luckily, we have sophisticated softwares known as *Integrated Development Environments* (IDE) that offer extensive GUI and functionalities that we don't have to compile and execute programs through command prompt.
-
-The IDE we use in the labs is Eclipse, although you are free to use others such as IntelliJ and NetBeans. However, we use Eclipse in all our tutorials and videos and only provide support for Eclipse.
-
-One of the good things about using an IDE is that you can *package* or export a program (that may contain many many files) into an archive file (.zip). You can then *unpackage* or import the program from an archive file into an IDE on a different machine.
-
-The steps required to import one or more java projects contained in a directory or an archive file (zip files) are shown in the following video:
-
-[![](http://img.youtube.com/vi/enbPj-RvXdE/0.jpg)](http://www.youtube.com/watch?v=enbPj-RvXdE "")
-
-1. Open Eclipse
-2. Choose `File`
-3. Choose `Import`
-4. Double-click (or expand) `General`
-5. Double-click `Existing projects into Workspace`
-6. Choose the options
-	- `Select archive file` to import from archive files (zip files).
-	- `Select root directory` to import from directories.
-7. Click on `Browse`
-8. Locate and select directory or archive file from which you are importing.
-9. Click `Finish`
-
-Note that the packages can be nested. A package `inner` inside another package `outer` needs to be named as `outer.inner`. You can change the package presentation to hierarchical (recommended) using the process described in the following video:
-
-[![](http://img.youtube.com/vi/T0Wg5jd6ddw/0.jpg)](http://www.youtube.com/watch?v=T0Wg5jd6ddw "")
-
-### Question 4.
-
-Import project contained in [COMP1010\_source\_codes\_for\_students\_updated.zip](./../COMP1010_source_codes_for_students_updated.zip). You will see that the project contains the *packages* as shown in the following figure:
-
-![](./figs/sourceCodes.png)
-
-The names of the packages makes their purpose self-explanatory.
 
 ### Question 5.
 
