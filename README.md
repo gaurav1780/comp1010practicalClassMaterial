@@ -11,7 +11,7 @@
 
 ## Accompanying source codes
 
-Source codes (templates) located at ... TBA
+Source codes (templates) located [here](https://github.com/gaurav1780/comp1010practicalClassMaterial/raw/master/comp1010_s2_2021_source_codes_for_students_v1.zip).
 
 1. Download the file
 2. Open Eclipse
