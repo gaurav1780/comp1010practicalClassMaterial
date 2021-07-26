@@ -5,9 +5,7 @@
 1. [Java SE (Java SDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 2. IDEs
     1. [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/), or,
-    2. [Visual Studio Code](https://code.visualstudio.com/) + following extensions:
-        1. Java Extension Pack
-        2. Java Test Runner 
+    2. [Visual Studio Code](https://code.visualstudio.com/) and the extension "Java Extension Pack" after you install Visual Studio Code:
 
 ## Accompanying source codes
 
