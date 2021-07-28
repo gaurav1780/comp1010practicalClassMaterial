@@ -52,6 +52,8 @@ public static void main(String[] args)
 - `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
 - `args` is the formal parameter name. We can use any valid value for a literal instead of this.
 
+**TIP** In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` to automatically generate the `main()` method. [See here](figs/autogen.mp4) for a demonstration.
+
 ### Question 2.
 
 Which of the following are valid headers for the `main` method?
