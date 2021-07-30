@@ -140,8 +140,9 @@ For week 2 -
 -  You can make the submission by **Sunday 8th August 21:00**. Late submissions for weekly tasks are NOT accepted.
 -  The more functions you can solve, the better prepared you are for the unit. 
 
-[![](http://img.youtube.com/vi/Q1oGIypsPls/0.jpg)](https://www.youtube.com/watch?v=Q1oGIypsPls "")
-
+<!-- [![](http://img.youtube.com/vi/Q1oGIypsPls/0.jpg)](https://www.youtube.com/watch?v=Q1oGIypsPls "")
+ -->
+	
 <!--Export the relevant part of the project to an archive file using steps shown in the following video
 
 [![](http://img.youtube.com/vi/eeGrh_l5jp0/0.jpg)](http://www.youtube.com/watch?v=eeGrh_l5jp0 "")
