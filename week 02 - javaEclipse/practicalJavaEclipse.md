@@ -37,9 +37,9 @@ Which of the following should be the first statement in a file named `Hello.java
 4. `class hello {`
 
 
-A class is like a container for java programs. A *runnable* java program contains a `main` method with the following **header** inside the class.
+A class is like a container for java programs. A *runnable* java program contains a `main` function with the following **header** inside the class.
 
-The header of the `main` method is:
+The header of the `main` function is:
 
 ```java
 public static void main(String[] args)
@@ -47,16 +47,17 @@ public static void main(String[] args)
 
 - `public` means it can be seen by any other code in the program.
 - `static` will be covered later.
-- `void` because the method doesn't return any value.
-- `main` is a special reserved name for this method (like `draw` in Processing).
+- `void` because the function doesn't return any value.
+- `main` is a special reserved name for this function (like `draw` in Processing).
 - `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
 - `args` is the formal parameter name. We can use any valid value for a literal instead of this.
 
-**TIP** In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` to automatically generate the `main()` method. [See here](figs/autogen.mp4) for a demonstration.
+**TIP** In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` to automatically generate the `main()` function. [See here](figs/autogen.mp4) for a demonstration.
 
 ### Question 2.
 
-Which of the following are valid headers for the `main` method?
+Which of the following are valid headers for the `main` function
+?
 	
 1. `public static void main()`
 2. `public void main(String[] args)`
@@ -69,7 +70,7 @@ Which of the following are valid headers for the `main` method?
 
 ## The complete picture
 
-So, with the class header outside and the method header inside, a java program looks like this:
+So, with the class header outside and the function header inside, a java program looks like this:
 
 ```java
 public class MyFirstProgram {
@@ -77,7 +78,7 @@ public class MyFirstProgram {
 		//your code goes here
 	}
 	
-	//other methods (or functions)
+	//other functions
 }
 ```
 
@@ -88,7 +89,7 @@ public class MyFirstProgram {
 2. Right click on project and choose `New` -> `Class`. 
 3. Choose the name `Product`.
 	1. Make sure you enable the box for including `public static void main(String[] args)`.
-4. In the `main` method of file `Product.java`, initialize two integers with names and values of your choice and display their product. Values are displayed using `System.out.println` method.
+4. In the `main` function of file `Product.java`, initialize two integers with names and values of your choice and display their product. Values are displayed using `System.out.println` function.
 5. Run the program using the *Play* button. For example, if the variables hold the values 4 and 9, you should see the value 36 in the console. 
 
 ### Question 5.
@@ -116,10 +117,10 @@ Another package in the same project is `practicePackage`, further containing `in
 		- `attempts`
 		- `testsAttempts`
 
-The questions are split across multiple stages. Your tutor will demonstrate what should be done for the following two methods:
+The questions are split across multiple stages. Your tutor will demonstrate what should be done for the following two functions:
 
-1. `square(int)` in `Stage1.java` (method returning `int`), and, 
-2. `isPositive(int)` in `Stage1.java`(method returning `boolean`).
+1. `higher(int,int)` in `Stage1.java` (function returning `int`), and, 
+2. `isPositive(int)` in `Stage1.java`(function returning `boolean`).
 
 **IMPORTANT** Please note that we expect, AT MOST, the top 2% students to be able to complete questions from the final Stage. So don't freak out because you can't solve those.
 
@@ -129,16 +130,15 @@ The questions are split across multiple stages. Your tutor will demonstrate what
 
 &nbsp;<p>
 
-
 For week 2 - 
 
 - Complete functions in the `practicePackage.introduction.attempts` package such that the corresponding tests in `practicePackage.introduction.testsAttempts` pass.
-- each test passed gets you 3 out of 100 marks.
-- total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
-- passing mark is 60 (or at least 20 functions).
--  submit ALL corresponding files (so up to 6 java files). 
--  You can make the submission by **Sunday 8th August 21:00**. Late submissions for weekly tasks are NOT accepted.
--  The more functions you can solve, the better prepared you are for the unit. 
+- Each test passed gets you 3 out of 100 marks.
+- Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
+- Passing mark is 60 (or at least 20 functions).
+- Submit all files on which you work (so up to 6 java files). For example, if you complete functions that are in Stage1.java, Stage2.java, Stage3.java - submit those three files.
+- You can make the submission by **Sunday 8th August 21:00**. Late submissions for weekly tasks are NOT accepted.
+- The more functions you can solve, the better prepared you are for the unit. 
 
 <!-- [![](http://img.youtube.com/vi/Q1oGIypsPls/0.jpg)](https://www.youtube.com/watch?v=Q1oGIypsPls "")
  -->
@@ -165,7 +165,7 @@ This question must be answered **on a piece of paper** that must be returned to 
 
 #### Sub-task 1
 
-Complete the body of the method `sumIndexRange` that returns the sum of all items in the index range in the array passed. Some examples,
+Complete the body of the function `sumIndexRange` that returns the sum of all items in the index range in the array passed. Some examples,
 
 - `data = {10, 70, 20, 90, 30}`, `idx1 = 1`, `idx2 = 3` 
 	
@@ -187,9 +187,9 @@ public static int sumIndexRange(int[] data, int idx1, int idx2) {
 
 #### Sub-task 2
 
-Complete the body of the method `isBalanced` that assumes that the array passed has an even number of items, and returns `true` if the sum of items in the first half of the array equals the sum of items in the second half of the array, `false` otherwise. 
+Complete the body of the function `isBalanced` that assumes that the array passed has an even number of items, and returns `true` if the sum of items in the first half of the array equals the sum of items in the second half of the array, `false` otherwise. 
 
-You **SHOULD** (meaningfully) call the method *sumIndexRange*, even if you didn't finish it or get it right.
+You **SHOULD** (meaningfully) call the function `sumIndexRange`, even if you didn't finish it or get it right.
 
 For example,
 
