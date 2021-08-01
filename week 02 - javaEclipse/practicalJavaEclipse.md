@@ -161,7 +161,7 @@ For week 2 -
 
 ### Question 8 (Problem solving)
 
-This question must be answered **on a piece of paper** that must be returned to the tutor once you've finished.
+This question must be answered **on a piece of paper**.
 
 #### Sub-task 1
 
