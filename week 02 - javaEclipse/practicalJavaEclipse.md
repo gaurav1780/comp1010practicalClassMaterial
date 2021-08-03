@@ -92,6 +92,8 @@ public class MyFirstProgram {
 4. In the `main` function of file `Product.java`, initialize two integers with names and values of your choice and display their product. Values are displayed using `System.out.println` function.
 5. Run the program using the *Play* button. For example, if the variables hold the values 4 and 9, you should see the value 36 in the console. 
 
+### Question 4. (removed)
+
 ### Question 5.
 
 1. Open package `practicalClassCodes` and then `week02`.
