@@ -45,12 +45,14 @@ The header of the `main` function is:
 public static void main(String[] args)
 ```
 
-- `public` means it can be seen by any other code in the program.
-- `static` will be covered later.
-- `void` because the function doesn't return any value.
-- `main` is a special reserved name for this function (like `draw` in Processing).
-- `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
-- `args` is the formal parameter name. We can use any valid value for a literal instead of this.
+It MUST satisfy following conditions:
+
+- (CRITICAL) `public` means it can be seen by any other code in the program.
+- (CRITICAL) `static` will be covered later.
+- (CRITICAL) `void` because the function doesn't return any value.
+- (CRITICAL) `main` is a special reserved name for this function (like `draw` in Processing).
+- (CRITICAL) `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
+- (FLEXIBLE) `args` is the formal parameter name. We can use any valid value for a literal instead of this.
 
 **TIP** In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` to automatically generate the `main()` function. [See here](figs/autogen.mp4) for a demonstration.
 
