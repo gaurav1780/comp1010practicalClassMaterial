@@ -138,7 +138,7 @@ For week 2 -
 - Each test passed gets you 3 out of 100 marks.
 - Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
 - Passing mark is 60 (or at least 20 functions).
-- Submit all files on which you work (so up to 6 java files). For example, if you complete functions that are in Stage1.java, Stage2.java, Stage3.java - submit those three files.
+- Submit all files on which you work (so up to 6 java files). For example, if you complete ONE OR MORE functions from Stage1.java, Stage2.java, Stage3.java - submit those three files.
 - You can make the submission by **Sunday 8th August 21:00**. Late submissions for weekly tasks are NOT accepted.
 - The more functions you can solve, the better prepared you are for the unit. 
 
