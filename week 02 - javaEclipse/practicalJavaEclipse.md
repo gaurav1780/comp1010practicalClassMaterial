@@ -3,7 +3,7 @@
 
 # Assumptions
 
-You have downloaded and installed Java SE (previously known as Java SDK) on your computer if you are using it. The software is installed in all Computing laboratories.
+You have downloaded and installed Java SE (previously known as Java SDK) and an IDE (Eclipse is preferred, but you can choose Visual Studio Code or IntelliJ or ...) on your computer if you are using it. The software is installed in all Computing laboratories.
 
 ## IMPORTANT: Pair up for this lab. If you want to work individually, get permission from your tutor.
 
