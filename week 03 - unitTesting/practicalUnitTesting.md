@@ -207,13 +207,14 @@ Work on the practice package for **arrays** for the rest of the time. It's in `p
 
 In order to pass this week's hurdle, you must pass tests corresponding to,
 	
-1. **at least** 15 functions **overall**, and,
-2. **at least** 10 functions from stage 2, and,
-3. **at least** 5 functions from stage 3.
+1. **at least** 10 functions from stage 2, AND,
+2. **at least** 5 functions from stage 3.
 
 - Each function is worth  3 marks.
 - Passing mark (if you satisfy above condition) is 45.
 - If you satisfy the criteria for passing this week's hurdle, your total marks will be capped at 100.
 - If you satisfy the criteria for passing this week's hurdle, stage 2 marks will be capped at 30 and stage 3 marks capped at 15. This is to prevent one getting 100/100 by solving 34 functions from stage 2 but none from stage 3. In this example, the student would only get 30/100.
 
-Drag and Drop **all** relevant java files from the package explorer into "Week 3 submission" submission box by **Sunday 14th March, 21:00**.
+PRO-TIP: Stage 1 functions do not need any loop. Mostly, they are about checking if the array is null, what's the length, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
+
+Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **Tuesday 17th August, 21:00**. Note: this is a one-off situation where submission is NOT on a Sunday night (because of assignment 1 deadline).
