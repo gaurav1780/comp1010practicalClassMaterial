@@ -3,7 +3,7 @@
 
 # NOTE
 
-We will continue working with the `COMP1010_source_codes_for_students` project. This week, we are dealing with package `practicalClassCodes.week03`.
+We will continue working with our master source code project that you should already have in your IDE by now. If not, go through week 1 and 2 content again. This week, we are dealing with package `practicalClassCodes.week03`.
 
 # Outline 
 
@@ -203,18 +203,16 @@ public void testIndexOf() {
 
 ## Question 8
 
-Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. 
+Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. You need to work on, and submit stages 2 to 4. Stage 1 doesn't carry any marks. Stage 1 functions do not need any loop and they are to help you with the nitty-gritty required for Stages 2 and beyond. Mostly, they are about checking if the array is null, what's the length, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
 
 In order to pass this week's hurdle, you must pass tests corresponding to,
 	
 1. **at least** 10 functions from stage 2, AND,
 2. **at least** 5 functions from stage 3.
 
-- Each function is worth  3 marks.
+- Each function is worth 3 marks.
 - Passing mark (if you satisfy above condition) is 45.
 - If you satisfy the criteria for passing this week's hurdle, your total marks will be capped at 100.
-- If you satisfy the criteria for passing this week's hurdle, stage 2 marks will be capped at 30 and stage 3 marks capped at 15. This is to prevent one getting 100/100 by solving 34 functions from stage 2 but none from stage 3. In this example, the student would only get 30/100.
-
-PRO-TIP: Stage 1 functions do not need any loop. Mostly, they are about checking if the array is null, what's the length, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
+- If you **DO NOT** satisfy the criteria for passing this week's hurdle, your total marks will be capped at 45.
 
 Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **Tuesday 17th August, 21:00**. Note: this is a one-off situation where submission is NOT on a Sunday night (because of assignment 1 deadline).
