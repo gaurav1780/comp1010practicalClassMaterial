@@ -214,5 +214,10 @@ In order to pass this week's hurdle, you must pass tests corresponding to,
 - Passing mark (if you satisfy above condition) is 45.
 - If you satisfy the criteria for passing this week's hurdle, your total marks will be capped at 100.
 - If you **DO NOT** satisfy the criteria for passing this week's hurdle, your total marks will be capped at 45.
+- Any infinite loop in any file will result in an automatic zero.
+- Any compilation error in any file will result in an automatic zero. (This covers incorrect file names too).
+- Running `testsAttempts` as JUnit test must finish executing in under 10 seconds. If execution time is more than that, it will result in an automatic zero.
+- Use of functions from outsie the four files will result in an automatic zero (Usual culprits: `Arrays`, `Collections`, `stream`, `Math`, `StringBuilder`).
+- Late submissions are NOT accepted.
 
 Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **Tuesday 17th August, 21:00**. Note: this is a one-off situation where submission is NOT on a Sunday night (because of assignment 1 deadline).
