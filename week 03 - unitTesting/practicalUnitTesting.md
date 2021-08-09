@@ -212,8 +212,8 @@ In order to pass this week's hurdle, you must pass tests corresponding to,
 
 - Each function is worth 3 marks.
 - Passing mark (if you satisfy above condition) is 45.
-- If you satisfy the criteria for passing this week's hurdle, your total marks will be capped at 100.
-- If you **DO NOT** satisfy the criteria for passing this week's hurdle, your total marks will be capped at 45.
+- If you satisfy the criteria for passing this week's hurdle, your total marks will be capped at 100. For example, if you solve 40 stage 2 functions and 20 stage 3 functions, you will get 100, not 180 (3 * 60).
+- If you **DO NOT** satisfy the criteria for passing this week's hurdle, your total marks will be capped at 44. For example, if you solve 40 stage 2 functions only, you will get 44, not 120 (3 * 40).
 - Any infinite loop in any file will result in an automatic zero.
 - Any compilation error in any file will result in an automatic zero. (This covers incorrect file names too).
 - Running `testsAttempts` as JUnit test must finish executing in under 10 seconds. If execution time is more than that, it will result in an automatic zero.
