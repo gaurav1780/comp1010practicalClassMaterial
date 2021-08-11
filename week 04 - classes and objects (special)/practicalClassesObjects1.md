@@ -272,8 +272,19 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 
 ## Question 7 (Submission for week 4)
 
-You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
+You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Each test is worth 4 marks. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 
-Make the submission by dragging all relevant files (as shown below) from package explorer into "Week 4 submission" by **Sunday 21st March, 21:00**.
 
-![](./figs/submission.png)
+For rules applicable to **all** assignment and weekly submissions, check iLearn. 
+Time limit on execution: 5 seconds 
+
+Make the submission by dragging the following files from package explorer into "Week 4 submission" by **Sunday 22st August, 21:00**. Only submit the files in which you finish one or more functions.
+
+1. CarTrip.java
+2. Job.java
+3. Fraction.java
+4. Time.java
+5. CoffeeTracker.java
+6. LargeInteger.java
+
+
