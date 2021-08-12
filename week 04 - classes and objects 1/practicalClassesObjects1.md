@@ -226,26 +226,58 @@ else {
 }
 ```
 
+<!--### Solution
+Team Ronaldo, because r and s are NOT reference copies. They refer to unique, albeit identical instances
+-->
+
 Now, to understand why you got the output that you got, draw a memory diagram and point out the references and instances in the diagram.
 
 ### Part 2 (10 minutes)
 
-How many references and instances are created in the following code? Point them out in a memory diagram. Write down the values of each instance variable for each object in the memory (so `r.width`, `r.height`, `s.width`, `s.height`, `t.width`, `t.height`, `v.width`, `v.height`)
+How many references and instances are created in the following code? Point them out in a memory diagram. Write down the values of each instance variable for each object in the memory when the `println` statement is reached. (`r.width`, `r.height`, `s.width`, `s.height`, `t.width`, `t.height`, `v.width`, `v.height`)
 
 ```java
-Rectangle r = new Rectangle(10, 20);
+Rectangle r = new Rectangle(2, 5);
 Rectangle s = r;
 Rectangle t = s;
 Rectangle v = new Rectangle(10, 20);
 r = v;
 t.width = 50;
+System.out.println("state of all objects");
 ```
+
+<!--### Solution
+4 References: r, s, t and v
+2 Instances: new Rectangle(2, 5) and new Rectangle(10, 20)
+
+`r.width = 10`, 
+`r.height = 20`, 
+`s.width = 2`, 
+`s.height = 50`, 
+`t.width = 2`, 
+`t.height = 50`, 
+`v.width = 10`, 
+`v.height = 20`
+-->
 
 ## Question 5 (10 minutes)
 
 Consider the class `GoalScoringRecord` in the code for week 4. Complete the method `compareTo` so the corresponding test supplied in class `GoalScoringRecordTest` passes.
 
 <!--### Solution
+```java
+	public int compareTo(GoalScoringRecord other) {
+		double cr1 = this.conversionRate();
+		double cr2 = other.conversionRate();
+		if(cr1 > cr2) {
+			return 1;
+		}
+		else if(cr1 < cr2) {
+			return -1;
+		}
+		return 0;
+	}
+```
 -->
 
 ## Question 6 (30 minutes)
@@ -253,6 +285,24 @@ Consider the class `GoalScoringRecord` in the code for week 4. Complete the meth
 ### Part 1
 
 In `Media.java`, complete the definition for the constructor, `totalFrameCount` and `compareTo`. Run the tests in `MediaTest.java` to ensure your implementation is correct.
+
+<!--###Solution
+```java
+	public int compareTo(Media other) {
+		int tfc1 = this.totalFrameCount();
+		int tfc2 = other.totalFrameCount();
+		if(tfc1 > tfc2) {
+			return 1;
+		}
+		else if(tfc1 < tfc2) {
+			return -1;
+		}
+		else {
+			return 0;
+		}
+	}
+```
+-->
 
 ### Part 2
 
@@ -269,6 +319,10 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 |                               | other  |                                           |
 |  totalFrameCount (first time) | this   |                                           |
 | totalFrameCount (second time) | this   |                                           |
+
+<!--Solution
+No solution provided for this one
+-->
 
 ## Question 7 (Submission for week 4)
 
