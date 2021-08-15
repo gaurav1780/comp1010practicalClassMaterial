@@ -9,7 +9,7 @@ Typically we have practical exams in week 4 so the source code is provided separ
 ## Outline
 
 - designing a class
-- creating objects/Users/gauravgupta/Desktop/Screen Shot 2021-03-16 at 3.13.45 pm.png
+- creating objects
 - references and instances
 - constructors
 - compareTo
