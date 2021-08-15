@@ -127,7 +127,7 @@ myCar.price = 21999;
 ```
 -->
 
-## Question 3 (20 minutes)
+## Question 3 (15 minutes)
 
 Consider the following class definition,
 
@@ -197,7 +197,7 @@ public Person() {
 ```
 -->
 
-## Question 4 (25 minutes)
+## Question 4 (20 minutes)
 
 Consider the following class definition,
 
@@ -211,7 +211,7 @@ public class Rectangle {
 }
 ```
 
-### Part 1 (15 minutes)
+### Part 1 (10 minutes)
 
 What is the output of the following program?
 
@@ -280,9 +280,13 @@ Consider the class `GoalScoringRecord` in the code for week 4. Complete the meth
 ```
 -->
 
-## Question 6 (30 minutes)
+## Question 6 (40 minutes)
 
-### Part 1
+Please watch this video before moving to Part 1.
+
+[https://www.youtube.com/watch?v=Llnn9NDkYYI](https://www.youtube.com/watch?v=Llnn9NDkYYI)
+
+### Part 1 (10 minutes)
 
 In `Media.java`, complete the definition for the constructor, `totalFrameCount` and `compareTo`. Run the tests in `MediaTest.java` to ensure your implementation is correct.
 
@@ -304,7 +308,7 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 ```
 -->
 
-### Part 2
+### Part 2 (10 minutes)
 
 1. Place breakpoints on every single statment in `totalFrameCount` and `compareTo`. 
 2. Add a breakpoint on line 7 (`int status = m1.compareTo(m2);`) in `MediaClient.java`. 

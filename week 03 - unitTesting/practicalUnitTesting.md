@@ -14,25 +14,25 @@ We will continue working with our master source code project that you should alr
 
 # Test quality
 
-When writing tests for a particular method, a set of input-output mappings is used to test the correctness of the method. This set should test as many scenarios as possible.
+When writing tests for a particular function, a set of input-output mappings is used to determine the correctness of the function. This set should test as many scenarios as possible.
 
 ## Question 1
 
-Consider a method that is supposed to return the number of even digits in an integer. Which of the following sets of sample inputs is the best?
+Consider a function that is supposed to return the number of even digits in an integer. Which of the following sets of sample inputs is the best?
 
 1. 31, 255, 1
 2. 240, 1080, 0, 42
 3. 31, 65, 84, 29
 4. 5782, 374, 18642, -7135342
-5. 1, 589, 409512, -6158, 0
+5. 1, 589, 409512, -6158, -1357, 0
 
 ## Question 2
 
-Consider a method that returns the number of odd values in an array. If one sample input is `{15, 7, 103}`, does a second sample input `{15, 103, 91}` offer any additional value to the test (as in improving the "test quality")? What about `{81, -25, 63}`?
+Consider a function that returns the number of odd items in an array. If one sample input is `{15, 7, 103}`, does a second sample input `{15, 103, 91}` offer any additional value to the test (as in improving the "test quality")? What about `{81, -25, 63}`?
 
 ## Question 3
 
-Consider a method with the following header:
+Consider a function with the following header:
 
 ```java
 /**
@@ -55,11 +55,11 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 
 ## Question 4a
 
-Consider a method `sum` that when passed an integer array, returns the sum of all the items in the array.
+Consider a function `sum` that when passed an integer array, returns the sum of all the items in the array.
 
-1. What value is the method **expected** to return for the array \{10, 70, 20, 90\}?
+1. What value is the function **expected** to return for the array \{10, 70, 20, 90\}?
 
-Now, consider the following implementation of this method:
+Now, consider the following implementation of this function:
 
 ```java
 public class Question4a {
@@ -69,14 +69,14 @@ public class Question4a {
 	public static int sum(int[] data) {
 		int r = 0;
 		for(int i=1; i < data.length; i++) {
-			r+=data[i];
+			r+=data[i]; //change from r++; to r+=data[i]; (
 		}
 		return r;
 	}
 }
 ```
 
-2. What value does the above method **actually** return for the array \{10, 70, 20, 90\}?
+2. What value does the above function **actually** return for the array \{10, 70, 20, 90\}?
 
 This check on expectations is managed by the assertion:
 
@@ -89,13 +89,13 @@ Here, 190 is the expected value, while `Question4.sum(arr)` is the actual value 
 
 ## Question 4b
 
-Consider the following implementation of a method:
+Consider the following implementation of a function:
 
 ```java
 public class Question4b {
 	/** 
 	 * return number of items in the array that belong 
-	 * to the range [min...max]
+	 * to the range [min...max] (including min and including max)
 	 */
 	public static int countInRange(int[] data, int min, int max) {
 		int r = 0;
@@ -129,7 +129,7 @@ Can you identify the bug in the implementation of `countInRange`? What tests mus
 
 ## Question 6
 
-Consider the following method header:
+Consider the following function header:
 
 ```java
 public class Question6 {
@@ -167,7 +167,7 @@ public void testIsAscending() {
 
 ## Question 7
 
-Consider the following method header:
+Consider the following function header:
 
 ```java
 public class Question7 {
