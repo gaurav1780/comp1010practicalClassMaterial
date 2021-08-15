@@ -15,7 +15,7 @@ Typically we have practical exams in week 4 so the source code is provided separ
 - compareTo
 - `this` as a reference copy of *calling object*
 
-## Question 1 (10 minutes)
+## Question 1 (Up to 10 minutes)
 
 Design classes (no implementation) that encapsulate the following real life entities. 
 	- Add up to three instance variables for each class. Select the three most important attributes if you think a class has more than three attributes.
@@ -82,7 +82,7 @@ Design classes (no implementation) that encapsulate the following real life enti
 none needed
 -->
 	
-## Question 2 (10 minutes)
+## Question 2 (Up to 10 minutes)
 
 #### Part 1
 
@@ -127,7 +127,7 @@ myCar.price = 21999;
 ```
 -->
 
-## Question 3 (15 minutes)
+## Question 3 (Up to 15 minutes)
 
 Consider the following class definition,
 
@@ -197,7 +197,7 @@ public Person() {
 ```
 -->
 
-## Question 4 (20 minutes)
+## Question 4 (Up to 20 minutes)
 
 Consider the following class definition,
 
@@ -211,7 +211,7 @@ public class Rectangle {
 }
 ```
 
-### Part 1 (10 minutes)
+### Part 1 (Up to 10 minutes)
 
 What is the output of the following program?
 
@@ -232,7 +232,7 @@ Team Ronaldo, because r and s are NOT reference copies. They refer to unique, al
 
 Now, to understand why you got the output that you got, draw a memory diagram and point out the references and instances in the diagram.
 
-### Part 2 (10 minutes)
+### Part 2 (Up to 10 minutes)
 
 How many references and instances are created in the following code? Point them out in a memory diagram. Write down the values of each instance variable for each object in the memory when the `println` statement is reached. (`r.width`, `r.height`, `s.width`, `s.height`, `t.width`, `t.height`, `v.width`, `v.height`)
 
@@ -260,7 +260,7 @@ System.out.println("state of all objects");
 `v.height = 20`
 -->
 
-## Question 5 (10 minutes)
+## Question 5 (Up to 10 minutes)
 
 Consider the class `GoalScoringRecord` in the code for week 4. Complete the method `compareTo` so the corresponding test supplied in class `GoalScoringRecordTest` passes.
 
@@ -280,13 +280,13 @@ Consider the class `GoalScoringRecord` in the code for week 4. Complete the meth
 ```
 -->
 
-## Question 6 (40 minutes)
+## Question 6 (Up to 40 minutes)
 
 Please watch this video before moving to Part 1.
 
 [https://www.youtube.com/watch?v=Llnn9NDkYYI](https://www.youtube.com/watch?v=Llnn9NDkYYI)
 
-### Part 1 (10 minutes)
+### Part 1 (Up to 10 minutes)
 
 In `Media.java`, complete the definition for the constructor, `totalFrameCount` and `compareTo`. Run the tests in `MediaTest.java` to ensure your implementation is correct.
 
@@ -308,7 +308,7 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 ```
 -->
 
-### Part 2 (10 minutes)
+### Part 2 (Up to 10 minutes)
 
 1. Place breakpoints on every single statment in `totalFrameCount` and `compareTo`. 
 2. Add a breakpoint on line 7 (`int status = m1.compareTo(m2);`) in `MediaClient.java`. 
