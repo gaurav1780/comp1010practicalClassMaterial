@@ -284,7 +284,7 @@ Consider the class `GoalScoringRecord` in the code for week 4. Complete the meth
 
 Please watch this video before moving to Part 1.
 
-[https://www.youtube.com/watch?v=Llnn9NDkYYI](https://www.youtube.com/watch?v=Llnn9NDkYYI)
+[https://www.youtube.com/watch?v=VY3hrn0N4Gg](https://www.youtube.com/watch?v=VY3hrn0N4Gg)
 
 ### Part 1 (Up to 10 minutes)
 
