@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Practical class - Classes and Objects (2)
+## Practical class - Classes and Objects 2
 
 # NOTE
 
@@ -104,11 +104,7 @@ public static int countSquares(Rectangle[] data) {
 ```
 -->
 
-## Question 3
-
-Assignment 2 has been released. Take 15 minutes to read through the specs, import the project into Eclipse and ask your tutor if there are any questions.
-
-## Question 4 (Submission Task)
+<!-- ## Question 3 (Submission Task)
 
 This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete, in the given order,
 
@@ -121,7 +117,7 @@ This week, we will digress from the practice package. Download [comp1010\_week\_
 
 Submit `TrainingStats.java` by dragging from package explorer into week 5 submission box by **Sunday 28th March, 2021, 9pm**.
 
-The constructor `TrainingStats(int[], int[])` and `averageDecisionAccuracy()` **MUST** be completed for a "Pass" in week 5. But submitting just those two will only get you 74% mark. You must also complete `bestHeartRateRun(int)` for an additional 26%.
+The constructor `TrainingStats(int[], int[])` and `averageDecisionAccuracy()` **MUST** be completed for a "Pass" in week 5. But submitting just those two will only get you 74% mark. You must also complete `bestHeartRateRun(int)` for an additional 26%. -->
 
 # ADVANCED QUESTIONS (HD level)
 
