@@ -260,6 +260,8 @@ Passing criteria is:
 1. At least 7 methods from `Box.java`, AND,
 2. At least 3 methods from  `DeliveryTruck.java`.
 
+Marks will be capped at 49 if you don't satisfy the passing criteria. For example, if 14 methods pass in Box.java but none in DeliveryTruck.java, you will get 49 marks, and you won't pass the weekly hurdle.
+
 Rules applicable to all submissions are on iLearn [here](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867).
 
 **Due date**: `Sunday 29th August 21:00` Sydney time.
