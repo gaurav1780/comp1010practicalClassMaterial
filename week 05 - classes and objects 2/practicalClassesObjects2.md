@@ -8,7 +8,7 @@ We will continue working with the master project. This week, we are dealing with
 
 ## Question 1
 
-Consider the following code.
+Consider the following code. It's poor design is intentional and given as a take-home exercise for you to figure out.
 
 ```java
 class Point {
@@ -55,9 +55,9 @@ public class Client1 {
 }
 ```
 
-### Client2 (Take-home exercise)
+### Client2 and design flaw (Take-home exercise)
 
-Draw the memory diagram for the following client. How many references and instances are there? Label each as "Class Instance/Reference".
+Draw the memory diagram for the following client. How many references and instances are there? Label each as "Class Instance/Reference". What are the problems with the design? How can you avoid them?
 	
 ```java
 public class Client2 {
@@ -72,8 +72,6 @@ public class Client2 {
 	}
 }
 ```
-
-What are the problems with the design? How can you avoid them?
 	
 <!-- In this design, you can have triangle with three disjoint lines, which is not possible.
 
@@ -118,6 +116,19 @@ class Triangle {
 		this.a = a;
 		this.b = b;
 		tihs.c = c;
+	}
+}
+
+public class Client2Fixed {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Point p4 = new Point(40, 60);
+		Point p5 = new Point(50, 70);
+		Point p6 = new Point(0, 80);
+		Triangle t1 = new Triangle(p1, p2, p3);
+		Triangle t2 = new Triangle(p4, p5, p6);
 	}
 }
 ``` -->
