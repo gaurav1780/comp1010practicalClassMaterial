@@ -37,12 +37,30 @@ class Triangle {
 }
 ```
 
-### Client
+### Client1
 
 Draw the memory diagram for the following client. How many references and instances are there? Label each as "Class Instance/Reference".
 	
 ```java
-public class Client {
+public class Client1 {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Line e1 = new Line(p1, p2);
+		Line e2 = new Line(p2, p3);
+		Line e3 = new Line(p3, p1);
+		//list all references and instances here
+	}
+}
+```
+
+### Client2 (Take-home exercise)
+
+Draw the memory diagram for the following client. How many references and instances are there? Label each as "Class Instance/Reference".
+	
+```java
+public class Client2 {
 	public static void main(String[] args) {
 		Point p1 = new Point(10, 70);
 		Point p2 = new Point(20, 90);
@@ -60,7 +78,7 @@ What are the problems with the design? How can you avoid them?
 <!-- In this design, you can have triangle with three disjoint lines, which is not possible.
 
 ```java
-public class Client {
+public class Client2 {
 	public static void main(String[] args) {
 		Point p1 = new Point(10, 70);
 		Point p2 = new Point(20, 90);
@@ -198,6 +216,10 @@ public static int countSquares(Rectangle[] data) {
 }
 ```
 -->
+
+## KAHOOT TIME!!!
+
+----------------------------END OF PRACTICAL----------------------------
 
 # ADVANCED QUESTIONS (HD level)
 
