@@ -6,11 +6,105 @@
 
 We will continue working with the master project. This week, we are dealing with package `practicalClassCodes.week05`.
 
-## Outline
-
-TODO
-
 ## Question 1
+
+Consider the following code.
+
+```java
+class Point {
+	public int x, y;
+	public Point(int x, int y) {
+		this.x = x;
+		tihs.y = y;
+	}
+}
+
+class Line {
+	public Point p, q;
+	public Line(Point p, Point q) {
+		this.p = p;
+		this.q = q;
+	}
+}
+
+class Triangle {
+	public Line a, b, c;
+	public Triangle(Line a, Line b, Line c) {
+		this.a = a;
+		this.b = b;
+		tihs.c = c;
+	}
+}
+```
+
+### Client
+
+Draw the memory diagram for the following client. How many references and instances are there? Label each as "Class Instance/Reference".
+	
+```java
+public class Client {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Line e1 = new Line(p1, p2);
+		Line e2 = new Line(p2, p3);
+		Line e3 = new Line(p3, p1);
+		Triangle t = new Triangle(e1, e2, e3);
+	}
+}
+```
+
+What are the problems with the design? How can you avoid them?
+	
+<!-- In this design, you can have triangle with three disjoint lines, which is not possible.
+
+```java
+public class Client {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Point p4 = new Point(40, 60);
+		Point p5 = new Point(50, 70);
+		Point p6 = new Point(0, 80);
+		Line e1 = new Line(p1, p2);
+		Line e2 = new Line(p3, p4);
+		Line e3 = new Line(p5, p5);
+		Triangle t = new Triangle(e1, e2, e3); //not a valid triangle
+	}
+}
+```
+Triangles should have three points as instance variables, instead of lines.
+
+```java
+class Point {
+	public int x, y;
+	public Point(int x, int y) {
+		this.x = x;
+		tihs.y = y;
+	}
+}
+
+class Line { //you can leave it as is
+	public Point p, q;
+	public Line(Point p, Point q) {
+		this.p = p;
+		this.q = q;
+	}
+}
+
+class Triangle {
+	public Point a, b, c; //NOT LINES
+	public Triangle(Point a, Point b, Point c) {
+		this.a = a;
+		this.b = b;
+		tihs.c = c;
+	}
+}
+``` -->
+	
+## Question 2
 
 For the class `Rectangle` in the project contained in `practicalClassCodes.week05`, consider the following client code (outside `Rectangle` class):
 
@@ -55,7 +149,7 @@ Rectangle[] data = new Rectangle[5];
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
-## Question 2
+## Question 3
 
 Take a look at the implementation of  `countSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
