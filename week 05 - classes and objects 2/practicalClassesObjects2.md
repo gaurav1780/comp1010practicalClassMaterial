@@ -20,6 +20,7 @@ Rectangle[] data = new Rectangle[5];
 
 
 1. Draw the memory diagram representing the storage of array `data`.
+
 2.	What is the output of the following client code:
 
 	```java
@@ -104,21 +105,6 @@ public static int countSquares(Rectangle[] data) {
 ```
 -->
 
-<!-- ## Question 3 (Submission Task)
-
-This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete, in the given order,
-
-1. Constructor in `TrainingStats.java` based on javadoc.
-2. Create object in `TrainingStatsClient.java` and display the array `decisionMaking` as required in the comments. 
-3. Complete instance method `averageDecisionAccuracy` in `TrainingStats.java`.
-4. Display average decision making score in `TrainingStatsClient.java`.
-5. Complete instance method `bestHeartRateRun` in `TrainingStats.java`.
-6. Display average decision making score in `TrainingStatsClient.java`.
-
-Submit `TrainingStats.java` by dragging from package explorer into week 5 submission box by **Sunday 28th March, 2021, 9pm**.
-
-The constructor `TrainingStats(int[], int[])` and `averageDecisionAccuracy()` **MUST** be completed for a "Pass" in week 5. But submitting just those two will only get you 74% mark. You must also complete `bestHeartRateRun(int)` for an additional 26%. -->
-
 # ADVANCED QUESTIONS (HD level)
 
 1. Write a method `groupSameAreas` in class `Advanced` that when passed an array of `Rectangle` objects (say `data`), returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that all objects from `data` with the same area are in the same one-dimensional array in `buckets`. That is,
@@ -130,3 +116,25 @@ The constructor `TrainingStats(int[], int[])` and `averageDecisionAccuracy()` **
 	- and so on...
 
 2. (Not related to classes and objects but aimed at students who might want something a little ... extra). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs first in case of a tie.
+
+---------
+
+# Submission Task
+
+This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete the methods in,
+
+1. `Box.java`
+2. `DeliveryTruck.java`
+
+There are 20 methods you need to complete, each worth 5 marks.
+
+Passing criteria is:
+
+1. At least 7 methods from `Box.java`, AND,
+2. At least 3 methods from  `DeliveryTruck.java`.
+
+Rules applicable to all submissions are on iLearn [here](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867).
+
+**Due date**: `Sunday 29th August 21:00` Sydney time.
+
+**Late submissions not accepted.**
