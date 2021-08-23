@@ -253,6 +253,14 @@ This week, we will digress from the practice package. Download [comp1010\_week\_
 1. `Box.java`
 2. `DeliveryTruck.java`
 
+**IMPORTANT**: In the javadoc for `compareTo` in Box, I have written:
+
+```java
+	 * comparison criteria: volume -> surface area
+```
+
+This means, primary criterion is volume and secondary criterion (only if you cannot make a decision based on volume) is surface area. Apologies for the confusion due to the way it's written. Similarly, for `compareToAdvanced`, there are five levels of criteria.
+
 There are 20 methods you need to complete, each worth 5 marks.
 
 Passing criteria is:
