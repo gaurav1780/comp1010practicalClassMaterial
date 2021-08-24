@@ -6,11 +6,134 @@
 
 We will continue working with the master project. This week, we are dealing with package `practicalClassCodes.week05`.
 
-## Outline
-
-TODO
-
 ## Question 1
+
+Consider the following code. It's poor design is intentional and given as a take-home exercise for you to figure out.
+
+```java
+class Point {
+	public int x, y;
+	public Point(int x, int y) {
+		this.x = x;
+		tihs.y = y;
+	}
+}
+
+class Line {
+	public Point p, q;
+	public Line(Point p, Point q) {
+		this.p = p;
+		this.q = q;
+	}
+}
+
+class Triangle {
+	public Line a, b, c;
+	public Triangle(Line a, Line b, Line c) {
+		this.a = a;
+		this.b = b;
+		tihs.c = c;
+	}
+}
+```
+
+### Client1
+
+Draw the memory diagram for the following client. How many references and instances are there? Label each as "Class Instance/Reference".
+	
+```java
+public class Client1 {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Line e1 = new Line(p1, p2);
+		Line e2 = new Line(p2, p3);
+		Line e3 = new Line(p3, p1);
+		//list all references and instances here
+	}
+}
+```
+
+### Client2 and design flaw (Take-home exercise)
+
+Draw the memory diagram for the following client. How many references and instances are there? Label each as "Class Instance/Reference". What are the problems with the design? How can you avoid them?
+	
+```java
+public class Client2 {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Line e1 = new Line(p1, p2);
+		Line e2 = new Line(p2, p3);
+		Line e3 = new Line(p3, p1);
+		Triangle t = new Triangle(e1, e2, e3);
+	}
+}
+```
+	
+<!-- In this design, you can have triangle with three disjoint lines, which is not possible.
+
+```java
+public class Client2 {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Point p4 = new Point(40, 60);
+		Point p5 = new Point(50, 70);
+		Point p6 = new Point(0, 80);
+		Line e1 = new Line(p1, p2);
+		Line e2 = new Line(p3, p4);
+		Line e3 = new Line(p5, p5);
+		Triangle t = new Triangle(e1, e2, e3); //not a valid triangle
+	}
+}
+```
+Triangles should have three points as instance variables, instead of lines.
+
+```java
+class Point {
+	public int x, y;
+	public Point(int x, int y) {
+		this.x = x;
+		tihs.y = y;
+	}
+}
+
+class Line { //you can leave it as is
+	public Point p, q;
+	public Line(Point p, Point q) {
+		this.p = p;
+		this.q = q;
+	}
+}
+
+class Triangle {
+	public Point a, b, c; //NOT LINES
+	public Triangle(Point a, Point b, Point c) {
+		this.a = a;
+		this.b = b;
+		tihs.c = c;
+	}
+}
+
+public class Client2Fixed {
+	public static void main(String[] args) {
+		Point p1 = new Point(10, 70);
+		Point p2 = new Point(20, 90);
+		Point p3 = new Point(30, 80);
+		Point p4 = new Point(40, 60);
+		Point p5 = new Point(50, 70);
+		Point p6 = new Point(0, 80);
+		Triangle t1 = new Triangle(p1, p2, p3);
+		Triangle t2 = new Triangle(p4, p5, p6);
+	}
+}
+``` -->
+	
+## Question 2
 
 For the class `Rectangle` in the project contained in `practicalClassCodes.week05`, consider the following client code (outside `Rectangle` class):
 
@@ -55,7 +178,7 @@ Rectangle[] data = new Rectangle[5];
 
 4. 	Draw the updated memory diagram after the items have been instantiated.
 
-## Question 2
+## Question 3
 
 Take a look at the implementation of  `countSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
@@ -105,6 +228,10 @@ public static int countSquares(Rectangle[] data) {
 ```
 -->
 
+## KAHOOT TIME!!!
+
+----------------------------END OF PRACTICAL----------------------------
+
 # ADVANCED QUESTIONS (HD level)
 
 1. Write a method `groupSameAreas` in class `Advanced` that when passed an array of `Rectangle` objects (say `data`), returns a two-dimensional array of `Rectangle` objects (say `buckets`), such that all objects from `data` with the same area are in the same one-dimensional array in `buckets`. That is,
@@ -126,12 +253,26 @@ This week, we will digress from the practice package. Download [comp1010\_week\_
 1. `Box.java`
 2. `DeliveryTruck.java`
 
+Fixes in case your project has red exclamations:
+- https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1854443
+- https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1854746
+
+**IMPORTANT**: In the javadoc for `compareTo` in Box, I have written:
+
+```java
+	 * comparison criteria: volume -> surface area
+```
+
+This means, primary criterion is volume and secondary criterion (only if you cannot make a decision based on volume) is surface area. So compare volume and return 1 or -1 if possible, and only otherwise, compare surface areas. Similarly, for `compareToAdvanced`, there are five levels of criteria. Apologies for the confusion due to the way it's written. 
+
 There are 20 methods you need to complete, each worth 5 marks.
 
 Passing criteria is:
 
 1. At least 7 methods from `Box.java`, AND,
 2. At least 3 methods from  `DeliveryTruck.java`.
+
+Marks will be capped at 49 if you don't satisfy the passing criteria. For example, if 14 methods pass in Box.java but none in DeliveryTruck.java, you will get 49 marks, and you won't pass the weekly hurdle.
 
 Rules applicable to all submissions are on iLearn [here](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867).
 
