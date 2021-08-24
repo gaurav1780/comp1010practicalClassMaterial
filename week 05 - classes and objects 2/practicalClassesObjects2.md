@@ -263,7 +263,7 @@ Fixes in case your project has red exclamations:
 	 * comparison criteria: volume -> surface area
 ```
 
-This means, primary criterion is volume and secondary criterion (only if you cannot make a decision based on volume) is surface area. Apologies for the confusion due to the way it's written. Similarly, for `compareToAdvanced`, there are five levels of criteria.
+This means, primary criterion is volume and secondary criterion (only if you cannot make a decision based on volume) is surface area. So compare volume and return 1 or -1 if possible, and only otherwise, compare surface areas. Similarly, for `compareToAdvanced`, there are five levels of criteria. Apologies for the confusion due to the way it's written. 
 
 There are 20 methods you need to complete, each worth 5 marks.
 
