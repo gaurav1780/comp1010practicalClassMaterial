@@ -253,6 +253,10 @@ This week, we will digress from the practice package. Download [comp1010\_week\_
 1. `Box.java`
 2. `DeliveryTruck.java`
 
+Fixes in case your project has red exclamations:
+- https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1854443
+- https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1854746
+
 **IMPORTANT**: In the javadoc for `compareTo` in Box, I have written:
 
 ```java
