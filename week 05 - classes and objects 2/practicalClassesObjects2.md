@@ -15,7 +15,7 @@ class Point {
 	public int x, y;
 	public Point(int x, int y) {
 		this.x = x;
-		tihs.y = y;
+		this.y = y;
 	}
 }
 
@@ -32,7 +32,7 @@ class Triangle {
 	public Triangle(Line a, Line b, Line c) {
 		this.a = a;
 		this.b = b;
-		tihs.c = c;
+		this.c = c;
 	}
 }
 ```
