@@ -110,7 +110,8 @@ The order is:
 
 ## Week 6 submission
 
-- You should be working with package `practicePackage.recursion`, stages 1 and 2 only. 
+TBA
+<!--- You should be working with package `practicePackage.recursion`, stages 1 and 2 only. 
 - There are a total of 21 functions across the two stages. 
 - You should implement all solutions recursively. 
 - IMPORTANT!!! Any use of loop automatically disqualifies your submission.
@@ -119,7 +120,7 @@ The order is:
 - Solving the 21st function will earn you my respect but unfortunately no bonus marks.
 
 Drag and Drop the two java files (Stage1.java, Stage2.java) from the package explorer into "Week 6 submission" submission box by **Sunday 4th April, 21:00**.
-Any compilation error, StackOverflowError or any infinite loop in ANY of the files will result in an automatic zero.
+Any compilation error, StackOverflowError or any infinite loop in ANY of the files will result in an automatic zero.-->
 
 ## ADVANCED PRACTICE QUESTIONS
 

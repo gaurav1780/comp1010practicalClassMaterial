@@ -50,20 +50,6 @@ You should create an instance copy of `r` as:
 data[i] = new Rectangle(r);
 ```
 
-# Weekly submission task 
-
-The weekly submission task can be found under the package `practicePackage.customBuiltLists.customArrayList.attempts`. Complete and submit the file `CustomArrayList.java` on iLearn under Week 10 submission by Sunday 16th May 9:00:00pm. Late submissions will not be marked.
-
-There are 17 functions, each worth 6 marks. Marks will be capped to 100 if you pass all of them. Passing mark is set to 42. So, you need to complete at least 7 functions to pass the weekly hurdle.
-
-As usual, timeouts, use of functions from outside the class, StackOverflowError, incorrect filename during submission will disqualify your submission.
-
-**IMPORTANT**
-
-`grow(int)` and `add(int)` are inter-dependent. so you need to implement both correctly for them to pass.
-
-Other functions are also dependent on `add(int)` since items are being added using this function in the function `run` annotated with `@BeforeEach` (in order to set up the objects properly).
-
 ## Advanced
 ### Only complete these tasks after completing MyArrayList.java
 
@@ -127,3 +113,19 @@ public static ArrayList<Integer> longestRepeatingSequence(ArrayList<Integer> lis
 	return null; //to be completed
 }
 ```
+
+# Weekly submission task 
+
+TBA
+
+<!--The weekly submission task can be found under the package `practicePackage.customBuiltLists.customArrayList.attempts`. Complete and submit the file `CustomArrayList.java` on iLearn under Week 10 submission by Sunday 16th May 9:00:00pm. Late submissions will not be marked.
+
+There are 17 functions, each worth 6 marks. Marks will be capped to 100 if you pass all of them. Passing mark is set to 42. So, you need to complete at least 7 functions to pass the weekly hurdle.
+
+As usual, timeouts, use of functions from outside the class, StackOverflowError, incorrect filename during submission will disqualify your submission.
+
+**IMPORTANT**
+
+`grow(int)` and `add(int)` are inter-dependent. so you need to implement both correctly for them to pass.
+
+Other functions are also dependent on `add(int)` since items are being added using this function in the function `run` annotated with `@BeforeEach` (in order to set up the objects properly).-->

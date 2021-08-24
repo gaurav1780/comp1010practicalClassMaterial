@@ -106,7 +106,9 @@ class CustomLinkedList {
 
 ## Weekly submission
 
-![](goodnews.jpeg)
+TBA
+
+<!--![](goodnews.jpeg)
 
 In order to reduce the workload on students during the last two weeks, we have decided to ask for the first few methods of assignment 4 to be submitted as Week 12 submission.
 You are required to complete the following methods and submit the three files into `Week 12 submission`:
@@ -128,4 +130,4 @@ You are required to complete the following methods and submit the three files in
 - Total is capped at 100.
 - At least 3 out of 7 methods should pass the tests to clear week 12 hurdle. 
 
-Usual penalties of using functions defined outside project, compilation errors, infinite loops or timeouts, StackOverflowError, wrong submission, change of package declaration, etc. apply.
+Usual penalties of using functions defined outside project, compilation errors, infinite loops or timeouts, StackOverflowError, wrong submission, change of package declaration, etc. apply.-->

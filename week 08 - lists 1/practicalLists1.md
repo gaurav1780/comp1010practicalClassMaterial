@@ -144,7 +144,9 @@ Define a method `getExclusiveItems` that when passed an `ArrayList` of `ArrayLis
 
 # Weekly submission
 
-This week, we are working with practice package for built-in lists. 
+TBA 
+
+<!--This week, we are working with practice package for built-in lists. 
 
 Relevant package: `practicePackage` -> `lists` -> `builtInLists` in the master project.
 
@@ -156,4 +158,4 @@ Hurdle requirement:
   - 5 methods from Stage3.
 
 You can drag and drop `Stage1.java` through `Stage4.java` into Week 8 submission. 
-(I have enabled uploading of multiple files, as long as all are java files).
+(I have enabled uploading of multiple files, as long as all are java files).-->

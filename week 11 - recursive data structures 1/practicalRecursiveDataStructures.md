@@ -305,9 +305,11 @@ public static boolean identical(Node head1, Node head2) {
 }
 ```
 
-## Question 13 (Weekly submission)
+# Weekly submission
 
-- You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customBuiltLinkedList.attempts.NodeService`. 
+TBA
+
+<!--- You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customBuiltLinkedList.attempts.NodeService`. 
 - The function `sum` is already completed as an example of traversal. The test for that already passes and is not considered towards the total.
 - Updated `testJoin`, `testSame` provided below.
 - Each function is worth 10 (out of 100).
@@ -404,4 +406,4 @@ IMPORTANT: Please fix `testJoin` and `testSame` as follows:
 
 		ensureNoModify();
 	}
-```
+```-->

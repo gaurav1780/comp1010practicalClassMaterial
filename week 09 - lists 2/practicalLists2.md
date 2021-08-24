@@ -43,7 +43,9 @@ The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) direc
 
 ## Weekly submission
 
-This week's task has been designed to help you with assignment 3.
+TBA
+
+<!--This week's task has been designed to help you with assignment 3.
 
 Download and import the project from [week9submissionTemplate.zip](https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/week%2009%20-%20lists%202/codes/week9submissionTemplate.zip).
 
@@ -57,5 +59,5 @@ Each method except getClean has two tests,
 You need to achieve a mark of **40** or more to clear this week's hurdle. Week 8 lecture recording (on Echo360) and lecture source codes (under announcements) will be very useful to complete this.
 
 Submit the file `ListOfListService.java` under `Week 9 Submission` box on iLearn.
-
+-->
 
