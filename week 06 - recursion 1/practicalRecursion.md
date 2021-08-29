@@ -39,6 +39,18 @@ public class Recursion_6_1 {
 }
 ```
 
+<!--Solution:
+
+```
+main ->
+mystery(16, 44) ->
+mystery(44, 16) ->
+mystery(16, 12) ->
+mystery(12, 4) ->
+mystery(4, 0) returns
+4 all the way back to main
+```-->
+
 ```java
 public class Recursion_6_2 {
 	public static int steep(String a) {
@@ -57,6 +69,32 @@ public class Recursion_6_2 {
 		System.out.println(b);
 	}
 }
+```
+
+Solution:
+
+```
+main ->
+steep("is it on?") ->
+steep("s it on?") ->
+steep(" it on?") ->
+steep("it on?") ->
+steep("t on?") ->
+steep(" on?") ->
+steep("on?") ->
+steep("n?") ->
+steep("?") ->
+steep("") returns 0
+steep("?") returns 0
+steep("n?") returns 0
+steep("on?") returns 0
+steep(" on?") returns 1
+steep("t on?") returns 1
+steep("it on?") returns 1
+steep(" it on?") returns 2
+steep("s it on?") returns 2
+steep("is it on?") returns 1
+
 ```
 
 ```java
@@ -81,7 +119,11 @@ public class Recursion_6_3 {
 	}
 }
 ```
-	
+
+<!--Solution:
+
+funky("inkling", "in") evaluates to "klg"
+-->	
 ## IMPORTANT
 
 Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, they may interject.
@@ -92,6 +134,56 @@ In the first task, your tutor will design and implement a recursive solution for
 
 1. [Number-based problem](https://codingbat.com/prob/p163932) 
 2. [String-based problem](https://codingbat.com/prob/p170371)
+
+Solutions
+
+```java
+public int sumDigits(int n) {
+  if(n==0) {
+    return 0;
+  }
+  if(n<0) {
+    n=-n;
+  }
+  int lastDigit = n%10;
+  int remainingNumber = n/10;
+  int delegateResult = sumDigits(remainingNumber);
+  int result = lastDigit + delegateResult;
+  return result;
+  
+  /*
+  also correct:
+  if(n==0) {
+    return 0;
+  }
+  return Math.abs(n%10 + sumDigits(n/10));
+  */
+}
+
+public int countX(String str) {
+  if(str.isEmpty()) {
+    return 0;
+  }
+  
+  char first = str.charAt(0);
+  String remainingString = str.substring(1);
+  int delegateResult = countX(remainingString);
+  int result = delegateResult;
+  if(first == 'x') {
+    result++;
+  }
+  return result;
+  
+  /*
+  also correct:
+  if(str.isEmpty()) {
+    return 0;
+  }
+  return str.charAt(0) == 'x' ? 1 + countX(str.substring(1)) : countX(str.substring(1));  
+  */
+}
+
+```
 
 For string recursion, you can use any method operating on String objects, such as,
 
