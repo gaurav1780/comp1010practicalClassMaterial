@@ -93,6 +93,23 @@ In the first task, your tutor will design and implement a recursive solution for
 1. [Number-based problem](https://codingbat.com/prob/p163932) 
 2. [String-based problem](https://codingbat.com/prob/p170371)
 
+For string recursion, you can use any method operating on String objects, such as,
+
+- `charAt(int)`
+- `substring(int)`
+- `substring(int,int)`
+- `isEmpty()`
+- `length()`
+- `toUpperCase()`
+- `toLowerCaseCase()`
+- ...
+
+You can also use Character class methods, such as,
+
+- `Character.isDigit(char)`
+- `Character.getNumericValue(char)`
+- ...
+
 ## ACTIVITY 3 - Practising in pairs
 
 Practice questions sequentially from [https://codingbat.com/java/Recursion-1](https://codingbat.com/java/Recursion-1)
@@ -108,25 +125,28 @@ The order is:
 7. `count7`
 8. and so on...
 
-## Week 6 submission
+----------
+# END OF PRACTICAL CLASS
+------------
 
-TBA
-<!--- You should be working with package `practicePackage.recursion`, stages 1 and 2 only. 
-- There are a total of 21 functions across the two stages. 
-- You should implement all solutions recursively. 
-- IMPORTANT!!! Any use of loop automatically disqualifies your submission.
-- Your code should pass **AT LEAST 10 functions to pass the hurdle**. 
-- Each function is worth 5 marks. Solving 20 functions will get you a full mark for week 6. 
-- Solving the 21st function will earn you my respect but unfortunately no bonus marks.
-
-Drag and Drop the two java files (Stage1.java, Stage2.java) from the package explorer into "Week 6 submission" submission box by **Sunday 4th April, 21:00**.
-Any compilation error, StackOverflowError or any infinite loop in ANY of the files will result in an automatic zero.-->
-
-## ADVANCED PRACTICE QUESTIONS
+## MORE PRACTICE QUESTIONS
 
 If you are done with Recursion - 1, move on to [https://codingbat.com/java/Recursion-2](https://codingbat.com/java/Recursion-2).
 
 ## ADVANCED QUESTIONS
 
 **This is for students looking for something fairly challenging.**
-Solve as many questions as you can from [RecursionService.java] in `practiceClassCodes.week06.RecursionService` 
+Solve as many questions as you can from `RecursionService.java` in `practiceClassCodes.week06.RecursionService` 
+
+# Week 6 submission
+
+You will be working with package `practicePackage.recursion`, stages 1 and 2 only. 
+
+- There are a total of 29 functions across the two stages. 
+- You can use `Math.abs` (as I accidentally left it in the first function of stage 2).
+- Passing criteria: Pass at least 12 tests.
+- All solutions must be implemented purely recursively (no loops + function must meaningfully call itself to achieve the solution). Any use of loop automatically disqualifies your submission. So even if you use a loop in one function, you will automatically get a zero. **TL;DR** Don't use any loop!
+- You can create helper functions (but even those shouldn't have loops).
+- Each test is worth 3.5 marks. Total marks are capped at 100.
+- Drag and Drop the two java files (`Stage1.java`, `Stage2.java`) from the package explorer into "Week 6 submission" submission box by **Sunday 5th September, 21:00**.
+- Standard [rules](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867) apply.
