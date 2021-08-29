@@ -30,7 +30,6 @@ public class Recursion_6_1 {
 		return mystery(b, a%b);
 	}
 	
-	public static boolean 
 	public static void main(String[] args) {
 		int x = 16, y = 44;
 		int z = mystery(x, y);
