@@ -92,7 +92,7 @@ steep("t on?") returns 1
 steep("it on?") returns 1
 steep(" it on?") returns 2
 steep("s it on?") returns 2
-steep("is it on?") returns 1
+steep("is it on?") returns 2
 
 ```-->
 
