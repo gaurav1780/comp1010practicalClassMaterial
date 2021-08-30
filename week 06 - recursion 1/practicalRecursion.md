@@ -125,7 +125,7 @@ funky("inkling", "in") evaluates to "klg"
 -->	
 ## IMPORTANT
 
-Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, they may interject.
+Students will be broken into groups of 2 to 4 for the rest of this workshop. For all programs, you should design the solution (not the code!) together. You can nominate one to code and others can contribute.
 
 ## ACTIVITY 2 - Demo of recursive design and coding
 
