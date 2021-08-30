@@ -70,7 +70,7 @@ public class Recursion_6_2 {
 }
 ```
 
-Solution:
+<!--Solution:
 
 ```
 main ->
@@ -94,7 +94,7 @@ steep(" it on?") returns 2
 steep("s it on?") returns 2
 steep("is it on?") returns 1
 
-```
+```-->
 
 ```java
 //ADVANCED (take-home)
@@ -134,7 +134,7 @@ In the first task, your tutor will design and implement a recursive solution for
 1. [Number-based problem](https://codingbat.com/prob/p163932) 
 2. [String-based problem](https://codingbat.com/prob/p170371)
 
-Solutions
+<!--Solutions
 
 ```java
 public int sumDigits(int n) {
@@ -182,7 +182,7 @@ public int countX(String str) {
   */
 }
 
-```
+```-->
 
 For string recursion, you can use any method operating on String objects, such as,
 
