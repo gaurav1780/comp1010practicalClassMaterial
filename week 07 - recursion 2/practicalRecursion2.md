@@ -21,7 +21,7 @@ Tutor will stay in the main channel and assist anyone who needs extra help, and 
 
 ## Week 7 submission
 
-You should be working with Stages 2, 3 and 4 of package `practicePackage.recursion.attempts`. If you solved some functions from Stage 2 for week 6 submission, excellent, you can re-use the same! 
+You should be working with Stages 2, 3 and 4 of package `practicePackage.recursion.attempts`. If you solved some functions from Stage 2 for week 6 submission, excellent, you can re-use the same! Tail-optimize your code to gain better understanding (even though Java doesn't facilitate it yet).
 
 Each function is worth 5 marks. To clear the hurdle for week 7, you must pass tests for,
 
