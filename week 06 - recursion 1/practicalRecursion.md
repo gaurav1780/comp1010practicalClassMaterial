@@ -30,7 +30,6 @@ public class Recursion_6_1 {
 		return mystery(b, a%b);
 	}
 	
-	public static boolean 
 	public static void main(String[] args) {
 		int x = 16, y = 44;
 		int z = mystery(x, y);
@@ -71,7 +70,7 @@ public class Recursion_6_2 {
 }
 ```
 
-Solution:
+<!--Solution:
 
 ```
 main ->
@@ -93,9 +92,9 @@ steep("t on?") returns 1
 steep("it on?") returns 1
 steep(" it on?") returns 2
 steep("s it on?") returns 2
-steep("is it on?") returns 1
+steep("is it on?") returns 2
 
-```
+```-->
 
 ```java
 //ADVANCED (take-home)
@@ -126,7 +125,7 @@ funky("inkling", "in") evaluates to "klg"
 -->	
 ## IMPORTANT
 
-Students should pair-up for the rest of this workshop. For all programs, you should design the solution (not the code!) together, then person A should code and person B should act as an observer. If the observer sees a mistake, they may interject.
+Students will be broken into groups of 2 to 4 for the rest of this workshop. For all programs, you should design the solution (not the code!) together. You can nominate one to code and others can contribute.
 
 ## ACTIVITY 2 - Demo of recursive design and coding
 
@@ -135,7 +134,7 @@ In the first task, your tutor will design and implement a recursive solution for
 1. [Number-based problem](https://codingbat.com/prob/p163932) 
 2. [String-based problem](https://codingbat.com/prob/p170371)
 
-Solutions
+<!--Solutions
 
 ```java
 public int sumDigits(int n) {
@@ -183,7 +182,7 @@ public int countX(String str) {
   */
 }
 
-```
+```-->
 
 For string recursion, you can use any method operating on String objects, such as,
 
@@ -237,7 +236,8 @@ You will be working with package `practicePackage.recursion`, stages 1 and 2 onl
 - There are a total of 29 functions across the two stages. 
 - You can use `Math.abs` (as I accidentally left it in the first function of stage 2).
 - Passing criteria: Pass at least 12 tests.
-- All solutions must be implemented purely recursively (no loops + function must meaningfully call itself to achieve the solution). Any use of loop automatically disqualifies your submission. So even if you use a loop in one function, you will automatically get a zero. **TL;DR** Don't use any loop!
+- Time limit: 5 seconds.
+- All solutions must be implemented purely recursively (no loops + function must meaningfully call itself or its helper(s) must call themselves - directly or indirectly - to achieve the solution). Any use of loop automatically disqualifies your submission. So even if you use a loop in one function, you will automatically get a zero. **TL;DR** Don't use any loop!
 - You can create helper functions (but even those shouldn't have loops).
 - Each test is worth 3.5 marks. Total marks are capped at 100.
 - Drag and Drop the two java files (`Stage1.java`, `Stage2.java`) from the package explorer into "Week 6 submission" submission box by **Sunday 5th September, 21:00**.
