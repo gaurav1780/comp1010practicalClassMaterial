@@ -33,6 +33,7 @@ Drag and drop the three files by **Sunday 12th September, 21:00**.
 - Standard [rules](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867) apply.
 - You should implement all solutions purely recursively (absolutely no iteration or simply delegating to built-in methods like `Math.pow` - you get a zero if that happens). 
 - Time limit: 5 seconds.
+- Marks will be capped at 100.
 - Helper functions are allowed.
 - Any method operating on String objects is allowed.
 - IMPORTANT!!! Any use of any loop automatically disqualifies your submission.
