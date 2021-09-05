@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Recursion (2)
+## Practical - Recursion (2)
 
 # NOTE
 
