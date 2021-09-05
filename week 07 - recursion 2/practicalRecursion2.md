@@ -2,7 +2,12 @@
 
 ## Practical - Recursion (2)
 
-# NOTE
+# Activity 1
+
+Your tutor will take questions about recursion and guide you accordingly. 
+They may take some time to go over basic concepts and help you with ways of coming up with recursive design.
+
+# Activity 2
 
 This week we will be working purely on codingbat exercises:
 
