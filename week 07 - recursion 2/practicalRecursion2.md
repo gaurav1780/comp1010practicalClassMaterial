@@ -42,5 +42,7 @@ Drag and drop the three files by **Sunday 12th September, 21:00**.
 - Marks will be capped at 100.
 - Helper functions are allowed.
 - Any method operating on String objects is allowed.
+- Math.max, Math.min, Math.abs are allowed. Math.pow is not.
+- If you call functions from Stage1, make sure you submit it as well, otherwise, compilation error will cause problems and standard rules about the same kick in.
 - IMPORTANT!!! Any use of any loop automatically disqualifies your submission.
 - Any compilation error and/or any StackOverflowError disqualifies your submission.
