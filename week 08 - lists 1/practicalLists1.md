@@ -150,7 +150,7 @@ Late submissions not accepted.
 
 This week, we are working with practice package for built-in lists. 
 
-Relevant package: `practicePackage` -> `lists` -> `builtInLists` in the master project.
+Relevant package: `practicePackage` -> `builtInLists` in the master project.
 
 Hurdle requirement:
 
