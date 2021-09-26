@@ -144,7 +144,7 @@ Define a function `getExclusiveItems` that when passed an `ArrayList` of `ArrayL
 
 # Weekly submission
 
-**Due Sunday 3rd October 9pm (21:00:00)**. 
+**IMPORTANT: Due Tuesday 5th October 9pm (21:00:00) because of assignment 2 being due on 3rd October.** 
 
 Late submissions not accepted. 
 
