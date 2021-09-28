@@ -156,7 +156,7 @@ Hurdle requirement:
 
 - Standard rules apply.
 - You can use functions in the file submitted, and besides those, only those methods that operates on an `ArrayList` object.
-- Stage 1 is not assessed but it will help you to solve Stave 1 functions to be better prepared for later stages.
+- Stage 1 is not assessed but it will help you to solve Stage 1 functions to be better prepared for later stages.
 - Each function in Stage 2 is worth 2 marks. 
 - Each function in Stage 3 is worth 3 marks.
 - Each function in Stage 4 is worth 6 marks.
