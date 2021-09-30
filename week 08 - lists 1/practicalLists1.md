@@ -17,7 +17,7 @@ You need to create a new Java project and add this file. To do this, choose
 
 ### Outline
 
-This is a practical class that gets to do the kind of practice on `ArrayList` objects that you will need in online quiz 3 and assignment 3.
+This is a practical class that gets to do the kind of practice on `ArrayList` objects that you will need in online quiz 3.
 
 ### Question 1
 
