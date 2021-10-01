@@ -2,6 +2,23 @@
 
 ## Workshop - Lists 1
 
+# Useful methods:
+
+| Method                         | Description                                                                                                                                                                                                                                                             |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| int size()                     | It is used to return the number of elements present in the list. Example: list.size()                                                                                                                                                                                   |
+| E get(int index)               | It is used to fetch the element from the particular position of the list. Examples: list.get(0), list.get(3), list.get(list.size()-5)                                                                                                                                   |
+| boolean add(E e)               | It is used to fetch the element from the particular position of the list. Examples: list.add(1729) for list containing Integer objects list.add("Super") for String list list.add(new Rectangle(10, 5)) for Rectangle (user-defined) list                               |
+| void add(int index, E element) | It is used to insert the specified element at the specified position in a list. Examples:  list.add(2, 1729) list.add(list.size(), false) list.add(5, "Nice!")                                                                                                          |
+| void clear()                   | It is used to remove all of the elements from this list. Example: list.clear()                                                                                                                                                                                          |
+| boolean isEmpty()              | It returns true if the list is empty, otherwise false. Example: list.isEmpty()                                                                                                                                                                                          |
+| int indexOf(Object o)          | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element. Example: list.indexOf("Super")                                                                                           |
+| int lastIndexOf(Object o)      | It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element. Example: list.lastIndexOf("Mario")                                                                                        |
+| boolean contains(Object o)     | It returns true if the list contains the specified element Example: list.contains("Doh!")                                                                                                                                                                               |
+| E remove(int index)            | It is used to remove the element present at the specified position in the list. Examples: Integer itemRemoved = list.remove(5); //for list of Integer objects String removedVal = list.remove(3); //for list of String objects list.remove(0); //returned value ignored |
+| boolean remove(Object o)       | It is used to remove the first occurrence of the specified element. Examples: boolean status = list.remove("Hello"); list.remove("Pi"); //returned value ignored                                                                                                        |
+| E set(int index, E element)    | It is used to replace the specified element in the list, present at the specified position. Example: list.set(2, "Done"); //for list of String objects, replaces third item with "Done" list.set(5, 1729); //for list of Integer objects, replaces sixth item with 1729 |
+
 ### All tasks must be completed in the file [Client.java](./codes/Client.java). 
 
 You need to create a new Java project and add this file. To do this, choose 
@@ -53,7 +70,7 @@ Display the last item in the list.
 
 ### Question 6
 
-Replace the fifth item by the String `you`. Display the list.
+Replace the fifth item by the String `"you"`. Display the list.
 
 ### Question 7
 
@@ -61,11 +78,11 @@ Remove the second item. Display the removed item (as `Removed item: <value>`). D
 
 ### Question 8
 
-Replace the fifth item by the String `are`. Display the list.
+Replace the fifth item by the String `"are"`. Display the list.
 
 ### Question 9
 
-Add the String `real` before the last item. Display the list.
+Add the String `"real"` before the last item. Display the list.
 
 ### Question 10
 
