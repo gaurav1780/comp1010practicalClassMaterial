@@ -54,8 +54,9 @@ Each method except getClean has two tests,
 - *Basic* tests: assume none of the sublists are null, and none of the items within the sublists are null.
 - *Comprehensive* tests: make no such assumption
 
-- Passing criteria: 40 marks. Marks for each test are specified in the test file.
-- You need to achieve a mark of **40** or more to clear this week's hurdle. 
+Further instructions:
+
+- Passing criteria for this week: 40 marks. Marks for each test are specified in the test file.
 - Submit the file `ListOfListService.java` under `Week 9 Submission` box on iLearn.
 - Standard rules for submissions listed on iLearn apply.
 - Execution time limit: 5 seconds.
