@@ -43,9 +43,7 @@ The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) direc
 
 ## Weekly submission
 
-TBA
-
-<!--This week's task has been designed to help you with assignment 3.
+Lecture notes on [List of lists](http://software-technology.mattr.net.au/programming/listOfLists.html) will be of tremendous help. There are heaps of examples in there for you.
 
 Download and import the project from [week9submissionTemplate.zip](https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/week%2009%20-%20lists%202/codes/week9submissionTemplate.zip).
 
@@ -56,8 +54,8 @@ Each method except getClean has two tests,
 - *Basic* tests: assume none of the sublists are null, and none of the items within the sublists are null.
 - *Comprehensive* tests: make no such assumption
 
-You need to achieve a mark of **40** or more to clear this week's hurdle. Week 8 lecture recording (on Echo360) and lecture source codes (under announcements) will be very useful to complete this.
-
-Submit the file `ListOfListService.java` under `Week 9 Submission` box on iLearn.
--->
-
+- Passing criteria: 40 marks. Marks for each test are specified in the test file.
+- You need to achieve a mark of **40** or more to clear this week's hurdle. 
+- Submit the file `ListOfListService.java` under `Week 9 Submission` box on iLearn.
+- Standard rules for submissions listed on iLearn apply.
+- Execution time limit: 5 seconds.
