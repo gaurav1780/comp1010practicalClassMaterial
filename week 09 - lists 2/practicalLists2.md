@@ -56,6 +56,7 @@ Each method except getClean has two tests,
 
 Further instructions:
 
+- Besides functions and methods in the template, you may only use methods that operate on `ArrayList` objects.
 - Passing criteria for this week: 40 marks. Marks for each test are specified in the test file.
 - Submit the file `ListOfListService.java` under `Week 9 Submission` box on iLearn.
 - Standard rules for submissions listed on iLearn apply.
