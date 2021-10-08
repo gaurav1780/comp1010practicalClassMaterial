@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.ArrayList;
 
 public class Advanced {
 	public static ArrayList<Integer> getUniqueValues(ArrayList<ArrayList<Integer>> list) {

@@ -4,10 +4,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class MyArrayListTest {
-	MyArrayList list;
+	public MyArrayList list;
 	
 	@BeforeEach
-	public void run() {
+	void run() {
 		list = new MyArrayList();
 		list.add(new Rectangle(10, 5));
 		list.add(new Rectangle(70, 10));
@@ -105,7 +105,7 @@ class MyArrayListTest {
 		assertNotNull(list.get(4));
 		assertEquals("30 by 5", list.get(4).toString());
 		
-		r.setWidth(1); 
+		r.width = 1;
 		//we wanted to add a deep copy of the object
 		assertEquals("30 by 5", list.get(4).toString());
 		
@@ -129,7 +129,7 @@ class MyArrayListTest {
 		assertNotNull(list.get(5));
 		assertEquals("100 by 100", list.get(5).toString());
 		
-		r.setWidth(888); 
+		r.width = 888;
 		//we wanted to add a deep copy of the object
 		assertEquals("100 by 100", list.get(5).toString());
 		
@@ -137,7 +137,15 @@ class MyArrayListTest {
 
 	@Test
 	void testRemoveInt() {
-		list.remove(1);
+		/*
+		list.add(new Rectangle(10, 5));
+		list.add(new Rectangle(70, 10));
+		list.add(new Rectangle(20));
+		list.add(new Rectangle(90, 50));
+		 */
+		Rectangle removed = list.remove(1);
+		assertNotNull(removed);
+		assertEquals("70 by 10", removed.toString());
 		assertEquals(3, list.currentSize());
 		assertNotNull(list.get(0));
 		assertEquals("10 by 5", list.get(0).toString());

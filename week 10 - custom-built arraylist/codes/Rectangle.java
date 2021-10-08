@@ -2,44 +2,22 @@
  * Do not modify this class.
  */
 public class Rectangle {
-	private int width, height;
-
-	public void setWidth(int w) {
-		if(w < 0) //invalid
-			width = -w;
-		else //valid
-			width = w;
-	}
-
-	public void setHeight(int h) {
-		if(h < 0) //invalid
-			height = 0;
-		else //valid
-			height = h;
-	}
-
-	public int getWidth() {
-		return width;
-	}
-
-	public int getHeight() {
-		return height;
-	}
+	public int width, height;
 
 	public Rectangle(int w, int h) {
-		setWidth(w);
-		setHeight(h);
+		width = Math.abs(w);
+		height = Math.abs(h);
 	}
 
 	public Rectangle(int side) {
-		setWidth(side);
-		setHeight(side);
+		width = Math.abs(side);
+		height = width;
 	}
 
 	//assume r is not null
 	public Rectangle(Rectangle r) {
-		setWidth(r.width);
-		setHeight(r.height);
+		width = Math.abs(r.width);
+		height = Math.abs(r.height);
 	}
 
 	public int area() {

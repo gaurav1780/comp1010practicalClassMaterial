@@ -2,27 +2,27 @@
 
 ## Practical - Custom-built array-based lists
 
-### All tasks must be completed in the file `MyArrayList.java`.
+You can find the files you need to work on in [codes](./codes). Create a new Java Project and paste these files in `src` directory.
 
-You can find the files you need to work on in the package `practicalClassCode.week10` in the master source code project. 
+## Complete methods in class `MyArrayList.java`.
 
-## Complete functions in class `MyArrayList.java`. 
+(All except the last one - `getCombinedList`)
 
-Complete only the functions that carry a `//to be completed` comment in them. Some functions are already completed. They carry a `DO NOT MODIFY` comment line in the Javadoc.
+Complete only the methods that carry a `//to be completed` comment in them. Some methods are already completed. They carry a `DO NOT MODIFY` comment line in the Javadoc.
 
-Specifications are provided as function header javadoc and tests are in `MyArrayListTest.java`.
+Specifications are provided as method header javadoc and tests are in `MyArrayListTest.java`.
 
 ### IMPORTANT! 
 
-Whenever you return a `Rectangle` object from a function or add a `Rectangle` object to the `Rectangle[]` data, you should do it so that an *instance copy* is made, so that if the client modifies the object returned, the original copy is not modified.
+Whenever you return a `Rectangle` object from a method or add a `Rectangle` object to the `Rectangle[]` data, you should do it so that an *instance copy* is made, so that if the client modifies the object returned, the original copy is not modified.
 
 The copy constructor is defined in class `Rectangle` as,
 
 ```java
 //assume r is not null
 public Rectangle(Rectangle r) {
-	setWidth(r.width);
-	setHeight(r.height);
+	width = Math.abs(r.width);
+	height = Math.abs(r.height);
 }
 ```
 
@@ -55,7 +55,7 @@ data[i] = new Rectangle(r);
 
 ### Advanced 1
 
-In the class `MyArrayList`, define a function that when passed another `MyArrayList` object, returns a `MyArrayList` object containing all items of the calling object followed by all items of the parameter object.
+In the class `MyArrayList`, define a method `getCombinedList` that when passed another `MyArrayList` object, returns a `MyArrayList` object containing all items of the calling object followed by all items of the parameter object.
 
 ### Advanced 2
 
@@ -116,16 +116,16 @@ public static ArrayList<Integer> longestRepeatingSequence(ArrayList<Integer> lis
 
 # Weekly submission task 
 
-TBA
-
-<!--The weekly submission task can be found under the package `practicePackage.customBuiltLists.customArrayList.attempts`. Complete and submit the file `CustomArrayList.java` on iLearn under Week 10 submission by Sunday 16th May 9:00:00pm. Late submissions will not be marked.
-
-There are 17 functions, each worth 6 marks. Marks will be capped to 100 if you pass all of them. Passing mark is set to 42. So, you need to complete at least 7 functions to pass the weekly hurdle.
-
-As usual, timeouts, use of functions from outside the class, StackOverflowError, incorrect filename during submission will disqualify your submission.
+The weekly submission task can be found under the package `practicePackage.customBuiltLists.customArrayList.attempts`. Complete and submit the file `CustomArrayList.java` on iLearn under Week 10 submission by Sunday 17th October 9:00:00pm. Late submissions will not be marked.
 
 **IMPORTANT**
 
-`grow(int)` and `add(int)` are inter-dependent. so you need to implement both correctly for them to pass.
+**`grow(int)` and `add(int)` are inter-dependent. so you need to implement both correctly for them to pass.**
 
-Other functions are also dependent on `add(int)` since items are being added using this function in the function `run` annotated with `@BeforeEach` (in order to set up the objects properly).-->
+Other functions are also dependent on `add(int)` since items are being added using this function in the function `run` annotated with `@BeforeEach` (in order to set up the objects properly).
+
+- Each of the 17 methods is worth 6 marks. 
+- Passing mark is 42 (any 7 methods). 
+- Marks will be capped to 100 if you pass all of them. 
+- Time limit: 5 seconds
+- Standard rules listed on iLearn apply.
