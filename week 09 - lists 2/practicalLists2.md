@@ -214,13 +214,13 @@ while(iter4.hasNext()) {
 5. Using an iterator, add a unit `Box` object (of dimensions 1 by 1 by 1) **before** every item that has an even depth.
 
 <!--```java
-ListIterator<Box> iter5 = boxes.listIterator();
-while(iter5.hasNext()) {
-	Box b = iter5.next();
-	if(b.depth%2 == 0) {
-		iter5.previous();
-		iter5.add(new Box(1, 1, 1));
-		iter5.next();
+ListIterator<Box> itr5 = boxes.listIterator(boxes.size());
+while(itr5.hasPrevious()) {
+	Box b = itr5.previous();
+	if(b.depth%2==0) { //even
+		Box boxToAdd = new Box(1, 1, 1);
+		itr5.add(boxToAdd);
+		itr5.previous(); //move explicitly before added item
 	}
 }
 ```-->
