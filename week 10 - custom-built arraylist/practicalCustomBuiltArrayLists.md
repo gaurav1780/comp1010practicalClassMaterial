@@ -1,8 +1,10 @@
-# Department of Computing, Macquarie University
+# School of Computing, Macquarie University
+
+(Yes, we have changed from *Department* --> *School*)
 
 ## Practical - Custom-built array-based lists
 
-You can find the files you need to work on in [codes](./codes). Create a new Java Project and paste these files in `src` directory.
+You can find the files you need to work on in [codes](./codes). Create a new Java Project and paste these files in `src` directory. 
 
 ## Complete methods in class `MyArrayList.java`.
 
