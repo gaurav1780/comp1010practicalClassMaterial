@@ -198,7 +198,7 @@ class MyArrayListTest {
 		assertEquals("30 by 5", list1.get(4).toString());
 
 		r.width = (1);
-		// we wanted to add a deep copy of the object
+		// we wanted to add an instance copy of the object
 		assertEquals("30 by 5", list1.get(4).toString());
 
 		// adding 6th item should have "grown" the list
@@ -222,7 +222,7 @@ class MyArrayListTest {
 		assertEquals("100 by 100", list1.get(5).toString());
 
 		r.width = (888);
-		// we wanted to add a deep copy of the object
+		// we wanted to add an instance copy of the object
 		assertEquals("100 by 100", list1.get(5).toString());
 		currentMethodName = new Throwable().getStackTrace()[0].getMethodName();
 
@@ -447,7 +447,7 @@ class MyArrayListTest {
 		arr[1].width = (100);
 		arr[2].height = (15);
 
-		// deep copies should have been added
+		//instance copies should have been added
 		assertNotNull(list1.get(4));
 		assertEquals("1 by 1", list1.get(4).toString());
 		assertNotNull(list1.get(5));
@@ -481,7 +481,7 @@ class MyArrayListTest {
 		arr[1].width = (100);
 		arr[2].height = (15);
 		arr[4].height = (15);
-		// deep copies should have been added
+		//instance copies should have been added
 		assertEquals("2 by 2", list3.get(7).toString());
 		assertEquals("10 by 10", list3.get(8).toString());
 		assertEquals("4 by 3", list3.get(9).toString());
