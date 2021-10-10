@@ -58,7 +58,12 @@ public class MyArrayList {
 	public void add(Rectangle r) {
 		if(isFull())
 			grow();
-		data[nItems++] = new Rectangle(r);
+		if(r != null) {
+			data[nItems++] = new Rectangle(r);
+		}
+		else {
+			data[nItems++] = null;
+		}
 	}
 	
 	/**
@@ -73,7 +78,7 @@ public class MyArrayList {
 	/**
 	 * DO NOT MODIFY
 	 * @param idx
-	 * @return a deep copy of item at index idx if any, null otherwise
+	 * @return an instance copy of item at index idx if any, null otherwise
 	 */
 	public Rectangle get(int idx) {
 		if(isValidIndex(idx)) {
