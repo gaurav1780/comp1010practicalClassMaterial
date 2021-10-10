@@ -386,9 +386,6 @@ class MyArrayListTest {
 		assertNotNull(list1.get(6));
 		assertEquals("11 by 11", list1.get(6).toString());
 
-		r.width = (100);
-		assertEquals("100 by 11", list1.get(6).toString()); // should be a reference copy
-
 		String[] copy = new String[list2.currentSize()];
 		for (int i = 0; i < list2.currentSize(); i++) {
 			copy[i] = list2.get(i).toString();
