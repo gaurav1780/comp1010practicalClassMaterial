@@ -42,6 +42,39 @@ class MyArrayListTest {
 		currentMethodName = null;
 	}
 
+	@Test @Graded(description="testGrow", marks=11)
+	public void testGrow() {
+		assertEquals(5, list1.currentCapacity());
+		list1.grow();
+		assertEquals(15, list1.currentCapacity());
+		assertEquals("10 by 5", list1.get(0).toString());
+		assertEquals("70 by 10", list1.get(1).toString());
+		list1.grow();
+		assertEquals(25, list1.currentCapacity());
+		assertEquals(4, list1.currentSize());
+
+		assertEquals(15, list2.currentCapacity());
+		Rectangle r0 = list2.get(0);
+		Rectangle r14 = list2.get(14);
+		list2.grow();
+		assertEquals(25, list2.currentCapacity());
+		assertEquals(r0.toString(), list2.get(0).toString());
+		assertEquals(r14.toString(), list2.get(14).toString());
+		list2.grow();
+		assertEquals(35, list2.currentCapacity());
+		assertEquals(15, list2.currentSize());
+
+		assertEquals(15, list3.currentCapacity());
+		r0 = list3.get(0);
+		Rectangle r5 = list3.get(5);
+		list3.grow();
+		assertEquals(25, list3.currentCapacity());
+		assertEquals(r0.toString(), list3.get(0).toString());
+		assertEquals(r5.toString(), list3.get(5).toString());
+		assertEquals(7, list3.currentSize());
+		currentMethodName = new Throwable().getStackTrace()[0].getMethodName();
+	}
+	
 	@Test @Graded(description="testCurrentSize", marks=1)
 	public void testCurrentSize() {
 		assertEquals(4, list1.currentSize());
@@ -104,81 +137,7 @@ class MyArrayListTest {
 		assertFalse(list2.isFull());
 		currentMethodName = new Throwable().getStackTrace()[0].getMethodName();
 	}
-
-	@Test @Graded(description="testGrow", marks=11)
-	public void testGrow() {
-		assertEquals(5, list1.currentCapacity());
-		list1.grow();
-		assertEquals(15, list1.currentCapacity());
-		assertEquals("10 by 5", list1.get(0).toString());
-		assertEquals("70 by 10", list1.get(1).toString());
-		list1.grow();
-		assertEquals(25, list1.currentCapacity());
-		assertEquals(4, list1.currentSize());
-
-		assertEquals(15, list2.currentCapacity());
-		Rectangle r0 = list2.get(0);
-		Rectangle r14 = list2.get(14);
-		list2.grow();
-		assertEquals(25, list2.currentCapacity());
-		assertEquals(r0.toString(), list2.get(0).toString());
-		assertEquals(r14.toString(), list2.get(14).toString());
-		list2.grow();
-		assertEquals(35, list2.currentCapacity());
-		assertEquals(15, list2.currentSize());
-
-		assertEquals(15, list3.currentCapacity());
-		r0 = list3.get(0);
-		Rectangle r5 = list3.get(5);
-		list3.grow();
-		assertEquals(25, list3.currentCapacity());
-		assertEquals(r0.toString(), list3.get(0).toString());
-		assertEquals(r5.toString(), list3.get(5).toString());
-		assertEquals(7, list3.currentSize());
-		currentMethodName = new Throwable().getStackTrace()[0].getMethodName();
-	}
-
-	@Test @Graded(description="testGet", marks=1)
-	public void testGet() {
-		Rectangle r = list1.get(0);
-		assertNotNull(r);
-		assertEquals("10 by 5", r.toString());
-		r = null; // should not modify first item in list
-
-		Rectangle s = list1.get(0);
-		assertNotNull(s);
-		assertEquals("10 by 5", s.toString());
-		s.height = (20);
-		assertEquals("10 by 5", list1.get(0).toString());
-
-		r = list1.get(3);
-		assertNotNull(r);
-		assertEquals("90 by 50", r.toString());
-		r.height = (20);
-		assertEquals("90 by 50", list1.get(3).toString());
-
-		r = list1.get(-1);
-		assertNull(r);
-
-		r = list1.get(4);
-		assertNull(r);
-
-		r = list3.get(-2);
-		assertNull(r);
-
-		r = list3.get(5);
-		assertNotNull(r);
-		assertEquals("15 by 30", r.toString());
-		r.height = (20);
-		assertEquals("15 by 30", list3.get(5).toString());
-
-		for (int i = 6; i < 20; i++) {
-			r = list3.get(i);
-			assertNull(r);
-		}
-		currentMethodName = new Throwable().getStackTrace()[0].getMethodName();
-	}
-
+	
 	@Test @Graded(description="testAddRectangle", marks=12)
 	public void testAddRectangle() {
 		// adding 5th rectangle doesn't need to grow the list
@@ -226,6 +185,47 @@ class MyArrayListTest {
 		assertEquals("100 by 100", list1.get(5).toString());
 		currentMethodName = new Throwable().getStackTrace()[0].getMethodName();
 
+	}
+
+	@Test @Graded(description="testGet", marks=1)
+	public void testGet() {
+		Rectangle r = list1.get(0);
+		assertNotNull(r);
+		assertEquals("10 by 5", r.toString());
+		r = null; // should not modify first item in list
+
+		Rectangle s = list1.get(0);
+		assertNotNull(s);
+		assertEquals("10 by 5", s.toString());
+		s.height = (20);
+		assertEquals("10 by 5", list1.get(0).toString());
+
+		r = list1.get(3);
+		assertNotNull(r);
+		assertEquals("90 by 50", r.toString());
+		r.height = (20);
+		assertEquals("90 by 50", list1.get(3).toString());
+
+		r = list1.get(-1);
+		assertNull(r);
+
+		r = list1.get(4);
+		assertNull(r);
+
+		r = list3.get(-2);
+		assertNull(r);
+
+		r = list3.get(5);
+		assertNotNull(r);
+		assertEquals("15 by 30", r.toString());
+		r.height = (20);
+		assertEquals("15 by 30", list3.get(5).toString());
+
+		for (int i = 6; i < 20; i++) {
+			r = list3.get(i);
+			assertNull(r);
+		}
+		currentMethodName = new Throwable().getStackTrace()[0].getMethodName();
 	}
 
 	@Test @Graded(description="testRemoveInt", marks=12)
