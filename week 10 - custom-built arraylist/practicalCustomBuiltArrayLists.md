@@ -128,8 +128,9 @@ Other functions are also dependent on `add(int)` since items are being added usi
 
 Also, a compilation error is when your project has a red cross, and  JUnit error is when the test outcomes have a red cross. The latter (JUnit errors) DO NOT disqualify your submission, the form (compilation error) does.
 
-- Each of the 13 tests is worth 8 marks each. 
-- Passing mark is 48 (any 6 methods). 
+- `testToString`, `testIsFull`, `testIsEmpty` DO NOT carry any marks.
+- Each of the other 14 tests is worth 8 marks each. 
+- Passing mark is 48 (passing any 6 tests). 
 - Marks will be capped to 100 if you pass all of them. 
 - Time limit: 5 seconds
 - Standard rules listed on iLearn apply.
