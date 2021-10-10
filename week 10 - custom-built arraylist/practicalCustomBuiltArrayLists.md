@@ -131,6 +131,6 @@ Also, a compilation error is when your project has a red cross, and  JUnit error
 - `testToString`, `testIsFull`, `testIsEmpty` DO NOT carry any marks.
 - Each of the other 14 tests is worth 8 marks each. 
 - Passing mark is 48 (passing any 6 tests). 
-- Marks will be capped to 100 if you pass all of them. 
+- Marks will be capped to 100 if you pass all of them (so you only need to do 13 to get 100, but don't let that stop you from going the distance!). 
 - Time limit: 5 seconds
 - Standard rules listed on iLearn apply.
