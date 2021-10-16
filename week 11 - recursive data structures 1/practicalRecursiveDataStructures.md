@@ -118,12 +118,12 @@ For the `Node` class defined in Question 3, what is the value of `result` when t
 ```java
 public class Client {
 	public static void main(String[] args) {
-		Node a = new Node(60, null);
-		Node g = new Node(10, a);
-		Node d = new Node(-50, g);
-		Node b = new Node(0, d);
-		Node c = new Node(-20, b);
-		Node e = new Node(-90, c);
+		Node a = new Node(10, null);
+		Node b = new Node(20, a);
+		Node c = new Node(30, b);
+		Node d = new Node(40, c);
+		Node e = new Node(50, d);
+		Node f = new Node(60, e);
 
 		int result = 0;
 		while(e != null) {
@@ -132,7 +132,8 @@ public class Client {
 	}
 }
 ```
-	
+
+<!-- infinite loop-->
 
 ## Question 6
 
@@ -141,12 +142,12 @@ For the `Node` class defined in Question 3, what is the value of `result` when t
 ```java
 public class Client {
 	public static void main(String[] args) {
-		Node a = new Node(60, null);
-		Node g = new Node(10, a);
-		Node d = new Node(-50, g);
-		Node b = new Node(0, d);
-		Node c = new Node(-20, b);
-		Node e = new Node(-90, c);
+		Node a = new Node(10, null);
+		Node b = new Node(20, a);
+		Node c = new Node(30, b);
+		Node d = new Node(40, c);
+		Node e = new Node(50, d);
+		Node f = new Node(60, e);
 
 		int result = 0;
 		while(e != null) {
@@ -157,6 +158,10 @@ public class Client {
 }
 ```	
 
+<!-- 
+50+40+30+20+10 = 150
+-->
+
 
 ## Question 7
 
@@ -165,12 +170,12 @@ For the `Node` class defined in Question 3, what are the values of `result1` and
 ```java
 public class Client {
 	public static void main(String[] args) {
-		Node a = new Node(60, null);
-		Node g = new Node(60, a);
-		Node d = new Node(60, g);
-		Node b = new Node(60, d);
-		Node c = new Node(60, b);
-		Node e = new Node(60, c);
+		Node a = new Node(10, null);
+		Node b = new Node(20, a);
+		Node c = new Node(30, b);
+		Node d = new Node(40, c);
+		Node e = new Node(50, d);
+		Node f = new Node(60, e);
 
 		int result1 = 0;
 		while(e != null) {
@@ -187,6 +192,11 @@ public class Client {
 }
 ```
 
+<!-- 
+result1 = 150
+result2 = 0 (e is already null)
+-->
+
 ## Question 8
 
 For the `Node` class defined in Question 3, what are the values of `result1` and `result2` when the following code is executed?
@@ -194,12 +204,12 @@ For the `Node` class defined in Question 3, what are the values of `result1` and
 ```java
 public class Client {
 	public static void main(String[] args) {
-		Node a = new Node(60, null);
-		Node g = new Node(10, a);
-		Node d = new Node(-50, g);
-		Node b = new Node(0, d);
-		Node c = new Node(-20, b);
-		Node e = new Node(-90, c);
+		Node a = new Node(10, null);
+		Node b = new Node(20, a);
+		Node c = new Node(30, b);
+		Node d = new Node(40, c);
+		Node e = new Node(50, d);
+		Node f = new Node(60, e);
 
 		int result1 = 0;
 		Node temp = e;
@@ -218,6 +228,11 @@ public class Client {
 }
 ```
 
+<!-- 
+result1 = 150
+result2 = 150
+-->
+
 ## Question 9
 
 For the `Node` class defined in Question 3, will the following code compile? 
@@ -228,12 +243,12 @@ For the `Node` class defined in Question 3, will the following code compile?
 ```java
 public class Client {
 	public static void main(String[] args) {
-		Node a = new Node(60, null);
-		Node g = new Node(10, a);
-		Node d = new Node(-50, g);
-		Node b = new Node(0, d);
-		Node c = new Node(-20, b);
-		Node e = new Node(-90, c);
+		Node a = new Node(10, null);
+		Node b = new Node(20, a);
+		Node c = new Node(30, b);
+		Node d = new Node(40, c);
+		Node e = new Node(50, d);
+		Node f = new Node(60, e);
 
 		int result1 = 0;
 		Node temp = e;
@@ -252,27 +267,47 @@ public class Client {
 }
 ```
 
+<!-- 
+compilation error due to:
+
+	result2 = result2 + temp;
+
+should be:
+	
+	result2 = result2 + temp.data;
+-->
+
 ## Question 10
 
-Consider the following method that adds up all the positive values in the nodes starting at `start`. There is a bug. Identify and fix it.
+Consider the following function that is meant to return the sum of all positive values in the nodes starting at `start`. There is a bug. Identify and fix it.
 
 ```java
 public static int sumPositives(Node start) {
 	//NOTE: it's ok to modify start since it's a reference copy of the actual parameter
 	int total = 0;
 	while(start != null) { 
-		if(start > 0) {
+		if(start.data > 0) {
 			total+=start.data;
 		}
-		start = start.next;
+		start = start.data;
 	}
 	return total;
 }
 ```
 
+<!-- 
+compilation error due to:
+
+		start = start.data;
+
+should be:
+
+		start = start.next;
+-->
+
 ## Question 11
 
-Consider the following method that returns `true` if all the values in nodes starting at `start` are positive, `false` otherwise. There is a bug. Identify and fix it.
+Consider the following method that should return `true` if all the values in nodes starting at `start` are positive, `false` otherwise. There is a bug. Identify and fix it.
 
 ```java
 public static boolean allPositives(Node start) {
@@ -287,9 +322,21 @@ public static boolean allPositives(Node start) {
 }
 ```
 
+<!--
+
+start.start.next
+
+should be outside the condition
+
+		if(start.data <= 0) { //at least one value is not positive
+			return false;
+		}
+		start = start.next;
+-->
+
 ## Question 12
 
-Consider the following method that returns `true` if the sequence of values in nodes starting at `head1` and `head2` is exactly the same, `false` otherwise. There is a bug. Identify and fix it.
+Consider the following method that should return `true` if the sequence of values in nodes starting at `head1` and `head2` is exactly the same, `false` otherwise. There is a bug. Identify and fix it.
 
 ```java
 public static boolean identical(Node head1, Node head2) {
@@ -305,27 +352,31 @@ public static boolean identical(Node head1, Node head2) {
 }
 ```
 
+<!--
+
+Not account for the length of sequences
+
+return true;
+
+should be 
+
+return head1==null && head2==null;
+
+(return head1==head2 will also be correct because loop terminates when at least one is null)
+-->
+
 # Weekly submission
 
-TBA
-
-<!--- You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customBuiltLinkedList.attempts.NodeService`. 
+You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customLinkedList.attempts.NodeService`. 
 - The function `sum` is already completed as an example of traversal. The test for that already passes and is not considered towards the total.
-- Updated `testJoin`, `testSame` provided below.
 - Each function is worth 10 (out of 100).
-- Passing mark: 50. So, you need to pass at least 5 out of 10 tests that fail in the template.
-- Submit file `NodeService.java` under Week 11 submission on iLearn by Sunday 23rd May, 21:00:00.
-- Late submissions not accepted (unless you have received special considerations approval).
+- Passing mark: 50. 
+- Submit file `NodeService.java` under Week 11 submission on iLearn by Sunday 24th October, 2021.
+- Late submissions not accepted.
+- Time limit: 5 seconds
+- Standard rules for assignment submissions apply.
 
-As usual, any of the following will disqualify your submission
-
-- late submission
-- compilation error
-- infinite loop
-- timeout (program must terminate within 5 seconds)
-- use of function from outside `NodeService` class
-
-IMPORTANT: Please fix `testJoin` and `testSame` as follows:
+<!--IMPORTANT: Please fix `testJoin` and `testSame` as follows:
 
 ```java
 	@Test
