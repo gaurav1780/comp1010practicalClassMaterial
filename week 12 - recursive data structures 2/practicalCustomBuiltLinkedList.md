@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Custom-built linked list.
+## Workshop - Custom-built linked list
 
 ### Outline:
 
@@ -12,7 +12,7 @@
 Consider the following class definition of `Node` and `CustomLinkedList` classes:
 
 ```java
-class Node {
+public class Node {
 	public int data;
 	public Node next;
 	
@@ -33,8 +33,8 @@ class Node {
 ```
 
 ```java
-class CustomLinkedList {
-	Node head;
+public class CustomLinkedList {
+	public Node head;
 	
 	public void addToFront(int val) {
 		head = new Node(val, head);
@@ -87,8 +87,8 @@ list.head.next.next = new Node(30, temp);
 Add an instance method in class `CustomLinkedList` that returns the sum of all items starting at `head` in the calling object. Remember that the method has access to the instance variable `head` and can use it.
 
 ```java
-class CustomLinkedList {
-	Node head;
+public class CustomLinkedList {
+	public Node head;
 	
 	public void addToFront(int val) {
 		head = new Node(val, head);
