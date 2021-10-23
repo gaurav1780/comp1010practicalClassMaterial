@@ -84,7 +84,7 @@ list.head.next.next = new Node(30, temp);
 
 ### Question 4
 
-Add an instance method in class `CustomLinkedList` that returns the sum of all items starting at `head` in the calling object. Remember that the method has access to the instance variable `head` and can use it.
+Add an instance method in class `CustomLinkedList` that returns the sum of all items starting at `head` in the calling object. The list should not be modified. That is, you can call it over and over on a given list, and every time, it will give the same result (until the list is updated in the client). Remember that the method has access to the instance variable `head` and can use it.
 
 ```java
 public class CustomLinkedList {
@@ -100,6 +100,28 @@ public class CustomLinkedList {
 	
 	public int sum() {
 		return 0; //to be completed
+	}
+}
+```
+
+### Question 5
+
+Add an instance method in class `CustomLinkedList` that returns a reference to the first Node that holds an odd number, `null` if no such node exists. The list should not be modified.
+
+```java
+public class CustomLinkedList {
+	public Node head;
+	
+	public void addToFront(int val) {
+		head = new Node(val, head);
+	}
+	
+	public String toString() {
+		return head.data+"";
+	}
+	
+	public Node firstOdd() {
+		return null; //to be completed
 	}
 }
 ```
