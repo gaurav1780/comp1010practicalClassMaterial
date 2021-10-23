@@ -108,6 +108,8 @@ class CustomLinkedList {
 
 ![](goodnews.jpeg)
 
+There is no weekly submission in weeks 12 or 13.
+
 <!--
 In order to reduce the workload on students during the last two weeks, we have decided to ask for the first few methods of assignment 4 to be submitted as Week 12 submission.
 You are required to complete the following methods and submit the three files into `Week 12 submission`:
