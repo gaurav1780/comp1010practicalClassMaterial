@@ -1,6 +1,6 @@
 # Department of Computing, Macquarie University
 
-## Workshop - Custom-built linked list.
+## Workshop - Custom-built linked list
 
 ### Outline:
 
@@ -12,7 +12,7 @@
 Consider the following class definition of `Node` and `CustomLinkedList` classes:
 
 ```java
-class Node {
+public class Node {
 	public int data;
 	public Node next;
 	
@@ -33,8 +33,8 @@ class Node {
 ```
 
 ```java
-class CustomLinkedList {
-	Node head;
+public class CustomLinkedList {
+	public Node head;
 	
 	public void addToFront(int val) {
 		head = new Node(val, head);
@@ -84,11 +84,11 @@ list.head.next.next = new Node(30, temp);
 
 ### Question 4
 
-Add an instance method in class `CustomLinkedList` that returns the sum of all items starting at `head` in the calling object. Remember that the method has access to the instance variable `head` and can use it.
+Add an instance method in class `CustomLinkedList` that returns the sum of all items starting at `head` in the calling object. The list should not be modified. That is, you can call it over and over on a given list, and every time, it will give the same result (until the list is updated in the client). Remember that the method has access to the instance variable `head` and can use it.
 
 ```java
-class CustomLinkedList {
-	Node head;
+public class CustomLinkedList {
+	public Node head;
 	
 	public void addToFront(int val) {
 		head = new Node(val, head);
@@ -104,12 +104,39 @@ class CustomLinkedList {
 }
 ```
 
+### Question 5
+
+Add an instance method in class `CustomLinkedList` that returns a reference to the first Node that holds an odd number, `null` if no such node exists. The list should not be modified.
+
+```java
+public class CustomLinkedList {
+	public Node head;
+	
+	public void addToFront(int val) {
+		head = new Node(val, head);
+	}
+	
+	public String toString() {
+		return head.data+"";
+	}
+	
+	public Node firstOdd() {
+		return null; //to be completed
+	}
+}
+```
+
+### Question 6
+
+You can work collaboratively on `MyLinkedList` under practice packages, or you can discuss other content you feel is useful.
+
 ## Weekly submission
 
-TBA
+![](goodnews.jpeg)
 
-<!--![](goodnews.jpeg)
+There is no weekly submission in weeks 12 or 13.
 
+<!--
 In order to reduce the workload on students during the last two weeks, we have decided to ask for the first few methods of assignment 4 to be submitted as Week 12 submission.
 You are required to complete the following methods and submit the three files into `Week 12 submission`:
 
