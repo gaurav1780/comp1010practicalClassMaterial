@@ -126,6 +126,10 @@ public class CustomLinkedList {
 }
 ```
 
+### Question 6
+
+You can work collaboratively on `MyLinkedList` under practice packages, or you can discuss other content you feel is useful.
+
 ## Weekly submission
 
 ![](goodnews.jpeg)
