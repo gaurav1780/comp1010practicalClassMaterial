@@ -1,8 +1,8 @@
 ### Question 1
 
-What is the output of the following program provided we have imported `java.util.Arrays` and the code sits in the `main` method. 
+What is the output of the following program provided we have imported `java.util.Arrays` and the code sits in the `main` method.
 
-TIP: Draw the memory diagram.
+**TIP:** Draw the memory diagram.
 
 ```java
 int[] a = {10, 70, 20, 90};
@@ -12,100 +12,33 @@ System.out.println(Arrays.toString(b));
 
 ### Question 2
 
-How many references and instances are in the memory when the `System.out.println("Done")` statement executes in the following client code?
-
-TIP: Draw the memory diagram, count the references and instances.
-
-```java
-public class Point {
-	public int x, y;
-	public Point(int _x, int _y) {
-		x = _x;
-		y = _y;
-	}
-}
-
-public class Line {
-	public Point start, end;
-	public Line(Point p1, Point p2) {
-		start = p1;
-		end = p2;
-	}
-}
-
-
-public class Client {
-   public static void main(String[] args) {
-      Point point1 = new Point(10, 40); 
-      Point point2 = new Point(70, 60);
-      Line line1 = new Line(point2, point1);
-      Line line2 = new Line(point1, point2);
-      System.out.println("Done");
-   }
-}
-```
-
-### Question 3
-
 Create a reference copy and an instance copy of the following array
 
 ```java
 int[] a = {10, 70, 20, 90};
 ```
 
+### Question 3
+
+Write a function that returns an array containing the `minimum` and `maximum` value in the `int` array `data`. The function should only iterate over the array `data` once. Remember to specify both the input and return type.
+
 ### Question 4
-
-Complete the `compareTo` function in the following class:
-
-```java
-public class Rectangle {
-   public int width, height;
-   public Rectangle(int w, int h) {
-      width = w;
-      height = h;
-   }
-   
-   public int area() {
-      return width * height;
-   }
-   
-   public int compareTo(Rectangle other) { // return 1, 0 or -1 based on area as comparison value
-   // to be completed
-   }
-}
-```
+What is the value of `-1%2`, `24%5`, `-24%5`, and `30%7`?  
 
 ### Question 5
-Using the `Node` class as defined below, complete the `returnLast` method in the custom-built linked list class `MyLinkedList`. 
-```java
-public class Node {
-   private int data;
-   public Node next;
-   
-   public Node(int d, Node n) {
-      data = d;
-      next = n;
-   }
-}
+Create an array `data` containing the values 10, 70, 20, 90 in one statement.
 
-public class MyLinkedList {
-   private Node head;
-   
-   public int size(){
-       Node temp =  head;
-       int count = 0;
-       
-       while(temp != null){
-           count++;
-           temp = temp.next;
-       }
-       return count;
-   }
-   
-   // return the last node containing the value x.
-   // return null if the list is empty or if x does not occur in the list.
-   public Node returnLast(int x) { 
-   // to be completed
-   }
-}
-```
+### Question 6
+Given an array `data`, write a function that checks if every value at an even index is directly followed by it's square.  
+`[2, 4, 5, 25, 3, 9]` returns `true` since `2^2 = 4`, `5^2 = 25` and `3^2 = 9`.  
+`[2, 4, 5, 10, 3]` returns `false` since `5^2 != 10` and 3 does not have a value after it.  
+
+Remember to check that you don't have any `IndexOutOfBounds` errors!  
+Can you write it both iteratively and recursively?
+
+### Question 7
+Given an array `data`, write a function that checks if every value at an even index is directly followed by it's square root.  
+`[4, 2, 25, 5, 9, 3]` returns `true` since `sqrt(4) = 2`, `sqrt(25) = 5` and `sqrt(9) = 3`.  
+`[4, 2, 26, 5, 9]` returns `false` since `sqrt(26) != 5` and 9 does not have a value after it.  
+
+**Tip:** If you use `Math.sqrt()` remember that it returns a `double` but `data` is an integer array. There is a faster way to do it than using `Math.sqrt()`.
