@@ -365,7 +365,9 @@ return head1==null && head2==null;
 (return head1==head2 will also be correct because loop terminates when at least one is null)
 -->
 
-# Weekly submission
+# Submission Task
+
+### Due: 5pm (17:00:00) Sunday 22nd May Sydney Time
 
 You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customLinkedList.attempts.NodeService`. 
 - The function `sum` is already completed as an example of traversal. The test for that already passes and is not considered towards the total.

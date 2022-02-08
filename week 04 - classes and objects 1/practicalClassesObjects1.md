@@ -330,9 +330,9 @@ No solution provided for this one
 
 ## Kahoot! (10 minutes)
 
-# END OF PRACTICAL CLASS
+# Submission Task
 
-## Submission for week 4
+###Due: 5pm (17:00:00), Sunday 20th March Sydney Time
 
 You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Each test is worth 4 marks. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 

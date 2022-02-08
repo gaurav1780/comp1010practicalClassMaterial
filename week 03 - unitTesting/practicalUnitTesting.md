@@ -201,7 +201,9 @@ public void testIndexOf() {
 }
 ```
 
-## Question 8
+# Submission Task
+
+### Due: 5pm (17:00:00), Wednesday 16th March Sydney Time
 
 Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. You need to work on, and submit stages 2 to 4. Stage 1 doesn't carry any marks. Stage 1 functions do not need any loop and they are to help you with the nitty-gritty required for Stages 2 and beyond. Mostly, they are about checking if the array is null, what's the length, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
 
@@ -220,4 +222,4 @@ In order to pass this week's hurdle, you must pass tests corresponding to,
 - Use of functions from outsie the four files will result in an automatic zero (Usual culprits: `Arrays`, `Collections`, `stream`, `Math`, `StringBuilder`).
 - Late submissions are NOT accepted.
 
-Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **5pm (17:00:00), Sunday 13th March Sydney Time**. Note: this is a one-off situation where submission is NOT on a Sunday night (because of assignment 1 deadline).
+Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **5pm (17:00:00), Wednesday 16th March Sydney Time**.

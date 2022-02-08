@@ -211,7 +211,9 @@ Adv5. [https://codingbat.com/prob/p134022](https://codingbat.com/prob/p134022)
 
 Adv6. [https://codingbat.com/prob/p189576](https://codingbat.com/prob/p189576) 
 
-# Submission activity for this week
+# Submission Task
+
+### Due: 5pm (17:00:00), Sunday 6th March Sydney Time
 
 - Complete functions in the `practicePackage.introduction.attempts` package such that the corresponding tests in `practicePackage.introduction.testsAttempts` pass.
 - Each test passed gets you 3 out of 100 marks.

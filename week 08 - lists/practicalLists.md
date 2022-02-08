@@ -368,9 +368,9 @@ public static ArrayList<Integer> getExclusiveItems(ArrayList<ArrayList<Integer>>
 }
 ```
 
-# Weekly submission
+# Submission Task
 
-**IMPORTANT: Due Wednesday 5pm (17:00:00) 4th May Sydney TIme because of assignment 2 being due on 1st May.** 
+### Due: 5pm (17:00:00) Wednesday 4th May Sydney Time 
 
 Late submissions not accepted. 
 

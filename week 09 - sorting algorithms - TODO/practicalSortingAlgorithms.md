@@ -13,6 +13,6 @@ The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) direc
 ### Question 1.
 
 
-## Weekly submission
+# Submission Task
 
-**Due date: 5pm (17:00:00) Sunday 8th May Sydney Time.**
+### Due: 5pm (17:00:00) Sunday 8th May Sydney Time

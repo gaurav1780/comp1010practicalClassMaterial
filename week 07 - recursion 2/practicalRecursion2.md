@@ -24,7 +24,9 @@ We will utilise *breakout rooms* for pair-programming where you are free to choo
 
 Tutor will stay in the main channel and assist anyone who needs extra help, and will duck in and out of different breakout rooms to see if you need any guidance.
 
-## Week 7 submission
+# Submission Task
+
+### Due: 5pm (17:00:00) Sunday 24th April Sydney Time
 
 You should be working with Stages 2, 3 and 4 of package `practicePackage.recursion.attempts`. If you solved some functions from Stage 2 for week 6 submission, excellent, you can re-use the same! Tail-optimize your code to gain better understanding (even though Java doesn't facilitate it yet).
 

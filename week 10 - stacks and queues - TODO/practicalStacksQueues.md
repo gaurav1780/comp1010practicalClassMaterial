@@ -10,6 +10,6 @@ This week, we'll practise with,
 ### Question 1.
 
 
-## Weekly submission
+# Submission Task
 
-**Due date: 5pm (17:00:00) Sunday 15th May Sydney Time.**
+### Due: 5pm (17:00:00) Sunday 15th May Sydney Time

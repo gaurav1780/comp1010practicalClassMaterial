@@ -229,7 +229,9 @@ If you are done with Recursion - 1, move on to [https://codingbat.com/java/Recur
 **This is for students looking for something fairly challenging.**
 Solve as many questions as you can from `RecursionService.java` in `practiceClassCodes.week06.RecursionService` 
 
-# Week 6 submission
+# Submission Task
+
+### Due: 5pm (17:00:00), Sunday 3rd April Sydney Time
 
 You will be working with package `practicePackage.recursion`, stages 1 and 2 only. 
 

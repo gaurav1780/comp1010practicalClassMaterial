@@ -248,6 +248,8 @@ public static int countSquares(Rectangle[] data) {
 
 # Submission Task
 
+### Due: 5pm (17:00:00), Sunday 27th March Sydney Time
+
 This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete the methods in,
 
 1. `Box.java`
