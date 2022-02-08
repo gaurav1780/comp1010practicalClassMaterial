@@ -1,4 +1,4 @@
-# Department of Computing, Macquarie University
+# School of Computing, Macquarie University
 
 ## Workshop - Custom-built linked list
 
