@@ -12,4 +12,4 @@ This week, we'll practise with,
 
 ## Weekly submission
 
-TODO
+**Due date: 5pm (17:00:00) Sunday 15th May Sydney Time.**

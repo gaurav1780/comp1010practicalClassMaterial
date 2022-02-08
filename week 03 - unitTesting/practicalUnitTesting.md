@@ -220,4 +220,4 @@ In order to pass this week's hurdle, you must pass tests corresponding to,
 - Use of functions from outsie the four files will result in an automatic zero (Usual culprits: `Arrays`, `Collections`, `stream`, `Math`, `StringBuilder`).
 - Late submissions are NOT accepted.
 
-Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **Tuesday 17th August, 21:00**. Note: this is a one-off situation where submission is NOT on a Sunday night (because of assignment 1 deadline).
+Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **5pm (17:00:00), Sunday 13th March Sydney Time**. Note: this is a one-off situation where submission is NOT on a Sunday night (because of assignment 1 deadline).

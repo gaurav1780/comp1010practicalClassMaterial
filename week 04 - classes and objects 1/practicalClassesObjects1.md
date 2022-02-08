@@ -340,7 +340,7 @@ You should work on the practice package for **classesObjects** for the rest of t
 For rules applicable to **all** assignment and weekly submissions, check iLearn. 
 Time limit on execution: 5 seconds 
 
-Make the submission by dragging the following files from package explorer into "Week 4 submission" by **Sunday 22st August, 21:00**. Only submit the files in which you finish one or more functions.
+Make the submission by dragging the following files from package explorer into "Week 4 submission" by **5pm (17:00:00), Sunday 20th March Sydney Time**. Only submit the files in which you finish one or more functions.
 
 1. CarTrip.java
 2. Job.java

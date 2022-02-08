@@ -128,21 +128,7 @@ The questions are split across multiple stages. Your tutor will demonstrate what
 
 **IMPORTANT** Please note that we expect, AT MOST, the top 2% students to be able to complete questions from the final Stage. So don't freak out because you can't solve those.
 
-&nbsp;<p>
-
-### Submission activity for this week
-
-&nbsp;<p>
-
-For week 2 - 
-
-- Complete functions in the `practicePackage.introduction.attempts` package such that the corresponding tests in `practicePackage.introduction.testsAttempts` pass.
-- Each test passed gets you 3 out of 100 marks.
-- Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
-- Passing mark is 60 (or at least 20 functions).
-- Submit all files on which you work (so up to 6 java files). For example, if you complete ONE OR MORE functions from Stage1.java, Stage2.java, Stage3.java - submit those three files.
-- You can make the submission by **Sunday 8th August 21:00**. Late submissions for weekly tasks are NOT accepted.
-- The more functions you can solve, the better prepared you are for the unit. 
+&nbsp;<p> 
 
 <!-- [![](http://img.youtube.com/vi/Q1oGIypsPls/0.jpg)](https://www.youtube.com/watch?v=Q1oGIypsPls "")
  -->
@@ -224,3 +210,13 @@ Adv4. [https://codingbat.com/prob/p193817](https://codingbat.com/prob/p193817)
 Adv5. [https://codingbat.com/prob/p134022](https://codingbat.com/prob/p134022)
 
 Adv6. [https://codingbat.com/prob/p189576](https://codingbat.com/prob/p189576) 
+
+# Submission activity for this week
+
+- Complete functions in the `practicePackage.introduction.attempts` package such that the corresponding tests in `practicePackage.introduction.testsAttempts` pass.
+- Each test passed gets you 3 out of 100 marks.
+- Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
+- Passing mark is 60 (or at least 20 functions).
+- Submit all files on which you work (so up to 6 java files). For example, if you complete ONE OR MORE functions from Stage1.java, Stage2.java, Stage3.java - submit those three files.
+- You can make the submission by **5pm (17:00:00), Sunday 6th March Sydney Time**. Late submissions are not accepted.
+- The more functions you can solve, the better prepared you are for the unit.

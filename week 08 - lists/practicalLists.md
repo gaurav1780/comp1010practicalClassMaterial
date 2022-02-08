@@ -370,7 +370,7 @@ public static ArrayList<Integer> getExclusiveItems(ArrayList<ArrayList<Integer>>
 
 # Weekly submission
 
-**IMPORTANT: Due Tuesday 5th October 9pm (21:00:00) because of assignment 2 being due on 3rd October.** 
+**IMPORTANT: Due Wednesday 5pm (17:00:00) 4th May Sydney TIme because of assignment 2 being due on 1st May.** 
 
 Late submissions not accepted. 
 

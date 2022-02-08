@@ -371,7 +371,7 @@ You will be working on `NodeService` class from the practice package located at 
 - The function `sum` is already completed as an example of traversal. The test for that already passes and is not considered towards the total.
 - Each function is worth 10 (out of 100).
 - Passing mark: 50. Alll marks capped at 100 (if all tests pass, you still get 100, not 110). 
-- Submit file `NodeService.java` under Week 11 submission on iLearn by Sunday 24th October, 2021.
+- Submit file `NodeService.java` under Week 11 submission on iLearn by **5pm (17:00:00) Sunday 22nd May Sydney Time.**
 - Late submissions not accepted.
 - Time limit: 5 seconds
 - Standard rules for assignment submissions apply.

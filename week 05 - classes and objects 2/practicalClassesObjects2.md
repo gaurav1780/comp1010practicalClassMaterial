@@ -276,6 +276,6 @@ Marks will be capped at 49 if you don't satisfy the passing criteria. For exampl
 
 Rules applicable to all submissions are on iLearn [here](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867).
 
-**Due date**: `Sunday 29th August 21:00` Sydney time.
+**Due date: 5pm (17:00:00), Sunday 27th March Sydney Time**.
 
 **Late submissions not accepted.**

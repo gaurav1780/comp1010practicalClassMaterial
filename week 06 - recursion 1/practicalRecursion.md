@@ -240,5 +240,5 @@ You will be working with package `practicePackage.recursion`, stages 1 and 2 onl
 - All solutions must be implemented purely recursively (no loops + function must meaningfully call itself or its helper(s) must call themselves - directly or indirectly - to achieve the solution). Any use of loop automatically disqualifies your submission. So even if you use a loop in one function, you will automatically get a zero. **TL;DR** Don't use any loop!
 - You can create helper functions (but even those shouldn't have loops).
 - Each test is worth 3.5 marks. Total marks are capped at 100.
-- Drag and Drop the two java files (`Stage1.java`, `Stage2.java`) from the package explorer into "Week 6 submission" submission box by **Sunday 5th September, 21:00**.
-- Standard [rules](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867) apply.
+- Drag and Drop the two java files (`Stage1.java`, `Stage2.java`) from the package explorer into "Week 6 submission" submission box by **5pm (17:00:00), Sunday 3rd April Sydney Time**.
+- Standard rules listed on iLearn apply.

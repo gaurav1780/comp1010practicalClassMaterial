@@ -33,9 +33,9 @@ Each function is worth 5 marks. To clear the hurdle for week 7, you must pass te
 - **at least** 6 functions from Stage2, and, 
 - **at least** 4 functions collectively from Stages 3 and 4. You can have all 4 from a single stage or a mix.
 
-Drag and drop the three files by **Sunday 12th September, 21:00**.
+Drag and drop the three files by **5pm (17:00:00) Sunday 24th April Sydney Time**.
 
-- Standard [rules](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867) apply.
+- Standard rules listed on iLearn apply.
 - You should implement all solutions purely recursively (absolutely no iteration or simply delegating to built-in methods like `Math.pow` - you get a zero if that happens). 
 - no loops + function must meaningfully call itself or its helper(s) must call themselves - directly or indirectly - to achieve the solution. If any of your function has loops or does not call itself - directly or indirectly, your submission will be disqualified and you will fail this hurdle.
 - Time limit: 5 seconds.

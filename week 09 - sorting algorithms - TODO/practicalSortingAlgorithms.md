@@ -15,4 +15,4 @@ The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) direc
 
 ## Weekly submission
 
-TODO
+**Due date: 5pm (17:00:00) Sunday 8th May Sydney Time.**
