@@ -129,7 +129,7 @@ words.add(words.size()-1, "real");
 
 ### Question 10
 
-Store the number of items that have more than 4 characters in a variable `lengthyWordCount`. Display the value of `lengthyWordCount`. If you use an enhanced for-loop, you will not have to chain method calls. If you use a regular loop, you will have to chain, i.e. words.get(i).length().
+Store the number of items that have more than 4 characters in a variable `lengthyWordCount`. Display the value of `lengthyWordCount`. If you use an enhanced for-loop, you will not have to chain method calls. If you use a regular loop, you will have to chain, i.e. `words.get(i).length()`.
 
 ```java
 int lengthyWordCount = 0;
@@ -259,7 +259,6 @@ returns the number of items in `list` that are in the range `[min...max]`. Retur
 
 Once you define the function, uncomment the test function `testCountInRange` in class `ClientTest` and run it.
 
-```java
 ```java
 public static int countInRange(ArrayList<Integer> list, int min, int max) {
 	if(list == null) {
@@ -397,5 +396,5 @@ Hurdle requirement:
   - 5 functions from Stage3.
 - If you don't meet the hurdle requirements, marks will be capped at 34.
 - If you meet the hurdle requirements, marks will be capped at 100.
-- You can drag and drop `Stage2.java`, `Stage3.java`, and `Stage4.java` into Week 8 submission. 
+- You can drag and drop `Stage2.java`, `Stage3.java`, and `Stage4.java` into the Week 8 submission. 
 - Time limit for this week: 5 seconds.
