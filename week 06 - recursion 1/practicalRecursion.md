@@ -216,7 +216,7 @@ The order is:
 7. `count7`
 8. and so on...
 
-----------
+------------
 # END OF PRACTICAL CLASS
 ------------
 

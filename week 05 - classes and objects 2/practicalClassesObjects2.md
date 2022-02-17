@@ -180,7 +180,7 @@ Rectangle[] data = new Rectangle[5];
 
 ## Question 3
 
-Take a look at the implementation of  `countSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
+Take a look at the implementation of `countSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
 
 Along the same lines, write a function `allSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns `true` if all objects are *squares*, and `false` otherwise.
 
@@ -230,7 +230,9 @@ public static int countSquares(Rectangle[] data) {
 
 ## KAHOOT TIME!!!
 
-----------------------------END OF PRACTICAL----------------------------
+------------
+# END OF PRACTICAL CLASS
+------------
 
 # ADVANCED QUESTIONS (HD level)
 
@@ -274,10 +276,10 @@ Passing criteria is:
 1. At least 7 methods from `Box.java`, AND,
 2. At least 3 methods from  `DeliveryTruck.java`.
 
-Marks will be capped at 49 if you don't satisfy the passing criteria. For example, if 14 methods pass in Box.java but none in DeliveryTruck.java, you will get 49 marks, and you won't pass the weekly hurdle.
+Marks will be capped at 49 if you don't satisfy the passing criteria. For example, if 14 methods pass in `Box.java` but none in `DeliveryTruck.java`, you will get 49 marks, and you won't pass the weekly hurdle.
 
 Rules applicable to all submissions are on iLearn [here](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867).
 
 **Due date: 5pm (17:00:00), Sunday 27th March Sydney Time**.
 
-**Late submissions not accepted.**
+**Late submissions will not accepted.**

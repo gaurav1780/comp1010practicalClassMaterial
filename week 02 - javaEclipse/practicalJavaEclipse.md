@@ -21,7 +21,7 @@ The following is true for basic java programs (the kind we'll see in the beginni
 
 - A basic java program resides in a `.java` file. 
 - **By convention**, the file name begins with an uppercase letter and is camel-cased. For example `HelloWorld.java`.
-- The first statement in a file named `XYZ.java` is the class header and must be:
+- The first statement in a file named `XYZ.java` is the class header and **must** be:
 		
 ```java
 public class XYZ {
@@ -54,12 +54,11 @@ It MUST satisfy following conditions:
 - (CRITICAL) `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
 - (FLEXIBLE) `args` is the formal parameter name. We can use any valid value for a literal instead of this.
 
-**TIP** In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` to automatically generate the `main()` function. [See here](figs/autogen.mp4) for a demonstration.
+**TIP** :bulb: In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` (`return` on Mac) to automatically generate the `main()` function. [See here](figs/autogen.mp4) for a demonstration.
 
 ### Question 2.
 
-Which of the following are valid headers for the `main` function
-?
+Which of the following are valid headers for the `main` function?
 	
 1. `public static void main()`
 2. `public void main(String[] args)`
@@ -94,7 +93,7 @@ public class MyFirstProgram {
 4. In the `main` function of file `Product.java`, initialize two integers with names and values of your choice and display their product. Values are displayed using `System.out.println` function.
 5. Run the program using the *Play* button. For example, if the variables hold the values 4 and 9, you should see the value 36 in the console. 
 
-### Question 4. (removed)
+### Question 4. *(removed)*
 
 ### Question 5.
 
@@ -110,7 +109,7 @@ public class MyFirstProgram {
 
 Complete the steps described in the program `AverageSpeedCalculator.java` so that the average speed of a return trip is calculated. The output should be 15.384....
 
-**TIP** `int/int = int` while `int/double = double`
+**TIP** :bulb: `int/int = int` while `int/double = double`
 
 ### Question 7.
 
@@ -169,7 +168,7 @@ Complete the body of the function `sumIndexRange` that returns the sum of all it
 public static int sumIndexRange(int[] data, int idx1, int idx2) {
 	return 0;
 	//so that there is no compilation error. 
-	//remove this statement before writing your code.
+	//remove this return statement before writing your code.
 }
 ```
 

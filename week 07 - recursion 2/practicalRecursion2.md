@@ -28,7 +28,7 @@ Tutor will stay in the main channel and assist anyone who needs extra help, and 
 
 ### Due: 5pm (17:00:00) Sunday 24th April Sydney Time
 
-You should be working with Stages 2, 3 and 4 of package `practicePackage.recursion.attempts`. If you solved some functions from Stage 2 for week 6 submission, excellent, you can re-use the same! Tail-optimize your code to gain better understanding (even though Java doesn't facilitate it yet).
+You should be working with Stages 2, 3 and 4 of package `practicePackage.recursion.attempts`. If you solved some functions from Stage 2 for week 6 submission, excellent, you can re-use the same! Tail-optimise your code to gain better understanding (even though Java doesn't facilitate it yet).
 
 Each function is worth 5 marks. To clear the hurdle for week 7, you must pass tests for,
 
@@ -43,8 +43,8 @@ Drag and drop the three files by **5pm (17:00:00) Sunday 24th April Sydney Time*
 - Time limit: 5 seconds.
 - Marks will be capped at 100.
 - Helper functions are allowed.
-- Any method operating on String objects is allowed.
-- Math.max, Math.min, Math.abs are allowed. Math.pow is not.
-- If you call functions from Stage1, make sure you submit it as well, otherwise, compilation error will cause problems and standard rules about the same kick in.
+- Any method operating on `String` objects is allowed.
+- `Math.max`, `Math.min`, `Math.abs` are allowed. `Math.pow` is not.
+- If you call functions from Stage1, make sure you submit it as well, otherwise compilation errors will cause problems and standard rules about the same kick in.
 - IMPORTANT!!! Any use of any loop automatically disqualifies your submission.
-- Any compilation error and/or any StackOverflowError disqualifies your submission.
+- Any compilation error and/or any `StackOverflowError` disqualifies your submission.
