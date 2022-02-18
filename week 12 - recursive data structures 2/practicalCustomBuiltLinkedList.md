@@ -134,7 +134,7 @@ You can work collaboratively on `MyLinkedList` under practice packages, or you c
 
 ![](goodnews.jpeg)
 
-There is no weekly submission in weeks 12 or 13.
+There is no weekly submission in weeks 12 or 13. Yay! :slightly_smiling_face:
 
 <!--
 In order to reduce the workload on students during the last two weeks, we have decided to ask for the first few methods of assignment 4 to be submitted as Week 12 submission.

@@ -13,13 +13,13 @@ Typically we have practical exams in week 4 so the source code is provided separ
 - references and instances
 - constructors
 - compareTo
-- `this` as a reference copy of *calling object*
+- `this` as a reference copy of the *calling object*
 
 ## Question 1 (Up to 10 minutes)
 
 Design classes (no implementation) that encapsulate the following real life entities. 
-	- Add up to three instance variables for each class. Select the three most important attributes if you think a class has more than three attributes.
-	- Add up to three instance methods that objects of this class may exhibit.
+- Add up to three instance variables for each class. Select the three most important attributes if you think a class has more than three attributes.
+- Add up to three instance methods that objects of this class may exhibit.
 
 #### 1. Person
 
@@ -332,7 +332,7 @@ No solution provided for this one
 
 # Submission Task
 
-###Due: 5pm (17:00:00), Sunday 20th March Sydney Time
+### Due: 5pm (17:00:00), Sunday 20th March Sydney Time
 
 You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Each test is worth 4 marks. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 

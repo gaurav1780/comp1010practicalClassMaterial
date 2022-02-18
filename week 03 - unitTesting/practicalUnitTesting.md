@@ -186,7 +186,7 @@ Complete the test to check the correctness of the implementation of `indexOf`.
 ```java
 @Test
 public void testIndexOf() {
-	//add test cases
+	// add some test cases!
 
 
 
@@ -205,7 +205,7 @@ public void testIndexOf() {
 
 ### Due: 5pm (17:00:00), Wednesday 16th March Sydney Time
 
-Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. You need to work on, and submit stages 2 to 4. Stage 1 doesn't carry any marks. Stage 1 functions do not need any loop and they are to help you with the nitty-gritty required for Stages 2 and beyond. Mostly, they are about checking if the array is null, what's the length, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
+Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. You need to work on, and submit, stages 2 to 4. **Stage 1 doesn't carry any marks.** Stage 1 functions do not need any loop and they are to help you with the nitty-gritty required for Stages 2 and beyond. Mostly, they are about checking if the array is null, what the length is, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
 
 In order to pass this week's hurdle, you must pass tests corresponding to,
 	
