@@ -33,7 +33,7 @@ NOTE: You can also install and use Visual Studio Code (with "Java Extension Pack
 
 ## Importing project containing all source codes!
 
-Source codes, including lecture and practical class codes, practice packages, and assignment 1 are available under [comp1010\_s2\_2021\_source\_codes\_for\_students\_v1.zip](./../comp1010practicalClassMaterial/blob/master/comp1010_source_codes_s1_2022.zip).
+Source codes, including lecture and practical class codes, practice packages, and assignment 1 are available under [comp1010\_s1\_2022\_source\_codes\_for\_students\_v1.zip](./../comp1010_source_codes_s1_2022.zip).
 
 1. Open Eclipse
 2. Choose `File`
