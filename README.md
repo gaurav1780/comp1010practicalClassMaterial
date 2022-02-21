@@ -9,7 +9,7 @@
 
 ## Accompanying source codes
 
-Source codes (templates) are located [here](https://github.com/gaurav1780/comp1010practicalClassMaterial/raw/master/comp1010_s2_2021_source_codes_for_students_v1.zip).
+Source codes (templates) are located [here](https://github.com/gaurav1780/comp1010practicalClassMaterial/blob/master/comp1010_source_codes_s1_2022.zip).
 
 1. Download the file
 2. Open Eclipse
