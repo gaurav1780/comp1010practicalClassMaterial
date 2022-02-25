@@ -50,7 +50,7 @@ public class Client1 {
 		Line e1 = new Line(p1, p2);
 		Line e2 = new Line(p2, p3);
 		Line e3 = new Line(p3, p1);
-		//list all references and instances here
+		// list all references and instances here
 	}
 }
 ```
@@ -244,7 +244,7 @@ public static int countSquares(Rectangle[] data) {
 	- all objects in the one-dimensional array `buckets[3]` have the same area, 
 	- and so on...
 
-2. (Not related to classes and objects but aimed at students who might want something a little ... extra). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs first in case of a tie.
+2. (Not related to classes and objects but aimed at students who might want something a little... extra 😛). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs first in case of a tie.
 
 ---------
 
@@ -267,7 +267,7 @@ Fixes in case your project has red exclamations:
 	 * comparison criteria: volume -> surface area
 ```
 
-This means, primary criterion is volume and secondary criterion (only if you cannot make a decision based on volume) is surface area. So compare volumes and return 1 or -1 if possible, and only otherwise, compare surface areas. Similarly, for `compareToAdvanced`, there are five levels of criteria. Apologies for the confusion due to the way it's written. 
+This means, primary criterion is volume and secondary criterion (only if you cannot make a decision based on volume) is surface area. So compare volumes and return 1 or -1 if possible, and **only otherwise**, compare surface areas. Similarly, for `compareToAdvanced`, there are five levels of criteria. Apologies for the confusion due to the way it's written. 
 
 There are 20 methods you need to complete, each worth 5 marks.
 
@@ -276,10 +276,10 @@ Passing criteria is:
 1. At least 7 methods from `Box.java`, AND,
 2. At least 3 methods from  `DeliveryTruck.java`.
 
-Marks will be capped at 49 if you don't satisfy the passing criteria. For example, if 14 methods pass in `Box.java` but none in `DeliveryTruck.java`, you will get 49 marks, and you won't pass the weekly hurdle.
+Your mark will be capped at 49 if you don't satisfy the passing criteria. For example, if 14 methods pass in `Box.java` but none in `DeliveryTruck.java`, you will get 49 marks, and you won't pass the weekly hurdle.
 
 Rules applicable to all submissions are on iLearn [here](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867).
 
 **Due date: 5pm (17:00:00), Sunday 27th March Sydney Time**.
 
-**Late submissions will not accepted.**
+As usual, **late submissions will not be accepted!**
