@@ -50,7 +50,7 @@ class Time {
 		minute = m2;
 	}
 	
-	public Time(Time source) { //this is called a "copy constructor"
+	public Time(Time source) { // this is called a "copy constructor"
 		day = source.day;
 		month = source.month;
 		year = source.year;
@@ -62,8 +62,8 @@ class Time {
 class Appointment {
 	public Time start, end;
 	public Appointment(Time s, Time e) {
-		start = new Time(s); //make a copy of s into start
-		end = new Time(e); //make a copy of e into end
+		start = new Time(s); // make a copy of s into start
+		end = new Time(e); // make a copy of e into end
 	}
 }
 
@@ -126,6 +126,7 @@ public class Client {
 		Node f = new Node(60, e);
 
 		int result = 0;
+
 		while(e != null) {
 			result = result + e.data;
 		}
@@ -133,7 +134,7 @@ public class Client {
 }
 ```
 
-<!-- infinite loop-->
+<!-- infinite loop -->
 
 ## Question 6
 
@@ -150,6 +151,7 @@ public class Client {
 		Node f = new Node(60, e);
 
 		int result = 0;
+
 		while(e != null) {
 			result = result + e.data;
 			e = e.next;
@@ -283,7 +285,7 @@ Consider the following function that is meant to return the sum of all positive 
 
 ```java
 public static int sumPositives(Node start) {
-	//NOTE: it's ok to modify start since it's a reference copy of the actual parameter
+	// NOTE: it's ok to modify start since it's a reference copy of the actual parameter
 	int total = 0;
 	while(start != null) { 
 		if(start.data > 0) {
@@ -311,9 +313,9 @@ Consider the following method that should return `true` if all the values in nod
 
 ```java
 public static boolean allPositives(Node start) {
-	//NOTE: it's ok to modify start since it's a reference copy of the actual parameter
+	// NOTE: it's ok to modify start since it's a reference copy of the actual parameter
 	while(start != null) { 
-		if(start.data <= 0) { //at least one value is not positive
+		if(start.data <= 0) { // at least one value is not positive
 			return false;
 			start = start.next;
 		}
@@ -344,7 +346,7 @@ public static boolean identical(Node head1, Node head2) {
 		if(head1.data != head2.data) {
 			return false;
 		}
-		//move both references one node forward
+		// move both references one node forward
 		head1 = head1.next;
 		head2 = head2.next;	
 	}
@@ -372,9 +374,9 @@ return head1==null && head2==null;
 You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customLinkedList.attempts.NodeService`. 
 - The function `sum` is already completed as an example of traversal. The test for that already passes and is not considered towards the total.
 - Each function is worth 10 (out of 100).
-- Passing mark: 50. Alll marks capped at 100 (if all tests pass, you still get 100, not 110). 
-- Submit file `NodeService.java` under Week 11 submission on iLearn by **5pm (17:00:00) Sunday 22nd May Sydney Time.**
-- Late submissions not accepted.
+- Passing mark: 50. All marks capped at 100 (if all tests pass, you still get 100, not 110). 
+- Submit the `NodeService.java` file under Week 11 submission on iLearn by **5pm (17:00:00) Sunday 22nd May Sydney Time.**
+- **Late submissions are not accepted**.
 - Time limit: 5 seconds
 - Standard rules for assignment submissions apply.
 
