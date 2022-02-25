@@ -99,7 +99,7 @@ public class CustomLinkedList {
 	}
 	
 	public int sum() {
-		return 0; //to be completed
+		return 0; // to be completed
 	}
 }
 ```
@@ -121,7 +121,7 @@ public class CustomLinkedList {
 	}
 	
 	public Node firstOdd() {
-		return null; //to be completed
+		return null; // to be completed
 	}
 }
 ```
