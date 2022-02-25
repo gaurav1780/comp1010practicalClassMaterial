@@ -1,8 +1,8 @@
 ### Question 1
 
-What is the output of the following program provided we have imported `java.util.Arrays` and the code sits in the `main` method.
+What is the output of the following program, provided we have imported `java.util.Arrays` and the code sits in the `main` method?
 
-**TIP:** Draw the memory diagram.
+**TIP :bulb:** Draw the memory diagram.
 
 ```java
 int[] a = {10, 70, 20, 90};
@@ -23,10 +23,14 @@ int[] a = {10, 70, 20, 90};
 Write a function that returns an array containing the `minimum` and `maximum` value in the `int` array `data`. The function should only iterate over the array `data` once. Remember to specify both the input and return type.
 
 ### Question 4
-What is the value of `-1%2`, `24%5`, `-24%5`, and `30%7`?  
+What is the value of
+- `-1%2`, 
+- `24%5`,
+- `-24%5`, and
+- `30%7`?
 
 ### Question 5
-Create an array `data` containing the values 10, 70, 20, 90 in one statement.
+Create an array `data` containing the values `10, 70, 20, 90` in *one statement*.
 
 ### Question 6
 Given an array `data`, write a function that checks if every value at an even index is directly followed by it's square.  
@@ -41,4 +45,4 @@ Given an array `data`, write a function that checks if every value at an even in
 `[4, 2, 25, 5, 9, 3]` returns `true` since `sqrt(4) = 2`, `sqrt(25) = 5` and `sqrt(9) = 3`.  
 `[4, 2, 26, 5, 9]` returns `false` since `sqrt(26) != 5` and 9 does not have a value after it.  
 
-**Tip:** If you use `Math.sqrt()` remember that it returns a `double` but `data` is an integer array. There is a faster way to do it than using `Math.sqrt()`.
+**TIP :bulb:** If you use `Math.sqrt()` remember that it returns a `double` but `data` is an integer array. There is a faster way to do it than using `Math.sqrt()`.

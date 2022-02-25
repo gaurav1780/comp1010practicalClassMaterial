@@ -49,8 +49,13 @@ public class Rectangle {
       return width * height;
    }
 
-   public int compareTo(Rectangle other) { // return 1, 0 or -1 based on area as comparison value
-   // to be completed
+   /** 
+    *
+    * @param other Another rectangle to comapre to
+    * @return 1, 0 or -1 based on area as comparison value
+    */
+   public int compareTo(Rectangle other) {
+      // to be completed
    }
 }
 ```
@@ -87,7 +92,7 @@ public class Box {
 ### Question 6
 What is the value of `x`, `y` and `z` after the following code executes?
 
-**Tip:** Draw a memory diagram
+**Tip :bulb:** Draw a memory diagram!
 
 ```java
 Rectangle r = new Rectangle(10, 70);
@@ -98,6 +103,6 @@ Rectangle x = b.side;
 Box y = new Box(new Rectangle(r.width, r.height), temp);
 Box z = new Box(b.base, b.side);
 
-z.side.widht = 5;
+z.side.width = 5;
 b.base = new Rectangle(1, 1);
 ```
