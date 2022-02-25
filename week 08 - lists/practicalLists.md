@@ -6,18 +6,18 @@
 
 | Method                         | Description                                                                                                                                                                                                                                                             |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| int size()                     | It is used to return the number of elements present in the list. Example: list.size()                                                                                                                                                                                   |
-| E get(int index)               | It is used to fetch the element from the particular position of the list. Examples: list.get(0), list.get(3), list.get(list.size()-5)                                                                                                                                   |
-| boolean add(E e)               | It is used to fetch the element from the particular position of the list. Examples: list.add(1729) for list containing Integer objects list.add("Super") for String list list.add(new Rectangle(10, 5)) for Rectangle (user-defined) list                               |
-| void add(int index, E element) | It is used to insert the specified element at the specified position in a list. Examples:  list.add(2, 1729) list.add(list.size(), false) list.add(5, "Nice!")                                                                                                          |
-| void clear()                   | It is used to remove all of the elements from this list. Example: list.clear()                                                                                                                                                                                          |
-| boolean isEmpty()              | It returns true if the list is empty, otherwise false. Example: list.isEmpty()                                                                                                                                                                                          |
-| int indexOf(Object o)          | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element. Example: list.indexOf("Super")                                                                                           |
-| int lastIndexOf(Object o)      | It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element. Example: list.lastIndexOf("Mario")                                                                                        |
-| boolean contains(Object o)     | It returns true if the list contains the specified element Example: list.contains("Doh!")                                                                                                                                                                               |
-| E remove(int index)            | It is used to remove the element present at the specified position in the list. Examples: Integer itemRemoved = list.remove(5); //for list of Integer objects String removedVal = list.remove(3); //for list of String objects list.remove(0); //returned value ignored |
-| boolean remove(Object o)       | It is used to remove the first occurrence of the specified element. Examples: boolean status = list.remove("Hello"); list.remove("Pi"); //returned value ignored                                                                                                        |
-| E set(int index, E element)    | It is used to replace the specified element in the list, present at the specified position. Example: list.set(2, "Done"); //for list of String objects, replaces third item with "Done" list.set(5, 1729); //for list of Integer objects, replaces sixth item with 1729 |
+| <code>int size()</code>                     | It is used to return the number of elements present in the list. Example: list.size()                                                                                                                                                                                   |
+| <code>E get(int index)</code>               | It is used to fetch the element from the particular position of the list. Examples: list.get(0), list.get(3), list.get(list.size()-5)                                                                                                                                   |
+| <code>boolean add(E e)</code>               | It is used to fetch the element from the particular position of the list. Examples: list.add(1729) for list containing Integer objects list.add("Super") for String list list.add(new Rectangle(10, 5)) for Rectangle (user-defined) list                               |
+| <code>void add(int index, E element)</code> | It is used to insert the specified element at the specified position in a list. Examples:  list.add(2, 1729) list.add(list.size(), false) list.add(5, "Nice!")                                                                                                          |
+| <code>void clear()</code>                   | It is used to remove all of the elements from this list. Example: list.clear()                                                                                                                                                                                          |
+| <code>boolean isEmpty()</code>              | It returns true if the list is empty, otherwise false. Example: list.isEmpty()                                                                                                                                                                                          |
+| <code>int indexOf(Object o)</code>          | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element. Example: list.indexOf("Super")                                                                                           |
+| <code>int lastIndexOf(Object o)</code>      | It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element. Example: list.lastIndexOf("Mario")                                                                                        |
+| <code>boolean contains(Object o)</code>     | It returns true if the list contains the specified element Example: list.contains("Doh!")                                                                                                                                                                               |
+| <code>E remove(int index)</code>            | It is used to remove the element present at the specified position in the list. Examples: Integer itemRemoved = list.remove(5); //for list of Integer objects String removedVal = list.remove(3); //for list of String objects list.remove(0); //returned value ignored |
+| <code>boolean remove(Object o)</code>       | It is used to remove the first occurrence of the specified element. Examples: boolean status = list.remove("Hello"); list.remove("Pi"); //returned value ignored                                                                                                        |
+| <code>E set(int index, E element)</code>    | It is used to replace the specified element in the list, present at the specified position. Example: list.set(2, "Done"); //for list of String objects, replaces third item with "Done" list.set(5, 1729); //for list of Integer objects, replaces sixth item with 1729 |
 
 ### All tasks must be completed in the file [Client.java](./codes/Client.java). 
 
@@ -48,15 +48,15 @@ ArrayList<String> words = new ArrayList<String>();
 
 Add the following items, in that order, to the list `words`:
 
-- "I"
-- "solemnly"
-- "swear"
-- "that"
-- "I"
-- "am"
-- "upto"
-- "no"
-- "good."
+- `"I"`
+- `"solemnly"`
+- `"swear"`
+- `"that"`
+- `"I"`
+- `"am"`
+- `"upto"`
+- `"no"`
+- `"good."`
 
 ```java
 words.add("I");
@@ -391,7 +391,7 @@ Hurdle requirement:
 	- `containsInRange`
 	- `allPositives`
 	- `isDescending`
-- To clear the weekly hurdle, you must solve at least -
+- To clear the weekly hurdle, you must solve at least
   - 10 functions from Stage2, **and**, 
   - 5 functions from Stage3.
 - If you don't meet the hurdle requirements, marks will be capped at 34.
