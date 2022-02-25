@@ -1,6 +1,6 @@
 # School of Computing, Macquarie University
 
-## Practical - Recursion (2)
+## Practical - Recursion 2️⃣
 
 # Activity 1
 
@@ -45,6 +45,6 @@ Drag and drop the three files by **5pm (17:00:00) Sunday 24th April Sydney Time*
 - Helper functions are allowed.
 - Any method operating on `String` objects is allowed.
 - `Math.max`, `Math.min`, `Math.abs` are allowed. `Math.pow` is not.
-- If you call functions from Stage1, make sure you submit it as well, otherwise compilation errors will cause problems and standard rules about the same kick in.
-- IMPORTANT!!! Any use of any loop automatically disqualifies your submission.
+- If you call functions from `Stage1`, make sure you submit it as well, otherwise compilation errors will cause problems and standard rules about the same kick in.
+- **IMPORTANT!!! Any use of any loop automatically disqualifies your submission.**
 - Any compilation error and/or any `StackOverflowError` disqualifies your submission.
