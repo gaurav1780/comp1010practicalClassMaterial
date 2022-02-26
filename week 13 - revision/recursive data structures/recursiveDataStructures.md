@@ -1,4 +1,5 @@
 This `Node` class will be used for all questions, unless otherwise specified.
+
 ```java
 public class Node {
    private int data;
@@ -30,9 +31,17 @@ public class MyLinkedList {
 
    // return the last node containing the value x.
    // return null if the list is empty or if x does not occur in the list.
-   public Node returnLast(int x) {
-   // to be completed
-   }
+
+   /** 
+   *
+   * @param x the integer to check node data fields against
+   * @return  the *last* node that contains x, or null if:
+   *          x does not occur in the list, or
+   *          the list is empty
+   */
+  public Node returnLast(int x) {
+    // to be completed
+  }
 }
 ```
 

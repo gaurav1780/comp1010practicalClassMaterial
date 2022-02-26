@@ -64,12 +64,14 @@ Now, consider the following implementation of this function:
 ```java
 public class Question4a {
 	/** 
-	 * return the sum of all items of the array passed
-	 */
+	*
+	* @param data an integer array
+	* @return the sum of the elements of the array data
+	*/
 	public static int sum(int[] data) {
 		int r = 0;
 		for(int i=1; i < data.length; i++) {
-			r+=data[i]; //change from r++; to r+=data[i]; (
+			r+=data[i]; // change from r++; to r+=data[i]; (
 		}
 		return r;
 	}
@@ -139,7 +141,7 @@ public class Question6 {
 	 * the item after it.
 	 */
 	public static boolean isAscending(int[] data) {
-		return false; //to be completed
+		return false; // to be completed
 	}
 }
 ```
@@ -154,7 +156,7 @@ public void testIsAscending() {
 	int[] b = {40, 30, 20, 10};
 	assertFalse(Question6.isAscending(b));
 	
-	//add more test cases
+	// add some more test cases!
 	
 	
 	
@@ -167,7 +169,7 @@ public void testIsAscending() {
 
 ## Question 7
 
-Consider the following function header:
+Consider and complete the following function:
 
 ```java
 public class Question7 {
@@ -176,7 +178,7 @@ public class Question7 {
 	 * return -1 if target does not exist in the array
 	 */
 	public static int indexOf(int[] data, int target) {
-		return 0; //to be completed
+		return 0; // to be completed
 	}
 }
 ```
@@ -205,7 +207,11 @@ public void testIndexOf() {
 
 ### Due: 5pm (17:00:00), Wednesday 16th March Sydney Time
 
-Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, corresponding tests under `practicePackage.arrays.testsAttempts`. There are four stages, going from easier to harder. You need to work on, and submit, stages 2 to 4. **Stage 1 doesn't carry any marks.** Stage 1 functions do not need any loop and they are to help you with the nitty-gritty required for Stages 2 and beyond. Mostly, they are about checking if the array is null, what the length is, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
+Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, and the corresponding tests are under `practicePackage.arrays.testsAttempts`. 
+- There are four stages, going from easier to harder. You need to work on, and submit, stages 2 to 4.
+- **Stage 1 doesn't carry any marks.**
+- Stage 1 functions do not need any loop and they are to help you with the nitty-gritty required for Stages 2 and beyond. 
+- Mostly, they are about checking if the array is `null`, what the length is, and returning either the value at an index, or the index itself; or in some cases, returning `true` or `false` based on that.
 
 In order to pass this week's hurdle, you must pass tests corresponding to,
 	
@@ -219,7 +225,7 @@ In order to pass this week's hurdle, you must pass tests corresponding to,
 - Any infinite loop in any file will result in an automatic zero.
 - Any compilation error in any file will result in an automatic zero. (This covers incorrect file names too).
 - Running `testsAttempts` as JUnit test must finish executing in under 10 seconds. If execution time is more than that, it will result in an automatic zero.
-- Use of functions from outsie the four files will result in an automatic zero (Usual culprits: `Arrays`, `Collections`, `stream`, `Math`, `StringBuilder`).
-- Late submissions are NOT accepted.
+- Use of functions from outside the four files will result in an automatic zero (Usual culprits: `Arrays`, `Collections`, `stream`, `Math`, `StringBuilder`).
+- Late submissions are **NOT** accepted.
 
 Drag and Drop **all** relevant java files from the package explorer in Eclipse or explorer in Visual Studio Code into "Week 3 submission" submission box by **5pm (17:00:00), Wednesday 16th March Sydney Time**.

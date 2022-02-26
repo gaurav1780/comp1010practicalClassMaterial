@@ -18,7 +18,8 @@ Typically we have practical exams in week 4 so the source code is provided separ
 ## Question 1 (Up to 10 minutes)
 
 Design classes (no implementation) that encapsulate the following real life entities. 
-- Add up to three instance variables for each class. Select the three most important attributes if you think a class has more than three attributes.
+- Add up to three instance variables for each class. 
+	- Select the three most important attributes if you think a class has more than three attributes.
 - Add up to three instance methods that objects of this class may exhibit.
 
 #### 1. Person
@@ -334,19 +335,21 @@ No solution provided for this one
 
 ### Due: 5pm (17:00:00), Sunday 20th March Sydney Time
 
-You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, corresponding tests under `practicePackage.classesObjects.testsAttempts`. There are a total of 25 tests across 4 stages. Each test is worth 4 marks. Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
-
+You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, and the corresponding tests are under `practicePackage.classesObjects.testsAttempts`. 
+- There are a total of 25 tests across 4 stages. 
+- Each test is worth 4 marks. 
+- Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
 
 For rules applicable to **all** assignment and weekly submissions, check iLearn. 
 Time limit on execution: 5 seconds 
 
 Make the submission by dragging the following files from package explorer into "Week 4 submission" by **5pm (17:00:00), Sunday 20th March Sydney Time**. Only submit the files in which you finish one or more functions.
 
-1. CarTrip.java
-2. Job.java
-3. Fraction.java
-4. Time.java
-5. CoffeeTracker.java
-6. LargeInteger.java
+1. `CarTrip.java`
+2. `Job.java`
+3. `Fraction.java`
+4. `Time.java`
+5. `CoffeeTracker.java`
+6. `LargeInteger.java`
 
 
