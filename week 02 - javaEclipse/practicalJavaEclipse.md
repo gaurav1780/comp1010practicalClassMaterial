@@ -214,7 +214,7 @@ Adv6. [https://codingbat.com/prob/p189576](https://codingbat.com/prob/p189576)
 
 ### Due: 5pm (17:00:00), Sunday 6th March Sydney Time
 
-- Complete functions in the `practicePackage.introduction.attempts` package such that the corresponding tests in `practicePackage.introduction.testsAttempts` pass.
+- Complete functions in the `practicePackage._01_introduction.attempts` package such that the corresponding tests in `practicePackage._01_introduction.testsAttempts` pass.
 - Each test passed gets you 3 out of 100 marks.
 - Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
 - Passing mark is 60 (or at least 20 functions).
