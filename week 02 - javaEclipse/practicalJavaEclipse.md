@@ -51,7 +51,7 @@ It MUST satisfy following conditions:
 - (CRITICAL) `static` will be covered later.
 - (CRITICAL) `void` because the function doesn't return any value.
 - (CRITICAL) `main` is a special reserved name for this function (like `draw` in Processing).
-- (CRITICAL) `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
+- (CRITICAL) `String[]` means it accepts an array of `String`s as a parameter. We don't use that in this unit but that has to be there.
 - (FLEXIBLE) `args` is the formal parameter name. We can use any valid value for a literal instead of this.
 
 **TIP** :bulb: In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` (`return` on Mac) to automatically generate the `main()` function. [See here](figs/autogen.mp4) for a demonstration.
@@ -76,10 +76,10 @@ So, with the class header outside and the function header inside, a java program
 ```java
 public class MyFirstProgram {
 	public static void main(String[] args) {
-		//your code goes here
+		// your code goes here
 	}
 	
-	//other functions
+	// other functions
 }
 ```
 
@@ -167,8 +167,8 @@ Complete the body of the function `sumIndexRange` that returns the sum of all it
 ```java
 public static int sumIndexRange(int[] data, int idx1, int idx2) {
 	return 0;
-	//so that there is no compilation error. 
-	//remove this return statement before writing your code.
+	// so that there is no compilation error, 
+	// remove this return statement before writing your code.
 }
 ```
 
@@ -189,8 +189,8 @@ For example,
 ```java
 public static boolean isBalanced(int[] data) {
 	return false; 
-	//so that there is no compilation error. 
-	//remove this statement before writing your code.
+	// so that there is no compilation error, 
+	// remove this return statement before writing your code.
 }
 ```
 
@@ -218,6 +218,8 @@ Adv6. [https://codingbat.com/prob/p189576](https://codingbat.com/prob/p189576)
 - Each test passed gets you 3 out of 100 marks.
 - Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
 - Passing mark is 60 (or at least 20 functions).
-- Submit all files on which you work (so up to 6 java files). For example, if you complete ONE OR MORE functions from Stage1.java, Stage2.java, Stage3.java - submit those three files.
-- You can make the submission by **5pm (17:00:00), Sunday 6th March Sydney Time**. Late submissions are not accepted.
+- Submit all files on which you work (so up to 6 java files).
+	- For example, if you complete ONE OR MORE functions from `Stage1.java`, `Stage2.java`, `Stage3.java` - submit those three files.
+- You can make submissions by **5pm (17:00:00), Sunday 6th March Sydney Time**.
+- **Late submissions are not accepted.**
 - The more functions you can solve, the better prepared you are for the unit.
