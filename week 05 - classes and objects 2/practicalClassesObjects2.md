@@ -258,8 +258,7 @@ This week, we will digress from the practice package. Download [comp1010\_week\_
 2. `DeliveryTruck.java`
 
 Fixes in case your project has red exclamations:
-- https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1854443
-- https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1854746
+[https://www.youtube.com/watch?v=I7yzguSZLow&ab_channel=gaurav1780](https://www.youtube.com/watch?v=I7yzguSZLow&ab_channel=gaurav1780)
 
 **IMPORTANT**: In the javadoc for `compareTo` in Box, I have written:
 
@@ -278,7 +277,7 @@ Passing criteria is:
 
 Your mark will be capped at 49 if you don't satisfy the passing criteria. For example, if 14 methods pass in `Box.java` but none in `DeliveryTruck.java`, you will get 49 marks, and you won't pass the weekly hurdle.
 
-Rules applicable to all submissions are on iLearn [here](https://ilearn.mq.edu.au/mod/page/view.php?id=6701867).
+Rules applicable to all submissions are on iLearn.
 
 **Due date: 5pm (17:00:00), Sunday 27th March Sydney Time**.
 
