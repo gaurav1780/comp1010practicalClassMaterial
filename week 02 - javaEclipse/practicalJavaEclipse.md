@@ -215,6 +215,7 @@ Adv6. [https://codingbat.com/prob/p189576](https://codingbat.com/prob/p189576)
 ### Due: 5pm (17:00:00), Sunday 6th March Sydney Time
 
 - Complete functions in the `practicePackage._01_introduction.attempts` package such that the corresponding tests in `practicePackage._01_introduction.testsAttempts` pass.
+- Ignore `startfromscratch.java` (my bad for leaving it there)
 - Each test passed gets you 3 out of 100 marks.
 - Time limit: 5 seconds for Stages 1 to 5 (combined), 30 seconds for Stage 6. Stage 6 will be marked separately.
 - Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
