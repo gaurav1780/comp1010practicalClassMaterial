@@ -216,8 +216,15 @@ Adv6. [https://codingbat.com/prob/p189576](https://codingbat.com/prob/p189576)
 
 - Complete functions in the `practicePackage._01_introduction.attempts` package such that the corresponding tests in `practicePackage._01_introduction.testsAttempts` pass.
 - Each test passed gets you 3 out of 100 marks.
+- Time limit: 5 seconds for Stages 1 to 5 (combined), 30 seconds for Stage 6. Stage 6 will be marked separately.
 - Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
 - Passing mark is 60 (or at least 20 functions).
 - Submit all files on which you work (so up to 6 java files). For example, if you complete ONE OR MORE functions from Stage1.java, Stage2.java, Stage3.java - submit those three files.
 - You can make the submission by **5pm (17:00:00), Sunday 6th March Sydney Time**. Late submissions are not accepted.
 - The more functions you can solve, the better prepared you are for the unit.
+- Just because this is the first submission, we'll specify some details explicitly, you cannot use:
+	- ArrayList class,
+	- LargeInteger class,
+	- HashMap class,
+	- Lambdas,
+	- java.util.Arrays class (not array as in [])
