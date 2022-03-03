@@ -54,7 +54,7 @@ It MUST satisfy following conditions:
 - (CRITICAL) `String[]` means it accepts an array of Strings as parameter. We don't use that in this unit but that has to be there.
 - (FLEXIBLE) `args` is the formal parameter name. We can use any valid value for a literal instead of this.
 
-**TIP** :bulb: In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` (`return` on Mac) to automatically generate the `main()` function. [See here](figs/autogen.mp4) for a demonstration.
+**TIP :bulb:** In Eclipse, you can press `Ctrl+Space`, type `main` and press `Enter` (`return` on Mac) to automatically generate the `main()` function. [See here](figs/autogen.mp4) for a demonstration.
 
 ### Question 2.
 
@@ -76,10 +76,10 @@ So, with the class header outside and the function header inside, a java program
 ```java
 public class MyFirstProgram {
 	public static void main(String[] args) {
-		//your code goes here
+		// your code goes here
 	}
 	
-	//other functions
+	// other functions
 }
 ```
 
@@ -109,7 +109,7 @@ public class MyFirstProgram {
 
 Complete the steps described in the program `AverageSpeedCalculator.java` so that the average speed of a return trip is calculated. The output should be 15.384....
 
-**TIP** :bulb: `int/int = int` while `int/double = double`
+**TIP :bulb:** `int/int = int` while `int/double = double`
 
 ### Question 7.
 
@@ -167,8 +167,8 @@ Complete the body of the function `sumIndexRange` that returns the sum of all it
 ```java
 public static int sumIndexRange(int[] data, int idx1, int idx2) {
 	return 0;
-	//so that there is no compilation error. 
-	//remove this return statement before writing your code.
+	// so that there is no compilation error. 
+	// remove this return statement before writing your code.
 }
 ```
 
@@ -189,12 +189,12 @@ For example,
 ```java
 public static boolean isBalanced(int[] data) {
 	return false; 
-	//so that there is no compilation error. 
-	//remove this statement before writing your code.
+	// so that there is no compilation error. 
+	// remove this return statement before writing your code.
 }
 ```
 
-## Extra questions for students who want/ need to be challenged 
+## Extra questions for students who want/need to be challenged 
 
 Solve the following problems (in order of my perception of difficulty) from `codingbat`. Solutions to these will not be released. But you are free to search them online.
 
@@ -220,12 +220,14 @@ Adv6. [https://codingbat.com/prob/p189576](https://codingbat.com/prob/p189576)
 - Time limit: 5 seconds for Stages 1 to 5 (combined), 30 seconds for Stage 6. Stage 6 will be marked separately.
 - Total mark are capped at 100. So, passing 34 or more tests gets you 100/100, not more (unfortunately).
 - Passing mark is 60 (or at least 20 functions).
-- Submit all files on which you work (so up to 6 java files). For example, if you complete ONE OR MORE functions from Stage1.java, Stage2.java, Stage3.java - submit those three files.
-- You can make the submission by **5pm (17:00:00), Sunday 6th March Sydney Time**. Late submissions are not accepted.
+- Submit all files on which you work (so up to 6 java files).
+	- For example, if you complete ONE OR MORE functions from `Stage1.java`, `Stage2.java`, `Stage3.java` - submit those three files.
+- You can make the submission by **5pm (17:00:00), Sunday 6th March Sydney Time**. 
+- **Late submissions are not accepted!**
 - The more functions you can solve, the better prepared you are for the unit.
-- Just because this is the first submission, we'll specify some details explicitly, you cannot use:
-	- ArrayList class,
-	- LargeInteger class,
-	- HashMap class,
-	- Lambdas,
-	- java.util.Arrays class (not array as in [])
+- Just because this is the first submission, we'll specify some details explicitly, you **cannot** use:
+	- the `ArrayList` class,
+	- the `LargeInteger` class,
+	- the `HashMap` class,
+	- Lambdas, or
+	- `java.util.Arrays` class (not array as in [])
