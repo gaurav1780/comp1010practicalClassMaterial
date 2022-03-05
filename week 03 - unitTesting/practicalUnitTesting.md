@@ -207,7 +207,7 @@ public void testIndexOf() {
 
 ### Due: 5pm (17:00:00), Wednesday 16th March Sydney Time
 
-Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage.arrays.attempts`, and the corresponding tests are under `practicePackage.arrays.testsAttempts`. 
+Work on the practice package for **arrays** for the rest of the time. It's in `practicePackage._02_arrays.attempts`, and the corresponding tests are under `practicePackage._02_arrays.testsAttempts`. 
 - There are four stages, going from easier to harder. You need to work on, and submit, stages 2 to 4.
 - **Stage 1 doesn't carry any marks.**
 - Stage 1 functions do not need any loop and they are to help you with the nitty-gritty required for Stages 2 and beyond. 
