@@ -25,6 +25,8 @@ Consider a function that is supposed to return the number of even digits in an i
 3. 31, 65, 84, 29
 4. 5782, 374, 18642, -7135342
 5. 1, 589, 409512, -6158, -1357, 0
+6. 1729, -2, 0, 1, -714689, 982386, -1729
+7. 0
 
 ## Question 2
 
@@ -57,7 +59,7 @@ Write a set of sample inputs and expected outputs to test the correctness of its
 
 Consider a function `sum` that when passed an integer array, returns the sum of all the items in the array.
 
-1. What value is the function **expected** to return for the array \{10, 70, 20, 90\}?
+1. What value is the function **expected** to return for the array `{10, 70, 20, 90}`?
 
 Now, consider the following implementation of this function:
 
@@ -78,7 +80,7 @@ public class Question4a {
 }
 ```
 
-2. What value does the above function **actually** return for the array \{10, 70, 20, 90\}?
+2. What value does the above function **actually** return for the array `{10, 70, 20, 90}`?
 
 This check on expectations is managed by the assertion:
 
@@ -189,7 +191,7 @@ Complete the test to check the correctness of the implementation of `indexOf`.
 @Test
 public void testIndexOf() {
 	// add some test cases!
-
+	
 
 
 
