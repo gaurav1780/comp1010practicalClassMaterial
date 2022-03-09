@@ -108,7 +108,7 @@ graduation.year = 2011;
 
 #### Part 2
 
-**(Take-home exercise)** Consider the following class definition,
+**(Take-home exercise)** Consider the following class definition:
 
 ```java
 public class Car {
@@ -130,7 +130,7 @@ myCar.price = 21999;
 
 ## Question 3 (Up to 15 minutes)
 
-Consider the following class definition,
+Consider the following class definition:
 
 ```java
 public class Person {
@@ -311,7 +311,7 @@ In `Media.java`, complete the definition for the constructor, `totalFrameCount` 
 
 ### Part 2 (Up to 10 minutes)
 
-1. Place breakpoints on every single statment in `totalFrameCount` and `compareTo`. 
+1. Place breakpoints on every single statement in `totalFrameCount` and `compareTo`. 
 2. Add a breakpoint on line 7 (`int status = m1.compareTo(m2);`) in `MediaClient.java`. 
 3. Click on the green bug sign to enter the Debug mode.
 4. Trace the variables through each step of the debugging process by completing the following table:
@@ -335,7 +335,7 @@ No solution provided for this one
 
 ### Due: 5pm (17:00:00), Sunday 20th March Sydney Time
 
-You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage.classesObjects.attempts`, and the corresponding tests are under `practicePackage.classesObjects.testsAttempts`. 
+You should work on the practice package for **classesObjects** for the rest of the time. It's in `practicePackage._03_classesObjects.attempts`, and the corresponding tests are under `practicePackage._03_classesObjects.testsAttempts`. 
 - There are a total of 25 tests across 4 stages. 
 - Each test is worth 4 marks. 
 - Your submission must pass at least 10 tests (any 10) to get a *pass* mark. 
@@ -351,5 +351,3 @@ Make the submission by dragging the following files from package explorer into "
 4. `Time.java`
 5. `CoffeeTracker.java`
 6. `LargeInteger.java`
-
-
