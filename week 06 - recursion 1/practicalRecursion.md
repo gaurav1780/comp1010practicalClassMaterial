@@ -233,7 +233,7 @@ Solve as many questions as you can from `RecursionService.java` in `practiceClas
 
 ### Due: 5pm (17:00:00), Sunday 3rd April Sydney Time
 
-You will be working with package `practicePackage.recursion`, stages 1 and 2 only. 
+You will be working with package `practicePackage._04_recursion`, stages 1 and 2 only. 
 
 - There are a total of 29 functions across the two stages. 
 - You can use `Math.abs` (as I accidentally left it in the first function of stage 2).
