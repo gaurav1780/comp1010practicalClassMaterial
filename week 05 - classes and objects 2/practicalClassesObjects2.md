@@ -252,13 +252,10 @@ public static int countSquares(Rectangle[] data) {
 
 ### Due: 5pm (17:00:00), Sunday 27th March Sydney Time
 
-This week, we will digress from the practice package. Download [comp1010\_week\_5\_submission\_template.zip](./codes/comp1010_week_5_submission_template.zip), import the project, and complete the methods in,
+This week, you should work on the following methods in `practicePackage._03_classesObjects.attempts`,
 
 1. `Box.java`
 2. `DeliveryTruck.java`
-
-Fixes in case your project has red exclamations:
-[https://www.youtube.com/watch?v=I7yzguSZLow&ab_channel=gaurav1780](https://www.youtube.com/watch?v=I7yzguSZLow&ab_channel=gaurav1780)
 
 **IMPORTANT**: In the javadoc for `compareTo` in Box, I have written:
 
