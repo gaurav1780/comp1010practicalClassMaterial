@@ -227,7 +227,7 @@ If you are done with Recursion - 1, move on to [https://codingbat.com/java/Recur
 ## ADVANCED QUESTIONS
 
 **This is for students looking for something fairly challenging.**
-Solve as many questions as you can from `RecursionService.java` in `practiceClassCodes.week06.RecursionService` 
+Solve as many questions as you can from `RecursionService.java` in `practicalClassCodes.week06.RecursionService` 
 
 # Submission Task
 
@@ -239,7 +239,7 @@ You will be working with package `practicePackage._04_recursion`, stages 1 and 2
 - You can use `Math.abs` (as I accidentally left it in the first function of stage 2).
 - Passing criteria: Pass at least 12 tests.
 - Time limit: 5 seconds.
-- All solutions must be implemented purely recursively (no loops + function must meaningfully call itself or its helper(s) must call themselves - directly or indirectly - to achieve the solution). Any use of loop automatically disqualifies your submission. So even if you use a loop in one function, you will automatically get a zero. **TL;DR** Don't use any loop!
+- All solutions **must** be implemented purely recursively (no loops + function must meaningfully call itself or its helper(s) must call themselves - directly or indirectly - to achieve the solution). **Any use of loops automatically disqualifies your submission.** So even if you use a loop in **one** function, you will automatically get a zero. **TL;DR** Don't use any loop!
 - You can create helper functions (but even those shouldn't have loops).
 - Each test is worth 3.5 marks. Total marks are capped at 100.
 - Drag and Drop the two java files (`Stage1.java`, `Stage2.java`) from the package explorer into "Week 6 submission" submission box by **5pm (17:00:00), Sunday 3rd April Sydney Time**.
