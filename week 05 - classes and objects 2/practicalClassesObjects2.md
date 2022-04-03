@@ -146,20 +146,20 @@ Rectangle[] data = new Rectangle[5];
 
 2.	What is the output of the following client code:
 
-	```java
-	for(int i=0; i < data.length; i++) {
-		System.out.println(data[i]);
-	}
-	```
+```java
+for(int i=0; i < data.length; i++) {
+	System.out.println(data[i]);
+}
+```
 
-	<!--### SOLUTION
-	```bash
-	null
-	null
-	null
-	null
-	null
-	```-->
+<!-- ### SOLUTION
+```bash
+null
+null
+null
+null
+null
+``` -->
 
 3. 	Instantiate each item of the array so that,
 	- the first item represents a square with `width=1, height=1`.

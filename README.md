@@ -2,10 +2,10 @@
 
 ## Software required
 
-1. [Java SE (Java SDK)](https://www.oracle.com/java/technologies/javase-downloads.html) (latest: `17.0.2`)
+1. [Java SE (Java SDK)](https://www.oracle.com/java/technologies/javase-downloads.html) (latest: `18`)
 2. IDEs
-    1. [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/) (latest: `2021-12`), or,
-    2. [Visual Studio Code](https://code.visualstudio.com/) and the ["Java Extension Pack"](vscode:extension/vscjava.vscode-java-pack) after you install Visual Studio Code. 
+    1. [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/) (latest: `2022-03`), or,
+    2. [Visual Studio Code](https://code.visualstudio.com/) and the "Java Extension Pack" after you install Visual Studio Code. 
 
 ## Accompanying source codes
 
@@ -17,6 +17,6 @@ Source codes (templates) are located [here](https://github.com/gaurav1780/comp10
 
 ## Accessing content
 
-Material sorted by weeks.
+Practical class material is sorted by folder for each week. 
 
 Go into the relevant folder and open the `.md` file.
