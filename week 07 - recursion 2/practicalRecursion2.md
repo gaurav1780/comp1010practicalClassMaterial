@@ -26,7 +26,7 @@ Tutor will stay in the main channel and assist anyone who needs extra help, and 
 
 # Submission Task
 
-### Due: 5pm (17:00:00) Sunday 24th April Sydney Time
+### Due: 5pm (17:00:00) Sunday 10th April Sydney Time
 
 You should be working with Stages 2, 3 and 4 of package `practicePackage._04_recursion.attempts`. If you solved some functions from Stage 2 for week 6 submission, excellent, you can re-use the same! Tail-optimise your code to gain better understanding (even though Java doesn't facilitate it yet).
 
@@ -35,7 +35,7 @@ Each function is worth 5 marks. To clear the hurdle for week 7, you must pass te
 - **at least** 6 functions from Stage2, and, 
 - **at least** 4 functions collectively from Stages 3 and 4. You can have all 4 from a single stage or a mix.
 
-Drag and drop the three files by **5pm (17:00:00) Sunday 24th April Sydney Time**.
+Drag and drop the three files by **5pm (17:00:00) Sunday 10th April Sydney Time**.
 
 - Standard rules listed on iLearn apply.
 - You should implement all solutions purely recursively (absolutely no iteration or simply delegating to built-in methods like `Math.pow` - you get a zero if that happens). 
