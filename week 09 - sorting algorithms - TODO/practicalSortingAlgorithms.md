@@ -12,43 +12,63 @@ The classes required (`Rectangle`, `Box`) are provided in [codes](./codes) direc
 
 ### Question 1.
 
-Given the following sequence of transformations, determine the sorting algorithm being used.
+Given the following sequence of transformations, determine the sorting algorithms being used.
 
-```
-10 70 20 90 30 80
-10 70 20 90 30 80
-10 20 70 90 30 80
-10 20 70 90 30 80
-10 20 30 70 90 80
-10 20 30 70 80 90
-```
+a. 
+	
+	```
+	10 70 20 90 30 80
+	10 70 20 90 30 80
+	10 20 70 90 30 80
+	10 20 70 90 30 80
+	10 20 30 70 90 80
+	10 20 30 70 80 90
+	```
+
+b.
+
+	```
+	10 70 20 90 30 80
+	10 70 20 90 30 80
+	10 20 70 90 30 80
+	10 20 30 90 70 80
+	10 20 30 70 90 80
+	10 20 30 70 80 90
+	```
+
+c.
+
+	```
+	10 70 20 90 30 80
+	80 70 20 90 30 10
+	80 70 30 90 20 10
+	80 70 90 30 20 10
+	80 90 70 30 20 10
+	90 80 70 30 20 10
+	```
 
 ### Question 2.
 
-Given the following sequence of transformations, determine the sorting algorithm being used.
+Write a trace for the transformations the array will go through during the process of **selection** sort, while:
 
-```
-10 70 20 90 30 80
-10 70 20 90 30 80
-10 20 70 90 30 80
-10 20 30 90 70 80
-10 20 30 70 90 80
-10 20 30 70 80 90
-```
+1. Sorting in **ascending** order from **left to right**.
+2. Sorting in **descending** order from **right to left**.
+
+	```java
+	int[] data = {5, 0, 1, 2, 9, 8, 4, 7, 3, 6};
+	```
 
 ### Question 3.
 
-Given the following sequence of transformations, determine the sorting algorithm being used.
+Write a trace for the transformations the array will go through during the process of **insertion** sort, while:
 
-```
-10 70 20 90 30 80
-80 70 20 90 30 10
-80 70 30 90 20 10
-80 70 90 30 20 10
-80 90 70 30 20 10
-90 80 70 30 20 10
-```
+1. Sorting in **descending** order from **left to right**.
+2. Sorting in **ascending** order from **right to left**.
 
+	```java
+	int[] data = {5, 0, 1, 2, 9, 8, 4, 7, 3, 6};
+	```
+	
 ### Question 4.
 
 Complete the following code so that the array passed is sorted in DESCENDING order.
@@ -162,3 +182,9 @@ Write a function from scratch that sorts an ArrayList of `Box` objects in ascend
 # Submission Task
 
 ### Due: 5pm (17:00:00) Sunday 8th May Sydney Time
+
+- Complete at least 12 out of the 24 functions in the package `_06_sorting` to pass this week's hurdle.
+- 5 marks per function with total capped at 100. (So, 20 or more functions get you the full marks).
+- Time limit: 5 seconds.
+- Standard rules apply.
+- Late submissions not accepted.
