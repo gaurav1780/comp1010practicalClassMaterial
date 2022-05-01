@@ -86,7 +86,7 @@ public static void sort(int[] data) {
 			}
 		}
 		int temp = data[i];
-		data[i] = data[mysteryValue];
+		data[i] = data[mystery];
 		data[mystery] = temp;
 	}
 }
@@ -150,7 +150,7 @@ public static void sort(Rectangle[] data) {
 			}
 		}
 		Rectangle temp = data[i];
-		data[i] = data[mysteryValue];
+		data[i] = data[mystery];
 		data[mystery] = temp;
 	}
 }
