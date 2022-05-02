@@ -40,9 +40,9 @@ This is a practical class that gets to do the kind of practice on `ArrayList` ob
 
 Write a piece of code inside the `main` function that creates an `ArrayList` named `words` that holds `String` objects.
 
-```java
+<!---```java
 ArrayList<String> words = new ArrayList<String>();
-```
+```--->
 
 ### Question 2
 
@@ -58,7 +58,7 @@ Add the following items, in that order, to the list `words`:
 - `"no"`
 - `"good."`
 
-```java
+<!---```java
 words.add("I");
 words.add("solemnly");
 words.add("swear");
@@ -68,21 +68,21 @@ words.add("am");
 words.add("upto");
 words.add("no");
 words.add("good.");
-```
+```--->
 ### Question 3
 
 Display the number of items in the list. Output should be of the form `Number of items in list: <value>`. All subsequent outputs should contain contextual information (in this case: `Number of items in list` is the contextual information).
 
-```java
+<!---```java
 System.out.println("Number of items in list: "+words.size());
-```
+```--->
 
 ### Question 4
 
 Display the fifth item in the list. 	
-```java
+<!---```java
 System.out.println(words.get(4));
-```
+```--->
 
 ### Question 5
 
@@ -90,55 +90,55 @@ Display the last item in the list.
 
 **DO NOT** hard-code the index (as `list.get(8)`).
 
-```java
+<!---```java
 System.out.println(words.get(words.size()-1));
 }
-```
+```--->
 
 ### Question 6
 
 Replace the fifth item by the String `"you"`. Display the list.
 
-```java
+<!---```java
 words.set(4, "you");
-```
+```--->
 
 ### Question 7
 
 Remove the second item. Display the removed item (as `Removed item: <value>`). Display the list.
 
-```java
+<!---```java
 System.out.println("Removed item: "+words.remove(1));
-```
+```--->
 
 ### Question 8
 
 Replace the fifth item by the String `"are"`. Display the list.
 
-```java
+<!---```java
 words.set(4, "are");
-```
+```--->
 
 ### Question 9
 
 Add the String `"real"` before the last item. Display the list.
 
-```java
+<!---```java
 words.add(words.size()-1, "real");
-```
+```--->
 
 ### Question 10
 
 Store the number of items that have more than 4 characters in a variable `lengthyWordCount`. Display the value of `lengthyWordCount`. If you use an enhanced for-loop, you will not have to chain method calls. If you use a regular loop, you will have to chain, i.e. `words.get(i).length()`.
 
-```java
+<!---```java
 int lengthyWordCount = 0;
 for(String s: words) {
 	if(s.length() > 4) {
 		lengthyWordCount++;
 	}
 }
-```
+```--->
 
 ## Question 11 through 15 are based on a list of `Integer` objects
 
@@ -148,28 +148,28 @@ Create a list holding `Integer` objects named `outcomes`. Add the following item
 
 6, 10, 8, 2, -5, 0, -12, 2, 3, 10, 2, -5
 
-```java
+<!---```java
 ArrayList<Integer> outcomes = new ArrayList<Integer>(Arrays.asList(6, 10, 8, 2, -5, 0, -12, 2, 3, 10, 2, -5));
-```
+```--->
 
 ### Question 12
 
 Store the number of negative items in the list in a variable `countNegatives`.
 
-```java
+<!---```java
 int countNegatives = 0;
 for(Integer item: outcomes) {
 	if(item < 0) {
 		countNegatives++;
 	}
 }
-```
+```--->
 
 ### Question 13
 
 Store, in a variable `hasNeg`, the value `true`, if there are one or more negative items in the list, and `false` otherwise. Hint: you've already counted the number of negatives, no need to re-loop.
 
-```java
+<!---```java
 boolean hasNeg = false;
 for(Integer item: outcomes) {
 	if(item < 0) {
@@ -183,13 +183,13 @@ OR
 
 ```java
 boolean hasNeg = (countNegatives > 0);
-```
+```--->
 
 ### Question 14
 
 Store, in a variable `hasOverTen`, the value `true`, if there are one or more items with a value more than 10 in the list, and `false` otherwise.
 
-```java
+<!---```java
 boolean hasOverTen = false;
 for(Integer item: outcomes) {
 	if(item > 10) {
@@ -197,13 +197,13 @@ for(Integer item: outcomes) {
 		break;
 	}
 }
-```
+```--->
 
 ### Question 15
 
 The function `allPositives` is defined (after the `main` function). Call this function by passing the list `outcomes` and store the value returned by the function in a variable `allPos`. Display the value held by the variable `allPos`.
 
-```java
+<!---```java
 public static boolean allPositives(ArrayList<Integer> list) {
 	if(list == null) {
 		return false;
@@ -215,7 +215,7 @@ public static boolean allPositives(ArrayList<Integer> list) {
 	}
 	return true;
 }
-```
+```--->
 
 ## Questions 16 to 21 are based on `ArrayList` objects being passed to functions
 ### Questions 16 to 21 have tests available in [ClientTest.java](./codes/ClientTest.java). 
@@ -224,16 +224,16 @@ public static boolean allPositives(ArrayList<Integer> list) {
 
 Call the function `allPositives` by passing a `null` value, as allPositives(null), and store the value returned by the function in a variable `allPosNull`. Display the value held by the variable `allPosNull `. You will see the value you get is `false`. This is an example of why a *null check* is desirable. Without it, we'd get a `NullPointerException` when operating on a `null` object.
 
-```java
+<!---```java
 boolean allPosNull = allPositives(null);
 System.out.println(allPosNull);
-```
+```--->
 
 ### Question 17
 
 Define a function `allEven` on the lines of `allPositives` that returns `true` if all items of the passed list are even (divisible by 2) and false otherwise. Tests provided in [ClientTest](./codes/ClientTest.java). Note that when you add the test file to the project, you will need to import Java 5 library. To do this, click on the red cross on the first line of `ClientTest`, choose `Fix Project Setup`, and then `Add Junit 5 library..."
 
-```java
+<!---```java
 public static boolean allEven(ArrayList<Integer> list) {
 	if(list == null) {
 		return false;
@@ -245,7 +245,7 @@ public static boolean allEven(ArrayList<Integer> list) {
 	}
 	return true;
 }
-```
+```--->
 
 ## Question 18
 
@@ -259,7 +259,7 @@ returns the number of items in `list` that are in the range `[min...max]`. Retur
 
 Once you define the function, uncomment the test function `testCountInRange` in class `ClientTest` and run it.
 
-```java
+<!---```java
 public static int countInRange(ArrayList<Integer> list, int min, int max) {
 	if(list == null) {
 		return 0;
@@ -272,7 +272,7 @@ public static int countInRange(ArrayList<Integer> list, int min, int max) {
 	}
 	return count;
 }
-```
+```--->
 
 ## Question 19
 
@@ -284,7 +284,7 @@ Hint: the methods on `ArrayList` that you’ll need are,
 - `get(int)`
 - `set(int, Object)`
 
-```java
+<!---```java
 public static void squared(ArrayList<Integer> list) {
 	if(list == null) {
 		return;
@@ -294,7 +294,7 @@ public static void squared(ArrayList<Integer> list) {
 		list.set(i, item*item);
 	}
 }
-```
+```--->
 
 ## Question 20
 
@@ -306,7 +306,7 @@ Hint: the methods on `ArrayList` that you’ll need are,
 - `get(int)`
 - `remove(int)`
 
-```java
+<!---```java
 public static void removeNegatives(ArrayList<Integer> list) {
 	if(list == null) {
 		return;
@@ -335,13 +335,13 @@ public static void removeNegatives(ArrayList<Integer> list) {
 		}
 	}
 }
-```
+```--->
 
 ## Question 21 (HD level) 
 
 Define a function `getExclusiveItems` that when passed an `ArrayList` of `ArrayList` of `Integer` objects (`ArrayList<ArrayList<Integer>>`), returns an `ArrayList` of `Integer` objects containing items that are exclusive to each sub-list. For example, if the list passed is [[8, 1, 4, 2, 4, 2, 1], [6, 4, 9, 8, 8, 8], [5, 3, 8, 8, 5, 6]], the function should return an `ArrayList` containing [1, 2, 2, 1, 9, 5, 3, 5] since 1, 2, 2, 1 occur only in the first sub-list, 9  occurs only in the second sub-list and 5, 3, 5 occur only in the third sub-list.
 
-```java
+<!---```java
 public static ArrayList<Integer> getExclusiveItems(ArrayList<ArrayList<Integer>> list) {
 	if(list == null) {
 		return null;
@@ -365,7 +365,7 @@ public static ArrayList<Integer> getExclusiveItems(ArrayList<ArrayList<Integer>>
 	}
 	return result;		
 }
-```
+```--->
 
 # Submission Task
 
@@ -375,7 +375,7 @@ Late submissions not accepted.
 
 This week, we are working with practice package for built-in lists. 
 
-Relevant package: `practicePackage` -> `builtInLists` in the master project.
+Relevant package: `practicePackage` -> `_05_arrayList` in the master project.
 
 Hurdle requirement:
 
