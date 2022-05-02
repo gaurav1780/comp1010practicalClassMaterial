@@ -71,7 +71,7 @@ Write a trace for the transformations the array will go through during the proce
 	
 ### Question 4.
 
-Complete the following code so that the array passed is sorted in DESCENDING order.
+Complete the following code so that the array passed is sorted in **DESCENDING** order.
 
 ```java
 public static void sort(int[] data) {
@@ -79,7 +79,7 @@ public static void sort(int[] data) {
 		int mystery = i;
 		for(int k=i+1; k < data.length; k++) {
 		
-			???? { //COMPLETE THIS LINE
+			??? { // COMPLETE THIS LINE
 
 				mystery = k;
 
@@ -98,13 +98,13 @@ Complete the following code so that the array passed is unchanged and an DESCEND
 
 ```java
 public static int[] getSorted(int[] data) {
-	int[] result = new int[???];
+	int[] result = new int[???]; // how many items should be included?
 	
-	??? //one or more statements allowed
+	??? // one or more statements allowed
 	
-	sort(result); //from the previous question
+	sort(result); // from the previous question
 	
-	???; //one or more statements allowed
+	??? // one or more statements allowed
 }
 ```
 
@@ -130,6 +130,7 @@ public static void sort(int[] data) {
  * index 0 to index idx
 */
 public static void insertAtRightPlace(int[] data, int idx) {
+	// Complete this function!
 }
 ```
 
@@ -144,7 +145,7 @@ public static void sort(Rectangle[] data) {
 		int mystery = i;
 		for(int k=i+1; k < data.length; k++) {
 		
-			???? { //COMPLETE THIS LINE
+			??? { // COMPLETE THIS LINE
 
 				mystery = k;
 			}
@@ -170,7 +171,7 @@ public static void sort(ArrayList<Rectangle> data) {
 				minIndex = k;
 			}
 		}
-		//swap items at indices i and minIndex
+		// swap items at indices i and minIndex
 	}
 }
 ```
