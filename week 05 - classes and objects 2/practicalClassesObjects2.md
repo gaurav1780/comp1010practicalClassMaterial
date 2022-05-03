@@ -8,7 +8,7 @@ We will continue working with the master project. This week, we are dealing with
 
 ## Question 1
 
-Consider the following code. It's poor design is intentional and given as a take-home exercise for you to figure out.
+Consider the following code. Its poor design is intentional and given as a take-home exercise for you to figure out.
 
 ```java
 class Point {
@@ -180,7 +180,7 @@ null
 
 ## Question 3
 
-Take a look at the implementation of `countSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an intance method `isSquare()` that you can call.
+Take a look at the implementation of `countSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns the number of squares in the array. Note that the class `Rectangle` contains an instance method `isSquare()` that you can call.
 
 Along the same lines, write a function `allSquares` in class `RectangleClient.java`, that when passed an array of `Rectangle` objects, returns `true` if all objects are *squares*, and `false` otherwise.
 
@@ -244,7 +244,7 @@ public static int countSquares(Rectangle[] data) {
 	- all objects in the one-dimensional array `buckets[3]` have the same area, 
 	- and so on...
 
-2. (Not related to classes and objects but aimed at students who might want something a little... extra 😛). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs first in case of a tie.
+2. (Not related to classes and objects but aimed at students who might want something a little... extra 😛). Complete the method `longestRecurringSequence` in class `Advanced` that returns the longest sequence of items that occurs more than once in the array. return the array that occurs **first** in case of a tie.
 
 ---------
 

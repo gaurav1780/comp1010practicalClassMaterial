@@ -94,7 +94,8 @@ public static void sort(int[] data) {
 
 ### Question 5.
 
-Complete the following code so that the array passed is unchanged and an DESCENDING sorted version is returned. You may assume the array passed is not `null`.
+Complete the following code so that the array passed is **unchanged** and a **DESCENDING** sorted version is returned. 
+- You may assume the array passed is not `null`.
 
 ```java
 public static int[] getSorted(int[] data) {
@@ -159,7 +160,7 @@ public static void sort(Rectangle[] data) {
 
 ### Question 8.
 
-Complete the following function that sorted an ArrayList of `Rectangle` objects in ascending order of areas.
+Complete the following function that sorts an ArrayList of `Rectangle` objects in ascending order of areas.
 
 
 ```java
@@ -188,4 +189,4 @@ Write a function from scratch that sorts an ArrayList of `Box` objects in ascend
 - 5 marks per function with total capped at 100. (So, 20 or more functions get you the full marks).
 - Time limit: 5 seconds.
 - Standard rules apply.
-- Late submissions not accepted.
+- Late submissions are not accepted!
