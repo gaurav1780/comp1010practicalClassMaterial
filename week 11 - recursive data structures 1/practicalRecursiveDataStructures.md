@@ -50,7 +50,7 @@ class Time {
 		minute = m2;
 	}
 	
-	public Time(Time source) { // this is called a "copy constructor"
+	public Time(Time source) {
 		day = source.day;
 		month = source.month;
 		year = source.year;
@@ -62,8 +62,8 @@ class Time {
 class Appointment {
 	public Time start, end;
 	public Appointment(Time s, Time e) {
-		start = new Time(s); // make a copy of s into start
-		end = new Time(e); // make a copy of e into end
+		start = new Time(s);
+		end = new Time(e);
 	}
 }
 
@@ -315,7 +315,7 @@ Consider the following method that should return `true` if all the values in nod
 public static boolean allPositives(Node start) {
 	// NOTE: it's ok to modify start since it's a reference copy of the actual parameter
 	while(start != null) { 
-		if(start.data <= 0) { // at least one value is not positive
+		if(start.data <= 0) {
 			return false;
 			start = start.next;
 		}
@@ -346,7 +346,7 @@ public static boolean identical(Node head1, Node head2) {
 		if(head1.data != head2.data) {
 			return false;
 		}
-		// move both references one node forward
+		
 		head1 = head1.next;
 		head2 = head2.next;	
 	}
