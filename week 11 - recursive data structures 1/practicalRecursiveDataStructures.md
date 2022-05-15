@@ -372,7 +372,6 @@ return head1==null && head2==null;
 ### Due: 5pm (17:00:00) Sunday 22nd May Sydney Time
 
 You will be working on `NodeService` class from the practice package located at `practicePackage.customBuiltLists.customLinkedList.attempts.NodeService`. 
-- The function `sum` is already completed as an example of traversal. The test for that already passes and is not considered towards the total.
 - Each function is worth 10 (out of 100).
 - Passing mark: 50. All marks capped at 100 (if all tests pass, you still get 100, not 110). 
 - Submit the `NodeService.java` file under Week 11 submission on iLearn by **5pm (17:00:00) Sunday 22nd May Sydney Time.**
