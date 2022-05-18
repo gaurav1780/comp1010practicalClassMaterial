@@ -326,7 +326,7 @@ public static boolean allPositives(Node start) {
 
 <!--
 
-start.start.next
+start = start.next
 
 should be outside the condition
 
