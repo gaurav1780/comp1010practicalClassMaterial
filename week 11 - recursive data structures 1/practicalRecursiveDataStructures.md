@@ -373,7 +373,7 @@ return head1==null && head2==null;
 
 You will be working on `NodeService` class from the practice package located at `practicePackage._08_recursiveDataStructures.attempts.NodeService`. 
 - Each function is worth 10 (out of 100).
-- Passing mark: 50. All marks capped at 100 (if all tests pass, you still get 100, not 110). 
+- Passing mark: 50. All marks capped at 100 (if all tests pass, you still get 100, not a higher grade). 
 - Submit the `NodeService.java` file under Week 11 submission on iLearn by **5pm (17:00:00) Sunday 22nd May Sydney Time.**
 - **Late submissions are not accepted**.
 - Time limit: 5 seconds
