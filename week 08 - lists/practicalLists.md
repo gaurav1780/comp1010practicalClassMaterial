@@ -369,32 +369,4 @@ public static ArrayList<Integer> getExclusiveItems(ArrayList<ArrayList<Integer>>
 
 # Submission Task
 
-### Due: 5pm (17:00:00) Wednesday 4th May Sydney Time 
-
-Late submissions not accepted. 
-
-This week, we are working with practice package for built-in lists. 
-
-Relevant package: `practicePackage` -> `_05_arrayList` in the master project.
-
-Hurdle requirement:
-
-- Standard rules apply.
-- You can use functions in the file submitted, and besides those, only those methods that operates on an `ArrayList` object.
-- Stage 1 is not assessed but it will help you to solve Stage 1 functions to be better prepared for later stages.
-- Each function in Stage 2 is worth 2 marks. 
-- Each function in Stage 3 is worth 3 marks.
-- Each function in Stage 4 is worth 6 marks.
-- We suggest (recommended, but not required) solving functions implementing a variety of algorithms from Stage 2. For example, the following five each implements a different algorithm:
-	- `sumNegatives`
-	- `countEven`
-	- `containsInRange`
-	- `allPositives`
-	- `isDescending`
-- To clear the weekly hurdle, you must solve at least
-  - 10 functions from Stage2, **and**, 
-  - 5 functions from Stage3.
-- If you don't meet the hurdle requirements, marks will be capped at 34.
-- If you meet the hurdle requirements, marks will be capped at 100.
-- You can drag and drop `Stage2.java`, `Stage3.java`, and `Stage4.java` into the Week 8 submission. 
-- Time limit for this week: 5 seconds.
+No weekly submission this week due to assignment 2.
