@@ -132,9 +132,7 @@ You can work collaboratively on `MyLinkedList` under practice packages, or you c
 
 ## Weekly submission
 
-![](goodnews.jpeg)
-
-There is no weekly submission in weeks 12 or 13. Yay! :slightly_smiling_face:
+In order to reduce the workload on students during the last two weeks, we will ask you to submit some of the functions from assignment 3 as week 12 submissions. Details to follow. This also gives you a chance to get early feedback on your assignment work.
 
 <!--
 In order to reduce the workload on students during the last two weeks, we have decided to ask for the first few methods of assignment 4 to be submitted as Week 12 submission.
