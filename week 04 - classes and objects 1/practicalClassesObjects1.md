@@ -139,7 +139,7 @@ public class Person {
 }
 ```
 
-List the mistakes (syntactical and logical) in the following constructor for class `Person`:
+List the mistakes (syntactical and logical) in the following (intended) constructor for class `Person`:
 
 ```java
 public void person(String s, int a) {
