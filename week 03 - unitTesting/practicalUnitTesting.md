@@ -26,7 +26,6 @@ Consider a function that is supposed to return the number of even digits in an i
 4. 5782, 374, 18642, -7135342
 5. 1, 589, 409512, -6158, -1357, 0
 6. 1729, -2, 0, 1, -714689, 982386, -1729
-7. 0
 
 ## Question 2
 

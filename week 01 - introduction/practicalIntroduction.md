@@ -19,7 +19,7 @@ In COMP1010, we understand that programming doesn't come naturally to everyone. 
 
 Java is the programming language while Eclipse/VSCode are the editors in which you write Java programs. We use Eclipse in the lectures and videos but you are free to choose either. However, we will troubleshoot only Eclipse.
 
-Current version of Java SE is `17.0.2` and Eclipse IDE is `2021-12`.
+Current version of Java SE is `18.0.2` and Eclipse IDE is `2022-06`.
 
 You must install Java Development Kit (JDK), now known as Java Standard Edition (Java SE), **before you install Eclipse**.
 
